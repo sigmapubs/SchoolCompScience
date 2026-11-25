@@ -4,9 +4,28 @@ F = "/mnt/project-files/cs-channel/final"
 COURSES = {
  "Intro to Computer Science": ["Unit 1: What Is a Computer?", "Unit 2: Data and Binary", "Unit 3: Algorithms", "Unit 4: Programming Basics in Python", "Unit 5: Networks and the Internet", "Unit 6: Security and Society"],
  "AP Computer Science Principles": ["Big Idea 1: Creative Development", "Big Idea 2: Data", "Big Idea 3: Algorithms and Programming", "Big Idea 4: Computer Systems and Networks", "Big Idea 5: Impact of Computing", "Exam Prep: Create Task and Multiple Choice"],
+ "Intro College CS (CS1)": ["Unit 1: Computation and Python", "Unit 2: Control Flow", "Unit 3: Functions and Abstraction", "Unit 4: Data Structures in Python", "Unit 5: Recursion", "Unit 6: Testing, Debugging and Exceptions", "Unit 7: Object-Oriented Programming", "Unit 8: Algorithms and Complexity", "Unit 9: Beyond CS1"],
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "cs1_u1": dict(
+   title="Intro to Computer Science (College CS1) Unit 1: Computation, Python Types, Variables, Strings & I/O",
+   intro="Unit 1 of a first college course in computer science, taught in Python. It covers what computation is (declarative vs imperative knowledge, algorithms, a square-root recipe), expressions and types in the Python interpreter, variables and program state, strings with indexing, slicing and methods, and input, output and f-string formatting. Each lesson ends with a practice problem.",
+   course="Intro College CS (CS1)", unit=0, part="Unit 1: Computation and Python · Complete",
+   prev="AP CSA Exam Prep: All 4 FRQ Types + Multiple Choice", next="CS1 Unit 2: Control Flow",
+   also="",
+   playlists=["Intro College CS: CS1 in Python (Full Course)", "CS1 Unit 1: Computation and Python"],
+   tags="intro to computer science, cs1, python for beginners, college computer science, python types, variables, strings, f-strings, learn python",
+   tagsh="#python #computerscience #cs1"),
+ "apcsa_exam": dict(
+   title="AP CSA Exam Prep: All 4 FRQ Types + Multiple Choice Strategy & Full Review",
+   intro="Get ready for the AP Computer Science A exam. This video walks through all four free-response question types (methods and control structures, class design, ArrayList and data analysis, and 2D arrays) with a worked example for each, then a multiple-choice strategy, the classic traps, and a fast review of all four units. Each section ends with a practice question.",
+   course="AP Computer Science A", unit=4, part="Exam Prep · Complete",
+   prev="Java Searching, Sorting & Recursion (Unit 4, Part 3)", next="Intro College CS (CS1), Unit 1: Computation and Python",
+   also="",
+   playlists=["AP Computer Science A (Full Course)", "AP CSA Exam Prep"],
+   tags="AP CSA, ap computer science a exam, ap csa frq, free response, class design, arraylist frq, 2d array frq, ap csa multiple choice, ap csa review, java",
+   tagsh="#APCSA #java #apexam"),
  "apcsa_u4_part3": dict(
    title="Java Searching, Sorting & Recursion: Binary Search, Selection, Insertion, Merge Sort | AP CSA Unit 4 (4.13–4.17)",
    intro="AP CSA Unit 4, Data Collections, part 3 (Topics 4.13 to 4.17). It covers 2D array algorithms, linear and binary search, selection sort and insertion sort, recursion with base cases and tracing, and recursive binary search and merge sort. Each topic ends with an AP-style practice problem.",

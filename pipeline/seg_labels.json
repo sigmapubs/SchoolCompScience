@@ -1214,5 +1214,96 @@
 "Merging",
 "Speed and memory",
 "Your turn"
+],
+"csa_ex_l01": [
+"",
+"What you get",
+"Read the header",
+"Use the helpers",
+"Example task",
+"Solution",
+"Common mistakes",
+"Your turn"
+],
+"csa_ex_l02": [
+"",
+"Read the example calls",
+"Instance variables",
+"Constructor",
+"Methods",
+"Example: Counter",
+"Solution",
+"Your turn"
+],
+"csa_ex_l03": [
+"",
+"A list of objects",
+"Typical tasks",
+"get, size and getters",
+"Removing safely",
+"Example: average pages",
+"Your turn"
+],
+"csa_ex_l04": [
+"",
+"A grid",
+"Choose the order",
+"Rows and columns",
+"Neighbors and bounds",
+"Example: empty seats",
+"Your turn"
+],
+"csa_ex_l05": [
+"",
+"Format and timing",
+"Trace with a table",
+"Classic traps",
+"Review: Units 1 and 2",
+"Review: Units 3 and 4",
+"Your turn"
+],
+"cs1_u1_l01": [
+"",
+"Declarative vs imperative",
+"Algorithms",
+"A square root recipe",
+"What computers do",
+"Syntax and semantics",
+"Your turn"
+],
+"cs1_u1_l02": [
+"",
+"Types",
+"Operators",
+"//, % and **",
+"Converting types",
+"Mixing types",
+"Your turn"
+],
+"cs1_u1_l03": [
+"",
+"Assignment",
+"Program state",
+"Reassigning",
+"Swapping",
+"Naming",
+"Your turn"
+],
+"cs1_u1_l04": [
+"",
+"len",
+"Indexing",
+"Slicing",
+"Immutable strings",
+"String methods",
+"Your turn"
+],
+"cs1_u1_l05": [
+"",
+"print",
+"input",
+"Converting input",
+"f-strings",
+"Your turn"
 ]
 }

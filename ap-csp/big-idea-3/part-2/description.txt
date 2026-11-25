@@ -1,0 +1,46 @@
+AP CSP Big Idea 3 Part 2: Conditionals, Nested IF, REPEAT Loops & List Operations | AP Computer Science Principles
+
+AP CSP Big Idea 3, Algorithms and Programming, part 2 of 4, in AP exam pseudocode. This video covers IF and ELSE, nested conditionals and equivalent code, iteration with REPEAT n TIMES and REPEAT UNTIL, developing algorithms like finding the maximum, and the list operations APPEND, INSERT, REMOVE and LENGTH. Each section ends with an AP-style practice question. Big Idea 3 is the largest part of the AP exam, so it's split into 4 videos.
+
+Course: AP Computer Science Principles · Big Idea 3: Algorithms and Programming · Part 2 of 4
+Previous: AP CSP Big Idea 3 Part 1: Variables, Lists, MOD, Strings and Booleans
+Next: AP CSP Big Idea 3 Part 3: Traversals, Binary Search and Procedures
+
+0:00 Introduction
+0:13 Conditionals
+0:36 True or false
+0:55 Tracing score = 55
+1:07 Block-based code
+1:18 Your turn
+1:38 Nested conditionals
+2:00 Tracing age 70
+2:10 Tracing age 10
+2:21 Equivalent code segments
+2:34 Testing every case
+3:03 Iteration
+3:24 How REPEAT UNTIL works
+3:34 Tracing REPEAT UNTIL
+3:47 Zero times and infinite loops
+3:57 Which loop to use
+4:24 Developing algorithms
+4:44 Common patterns
+4:58 Finding the maximum
+5:11 Many ways to write it
+5:23 Edge cases
+5:50 List operations
+6:09 INSERT
+6:22 REMOVE
+6:34 LENGTH
+6:45 Replacing an item
+
+AP Computer Science Principles, the complete course (6 units, full syllabus):
+• Big Idea 1: Creative Development
+• Big Idea 2: Data
+▶ Big Idea 3: Algorithms and Programming  (you are here)
+• Big Idea 4: Computer Systems and Networks
+• Big Idea 5: Impact of Computing
+• Exam Prep: Create Task and Multiple Choice
+Follow the whole course in order in the "AP Computer Science Principles (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#apcsp #computerscience #apexam
