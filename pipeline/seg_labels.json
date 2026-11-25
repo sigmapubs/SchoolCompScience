@@ -513,5 +513,86 @@
 "Looping over a list",
 "Lists of anything",
 "Your turn"
+],
+"icu5_l01": [
+"",
+"Nodes and links",
+"Wired vs wireless",
+"LAN and WAN",
+"Routers and the internet",
+"Bandwidth and latency",
+"Your turn"
+],
+"icu5_l02": [
+"",
+"What's in a packet",
+"Routers pass packets along",
+"Fault tolerance",
+"Putting packets back in order",
+"Packet switching",
+"Your turn"
+],
+"icu5_l03": [
+"",
+"What an IP address looks like",
+"IPv4 vs IPv6",
+"DNS, the phone book",
+"A DNS lookup",
+"Your own IP address",
+"Your turn"
+],
+"icu5_l04": [
+"",
+"Parts of a URL",
+"Clients and servers",
+"HTTP requests and status codes",
+"HTML becomes a page",
+"HTTPS",
+"Your turn"
+],
+"icu5_l05": [
+"",
+"Other people's computers",
+"Inside a data center",
+"Storage, apps, computing",
+"Benefits and tradeoffs",
+"How syncing works",
+"Your turn"
+],
+"icu6_l01": [
+"",
+"Three kinds of proof",
+"How passwords get cracked",
+"Long and never reused",
+"Two-factor authentication",
+"Hashes and password managers",
+"Your turn"
+],
+"icu6_l02": [
+"",
+"Plaintext, ciphertext and keys",
+"The Caesar cipher",
+"Why Caesar is easy to break",
+"Symmetric vs public key",
+"How HTTPS uses it",
+"Your turn"
+],
+"icu6_l03": [
+"",
+"What phishing looks like",
+"Warning signs",
+"Kinds of malware",
+"How malware gets in",
+"Safe habits",
+"Your turn"
+],
+"icu6_l04": [
+"",
+"The data apps collect",
+"PII",
+"How AI learns from examples",
+"Bias in AI",
+"Reducing bias",
+"Your turn"
 ]
 }

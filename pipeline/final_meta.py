@@ -3,9 +3,28 @@ import json
 F = "/mnt/project-files/cs-channel/final"
 COURSES = {
  "Intro to Computer Science": ["Unit 1: What Is a Computer?", "Unit 2: Data and Binary", "Unit 3: Algorithms", "Unit 4: Programming Basics in Python", "Unit 5: Networks and the Internet", "Unit 6: Security and Society"],
+ "AP Computer Science Principles": ["Big Idea 1: Creative Development", "Big Idea 2: Data", "Big Idea 3: Algorithms and Programming", "Big Idea 4: Computer Systems and Networks", "Big Idea 5: Impact of Computing", "Exam Prep: Create Task and Multiple Choice"],
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "introcs_u6_security": dict(
+   title="Cybersecurity Basics: Passwords, Encryption, Phishing, Malware, Privacy & AI Bias | Intro to CS Unit 6",
+   intro="How do you stay safe online, and how do computers affect society? This video covers all of Unit 6: passwords and two-factor authentication, the big idea of encryption (from the Caesar cipher to public keys and HTTPS), how to spot phishing and malware, and privacy, PII and bias in AI. Each section ends with a practice question.",
+   course="Intro to Computer Science", unit=5, part="Unit 6: Security and Society (complete unit)",
+   prev="How the Internet Works (Unit 5)", next="AP Computer Science Principles",
+   also="This is the final unit of Intro to Computer Science.",
+   playlists=["Intro to Computer Science (Full Course)", "Intro CS Unit 6: Security and Society"],
+   tags="cybersecurity for beginners, passwords, two factor authentication, encryption, caesar cipher, public key, phishing, malware, privacy, ai bias, computer science",
+   tagsh="#cybersecurity #computerscience #encryption"),
+ "introcs_u5_networks": dict(
+   title="How the Internet Works: Networks, Packets, IP Addresses, DNS, HTTP & the Cloud | Intro to CS Unit 5",
+   intro="What really happens when you load a web page? This video covers all of Unit 5: what a network is (LAN, WAN, bandwidth, latency), packets and routing, IP addresses and DNS, how the web works with HTTP, HTTPS and browsers, and what the cloud really is. Each section ends with a practice question.",
+   course="Intro to Computer Science", unit=4, part="Unit 5: Networks and the Internet (complete unit)",
+   prev="Python Decisions, Loops, Functions & Lists (Unit 4, Part 2)", next="Intro to Computer Science, Unit 6: Security and Society",
+   also="",
+   playlists=["Intro to Computer Science (Full Course)", "Intro CS Unit 5: Networks and the Internet"],
+   tags="how the internet works, computer networks, packets, routing, ip address, dns, http, https, the cloud, computer science",
+   tagsh="#computerscience #internet #networking"),
  "introcs_u4_part2": dict(
    title="Python if/else, while & for Loops, Functions and Lists for Beginners | Intro to CS Unit 4 (Part 2)",
    intro="Make your Python programs decide, repeat and stay organized. This video covers Unit 4, lessons 7 to 12: if, elif and else, while loops, for loops with range, defining and calling functions, parameters and return values, and lists. Each section ends with a practice problem.",

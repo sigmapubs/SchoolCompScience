@@ -1,0 +1,639 @@
+1
+00:00:00,000 --> 00:00:05,044
+Welcome to School Computer Science,
+Explained. This is Intro to Computer
+
+2
+00:00:05,044 --> 00:00:10,649
+Science, Unit 3: Algorithms. We'll learn
+how to plan step by step solutions, and
+
+3
+00:00:10,649 --> 00:00:12,821
+how to search and sort quickly.
+
+4
+00:00:13,995 --> 00:00:18,411
+A recipe, the directions to a friend's
+house, the steps to tie your shoes.
+
+5
+00:00:18,861 --> 00:00:20,205
+They're all algorithms.
+
+6
+00:00:21,355 --> 00:00:25,899
+An algorithm is a finite list of clear
+steps that solves a problem.
+
+7
+00:00:26,349 --> 00:00:31,298
+Finite means it ends. Clear means there's
+no guessing about what each step means.
+
+8
+00:00:32,448 --> 00:00:35,264
+Computers need algorithms to be extra
+clear.
+
+9
+00:00:35,714 --> 00:00:40,600
+Make a sandwich isn't clear enough. Which
+bread? How much peanut butter? Which side?
+
+10
+00:00:41,050 --> 00:00:44,228
+A computer only does exactly what each
+step says.
+
+11
+00:00:45,378 --> 00:00:48,770
+Every algorithm is built from just three
+building blocks.
+
+12
+00:00:49,220 --> 00:00:54,644
+Sequence: do steps in order. Selection:
+choose between steps with a yes or no
+
+13
+00:00:54,644 --> 00:00:58,799
+question. Repetition: repeat steps while
+something is true.
+
+14
+00:00:59,949 --> 00:01:03,277
+Here's an algorithm for crossing the
+street with all three.
+
+15
+00:01:03,727 --> 00:01:08,873
+Walk to the curb. That's sequence. While
+cars are coming, wait. That's repetition.
+
+16
+00:01:08,873 --> 00:01:13,455
+If the light says walk, cross. Otherwise,
+keep waiting. That's selection.
+
+17
+00:01:14,605 --> 00:01:17,400
+One problem can have many different
+algorithms.
+
+18
+00:01:17,850 --> 00:01:22,882
+Some are faster, some are simpler, and
+some use less memory. Part of computer
+
+19
+00:01:22,882 --> 00:01:25,039
+science is choosing the best one.
+
+20
+00:01:26,189 --> 00:01:31,216
+Your turn. In the step, if it's raining,
+take an umbrella, which building block is
+
+21
+00:01:31,216 --> 00:01:31,522
+used?
+
+22
+00:01:31,972 --> 00:01:33,252
+Pause the video now.
+
+23
+00:01:33,702 --> 00:01:37,478
+Selection. The step chooses based on a yes
+or no question.
+
+24
+00:01:37,928 --> 00:01:42,436
+Next, we'll learn two ways to write
+algorithms down: flowcharts and
+
+25
+00:01:42,436 --> 00:01:43,176
+pseudocode.
+
+26
+00:01:44,326 --> 00:01:47,739
+Before writing code, programmers plan
+their algorithms.
+
+27
+00:01:48,189 --> 00:01:51,325
+Two popular tools are flowcharts and
+pseudocode.
+
+28
+00:01:52,475 --> 00:01:55,249
+A flowchart is a diagram of an algorithm.
+
+29
+00:01:55,699 --> 00:02:00,591
+Ovals mark the start and the end.
+Rectangles are actions. Diamonds are
+
+30
+00:02:00,591 --> 00:02:05,064
+questions with yes and no arrows. Arrows
+show what happens next.
+
+31
+00:02:06,214 --> 00:02:08,689
+Here's a flowchart for checking a test
+score.
+
+32
+00:02:09,139 --> 00:02:13,893
+Start. Get the score. Is it at least
+sixty? Yes, print pass. No, print try
+
+33
+00:02:13,893 --> 00:02:14,600
+again. End.
+
+34
+00:02:15,750 --> 00:02:18,929
+A loop in a flowchart is an arrow that
+points back up.
+
+35
+00:02:19,379 --> 00:02:24,197
+Here, while the count is at most five,
+print the count, add one, and go back to
+
+36
+00:02:24,197 --> 00:02:24,989
+the question.
+
+37
+00:02:26,139 --> 00:02:30,577
+Pseudocode is the same plan written in
+plain words, set out like code.
+
+38
+00:02:31,027 --> 00:02:36,320
+It isn't a real programming language, so
+it doesn't have to be perfect. It just has
+
+39
+00:02:36,320 --> 00:02:37,085
+to be clear.
+
+40
+00:02:38,235 --> 00:02:40,369
+Here's the score check in pseudocode.
+
+41
+00:02:40,819 --> 00:02:45,853
+Get score. If score is at least sixty,
+print pass. Otherwise, print try again.
+
+42
+00:02:46,303 --> 00:02:49,397
+Indentation shows which steps belong
+inside the if.
+
+43
+00:02:50,547 --> 00:02:54,771
+Your turn. In a flowchart, which shape
+asks a yes or no question?
+
+44
+00:02:55,221 --> 00:02:56,501
+Pause the video now.
+
+45
+00:02:56,951 --> 00:02:57,868
+The diamond.
+
+46
+00:02:58,318 --> 00:03:02,542
+Next, we'll use these tools on a classic
+problem: searching a list.
+
+47
+00:03:03,692 --> 00:03:06,572
+You're looking for one name in a list of a
+thousand.
+
+48
+00:03:07,022 --> 00:03:11,566
+The simplest plan: start at the top, and
+check every name until you find it.
+
+49
+00:03:12,716 --> 00:03:15,361
+That's linear search. Check each item in
+order.
+
+50
+00:03:15,811 --> 00:03:21,236
+If it matches, stop and report where it
+is. If you reach the end with no match,
+
+51
+00:03:21,236 --> 00:03:22,403
+report not found.
+
+52
+00:03:23,553 --> 00:03:28,580
+Let's search for twelve in this list.
+Seven, no. Three, no. Twelve, yes. Found
+
+53
+00:03:28,580 --> 00:03:29,740
+at position three.
+
+54
+00:03:30,190 --> 00:03:31,449
+It took three checks.
+
+55
+00:03:32,599 --> 00:03:36,503
+Now search for five. We check every item,
+and none of them match.
+
+56
+00:03:36,953 --> 00:03:40,793
+With eight items, that's eight checks
+before we can say not found.
+
+57
+00:03:41,943 --> 00:03:45,527
+In the best case, the target is first, and
+one check is enough.
+
+58
+00:03:45,977 --> 00:03:49,859
+In the worst case, it's last or missing,
+and we check every item.
+
+59
+00:03:50,309 --> 00:03:53,488
+For a list of n items, the worst case is n
+checks.
+
+60
+00:03:54,638 --> 00:03:59,545
+Linear search has one big advantage. It
+works on any list, sorted or not.
+
+61
+00:04:00,695 --> 00:04:05,088
+Your turn. Using linear search on a list
+of two hundred items, what's the most
+
+62
+00:04:05,088 --> 00:04:06,327
+checks you could need?
+
+63
+00:04:06,777 --> 00:04:08,057
+Pause the video now.
+
+64
+00:04:08,507 --> 00:04:11,771
+Two hundred, when the item is last or not
+in the list.
+
+65
+00:04:12,221 --> 00:04:15,591
+Next, we'll see a much faster search, if
+the list is sorted.
+
+66
+00:04:16,741 --> 00:04:19,514
+Think of looking up a word in a paper
+dictionary.
+
+67
+00:04:19,964 --> 00:04:24,850
+You don't start at page one. You open near
+the middle, and decide which half to keep.
+
+68
+00:04:26,000 --> 00:04:29,328
+That's binary search. It only works on a
+sorted list.
+
+69
+00:04:29,778 --> 00:04:34,688
+Check the middle item. If it's the target,
+you're done. If the target is smaller,
+
+70
+00:04:34,688 --> 00:04:38,567
+keep the left half. If it's bigger, keep
+the right half. Repeat.
+
+71
+00:04:39,717 --> 00:04:43,557
+Let's find thirty seven in this sorted
+list of fifteen numbers.
+
+72
+00:04:44,007 --> 00:04:48,402
+The middle is twenty two. Thirty seven is
+bigger, so we keep the right half.
+
+73
+00:04:48,852 --> 00:04:53,524
+The new middle is forty one. Thirty seven
+is smaller, so we keep the left part.
+
+74
+00:04:53,974 --> 00:04:57,856
+The middle of what's left is thirty seven.
+Found it in three checks.
+
+75
+00:04:59,006 --> 00:05:01,310
+Each check throws away half of what's
+left.
+
+76
+00:05:01,760 --> 00:05:07,644
+A thousand items become five hundred, then
+two fifty, and so on. After about ten
+
+77
+00:05:07,644 --> 00:05:09,483
+checks, only one is left.
+
+78
+00:05:09,933 --> 00:05:12,813
+A million items need only about twenty
+checks.
+
+79
+00:05:13,963 --> 00:05:18,550
+Compare that with linear search. A million
+items could need a million checks.
+
+80
+00:05:19,000 --> 00:05:20,429
+That's the power of halving.
+
+81
+00:05:21,579 --> 00:05:24,288
+The catch is that the list must be sorted
+first.
+
+82
+00:05:24,738 --> 00:05:29,922
+On an unsorted list, binary search can
+throw away the half that holds the target.
+
+83
+00:05:31,072 --> 00:05:36,659
+Your turn. Binary search on a sorted list
+of sixty four items. About how many checks
+
+84
+00:05:36,659 --> 00:05:37,856
+in the worst case?
+
+85
+00:05:38,306 --> 00:05:39,586
+Pause the video now.
+
+86
+00:05:40,036 --> 00:05:45,754
+Sixty four, thirty two, sixteen, eight,
+four, two, one. About six or seven checks.
+
+87
+00:05:46,204 --> 00:05:49,233
+Next, we'll learn how to sort a list in
+the first place.
+
+88
+00:05:50,383 --> 00:05:54,202
+Binary search needs a sorted list. So how
+do we sort one?
+
+89
+00:05:54,652 --> 00:05:58,833
+Let's learn one of the simplest sorting
+algorithms: selection sort.
+
+90
+00:05:59,983 --> 00:06:04,698
+Here's the idea. Find the smallest item,
+and swap it into the first spot.
+
+91
+00:06:05,148 --> 00:06:10,446
+Then find the smallest of the rest, and
+swap it into the second spot. Keep going
+
+92
+00:06:10,446 --> 00:06:12,102
+until the list is sorted.
+
+93
+00:06:13,252 --> 00:06:15,364
+Let's sort five, two, eight, one, six.
+
+94
+00:06:15,814 --> 00:06:19,782
+The smallest is one. Swap it with five.
+Now one is in place.
+
+95
+00:06:20,932 --> 00:06:24,879
+Of the rest, the smallest is two, and it's
+already in the second spot.
+
+96
+00:06:25,329 --> 00:06:29,830
+Next, the smallest of eight, five, and six
+is five. Swap it with eight.
+
+97
+00:06:30,280 --> 00:06:35,763
+Then the smallest of eight and six is six.
+Swap. Done: one, two, five, six, eight.
+
+98
+00:06:36,913 --> 00:06:41,206
+How much work is that? To find the
+smallest, we compare against every
+
+99
+00:06:41,206 --> 00:06:42,140
+remaining item.
+
+100
+00:06:42,590 --> 00:06:48,279
+For n items, that's about n times n over
+two comparisons. Double the list, and the
+
+101
+00:06:48,279 --> 00:06:50,568
+work is about four times as much.
+
+102
+00:06:51,718 --> 00:06:55,729
+Selection sort is easy to understand, but
+slow for big lists.
+
+103
+00:06:56,179 --> 00:07:01,215
+Real programs use faster sorts, like merge
+sort, which you'll meet later in the
+
+104
+00:07:01,215 --> 00:07:01,662
+course.
+
+105
+00:07:02,812 --> 00:07:07,517
+Your turn. Sort three, one, two with
+selection sort. What does the list look
+
+106
+00:07:07,517 --> 00:07:09,126
+like after the first swap?
+
+107
+00:07:09,576 --> 00:07:10,856
+Pause the video now.
+
+108
+00:07:11,306 --> 00:07:15,125
+The smallest is one. Swap it with three,
+giving one, three, two.
+
+109
+00:07:15,575 --> 00:07:19,052
+Next, we'll compare algorithms, and see
+why speed matters.
+
+110
+00:07:20,203 --> 00:07:25,216
+Two algorithms can solve the same problem.
+How do we decide which is better?
+
+111
+00:07:25,666 --> 00:07:29,378
+We count how many steps each one takes as
+the input grows.
+
+112
+00:07:30,528 --> 00:07:34,560
+We don't time them with a stopwatch,
+because computers differ in speed.
+
+113
+00:07:35,010 --> 00:07:39,320
+Instead, we ask: if the input doubles,
+what happens to the number of steps?
+
+114
+00:07:40,470 --> 00:07:45,078
+Linear search grows in a straight line.
+Twice the items, twice the steps.
+
+115
+00:07:45,528 --> 00:07:49,730
+Binary search barely grows. Twice the
+items, just one more step.
+
+116
+00:07:50,180 --> 00:07:54,959
+Selection sort grows fast. Twice the
+items, about four times the steps.
+
+117
+00:07:56,109 --> 00:07:59,522
+Let's put numbers on it, for a list of a
+million items.
+
+118
+00:07:59,972 --> 00:08:05,600
+Linear search: up to a million checks.
+Binary search: about twenty. Selection
+
+119
+00:08:05,600 --> 00:08:08,890
+sort: about five hundred billion
+comparisons.
+
+120
+00:08:10,040 --> 00:08:14,242
+Some problems are so hard that no one
+knows a fast algorithm.
+
+121
+00:08:14,692 --> 00:08:20,022
+Trying every possible route through just
+thirty cities would take longer than the
+
+122
+00:08:20,022 --> 00:08:25,483
+age of the universe. For those, we accept
+a good answer instead of the perfect one.
+
+123
+00:08:25,483 --> 00:08:27,194
+That's called a heuristic.
+
+124
+00:08:28,344 --> 00:08:31,394
+So when you compare algorithms, ask three
+questions.
+
+125
+00:08:31,844 --> 00:08:36,492
+Is it correct? How does its step count
+grow? And is it simple enough to write and
+
+126
+00:08:36,492 --> 00:08:36,836
+check?
+
+127
+00:08:37,986 --> 00:08:43,498
+Your turn. Searching a sorted list of a
+million names, which is faster: linear or
+
+128
+00:08:43,498 --> 00:08:44,450
+binary search?
+
+129
+00:08:44,900 --> 00:08:46,180
+Pause the video now.
+
+130
+00:08:46,630 --> 00:08:50,236
+Binary search. About twenty checks instead
+of up to a million.
+
+131
+00:08:50,686 --> 00:08:56,276
+That's the end of Unit three. Next, we'll
+start Unit four, and write real programs
+
+132
+00:08:56,276 --> 00:08:56,958
+in Python.
+
+133
+00:08:58,108 --> 00:09:02,784
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+134
+00:09:02,784 --> 00:09:04,060
+miss the next lesson.
+
+135
+00:09:04,510 --> 00:09:05,406
+See you there.
+

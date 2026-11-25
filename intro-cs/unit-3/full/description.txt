@@ -1,0 +1,51 @@
+Algorithms: Flowcharts, Linear & Binary Search, Selection Sort | Intro to CS Unit 3
+
+What is an algorithm, and how do you tell a good one from a slow one? This video covers all of Unit 3: sequence, selection and repetition, flowcharts and pseudocode, linear search, binary search, selection sort, and comparing algorithms by how their step count grows. Each section ends with a practice problem. Also covers AP Computer Science Principles Big Idea 3 topics on algorithms, searching and efficiency.
+
+Course: Intro to Computer Science · Unit 3: Algorithms (the whole unit in one video)
+Previous: Intro to Computer Science, Unit 2: Data and Binary
+Next: Intro to Computer Science, Unit 4: Programming Basics in Python
+
+0:00 Introduction
+0:13 What is an algorithm?
+0:32 Steps must be clear
+0:45 Sequence, selection, repetition
+0:59 Crossing the street
+1:14 Many algorithms, one problem
+1:26 Your turn
+1:44 Flowcharts and pseudocode
+2:06 A score-check flowchart
+2:26 Pseudocode
+2:38 Pseudocode example
+2:50 Your turn
+3:03 Linear search
+3:23 Finding 12
+3:41 Best and worst case
+3:54 Works on any list
+4:16 Binary search
+4:39 Finding 37
+4:59 Halving: 20 checks for a million
+5:13 Linear vs binary
+5:31 Your turn
+5:50 Selection sort
+6:13 First swap
+6:36 How much work?
+6:51 Simple but slow
+7:02 Your turn
+7:20 Comparing algorithms
+7:30 Counting steps, not seconds
+7:56 A million items
+8:10 Hard problems and heuristics
+8:28 Three questions to ask
+
+Intro to Computer Science, the complete course (6 units, full syllabus):
+• Unit 1: What Is a Computer?
+• Unit 2: Data and Binary
+▶ Unit 3: Algorithms  (you are here)
+• Unit 4: Programming Basics in Python
+• Unit 5: Networks and the Internet
+• Unit 6: Security and Society
+Follow the whole course in order in the "Intro to Computer Science (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#computerscience #algorithms #APCSP

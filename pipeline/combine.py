@@ -8,7 +8,9 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"icu4_l07": "if, elif, else", "icu4_l08": "while loops", "icu4_l09": "for loops and range", "icu4_l10": "Functions: define and call", "icu4_l11": "Parameters and return values", "icu4_l12": "Lists",
+NAMES = {"icu6_l01": "Passwords and authentication", "icu6_l02": "Encryption, the big idea", "icu6_l03": "Phishing, malware and staying safe", "icu6_l04": "Privacy, AI and bias",
+ "icu5_l01": "What is a network?", "icu5_l02": "Packets and routing", "icu5_l03": "IP addresses and DNS", "icu5_l04": "How the web works: HTTP and browsers", "icu5_l05": "The cloud, explained",
+ "icu4_l07": "if, elif, else", "icu4_l08": "while loops", "icu4_l09": "for loops and range", "icu4_l10": "Functions: define and call", "icu4_l11": "Parameters and return values", "icu4_l12": "Lists",
  "icu4_l01": "Your first Python program", "icu4_l02": "Variables and assignment", "icu4_l03": "Numbers and arithmetic", "icu4_l04": "Strings", "icu4_l05": "Input from the user", "icu4_l06": "Booleans and comparisons",
  "icu3_l01": "What is an algorithm?", "icu3_l02": "Flowcharts and pseudocode", "icu3_l03": "Linear search", "icu3_l04": "Binary search", "icu3_l05": "Selection sort", "icu3_l06": "Comparing algorithms",
  "csa_u2_l07": "2.7 while loops", "csa_u2_l08": "2.8 for loops", "csa_u2_l09": "2.9 Selection and iteration algorithms", "csa_u2_l10": "2.10 String algorithms", "csa_u2_l11": "2.11 Nested iteration", "csa_u2_l12": "2.12 Informal run-time analysis",
@@ -65,6 +67,8 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
+ "introcs_u6_security": ["icu6_l01", "icu6_l02", "icu6_l03", "icu6_l04"],
+ "introcs_u5_networks": ["icu5_l01", "icu5_l02", "icu5_l03", "icu5_l04", "icu5_l05"],
  "introcs_u4_part2": ["icu4_l07", "icu4_l08", "icu4_l09", "icu4_l10", "icu4_l11", "icu4_l12"],
  "introcs_u4_part1": ["icu4_l01", "icu4_l02", "icu4_l03", "icu4_l04", "icu4_l05", "icu4_l06"],
  "introcs_u3_algorithms": ["icu3_l01", "icu3_l02", "icu3_l03", "icu3_l04", "icu3_l05", "icu3_l06"],
