@@ -1,0 +1,506 @@
+1
+00:00:00,000 --> 00:00:05,397
+Welcome to School Computer Science,
+Explained. This is AP Computer Science
+
+2
+00:00:05,397 --> 00:00:11,377
+Principles, Big Idea 3, part three. We'll
+search lists fast, and organize programs
+
+3
+00:00:11,377 --> 00:00:12,544
+with procedures.
+
+4
+00:00:13,717 --> 00:00:16,960
+Lots of list problems need you to look at
+every item.
+
+5
+00:00:17,410 --> 00:00:19,180
+That's called traversing the list.
+
+6
+00:00:20,330 --> 00:00:26,051
+In AP pseudocode, FOR EACH item IN list
+runs the block once for every element, in
+
+7
+00:00:26,051 --> 00:00:26,474
+order.
+
+8
+00:00:26,924 --> 00:00:29,463
+Each time, item holds the next element.
+
+9
+00:00:30,613 --> 00:00:36,202
+Here's a sum. total gets zero. FOR EACH n
+IN nums, total gets total plus n.
+
+10
+00:00:36,652 --> 00:00:41,538
+With nums four, seven, two, total becomes
+four, then eleven, then thirteen.
+
+11
+00:00:42,688 --> 00:00:48,654
+You can also count matches. count gets
+zero. FOR EACH n IN nums, IF n is greater
+
+12
+00:00:48,654 --> 00:00:51,413
+than five, count gets count plus one.
+
+13
+00:00:51,863 --> 00:00:55,788
+For four, seven, two, only seven matches,
+so count is one.
+
+14
+00:00:56,938 --> 00:01:02,032
+A linear search, or sequential search,
+checks each item in order until it finds
+
+15
+00:01:02,032 --> 00:01:02,741
+the target.
+
+16
+00:01:03,191 --> 00:01:06,028
+In the worst case, it checks every single
+item.
+
+17
+00:01:07,178 --> 00:01:12,785
+A traversal can also be complete or
+partial. A partial traversal stops early,
+
+18
+00:01:12,785 --> 00:01:15,989
+for example, as soon as the target is
+found.
+
+19
+00:01:17,139 --> 00:01:23,839
+Your turn. nums gets three, eight, five,
+ten. total gets zero. FOR EACH n IN nums,
+
+20
+00:01:23,839 --> 00:01:29,150
+IF n MOD two equals zero, total gets total
+plus n. What is total?
+
+21
+00:01:29,600 --> 00:01:30,880
+Pause the video now.
+
+22
+00:01:31,330 --> 00:01:35,276
+Only the even numbers are added: eight
+plus ten is eighteen.
+
+23
+00:01:35,726 --> 00:01:38,862
+Next, a much faster way to search: binary
+search.
+
+24
+00:01:40,013 --> 00:01:44,024
+Searching a million items one by one could
+take a million steps.
+
+25
+00:01:44,474 --> 00:01:46,948
+Binary search can do it in about twenty.
+
+26
+00:01:48,098 --> 00:01:53,795
+Binary search only works on sorted data.
+That's the key requirement to remember for
+
+27
+00:01:53,795 --> 00:01:54,413
+the exam.
+
+28
+00:01:55,563 --> 00:01:58,486
+Check the middle item. If it's the target,
+you're done.
+
+29
+00:01:58,936 --> 00:02:04,233
+If the target is smaller, throw away the
+right half. If it's bigger, throw away the
+
+30
+00:02:04,233 --> 00:02:06,658
+left half. Then repeat on what's left.
+
+31
+00:02:07,808 --> 00:02:11,670
+Let's find thirty seven in a sorted list
+of fifteen numbers.
+
+32
+00:02:12,120 --> 00:02:17,549
+The middle is twenty two. Thirty seven is
+bigger, so keep the right half. The middle
+
+33
+00:02:17,549 --> 00:02:23,042
+of that is forty one. Smaller, so go left.
+Then thirty seven. Found, in three checks.
+
+34
+00:02:24,192 --> 00:02:30,256
+Each check cuts the list in half. So for n
+items, binary search takes about log base
+
+35
+00:02:30,256 --> 00:02:31,339
+two of n steps.
+
+36
+00:02:31,789 --> 00:02:36,456
+For a thousand items, that's about ten
+checks. A linear search could take a
+
+37
+00:02:36,456 --> 00:02:37,016
+thousand.
+
+38
+00:02:38,166 --> 00:02:42,957
+Binary search is often much faster than
+linear search, but if the data isn't
+
+39
+00:02:42,957 --> 00:02:45,227
+sorted, you'd have to sort it first.
+
+40
+00:02:46,377 --> 00:02:51,611
+Your turn. About how many checks does
+binary search need, at most, for a sorted
+
+41
+00:02:51,611 --> 00:02:53,268
+list of sixty four items?
+
+42
+00:02:53,718 --> 00:02:54,998
+Pause the video now.
+
+43
+00:02:55,448 --> 00:03:01,466
+Sixty four halves to one in six steps, so
+about six or seven checks. A linear search
+
+44
+00:03:01,466 --> 00:03:03,042
+could need sixty four.
+
+45
+00:03:03,492 --> 00:03:05,199
+Next, we'll call procedures.
+
+46
+00:03:06,349 --> 00:03:08,717
+You don't have to write every step
+yourself.
+
+47
+00:03:09,167 --> 00:03:12,367
+Procedures let you reuse code that already
+exists.
+
+48
+00:03:13,517 --> 00:03:18,484
+A procedure is a named group of
+instructions. It may take parameters, and
+
+49
+00:03:18,484 --> 00:03:19,981
+it may return a value.
+
+50
+00:03:20,431 --> 00:03:23,375
+Other languages call them functions or
+methods.
+
+51
+00:03:24,525 --> 00:03:28,770
+To call a procedure, write its name with
+arguments in parentheses.
+
+52
+00:03:29,220 --> 00:03:34,684
+DISPLAY, open paren, hello, close paren,
+calls the DISPLAY procedure with the
+
+53
+00:03:34,684 --> 00:03:35,748
+argument hello.
+
+54
+00:03:36,898 --> 00:03:41,592
+When a procedure is called, the program
+jumps to it, runs its steps, then comes
+
+55
+00:03:41,592 --> 00:03:43,256
+back to where it was called.
+
+56
+00:03:44,406 --> 00:03:49,419
+Some procedures return a value, so you can
+store it or use it in an expression.
+
+57
+00:03:49,869 --> 00:03:55,855
+x gets RANDOM one comma six stores the
+value returned by RANDOM. y gets INPUT
+
+58
+00:03:55,855 --> 00:03:57,954
+stores what the user types.
+
+59
+00:03:59,104 --> 00:04:04,269
+On the exam, you can use a procedure just
+by knowing what it does, without seeing
+
+60
+00:04:04,269 --> 00:04:04,843
+its code.
+
+61
+00:04:05,293 --> 00:04:07,917
+Its name, parameters and description are
+enough.
+
+62
+00:04:09,067 --> 00:04:15,045
+Your turn. The procedure max, a comma b,
+returns the larger of a and b. What is
+
+63
+00:04:15,045 --> 00:04:17,920
+max, three comma max, nine comma five?
+
+64
+00:04:18,370 --> 00:04:19,650
+Pause the video now.
+
+65
+00:04:20,100 --> 00:04:24,751
+The inner call returns nine. Then max of
+three and nine returns nine.
+
+66
+00:04:25,201 --> 00:04:28,316
+Next, we'll write our own procedures, with
+parameters.
+
+67
+00:04:29,465 --> 00:04:33,668
+Calling procedures is useful. Writing your
+own is even better.
+
+68
+00:04:34,118 --> 00:04:37,104
+Let's define procedures in AP pseudocode.
+
+69
+00:04:38,254 --> 00:04:43,545
+PROCEDURE, name, then parameters in
+parentheses, then a block in curly braces.
+
+70
+00:04:43,995 --> 00:04:49,896
+PROCEDURE greet, open paren, name, close
+paren. In the block, DISPLAY hello, then
+
+71
+00:04:49,896 --> 00:04:50,843
+DISPLAY name.
+
+72
+00:04:51,993 --> 00:04:56,877
+Parameters are input variables. Their
+values come from the arguments in each
+
+73
+00:04:56,877 --> 00:04:57,198
+call.
+
+74
+00:04:57,648 --> 00:05:00,955
+greet of Ana runs the block with name
+equal to Ana.
+
+75
+00:05:02,105 --> 00:05:06,009
+RETURN sends a value back, and ends the
+procedure right away.
+
+76
+00:05:06,459 --> 00:05:12,788
+PROCEDURE square, x. RETURN x times x.
+Then y gets square of four makes y equal
+
+77
+00:05:12,788 --> 00:05:13,670
+to sixteen.
+
+78
+00:05:14,820 --> 00:05:20,099
+Procedures with parameters are general.
+One procedure can handle many different
+
+79
+00:05:20,099 --> 00:05:23,908
+values, instead of writing the same code
+again and again.
+
+80
+00:05:25,058 --> 00:05:29,538
+A good procedure does one clear job, with
+a name that says what it does.
+
+81
+00:05:30,688 --> 00:05:36,807
+Your turn. PROCEDURE f, a comma b. IF a is
+greater than b, RETURN a minus b.
+
+82
+00:05:36,807 --> 00:05:41,397
+Otherwise RETURN b minus a. What is f of
+three comma ten?
+
+83
+00:05:41,847 --> 00:05:43,127
+Pause the video now.
+
+84
+00:05:43,577 --> 00:05:48,569
+Three is not greater than ten, so it
+returns ten minus three, which is seven.
+
+85
+00:05:49,019 --> 00:05:53,094
+Next, we'll see why procedures are a
+powerful kind of abstraction.
+
+86
+00:05:54,244 --> 00:05:57,636
+You can drive a car without knowing how
+the engine works.
+
+87
+00:05:58,086 --> 00:06:00,881
+Procedures let programmers work the same
+way.
+
+88
+00:06:02,031 --> 00:06:07,274
+Procedural abstraction means using a
+procedure by knowing what it does, not how
+
+89
+00:06:07,274 --> 00:06:08,004
+it does it.
+
+90
+00:06:08,454 --> 00:06:11,761
+The details are hidden behind its name and
+parameters.
+
+91
+00:06:12,911 --> 00:06:18,192
+This helps manage complexity. A big
+program is broken into procedures, each
+
+92
+00:06:18,192 --> 00:06:20,164
+solving one smaller problem.
+
+93
+00:06:20,614 --> 00:06:21,915
+That's modularity.
+
+94
+00:06:23,065 --> 00:06:28,728
+Procedures also reduce repeated code. If
+the same steps appear in many places, put
+
+95
+00:06:28,728 --> 00:06:30,937
+them in a procedure and call it.
+
+96
+00:06:32,087 --> 00:06:36,963
+And if you improve the inside of a
+procedure, every part of the program that
+
+97
+00:06:36,963 --> 00:06:40,813
+calls it gets the improvement, without
+changing those calls.
+
+98
+00:06:41,263 --> 00:06:45,508
+As long as it still does the same job,
+nothing else needs to change.
+
+99
+00:06:46,658 --> 00:06:52,688
+On the exam, look for answers that mention
+reusing code, hiding details, or making a
+
+100
+00:06:52,688 --> 00:06:54,914
+program easier to read and fix.
+
+101
+00:06:56,064 --> 00:07:01,738
+Your turn. A game draws a star in ten
+places using the same twelve lines of code
+
+102
+00:07:01,738 --> 00:07:04,149
+each time. What's a better design?
+
+103
+00:07:04,599 --> 00:07:05,879
+Pause the video now.
+
+104
+00:07:06,329 --> 00:07:11,197
+Write a procedure, drawStar, with
+parameters for the position, and call it
+
+105
+00:07:11,197 --> 00:07:11,855
+ten times.
+
+106
+00:07:12,305 --> 00:07:16,123
+Next, we'll use libraries, random values,
+and simulations.
+
+107
+00:07:17,273 --> 00:07:21,950
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+108
+00:07:21,950 --> 00:07:23,225
+miss the next lesson.
+
+109
+00:07:23,675 --> 00:07:24,571
+See you there.
+

@@ -1,0 +1,44 @@
+AP CSP Big Idea 3 Part 3: FOR EACH, Binary Search & Procedures | AP Computer Science Principles
+
+AP CSP Big Idea 3, Algorithms and Programming, part 3 of 4, in AP exam pseudocode. This video covers traversing lists with FOR EACH and linear search, binary search and why it needs sorted data, calling procedures, writing procedures with parameters and RETURN, and procedural abstraction. Each section ends with an AP-style practice question. Big Idea 3 is the largest part of the AP exam, so it's split into 4 videos.
+
+Course: AP Computer Science Principles · Big Idea 3: Algorithms and Programming · Part 3 of 4
+Previous: AP CSP Big Idea 3 Part 2: Conditionals, Iteration and List Operations
+Next: AP CSP Big Idea 3 Part 4: Libraries, Random, Simulations, Efficiency and Undecidable Problems
+
+0:00 Introduction
+0:13 Traversing lists with FOR EACH
+0:30 Summing a list
+0:42 Counting matches
+0:56 Linear search
+1:07 Complete vs partial traversal
+1:40 Binary search
+1:55 How it works
+2:07 Finding 37
+2:24 log2 n steps
+2:38 When to use it
+3:06 Calling procedures
+3:24 Calling with arguments
+3:36 Jumping and returning
+3:59 Using without seeing the code
+4:29 Developing procedures
+4:51 Arguments fill parameters
+5:02 RETURN
+5:14 Generalizing
+5:25 Good procedures
+5:54 Procedural abstraction
+6:12 Modularity
+6:23 Removing repeated code
+6:46 On the AP exam
+
+AP Computer Science Principles, the complete course (6 units, full syllabus):
+• Big Idea 1: Creative Development
+• Big Idea 2: Data
+▶ Big Idea 3: Algorithms and Programming  (you are here)
+• Big Idea 4: Computer Systems and Networks
+• Big Idea 5: Impact of Computing
+• Exam Prep: Create Task and Multiple Choice
+Follow the whole course in order in the "AP Computer Science Principles (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#apcsp #computerscience #apexam

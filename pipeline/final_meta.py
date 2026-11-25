@@ -8,6 +8,24 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "cs1_u3": dict(
+   title="Intro to Computer Science (College CS1) Unit 3: Functions, Scope, Call Stack, Docstrings, lambda, map & filter",
+   intro="Unit 3 of a first college course in computer science, in Python. It covers decomposition and abstraction, defining and calling functions with scope and the call stack, specifications and docstrings, functions as objects and lambda, modules and imports, and the higher-order functions map and filter. Each lesson ends with a practice problem.",
+   course="Intro College CS (CS1)", unit=2, part="Unit 3: Functions and Abstraction · Complete",
+   prev="CS1 Unit 2: Branching, Loops, Invariants, Approximation & Bisection Search", next="CS1 Unit 4: Data Structures in Python",
+   also="",
+   playlists=["Intro College CS: CS1 in Python (Full Course)", "CS1 Unit 3: Functions and Abstraction"],
+   tags="intro to computer science, cs1, python functions, scope, call stack, docstring, lambda, map, filter, higher order functions, learn python",
+   tagsh="#python #computerscience #cs1"),
+ "cs1_u2": dict(
+   title="Intro to Computer Science (College CS1) Unit 2: Branching, Loops, Invariants, Approximation & Bisection Search",
+   intro="Unit 2 of a first college course in computer science, in Python. It covers branching with if, elif and else, while loops and loop invariants, for loops with range and the accumulate, count and search patterns, guess-and-check and approximation with epsilon, and bisection search for square roots. Each lesson ends with a practice problem.",
+   course="Intro College CS (CS1)", unit=1, part="Unit 2: Control Flow · Complete",
+   prev="CS1 Unit 1: Computation, Python Types, Variables, Strings & I/O", next="CS1 Unit 3: Functions and Abstraction",
+   also="",
+   playlists=["Intro College CS: CS1 in Python (Full Course)", "CS1 Unit 2: Control Flow"],
+   tags="intro to computer science, cs1, python loops, while loop, for loop, loop invariant, bisection search, approximation, learn python",
+   tagsh="#python #computerscience #cs1"),
  "cs1_u1": dict(
    title="Intro to Computer Science (College CS1) Unit 1: Computation, Python Types, Variables, Strings & I/O",
    intro="Unit 1 of a first college course in computer science, taught in Python. It covers what computation is (declarative vs imperative knowledge, algorithms, a square-root recipe), expressions and types in the Python interpreter, variables and program state, strings with indexing, slicing and methods, and input, output and f-string formatting. Each lesson ends with a practice problem.",

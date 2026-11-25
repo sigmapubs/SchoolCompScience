@@ -1305,5 +1305,93 @@
 "Converting input",
 "f-strings",
 "Your turn"
+],
+"cs1_u2_l01": [
+"",
+"if and indentation",
+"elif and else",
+"Conditions",
+"Order matters",
+"Your turn"
+],
+"cs1_u2_l02": [
+"",
+"How while works",
+"Infinite loops",
+"Loop invariants",
+"Proving a sum loop",
+"Your turn"
+],
+"cs1_u2_l03": [
+"",
+"Looping over a string",
+"range",
+"Accumulate, count, search",
+"break and continue",
+"Your turn"
+],
+"cs1_u2_l04": [
+"",
+"Exhaustive enumeration",
+"Correct but slow",
+"Close enough: epsilon",
+"Approximation",
+"Your turn"
+],
+"cs1_u2_l05": [
+"",
+"Low, high and guess",
+"Halving the range",
+"How fast it is",
+"When it works",
+"Your turn"
+],
+"cs1_u3_l01": [
+"",
+"Decomposition",
+"Abstraction",
+"Functions give both",
+"Good functions",
+"Your turn"
+],
+"cs1_u3_l02": [
+"",
+"def and return",
+"A new frame",
+"Local names",
+"The call stack",
+"Your turn"
+],
+"cs1_u3_l03": [
+"",
+"Assumes and guarantees",
+"Docstrings",
+"help()",
+"Who is responsible",
+"Your turn"
+],
+"cs1_u3_l04": [
+"",
+"Functions are values",
+"Passing functions",
+"lambda",
+"Sort keys",
+"Your turn"
+],
+"cs1_u3_l05": [
+"",
+"import math",
+"from ... import",
+"Your own modules",
+"Useful modules",
+"Your turn"
+],
+"cs1_u3_l06": [
+"",
+"map",
+"filter",
+"Getting a list",
+"Replacing loops",
+"Your turn"
 ]
 }
