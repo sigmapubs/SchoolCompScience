@@ -16,5 +16,6 @@ Each video folder holds `video.mp4` (1080p60 with a caption track), `captions.sr
 | intro-cs/unit-3/full | Algorithms: Flowcharts, Linear & Binary Search, Selection Sort · Intro to CS Unit 3 |
 | intro-cs/unit-4/part-1 | Python for Beginners: print, Variables, Math, Strings, Input & Booleans · Intro to CS Unit 4 (Part 1) |
 | intro-cs/unit-4/part-2 | Python if/else, while & for Loops, Functions and Lists for Beginners · Intro to CS Unit 4 (Part 2) |
+| intro-cs/unit-5/full | How the Internet Works: Networks, Packets, IP Addresses, DNS, HTTP & the Cloud · Intro to CS Unit 5 |
 
 `pipeline/` has the Manim + Kokoro TTS scripts that render the lessons.

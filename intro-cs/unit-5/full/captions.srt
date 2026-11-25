@@ -1,0 +1,563 @@
+1
+00:00:00,000 --> 00:00:04,977
+Welcome to School Computer Science,
+Explained. This is Intro to Computer
+
+2
+00:00:04,977 --> 00:00:09,815
+Science, Unit 5: Networks and the
+Internet. Let's find out what really
+
+3
+00:00:09,815 --> 00:00:12,096
+happens when you open a web page.
+
+4
+00:00:13,269 --> 00:00:18,110
+Every time you send a message or load a
+video, your device talks to other
+
+5
+00:00:18,110 --> 00:00:18,773
+computers.
+
+6
+00:00:19,223 --> 00:00:22,380
+To do that, they need to be connected.
+That's a network.
+
+7
+00:00:23,530 --> 00:00:27,541
+A network is two or more devices linked so
+they can share data.
+
+8
+00:00:27,991 --> 00:00:33,379
+The devices are called nodes. Phones,
+laptops, printers and servers can all be
+
+9
+00:00:33,379 --> 00:00:33,794
+nodes.
+
+10
+00:00:34,944 --> 00:00:40,637
+The links can be wired, like ethernet
+cables and fiber optic lines, or wireless,
+
+11
+00:00:40,637 --> 00:00:43,413
+like Wi-Fi, Bluetooth and cell signals.
+
+12
+00:00:43,863 --> 00:00:48,646
+Wired links are usually faster and
+steadier. Wireless links let you move
+
+13
+00:00:48,646 --> 00:00:49,111
+around.
+
+14
+00:00:50,261 --> 00:00:56,137
+A small network, like the one in your home
+or school, is called a LAN, a local area
+
+15
+00:00:56,137 --> 00:00:56,704
+network.
+
+16
+00:00:57,154 --> 00:01:03,042
+Networks that cover cities or countries
+are called WANs, wide area networks.
+
+17
+00:01:04,192 --> 00:01:09,273
+Inside a home, a router connects your
+devices to each other and to your internet
+
+18
+00:01:09,273 --> 00:01:09,845
+provider.
+
+19
+00:01:10,295 --> 00:01:15,741
+The internet is a network of networks:
+millions of LANs joined together around
+
+20
+00:01:15,741 --> 00:01:16,439
+the world.
+
+21
+00:01:17,589 --> 00:01:22,581
+Networks are measured by bandwidth, how
+much data they can send per second, in
+
+22
+00:01:22,581 --> 00:01:23,605
+bits per second.
+
+23
+00:01:24,055 --> 00:01:29,111
+They're also measured by latency, how long
+a single message takes to arrive.
+
+24
+00:01:30,261 --> 00:01:36,752
+Your turn. A school's network connects
+every computer in one building. Is it a
+
+25
+00:01:36,752 --> 00:01:37,834
+LAN or a WAN?
+
+26
+00:01:38,284 --> 00:01:39,564
+Pause the video now.
+
+27
+00:01:40,014 --> 00:01:44,132
+It covers one building, so it's a LAN, a
+local area network.
+
+28
+00:01:44,582 --> 00:01:48,208
+Next, we'll see how data actually travels:
+in packets.
+
+29
+00:01:49,359 --> 00:01:53,775
+When you send a photo across the internet,
+it doesn't travel in one piece.
+
+30
+00:01:54,225 --> 00:01:56,785
+It's chopped into small chunks called
+packets.
+
+31
+00:01:57,935 --> 00:02:01,647
+Each packet holds a small piece of the
+data, plus a header.
+
+32
+00:02:02,097 --> 00:02:06,953
+The header is like the outside of an
+envelope. It has the sender's address, the
+
+33
+00:02:06,953 --> 00:02:10,886
+destination address, and a number that
+says which piece this is.
+
+34
+00:02:12,036 --> 00:02:14,831
+Packets travel through devices called
+routers.
+
+35
+00:02:15,281 --> 00:02:19,983
+Each router looks at a packet's
+destination, and sends it one step closer,
+
+36
+00:02:19,983 --> 00:02:21,190
+to the next router.
+
+37
+00:02:22,340 --> 00:02:25,306
+Packets from the same file can take
+different paths.
+
+38
+00:02:25,756 --> 00:02:31,281
+If one route is busy or broken, routers
+send packets another way. This makes the
+
+39
+00:02:31,281 --> 00:02:35,633
+internet fault tolerant: it keeps working
+even when parts fail.
+
+40
+00:02:36,783 --> 00:02:40,410
+Because packets take different paths, they
+can arrive out of order.
+
+41
+00:02:40,860 --> 00:02:46,376
+The receiving computer uses the numbers in
+the headers to put them back together. If
+
+42
+00:02:46,376 --> 00:02:49,265
+a packet goes missing, it asks for it
+again.
+
+43
+00:02:50,415 --> 00:02:55,851
+Why not send one big piece? Small packets
+share the network fairly, and if one gets
+
+44
+00:02:55,851 --> 00:02:58,799
+lost, only that small piece has to be
+resent.
+
+45
+00:02:59,249 --> 00:03:01,404
+This idea is called packet switching.
+
+46
+00:03:02,554 --> 00:03:07,919
+Your turn. A file is split into packets
+one, two, three and four. They arrive in
+
+47
+00:03:07,919 --> 00:03:11,876
+the order three, one, four, two. What does
+the receiver do?
+
+48
+00:03:12,326 --> 00:03:13,606
+Pause the video now.
+
+49
+00:03:14,056 --> 00:03:18,984
+It uses the packet numbers to put them
+back in order: one, two, three, four.
+
+50
+00:03:19,434 --> 00:03:24,405
+Next, we'll see how packets know where to
+go: IP addresses and DNS.
+
+51
+00:03:25,555 --> 00:03:30,739
+Every packet needs a destination address.
+On the internet, that's an IP address.
+
+52
+00:03:31,189 --> 00:03:33,066
+And DNS is how we find it.
+
+53
+00:03:34,216 --> 00:03:38,675
+An IP address is a number that identifies
+a device on a network.
+
+54
+00:03:39,125 --> 00:03:45,426
+The common version, IPv4, is four numbers
+from zero to two fifty five, separated by
+
+55
+00:03:45,426 --> 00:03:50,133
+dots, like one ninety two dot one sixty
+eight dot one dot ten.
+
+56
+00:03:51,283 --> 00:03:56,595
+IPv4 has thirty two bits, so there are
+about four point three billion addresses.
+
+57
+00:03:57,045 --> 00:04:02,101
+That's not enough for every device on
+Earth. So the newer IPv6 uses one hundred
+
+58
+00:04:02,101 --> 00:04:05,813
+twenty eight bits, which is far more than
+we'll ever need.
+
+59
+00:04:06,963 --> 00:04:11,784
+People don't remember numbers well. We
+type names, like example dot com.
+
+60
+00:04:12,234 --> 00:04:17,802
+DNS, the domain name system, is the
+internet's phone book. It turns a name
+
+61
+00:04:17,802 --> 00:04:19,232
+into an IP address.
+
+62
+00:04:20,382 --> 00:04:25,822
+When you type a web address, your computer
+asks a DNS server for the IP address.
+
+63
+00:04:26,272 --> 00:04:31,586
+The server answers, and your computer
+sends its packets to that address. Answers
+
+64
+00:04:31,586 --> 00:04:35,040
+are saved for a while, so the next lookup
+is faster.
+
+65
+00:04:36,190 --> 00:04:41,011
+Your computer also has an IP address, so
+replies know where to come back.
+
+66
+00:04:41,461 --> 00:04:45,813
+At home, your router hands out addresses
+to each device that joins.
+
+67
+00:04:46,963 --> 00:04:52,446
+Your turn. Is two sixty dot one dot one
+dot one a valid IPv4 address?
+
+68
+00:04:52,896 --> 00:04:54,176
+Pause the video now.
+
+69
+00:04:54,626 --> 00:05:00,108
+No. Each part must be from zero to two
+fifty five, and two sixty is too big.
+
+70
+00:05:00,558 --> 00:05:03,609
+Next, we'll see what happens when you open
+a web page.
+
+71
+00:05:04,759 --> 00:05:07,362
+The internet and the web are not the same
+thing.
+
+72
+00:05:07,812 --> 00:05:13,353
+The internet is the network. The web is
+one service that runs on it: pages and
+
+73
+00:05:13,353 --> 00:05:15,342
+links you open in a browser.
+
+74
+00:05:16,492 --> 00:05:19,735
+A web address is called a URL. It has
+parts.
+
+75
+00:05:20,185 --> 00:05:27,422
+https is the protocol. example dot com is
+the domain. And slash games is the path to
+
+76
+00:05:27,422 --> 00:05:29,145
+a page on that site.
+
+77
+00:05:30,295 --> 00:05:32,727
+The web uses a client and server model.
+
+78
+00:05:33,177 --> 00:05:38,229
+Your browser is the client. It sends a
+request. A web server sends back a
+
+79
+00:05:38,229 --> 00:05:38,852
+response.
+
+80
+00:05:40,002 --> 00:05:45,783
+The language of that conversation is HTTP,
+the hypertext transfer protocol.
+
+81
+00:05:46,233 --> 00:05:52,419
+A request like GET slash games asks for a
+page. The response starts with a status
+
+82
+00:05:52,419 --> 00:05:56,772
+code. Two hundred means OK. Four oh four
+means not found.
+
+83
+00:05:57,922 --> 00:06:02,146
+The response holds HTML, the code that
+describes the page.
+
+84
+00:06:02,596 --> 00:06:08,257
+The browser reads the HTML, fetches the
+images and styles it mentions, and draws
+
+85
+00:06:08,257 --> 00:06:09,956
+the page on your screen.
+
+86
+00:06:11,106 --> 00:06:14,370
+HTTPS is HTTP with encryption.
+
+87
+00:06:14,820 --> 00:06:20,196
+The data is scrambled between your browser
+and the server, so others on the network
+
+88
+00:06:20,196 --> 00:06:23,694
+can't read it. Look for it whenever you
+log in or pay.
+
+89
+00:06:24,844 --> 00:06:29,921
+Your turn. You request a page, and the
+server answers with status code four oh
+
+90
+00:06:29,921 --> 00:06:31,223
+four. What happened?
+
+91
+00:06:31,673 --> 00:06:32,953
+Pause the video now.
+
+92
+00:06:33,403 --> 00:06:38,822
+Four oh four means not found. The server
+is working, but that page doesn't exist.
+
+93
+00:06:39,272 --> 00:06:40,957
+Next, we'll explain the cloud.
+
+94
+00:06:42,107 --> 00:06:45,776
+Your photos are in the cloud. Your game
+saves are in the cloud.
+
+95
+00:06:46,226 --> 00:06:47,784
+But where is the cloud, really?
+
+96
+00:06:48,934 --> 00:06:51,643
+The cloud is just other people's
+computers.
+
+97
+00:06:52,093 --> 00:06:56,861
+They're servers in huge buildings called
+data centers, owned by companies, and
+
+98
+00:06:56,861 --> 00:06:58,450
+reached over the internet.
+
+99
+00:06:59,600 --> 00:07:04,973
+A data center holds thousands of servers
+in racks, with powerful cooling, backup
+
+100
+00:07:04,973 --> 00:07:07,323
+power, and very fast network links.
+
+101
+00:07:07,773 --> 00:07:11,037
+Big companies run data centers all over
+the world.
+
+102
+00:07:12,187 --> 00:07:14,384
+Cloud services come in a few kinds.
+
+103
+00:07:14,834 --> 00:07:20,081
+Cloud storage keeps your files, like a
+photo backup. Cloud apps run in your
+
+104
+00:07:20,081 --> 00:07:25,537
+browser, like online documents. And
+developers can rent computing power to run
+
+105
+00:07:25,537 --> 00:07:26,866
+their own programs.
+
+106
+00:07:28,016 --> 00:07:33,599
+The cloud has big benefits. You can reach
+your files from any device. Data is copied
+
+107
+00:07:33,599 --> 00:07:38,849
+to several places, so one broken drive
+doesn't lose it. And you can use as much
+
+108
+00:07:38,849 --> 00:07:40,710
+computing power as you need.
+
+109
+00:07:41,160 --> 00:07:45,654
+But there are tradeoffs. You need an
+internet connection, and you're trusting a
+
+110
+00:07:45,654 --> 00:07:46,962
+company with your data.
+
+111
+00:07:48,112 --> 00:07:52,965
+So when an app syncs your work between
+your phone and your laptop, it's sending
+
+112
+00:07:52,965 --> 00:07:57,264
+data to a server in a data center, and
+back down to your other device.
+
+113
+00:07:58,414 --> 00:08:03,182
+Your turn. Your laptop breaks, but your
+photos are safe on your new phone. Where
+
+114
+00:08:03,182 --> 00:08:04,196
+were they stored?
+
+115
+00:08:04,646 --> 00:08:05,926
+Pause the video now.
+
+116
+00:08:06,376 --> 00:08:10,536
+In the cloud: on servers in a data center,
+reached over the internet.
+
+117
+00:08:10,986 --> 00:08:15,551
+That's the end of Unit five. Next, we'll
+learn how to stay secure online.
+
+118
+00:08:16,701 --> 00:08:21,378
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+119
+00:08:21,378 --> 00:08:22,653
+miss the next lesson.
+
+120
+00:08:23,103 --> 00:08:23,999
+See you there.
+

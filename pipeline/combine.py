@@ -8,7 +8,8 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"csp_b3_l11": "Traversing lists with FOR EACH", "csp_b3_l12": "Binary search", "csp_b3_l13": "Calling procedures", "csp_b3_l14": "Developing procedures", "csp_b3_l15": "Procedural abstraction",
+NAMES = {"csp_b3_l16": "Libraries and APIs", "csp_b3_l17": "Random values", "csp_b3_l18": "Simulations", "csp_b3_l19": "Algorithmic efficiency", "csp_b3_l20": "Heuristics", "csp_b3_l21": "Undecidable problems", "csp_b3_l22": "The AP exam reference sheet",
+ "csp_b3_l11": "Traversing lists with FOR EACH", "csp_b3_l12": "Binary search", "csp_b3_l13": "Calling procedures", "csp_b3_l14": "Developing procedures", "csp_b3_l15": "Procedural abstraction",
  "csp_b3_l06": "Conditionals", "csp_b3_l07": "Nested conditionals", "csp_b3_l08": "Iteration", "csp_b3_l09": "Developing algorithms", "csp_b3_l10": "List operations",
  "csp_b3_l01": "Variables and assignments", "csp_b3_l02": "Data abstraction and lists", "csp_b3_l03": "Mathematical expressions and MOD", "csp_b3_l04": "Strings", "csp_b3_l05": "Boolean expressions",
  "csp_b2_l01": "Binary numbers, bits and overflow", "csp_b2_l02": "Lossless vs lossy compression", "csp_b2_l03": "Extracting information from data", "csp_b2_l04": "Using programs with data", "csp_b2_l05": "Metadata",
@@ -72,6 +73,7 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
+ "apcsp_bi3_part4": ["csp_b3_l16", "csp_b3_l17", "csp_b3_l18", "csp_b3_l19", "csp_b3_l20", "csp_b3_l21", "csp_b3_l22"],
  "apcsp_bi3_part3": ["csp_b3_l11", "csp_b3_l12", "csp_b3_l13", "csp_b3_l14", "csp_b3_l15"],
  "apcsp_bi3_part2": ["csp_b3_l06", "csp_b3_l07", "csp_b3_l08", "csp_b3_l09", "csp_b3_l10"],
  "apcsp_bi3_part1": ["csp_b3_l01", "csp_b3_l02", "csp_b3_l03", "csp_b3_l04", "csp_b3_l05"],

@@ -810,5 +810,66 @@
 "Improving without breaking callers",
 "On the AP exam",
 "Your turn"
+],
+"csp_b3_l16": [
+"",
+"Software libraries",
+"APIs",
+"Reading documentation",
+"Why use libraries",
+"Reading procedures carefully",
+"Your turn"
+],
+"csp_b3_l17": [
+"",
+"RANDOM(a, b)",
+"Rolling a die",
+"Random chances",
+"Possible outputs",
+"Testing random code",
+"Your turn"
+],
+"csp_b3_l18": [
+"",
+"Models",
+"Simplifying and bias",
+"Randomness in simulations",
+"Why simulate",
+"Checking the model",
+"Your turn"
+],
+"csp_b3_l19": [
+"",
+"Counting steps",
+"log n, n, n squared",
+"Reasonable vs unreasonable time",
+"Exponential growth",
+"On the AP exam",
+"Your turn"
+],
+"csp_b3_l20": [
+"",
+"Good enough solutions",
+"The traveling driver",
+"Nearest neighbor",
+"Where heuristics are used",
+"Your turn"
+],
+"csp_b3_l21": [
+"",
+"Decidable problems",
+"Undecidable problems",
+"The halting problem",
+"Some inputs vs all inputs",
+"Your turn"
+],
+"csp_b3_l22": [
+"",
+"Assignment, DISPLAY, INPUT",
+"Operators and RANDOM",
+"Control and procedures",
+"Lists and the robot",
+"Text and block forms",
+"Your turn"
 ]
 }
