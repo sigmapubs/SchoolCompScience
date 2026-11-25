@@ -58,3 +58,24 @@ def code(src, lang="java", sc=0.8, numbers=False):
              background="window", background_config={"fill_color": "#111827", "stroke_color": "#334155"},
              paragraph_config={"font": MONO})
     return c.scale(sc)
+
+def chip(label, color=ACC, w=2.6, h=1.0, sc=0.5, fill=0.12):
+    r = RoundedRectangle(corner_radius=0.15, width=w, height=h, stroke_color=color, stroke_width=3, fill_color=color, fill_opacity=fill)
+    return VGroup(r, txt(label, sc, INK).move_to(r))
+
+def bullets(items, sc=0.5, c=INK, buff=0.25):
+    return VGroup(*[txt("• " + s, sc, c) for s in items]).arrange(DOWN, aligned_edge=LEFT, buff=buff)
+
+def practice(self, q_mobj, ans_mobj, nxt_text, t_q=4.0, t_pause=1.3):
+    """standard 'Your turn' segment body; caller handles seg()/end_seg()"""
+    tr = txt("Your turn", 0.8, ACC).to_edge(UP, buff=0.8)
+    self.play(FadeIn(tr), FadeIn(q_mobj), run_time=1.0); self.wait(t_q)
+    pause = txt("⏸  Pause the video", 0.6, MUTED).to_edge(DOWN, buff=1.6)
+    self.play(FadeIn(pause)); self.wait(t_pause)
+    self.play(FadeOut(pause), FadeIn(ans_mobj, shift=UP*0.2), run_time=1.0)
+    self.wait(3.0)
+    nxt = txt(nxt_text, 0.5, HL).to_edge(DOWN, buff=0.5)
+    self.play(FadeIn(nxt))
+
+def lines(s, sc=0.55, c=INK, buff=0.18):
+    return VGroup(*[txt(l, sc, c) for l in s.split("\n")]).arrange(DOWN, buff=buff)

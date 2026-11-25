@@ -6,6 +6,24 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "apcsa_u2_part1": dict(
+   title="Java if Statements, Boolean Expressions & De Morgan's Laws | AP CSA Unit 2 (2.1–2.6)",
+   intro="AP CSA Topics 2.1 to 2.6, all about selection: algorithms with selection and repetition, Boolean expressions and relational operators, if, else and else if, nested ifs and the dangling else, compound conditions with &&, || and ! (including short-circuit evaluation), and equivalent expressions with De Morgan's laws. Each topic ends with an AP-style practice problem.",
+   course="AP Computer Science A", unit=1, part="Unit 2: Selection and Iteration · Part 1 of 2",
+   prev="Java Objects, the Math Class & String Methods (Unit 1, Part 3)", next="Java Loops: while, for, String Algorithms & Nested Loops (Unit 2, Part 2)",
+   also="Unit 2 is split into 2 videos: Part 1 (2.1–2.6, selection) and Part 2 (2.7–2.12, iteration).",
+   playlists=["AP Computer Science A (Full Course)", "AP CSA Unit 2: Selection and Iteration"],
+   tags="AP CSA, java if statement, boolean expressions, else if, nested if, De Morgan's laws, short circuit, java tutorial",
+   tagsh="#APCSA #java #computerscience"),
+ "introcs_u1_what_is_a_computer": dict(
+   title="What Is a Computer? CPU, Memory, Storage & the Operating System | Intro to CS Unit 1",
+   intro="Start Intro to Computer Science here. This video covers all of Unit 1: the four jobs every computer does (input, processing, storage, output), what the CPU, memory and storage do, how the CPU runs instructions with fetch, decode, execute, why RAM forgets and storage doesn't, what the operating system does, and how software is written, compiled and interpreted. Each section ends with a practice problem.",
+   course="Intro to Computer Science", unit=0, part="Unit 1: What Is a Computer? (the whole unit in one video)",
+   prev="Start of the course", next="Intro to Computer Science, Unit 2: Data and Binary",
+   also="Also covers AP Computer Science Principles Big Idea 4 basics: computing systems.",
+   playlists=["Intro to Computer Science (Full Course)", "Intro CS Unit 1: What Is a Computer?"],
+   tags="what is a computer, CPU, RAM, memory vs storage, fetch decode execute, operating system, compiler, interpreter, computer science basics",
+   tagsh="#computerscience #CPU #computerbasics"),
  "introcs_u2_data_and_binary": dict(
    title="Data and Binary: Bits, Hex, Text, Images, Sound & Compression | Intro to CS Unit 2",
    intro="How does a computer store everything as 0s and 1s? This video covers all of Unit 2: counting in binary, hexadecimal, how text (ASCII and Unicode), images (pixels and RGB) and sound (sampling) become numbers, and how compression makes files smaller. Each topic ends with a practice problem.",
@@ -32,13 +50,14 @@ V = {
  "apcsa_u1_part3": dict(
    title="Java Objects, the Math Class & String Methods | AP CSA Unit 1 (1.11–1.15)",
    intro="AP CSA Topics 1.11 to 1.15: the Math class (abs, pow, sqrt, random ints in a range), objects as instances of classes, creating objects with new and constructors, null and references, calling instance methods, and every String method on the exam: substring, indexOf, equals and compareTo. Each topic ends with an AP-style practice problem.",
-   course="AP Computer Science A", unit=0, part="Unit 1: Using Objects and Methods · Part 3 of 3", prev="Java Methods: Compound Assignment, APIs, Comments & Method Calls (Unit 1, Part 2)", next="AP Computer Science A, Unit 2: Selection and Iteration", also="Unit 1 is split into 3 videos: Part 1 (1.1–1.5), Part 2 (1.6–1.10), Part 3 (1.11–1.15).",
+   course="AP Computer Science A", unit=0, part="Unit 1: Using Objects and Methods · Part 3 of 3", prev="Java Methods: Compound Assignment, APIs, Comments & Method Calls (Unit 1, Part 2)", next="Java if Statements, Boolean Expressions & De Morgan's Laws (Unit 2, Part 1)", also="Unit 1 is split into 3 videos: Part 1 (1.1–1.5), Part 2 (1.6–1.10), Part 3 (1.11–1.15).",
    playlists=["AP Computer Science A (Full Course)", "AP CSA Unit 1: Using Objects and Methods"],
    tags="AP CSA, java objects, constructors, Math.random, String methods, substring, indexOf, compareTo, java tutorial",
    tagsh="#APCSA #java #computerscience #OOP"),
 }
 BLURB = "School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python)."
-for slug, m in V.items():
+import os
+for slug, m in [(k, v) for k, v in V.items() if os.path.exists(f"{F}/{k}/build.json")]:
     b = json.load(open(f"{F}/{slug}/build.json"))
     U = COURSES[m["course"]]
     units = "\n".join(("▶ " if i == m["unit"] else "• ") + u + ("  (you are here)" if i == m["unit"] else "") for i, u in enumerate(U))

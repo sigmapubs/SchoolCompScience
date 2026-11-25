@@ -4,7 +4,7 @@ AP CSA Topics 1.11 to 1.15: the Math class (abs, pow, sqrt, random ints in a ran
 
 Course: AP Computer Science A · Unit 1: Using Objects and Methods · Part 3 of 3
 Previous: Java Methods: Compound Assignment, APIs, Comments & Method Calls (Unit 1, Part 2)
-Next: AP Computer Science A, Unit 2: Selection and Iteration
+Next: Java if Statements, Boolean Expressions & De Morgan's Laws (Unit 2, Part 1)
 
 0:00 Introduction
 0:15 1.11 The Math class

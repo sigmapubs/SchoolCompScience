@@ -1,0 +1,60 @@
+What Is a Computer? CPU, Memory, Storage & the Operating System | Intro to CS Unit 1
+
+Start Intro to Computer Science here. This video covers all of Unit 1: the four jobs every computer does (input, processing, storage, output), what the CPU, memory and storage do, how the CPU runs instructions with fetch, decode, execute, why RAM forgets and storage doesn't, what the operating system does, and how software is written, compiled and interpreted. Each section ends with a practice problem. Also covers AP Computer Science Principles Big Idea 4 basics: computing systems.
+
+Course: Intro to Computer Science · Unit 1: What Is a Computer? (the whole unit in one video)
+Previous: Start of the course
+Next: Intro to Computer Science, Unit 2: Data and Binary
+
+0:00 Introduction
+0:12 What a computer does
+0:24 Input
+0:36 Processing
+0:49 Storage
+1:00 Output
+1:11 The cycle: a calculator
+1:29 Your turn
+1:45 Inside the box: CPU, memory, storage
+2:12 Memory (RAM)
+2:27 Storage
+2:42 Student, desk and backpack
+3:00 The motherboard
+3:10 Your turn
+3:30 How the CPU runs instructions
+3:41 Fetch
+3:52 Decode
+4:03 Execute
+4:13 Tracing a tiny program
+4:39 Cycles and cores
+4:56 Your turn
+5:11 Memory vs storage
+5:22 RAM is volatile
+5:37 Storage is non-volatile
+5:53 Speed vs cost
+6:13 Why computers use both
+6:30 Why saving matters
+6:56 The operating system
+7:10 Between apps and hardware
+7:22 Managing the CPU
+7:37 Managing memory
+7:48 Files and devices
+8:00 Security and the interface
+8:14 Your turn
+8:33 Software and how programs get made
+8:57 Source code
+9:10 Machine code
+9:20 Compilers and interpreters
+9:39 Plan, write, test, fix
+9:53 Your turn
+
+Intro to Computer Science, the complete course (6 units, full syllabus):
+▶ Unit 1: What Is a Computer?  (you are here)
+• Unit 2: Data and Binary
+• Unit 3: Algorithms
+• Unit 4: Programming Basics in Python
+• Unit 5: Networks and the Internet
+• Unit 6: Security and Society
+Follow the whole course in order in the "Intro to Computer Science (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#computerscience #CPU #computerbasics

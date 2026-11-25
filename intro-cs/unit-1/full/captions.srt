@@ -1,0 +1,694 @@
+1
+00:00:00,000 --> 00:00:05,034
+Welcome to School Computer Science,
+Explained. This is Intro to Computer
+
+2
+00:00:05,034 --> 00:00:10,696
+Science, Unit 1: What Is a Computer? We'll
+open up the box and see how a computer
+
+3
+00:00:10,696 --> 00:00:11,605
+really works.
+
+4
+00:00:12,779 --> 00:00:17,982
+Phones, laptops, game consoles, even the
+chip in a microwave. They look very
+
+5
+00:00:17,982 --> 00:00:18,667
+different.
+
+6
+00:00:19,117 --> 00:00:21,890
+But every computer does the same four
+jobs.
+
+7
+00:00:22,340 --> 00:00:23,599
+Let's see what they are.
+
+8
+00:00:24,749 --> 00:00:29,250
+Job one is input. Input is information
+going into the computer.
+
+9
+00:00:29,700 --> 00:00:35,047
+A keyboard, a mouse, a touch screen, a
+microphone and a camera are all input
+
+10
+00:00:35,047 --> 00:00:35,610
+devices.
+
+11
+00:00:36,760 --> 00:00:41,971
+Job two is processing. The computer
+follows instructions to change the input
+
+12
+00:00:41,971 --> 00:00:43,480
+into something useful.
+
+13
+00:00:43,930 --> 00:00:48,559
+Adding numbers, sorting a list, or
+brightening a photo are all processing.
+
+14
+00:00:49,709 --> 00:00:54,274
+Job three is storage. The computer keeps
+data so it can use it later.
+
+15
+00:00:54,724 --> 00:00:58,948
+Your photos, your saved games, and the
+apps themselves are all stored.
+
+16
+00:01:00,098 --> 00:01:04,706
+Job four is output. Output is information
+coming out of the computer.
+
+17
+00:01:05,156 --> 00:01:10,468
+A screen, speakers, a printer, and a
+phone's vibration are all output devices.
+
+18
+00:01:11,618 --> 00:01:15,821
+Put it together, and you get the input,
+process, store, output cycle.
+
+19
+00:01:16,271 --> 00:01:20,111
+Take a calculator. You press seven, plus,
+five. That's input.
+
+20
+00:01:20,561 --> 00:01:25,059
+It adds them. That's processing. It
+remembers the answer for the next step.
+
+21
+00:01:25,059 --> 00:01:25,958
+That's storage.
+
+22
+00:01:26,408 --> 00:01:28,435
+And it shows twelve. That's output.
+
+23
+00:01:29,585 --> 00:01:33,980
+Your turn. You take a photo with your
+phone. Which job is the camera doing?
+
+24
+00:01:34,430 --> 00:01:35,710
+Pause the video now.
+
+25
+00:01:36,160 --> 00:01:39,893
+The camera is input. It sends light, as
+data, into the phone.
+
+26
+00:01:40,343 --> 00:01:44,290
+Next, we'll open up the box and see the
+parts that do each job.
+
+27
+00:01:45,439 --> 00:01:49,492
+If you open up a computer, you'll find
+three parts that matter most.
+
+28
+00:01:49,942 --> 00:01:52,374
+The C P U, the memory, and the storage.
+
+29
+00:01:53,524 --> 00:01:58,474
+The C P U, or central processing unit, is
+the part that processes.
+
+30
+00:01:58,924 --> 00:02:04,513
+It follows instructions, one tiny step at
+a time, billions of times every second.
+
+31
+00:02:04,963 --> 00:02:10,609
+That speed is measured in gigahertz. Three
+gigahertz means about three billion steps
+
+32
+00:02:10,609 --> 00:02:11,214
+a second.
+
+33
+00:02:12,364 --> 00:02:17,825
+Memory, also called RAM, holds what the
+computer is working on right now.
+
+34
+00:02:18,275 --> 00:02:22,200
+The app you have open, and the web page
+you're reading, sit in memory.
+
+35
+00:02:22,650 --> 00:02:26,746
+Memory is very fast, so the C P U never
+has to wait long.
+
+36
+00:02:27,896 --> 00:02:31,459
+Storage holds everything else, even when
+the power is off.
+
+37
+00:02:31,909 --> 00:02:35,258
+That's your files, your photos, and all
+your installed apps.
+
+38
+00:02:35,708 --> 00:02:41,639
+Storage is a hard drive or a solid state
+drive, and it holds much more than memory.
+
+39
+00:02:42,789 --> 00:02:46,352
+Here's a way to picture it. Think of a
+student doing homework.
+
+40
+00:02:46,802 --> 00:02:49,426
+The student is the C P U, doing the work.
+
+41
+00:02:49,876 --> 00:02:53,929
+The desk is memory: small, but everything
+on it is right at hand.
+
+42
+00:02:54,379 --> 00:02:58,923
+The backpack is storage: it holds much
+more, but it's slower to reach into.
+
+43
+00:03:00,073 --> 00:03:03,294
+All three are connected on a board called
+the motherboard.
+
+44
+00:03:03,744 --> 00:03:09,504
+Data moves between them along tiny wires,
+again and again, as you use the computer.
+
+45
+00:03:10,654 --> 00:03:16,064
+Your turn. You open a document you saved
+last week. Where was it while the computer
+
+46
+00:03:16,064 --> 00:03:16,585
+was off?
+
+47
+00:03:17,035 --> 00:03:18,315
+Pause the video now.
+
+48
+00:03:18,765 --> 00:03:24,306
+It was in storage. When you open it, a
+copy moves into memory so the C P U can
+
+49
+00:03:24,306 --> 00:03:25,229
+work with it.
+
+50
+00:03:25,679 --> 00:03:29,583
+Next, we'll see how the C P U actually
+runs an instruction.
+
+51
+00:03:30,733 --> 00:03:36,728
+A program is a list of instructions. But
+how does the C P U actually follow them?
+
+52
+00:03:37,178 --> 00:03:40,250
+It repeats a simple three step loop, over
+and over.
+
+53
+00:03:41,400 --> 00:03:46,029
+Step one is fetch. The C P U gets the next
+instruction from memory.
+
+54
+00:03:46,479 --> 00:03:51,834
+A small counter inside the C P U keeps
+track of which instruction comes next.
+
+55
+00:03:52,984 --> 00:03:57,762
+Step two is decode. The C P U works out
+what the instruction means.
+
+56
+00:03:58,212 --> 00:04:01,924
+Is it asking to add? To compare? To copy a
+number somewhere?
+
+57
+00:04:03,074 --> 00:04:07,341
+Step three is execute. The C P U carries
+out the instruction.
+
+58
+00:04:07,791 --> 00:04:12,228
+Then the counter moves on, and the loop
+starts again with the next instruction.
+
+59
+00:04:13,378 --> 00:04:17,837
+Let's watch a tiny program. Load five. Add
+three. Store the result.
+
+60
+00:04:18,287 --> 00:04:24,825
+Fetch: load five. Decode: it's a load.
+Execute: five goes into a register, a tiny
+
+61
+00:04:24,825 --> 00:04:27,247
+storage spot inside the C P U.
+
+62
+00:04:27,697 --> 00:04:32,966
+Fetch: add three. Decode: it's an add.
+Execute: the register now holds eight.
+
+63
+00:04:33,416 --> 00:04:38,451
+Fetch: store. Decode: it's a store.
+Execute: eight is copied back to memory.
+
+64
+00:04:39,601 --> 00:04:45,404
+Each loop is called a cycle. A modern C P
+U does billions of cycles a second.
+
+65
+00:04:45,854 --> 00:04:51,751
+Many C P Us also have several cores. Each
+core runs its own fetch, decode, execute
+
+66
+00:04:51,751 --> 00:04:55,347
+loop, so they can work on different tasks
+at once.
+
+67
+00:04:56,497 --> 00:04:59,868
+Your turn. Put these in order: execute,
+fetch, decode.
+
+68
+00:05:00,318 --> 00:05:01,598
+Pause the video now.
+
+69
+00:05:02,048 --> 00:05:05,461
+The order is fetch, decode, execute. Then
+it repeats.
+
+70
+00:05:05,911 --> 00:05:10,178
+Next, we'll find out why memory forgets
+everything when the power goes off.
+
+71
+00:05:11,328 --> 00:05:16,209
+You're writing an essay, and the power
+goes out. When the computer comes back,
+
+72
+00:05:16,209 --> 00:05:17,899
+your last changes are gone.
+
+73
+00:05:18,349 --> 00:05:21,634
+But the files you saved yesterday are
+fine. Why?
+
+74
+00:05:22,784 --> 00:05:27,776
+Memory, or RAM, is volatile. That means it
+needs power to keep its data.
+
+75
+00:05:28,226 --> 00:05:34,383
+RAM stores each bit as a tiny electric
+charge. When the power stops, the charges
+
+76
+00:05:34,383 --> 00:05:36,461
+fade, and the data is gone.
+
+77
+00:05:37,611 --> 00:05:41,877
+Storage is non volatile. It keeps data
+with no power at all.
+
+78
+00:05:42,327 --> 00:05:48,189
+A solid state drive traps charge in cells
+that hold it for years. A hard drive
+
+79
+00:05:48,189 --> 00:05:52,247
+stores bits as tiny magnetic spots on a
+spinning disk.
+
+80
+00:05:53,397 --> 00:05:56,320
+So why not use storage for everything?
+Speed.
+
+81
+00:05:56,770 --> 00:06:02,823
+RAM can be about a hundred times faster
+than a solid state drive, and thousands of
+
+82
+00:06:02,823 --> 00:06:05,111
+times faster than a hard drive.
+
+83
+00:06:05,561 --> 00:06:11,917
+And why not use RAM for everything? Cost.
+RAM costs much more per gigabyte, and it
+
+84
+00:06:11,917 --> 00:06:12,537
+forgets.
+
+85
+00:06:13,687 --> 00:06:15,501
+That's why computers use both.
+
+86
+00:06:15,951 --> 00:06:21,382
+A typical laptop might have sixteen
+gigabytes of RAM, and five hundred twelve
+
+87
+00:06:21,382 --> 00:06:22,863
+gigabytes of storage.
+
+88
+00:06:23,313 --> 00:06:29,030
+Programs and files live in storage, and
+get copied into RAM while you use them.
+
+89
+00:06:30,180 --> 00:06:32,228
+This is also why saving matters.
+
+90
+00:06:32,678 --> 00:06:38,027
+When you press save, the computer copies
+your work from RAM to storage, where it's
+
+91
+00:06:38,027 --> 00:06:38,353
+safe.
+
+92
+00:06:39,503 --> 00:06:43,556
+Your turn. Which one is volatile: RAM, or
+a solid state drive?
+
+93
+00:06:44,006 --> 00:06:45,286
+Pause the video now.
+
+94
+00:06:45,736 --> 00:06:50,024
+RAM is volatile. It loses its data when
+the power is off.
+
+95
+00:06:50,474 --> 00:06:55,807
+Next, we'll meet the program that runs all
+the other programs: the operating system.
+
+96
+00:06:56,957 --> 00:07:01,138
+When you turn on a computer, one program
+starts before all the others.
+
+97
+00:07:01,588 --> 00:07:07,761
+It's the operating system. Windows, mac O
+S, Linux, Android and i O S are all
+
+98
+00:07:07,761 --> 00:07:09,204
+operating systems.
+
+99
+00:07:10,354 --> 00:07:13,981
+The operating system sits between your
+apps and the hardware.
+
+100
+00:07:14,431 --> 00:07:20,577
+Apps don't talk to the C P U, memory, or
+storage directly. They ask the operating
+
+101
+00:07:20,577 --> 00:07:21,108
+system.
+
+102
+00:07:22,258 --> 00:07:24,520
+Job one: managing the C P U.
+
+103
+00:07:24,970 --> 00:07:30,728
+You might have music, a browser and a game
+running at once. The operating system
+
+104
+00:07:30,728 --> 00:07:36,343
+switches the C P U between them, so fast
+that they all seem to run at the same
+
+105
+00:07:36,343 --> 00:07:36,703
+time.
+
+106
+00:07:37,853 --> 00:07:39,645
+Job two: managing memory.
+
+107
+00:07:40,095 --> 00:07:45,524
+The operating system gives each app its
+own space in RAM, and keeps apps from
+
+108
+00:07:45,524 --> 00:07:47,498
+reading each other's memory.
+
+109
+00:07:48,648 --> 00:07:51,272
+Job three: managing files and devices.
+
+110
+00:07:51,722 --> 00:07:56,903
+It organizes storage into files and
+folders, and it talks to the keyboard, the
+
+111
+00:07:56,903 --> 00:07:59,295
+screen, the printer and the network.
+
+112
+00:08:00,445 --> 00:08:03,240
+Job four: security and the user interface.
+
+113
+00:08:03,690 --> 00:08:09,047
+It handles logins and permissions, like
+whether an app may use your camera. And it
+
+114
+00:08:09,047 --> 00:08:13,098
+draws the desktop, the windows and the
+home screen you tap on.
+
+115
+00:08:14,248 --> 00:08:20,098
+Your turn. Two apps are open, and only one
+C P U core. Which part of the computer
+
+116
+00:08:20,098 --> 00:08:22,120
+decides which app runs next?
+
+117
+00:08:22,570 --> 00:08:23,850
+Pause the video now.
+
+118
+00:08:24,300 --> 00:08:28,396
+The operating system. It schedules the C P
+U between apps.
+
+119
+00:08:28,846 --> 00:08:32,472
+Next, we'll see what software is, and how
+programs get made.
+
+120
+00:08:33,623 --> 00:08:36,588
+Hardware is the parts of a computer you
+can touch.
+
+121
+00:08:37,038 --> 00:08:40,558
+Software is the instructions that tell the
+hardware what to do.
+
+122
+00:08:41,708 --> 00:08:43,756
+There are two main kinds of software.
+
+123
+00:08:44,206 --> 00:08:49,547
+System software runs the computer itself,
+like the operating system and device
+
+124
+00:08:49,547 --> 00:08:50,094
+drivers.
+
+125
+00:08:50,544 --> 00:08:55,834
+Application software, or apps, does jobs
+for you: a browser, a game, a word
+
+126
+00:08:55,834 --> 00:08:56,539
+processor.
+
+127
+00:08:57,689 --> 00:09:03,236
+Every program starts as source code: text
+written by a person in a programming
+
+128
+00:09:03,236 --> 00:09:05,369
+language, like Python or Java.
+
+129
+00:09:05,819 --> 00:09:09,744
+Here's one line of Python. It tells the
+computer to print hello.
+
+130
+00:09:10,894 --> 00:09:16,446
+But the C P U only understands machine
+code: instructions written as binary
+
+131
+00:09:16,446 --> 00:09:17,038
+numbers.
+
+132
+00:09:17,488 --> 00:09:19,771
+So source code has to be translated.
+
+133
+00:09:20,921 --> 00:09:22,628
+There are two ways to translate.
+
+134
+00:09:23,078 --> 00:09:29,200
+A compiler translates the whole program
+into machine code before it runs. C and C
+
+135
+00:09:29,200 --> 00:09:31,014
+plus plus work this way.
+
+136
+00:09:31,464 --> 00:09:37,278
+An interpreter translates and runs the
+program one line at a time. Python usually
+
+137
+00:09:37,278 --> 00:09:38,354
+works this way.
+
+138
+00:09:39,504 --> 00:09:45,129
+Real programs are built step by step.
+Plan, write the code, test it, and fix the
+
+139
+00:09:45,129 --> 00:09:46,395
+bugs. Then repeat.
+
+140
+00:09:46,845 --> 00:09:51,782
+That cycle is how every app you use was
+made, and it's how you'll write programs
+
+141
+00:09:51,782 --> 00:09:52,029
+too.
+
+142
+00:09:53,179 --> 00:09:57,894
+Your turn. Is a web browser system
+software, or application software?
+
+143
+00:09:58,344 --> 00:09:59,624
+Pause the video now.
+
+144
+00:10:00,074 --> 00:10:03,188
+It's application software. It does a job
+for you.
+
+145
+00:10:03,638 --> 00:10:08,808
+That's the end of Unit one. Next, we'll
+start Unit two: how computers store
+
+146
+00:10:08,808 --> 00:10:10,806
+everything as ones and zeros.
+
+147
+00:10:11,956 --> 00:10:16,633
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+148
+00:10:16,633 --> 00:10:17,908
+miss the next lesson.
+
+149
+00:10:18,358 --> 00:10:19,254
+See you there.
+

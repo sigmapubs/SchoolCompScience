@@ -6,6 +6,7 @@ Each video folder holds `video.mp4` (1080p60 with a caption track), `captions.sr
 
 | Folder | Video |
 |---|---|
+| intro-cs/unit-1/full | What Is a Computer? (Intro CS Unit 1) |
 | intro-cs/unit-2/full | Data and Binary (Intro CS Unit 2) |
 | ap-csa/unit-1/part-1 | Java Basics (AP CSA 1.1–1.5) |
 | ap-csa/unit-1/part-2 | Java Methods (AP CSA 1.6–1.10) |

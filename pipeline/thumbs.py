@@ -36,13 +36,15 @@ def fit(d, text, font_fn, size, maxw):
     return font_fn(size)
 import sys
 GROUPS = [
+ ("../final/apcsa_u2_part1", "AP CSA  ·  UNIT 2  ·  2.1–2.6", "IF", "STATEMENTS", "Booleans, else if, &&, De Morgan", "if (x > 5) {"),
+ ("../final/introcs_u1_what_is_a_computer", "INTRO TO CS  ·  UNIT 1", "WHAT IS A", "COMPUTER?", "CPU, memory, storage, the OS", "fetch → decode → execute"),
  ("../final/introcs_u2_data_and_binary", "INTRO TO CS  ·  UNIT 2", "DATA &", "BINARY", "bits, hex, text, images, sound", "1011 = 11"),
  ("../final/apcsa_u1_part1", "AP CSA  ·  UNIT 1  ·  1.1–1.5", "JAVA", "BASICS", "variables, expressions, casting", "int score = 0;"),
  ("../final/apcsa_u1_part2", "AP CSA  ·  UNIT 1  ·  1.6–1.10", "JAVA", "METHODS", "+=, APIs, comments, signatures", "square(4) → 16"),
  ("../final/apcsa_u1_part3", "AP CSA  ·  UNIT 1  ·  1.11–1.15", "OBJECTS &", "STRINGS", "Math, new, instance methods", '"put"'),
 ]
 if "groups" in sys.argv: L = GROUPS
-for dirn, tag, l1, l2, sub, motif in L:
+for dirn, tag, l1, l2, sub, motif in [g for g in L if os.path.isdir(f"{V}/{g[0]}")]:
     im = Image.new("RGB", (1280, 720), BG); d = ImageDraw.Draw(im)
     d.text((70, 70), tag, font=bold(36), fill=G)
     f = fit(d, max(l1, l2, key=len), bold, 120, 760)

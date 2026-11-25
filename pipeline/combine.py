@@ -8,7 +8,9 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"ep01": "Counting in binary", "ep02": "Hexadecimal", "ep03": "Text as numbers: ASCII and Unicode", "ep04": "Images as numbers: pixels and RGB",
+NAMES = {"csa_u2_l01": "2.1 Algorithms with selection and repetition", "csa_u2_l02": "2.2 Boolean expressions", "csa_u2_l03": "2.3 if statements", "csa_u2_l04": "2.4 Nested if statements", "csa_u2_l05": "2.5 Compound Boolean expressions", "csa_u2_l06": "2.6 Equivalent expressions and De Morgan's laws",
+ "icu1_l01": "What a computer does", "icu1_l02": "Inside the box: CPU, memory, storage", "icu1_l03": "How the CPU runs instructions", "icu1_l04": "Memory vs storage", "icu1_l05": "The operating system", "icu1_l06": "Software and how programs get made",
+ "ep01": "Counting in binary", "ep02": "Hexadecimal", "ep03": "Text as numbers: ASCII and Unicode", "ep04": "Images as numbers: pixels and RGB",
  "ep05": "Sound as numbers: sampling", "ep06": "Compression: lossless and lossy",
  "csa_u1_l01": "1.1 Algorithms, programs and compilers", "csa_u1_l02": "1.2 Variables and data types", "csa_u1_l03": "1.3 Expressions and output",
  "csa_u1_l04": "1.4 Assignment and input", "csa_u1_l05": "1.5 Casting and ranges", "csa_u1_l06": "1.6 Compound assignment", "csa_u1_l07": "1.7 APIs and libraries",
@@ -59,6 +61,8 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
+ "apcsa_u2_part1": ["csa_u2_l01", "csa_u2_l02", "csa_u2_l03", "csa_u2_l04", "csa_u2_l05", "csa_u2_l06"],
+ "introcs_u1_what_is_a_computer": ["icu1_l01", "icu1_l02", "icu1_l03", "icu1_l04", "icu1_l05", "icu1_l06"],
  "introcs_u2_data_and_binary": ["ep01", "ep02", "ep03", "ep04", "ep05", "ep06"],
  "apcsa_u1_part1": ["csa_u1_l01", "csa_u1_l02", "csa_u1_l03", "csa_u1_l04", "csa_u1_l05"],
  "apcsa_u1_part2": ["csa_u1_l06", "csa_u1_l07", "csa_u1_l08", "csa_u1_l09", "csa_u1_l10"],
