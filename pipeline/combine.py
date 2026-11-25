@@ -8,7 +8,10 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"csa_u3_l01": "3.1 Abstraction and program design", "csa_u3_l02": "3.2 Impact of program design", "csa_u3_l03": "3.3 Anatomy of a class", "csa_u3_l04": "3.4 Constructors", "csa_u3_l05": "3.5 Writing methods", "csa_u3_l06": "3.6 Passing and returning references", "csa_u3_l07": "3.7 Static variables and methods", "csa_u3_l08": "3.8 Scope and access", "csa_u3_l09": "3.9 The this keyword",
+NAMES = {"csa_u4_l13": "4.13 2D array algorithms", "csa_u4_l14": "4.14 Searching: linear and binary", "csa_u4_l15": "4.15 Selection and insertion sort", "csa_u4_l16": "4.16 Recursion", "csa_u4_l17": "4.17 Recursive searching and sorting",
+ "csa_u4_l07": "4.7 Wrapper classes", "csa_u4_l08": "4.8 ArrayList methods", "csa_u4_l09": "4.9 ArrayList traversals", "csa_u4_l10": "4.10 ArrayList algorithms", "csa_u4_l11": "4.11 2D array creation and access", "csa_u4_l12": "4.12 2D array traversals",
+ "csa_u4_l01": "4.1 Ethics of data collection", "csa_u4_l02": "4.2 Introduction to data sets", "csa_u4_l03": "4.3 Array creation and access", "csa_u4_l04": "4.4 Array traversals", "csa_u4_l05": "4.5 Array algorithms", "csa_u4_l06": "4.6 Reading text files",
+ "csa_u3_l01": "3.1 Abstraction and program design", "csa_u3_l02": "3.2 Impact of program design", "csa_u3_l03": "3.3 Anatomy of a class", "csa_u3_l04": "3.4 Constructors", "csa_u3_l05": "3.5 Writing methods", "csa_u3_l06": "3.6 Passing and returning references", "csa_u3_l07": "3.7 Static variables and methods", "csa_u3_l08": "3.8 Scope and access", "csa_u3_l09": "3.9 The this keyword",
  "csp_ex_l01": "The Create performance task", "csp_ex_l02": "Written response practice", "csp_ex_l03": "Multiple choice strategy and review",
  "csp_b5_l01": "Beneficial and harmful effects", "csp_b5_l02": "The digital divide", "csp_b5_l03": "Computing bias", "csp_b5_l04": "Crowdsourcing and citizen science", "csp_b5_l05": "Legal and ethical concerns", "csp_b5_l06": "Safe computing",
  "csp_b4_l01": "The Internet: protocols, packets, routing", "csp_b4_l02": "TCP/IP, HTTP and the layers", "csp_b4_l03": "Fault tolerance and redundancy", "csp_b4_l04": "Parallel computing and speedup", "csp_b4_l05": "Distributed computing",
@@ -77,6 +80,9 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
+ "apcsa_u4_part3": ["csa_u4_l13", "csa_u4_l14", "csa_u4_l15", "csa_u4_l16", "csa_u4_l17"],
+ "apcsa_u4_part2": ["csa_u4_l07", "csa_u4_l08", "csa_u4_l09", "csa_u4_l10", "csa_u4_l11", "csa_u4_l12"],
+ "apcsa_u4_part1": ["csa_u4_l01", "csa_u4_l02", "csa_u4_l03", "csa_u4_l04", "csa_u4_l05", "csa_u4_l06"],
  "apcsa_u3": ["csa_u3_l01", "csa_u3_l02", "csa_u3_l03", "csa_u3_l04", "csa_u3_l05", "csa_u3_l06", "csa_u3_l07", "csa_u3_l08", "csa_u3_l09"],
  "apcsp_exam": ["csp_ex_l01", "csp_ex_l02", "csp_ex_l03"],
  "apcsp_bi5": ["csp_b5_l01", "csp_b5_l02", "csp_b5_l03", "csp_b5_l04", "csp_b5_l05", "csp_b5_l06"],

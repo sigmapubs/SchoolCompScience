@@ -1076,5 +1076,143 @@
 "Passing this",
 "No this in static",
 "Your turn"
+],
+"csa_u4_l01": [
+"",
+"What gets collected",
+"Help and harm",
+"Bias in data sets",
+"Responsible collection",
+"Your turn"
+],
+"csa_u4_l02": [
+"",
+"Questions from data",
+"Arrays and ArrayLists",
+"Same type",
+"Your turn"
+],
+"csa_u4_l03": [
+"",
+"new int[5]",
+"Default values",
+"Initializer lists",
+"Indexes 0 to length - 1",
+"Out of bounds",
+"Your turn"
+],
+"csa_u4_l04": [
+"",
+"Indexed for loop",
+"Enhanced for loop",
+"Copies vs changes",
+"Off-by-one",
+"Your turn"
+],
+"csa_u4_l05": [
+"",
+"Sum and average",
+"Min and max",
+"Counting",
+"Reversing",
+"Any and all",
+"Your turn"
+],
+"csa_u4_l06": [
+"",
+"File and Scanner",
+"hasNext loop",
+"nextInt, next, nextLine",
+"IOException and close",
+"Your turn"
+],
+"csa_u4_l07": [
+"",
+"Integer and Double",
+"Autoboxing",
+"Unboxing",
+"MAX_VALUE and MIN_VALUE",
+"Your turn"
+],
+"csa_u4_l08": [
+"",
+"Creating an ArrayList",
+"add",
+"get and set",
+"remove and size",
+"Your turn"
+],
+"csa_u4_l09": [
+"",
+"Indexed loop",
+"Enhanced for loop",
+"Don't modify in for-each",
+"Removing safely",
+"Your turn"
+],
+"csa_u4_l10": [
+"",
+"Standard algorithms",
+"Filtering",
+"Removing all matches",
+"Inserting in order",
+"Your turn"
+],
+"csa_u4_l11": [
+"",
+"new int[3][4]",
+"Row, then column",
+"Rows and columns",
+"Initializer lists",
+"Your turn"
+],
+"csa_u4_l12": [
+"",
+"Row-major order",
+"Column-major order",
+"Enhanced for loops",
+"Bounds",
+"Your turn"
+],
+"csa_u4_l13": [
+"",
+"Summing a grid",
+"One row, one column",
+"Finding the max",
+"Neighbors and bounds",
+"Your turn"
+],
+"csa_u4_l14": [
+"",
+"Linear search",
+"When to use it",
+"Binary search",
+"Halving each step",
+"Your turn"
+],
+"csa_u4_l15": [
+"",
+"Selection sort",
+"One more in place",
+"Insertion sort",
+"Comparing them",
+"Your turn"
+],
+"csa_u4_l16": [
+"",
+"What recursion is",
+"The base case",
+"Factorial",
+"Tracing calls",
+"Your turn"
+],
+"csa_u4_l17": [
+"",
+"Recursive binary search",
+"The base case",
+"Merge sort",
+"Merging",
+"Speed and memory",
+"Your turn"
 ]
 }

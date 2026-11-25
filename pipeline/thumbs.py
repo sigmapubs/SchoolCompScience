@@ -36,6 +36,9 @@ def fit(d, text, font_fn, size, maxw):
     return font_fn(size)
 import sys
 GROUPS = [
+ ("../final/apcsa_u4_part3", "AP CSA  ·  UNIT 4  ·  PART 3", "SEARCH, SORT", "& RECURSION", "binary search, sorting, merge sort", "fact(n - 1)"),
+ ("../final/apcsa_u4_part2", "AP CSA  ·  UNIT 4  ·  PART 2", "ARRAYLIST &", "2D ARRAYS", "wrappers, ArrayList, 2D arrays", "grid[r][c]"),
+ ("../final/apcsa_u4_part1", "AP CSA  ·  UNIT 4  ·  PART 1", "JAVA", "ARRAYS", "arrays, traversals, algorithms, files", "int[] nums = {10, 20};"),
  ("../final/apcsa_u3", "AP CSA  ·  UNIT 3", "WRITING", "CLASSES", "constructors, methods, static, this", "public class BankAccount"),
  ("../final/apcsp_exam", "AP CSP  ·  EXAM PREP", "CREATE TASK", "& REVIEW", "create task, written response, multiple choice", "score ← score + 1"),
  ("../final/apcsp_bi5", "AP CSP  ·  BIG IDEA 5", "IMPACT OF", "COMPUTING", "bias, digital divide, copyright, safety", "help vs harm"),

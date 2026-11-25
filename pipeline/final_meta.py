@@ -7,6 +7,33 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "apcsa_u4_part3": dict(
+   title="Java Searching, Sorting & Recursion: Binary Search, Selection, Insertion, Merge Sort | AP CSA Unit 4 (4.13–4.17)",
+   intro="AP CSA Unit 4, Data Collections, part 3 (Topics 4.13 to 4.17). It covers 2D array algorithms, linear and binary search, selection sort and insertion sort, recursion with base cases and tracing, and recursive binary search and merge sort. Each topic ends with an AP-style practice problem.",
+   course="AP Computer Science A", unit=3, part="Unit 4: Data Collections · Part 3 of 3",
+   prev="Java ArrayList & 2D Arrays (Unit 4, Part 2)", next="AP CSA Exam Prep: FRQs and Multiple Choice",
+   also="Unit 4 is split into 3 videos: Part 1 (arrays and files), Part 2 (ArrayList and 2D arrays), Part 3 (searching, sorting and recursion).",
+   playlists=["AP Computer Science A (Full Course)", "AP CSA Unit 4: Data Collections"],
+   tags="AP CSA, binary search, linear search, selection sort, insertion sort, merge sort, recursion, java tutorial",
+   tagsh="#APCSA #java #computerscience"),
+ "apcsa_u4_part2": dict(
+   title="Java ArrayList & 2D Arrays: Methods, Traversals, Algorithms | AP CSA Unit 4 (4.7–4.12)",
+   intro="AP CSA Unit 4, Data Collections, part 2 (Topics 4.7 to 4.12). It covers wrapper classes with autoboxing and unboxing, ArrayList methods (add, get, set, remove, size), traversing ArrayLists and removing elements safely, ArrayList algorithms (filtering, removing all matches, inserting in order), creating and accessing 2D arrays, and row-major and column-major traversals. Each topic ends with an AP-style practice problem.",
+   course="AP Computer Science A", unit=3, part="Unit 4: Data Collections · Part 2 of 3",
+   prev="Java Arrays: Creation, Traversals, Algorithms & Reading Files (Unit 4, Part 1)", next="AP CSA Unit 4, Part 3: 2D Algorithms, Searching, Sorting and Recursion",
+   also="Unit 4 is split into 3 videos: Part 1 (arrays and files), Part 2 (ArrayList and 2D arrays), Part 3 (searching, sorting and recursion).",
+   playlists=["AP Computer Science A (Full Course)", "AP CSA Unit 4: Data Collections"],
+   tags="AP CSA, java arraylist, wrapper classes, autoboxing, 2d arrays, row major, column major, java tutorial",
+   tagsh="#APCSA #java #computerscience"),
+ "apcsa_u4_part1": dict(
+   title="Java Arrays: Creation, Traversals, Algorithms & Reading Files | AP CSA Unit 4 (4.1–4.6)",
+   intro="AP CSA Unit 4, Data Collections, part 1 (Topics 4.1 to 4.6). It covers ethical and social issues around data collection, data sets, creating and accessing arrays, traversing arrays with indexed and enhanced for loops, the standard array algorithms (sum, average, min and max, counting, reversing, any and all), and reading data from text files with Scanner. Each topic ends with an AP-style practice problem.",
+   course="AP Computer Science A", unit=3, part="Unit 4: Data Collections · Part 1 of 3",
+   prev="Java Classes: Constructors, Methods, static, Scope & this (Unit 3)", next="AP CSA Unit 4, Part 2: Wrapper Classes, ArrayList and 2D Arrays",
+   also="Unit 4 is split into 3 videos: Part 1 (arrays and files), Part 2 (ArrayList and 2D arrays), Part 3 (searching, sorting and recursion).",
+   playlists=["AP Computer Science A (Full Course)", "AP CSA Unit 4: Data Collections"],
+   tags="AP CSA, java arrays, array traversal, enhanced for loop, array algorithms, scanner file, data sets, java tutorial",
+   tagsh="#APCSA #java #computerscience"),
  "apcsa_u3": dict(
    title="Java Classes: Constructors, Methods, static, Scope & this | AP CSA Unit 3 (3.1–3.9)",
    intro="AP CSA Unit 3, Class Creation, complete in one video (Topics 3.1 to 3.9). Learn abstraction and program design, the impact of program design, the anatomy of a class with private instance variables, constructors and overloading, accessor and mutator methods and toString, passing and returning object references, static variables and methods, scope and access, and the this keyword. Each topic ends with an AP-style practice problem.",
