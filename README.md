@@ -14,5 +14,6 @@ Each video folder holds `video.mp4` (1080p60 with a caption track), `captions.sr
 | intro-cs/unit-1/full | What Is a Computer? CPU, Memory, Storage & the Operating System · Intro to CS Unit 1 |
 | intro-cs/unit-2/full | Data and Binary: Bits, Hex, Text, Images, Sound & Compression · Intro to CS Unit 2 |
 | intro-cs/unit-3/full | Algorithms: Flowcharts, Linear & Binary Search, Selection Sort · Intro to CS Unit 3 |
+| intro-cs/unit-4/part-1 | Python for Beginners: print, Variables, Math, Strings, Input & Booleans · Intro to CS Unit 4 (Part 1) |
 
 `pipeline/` has the Manim + Kokoro TTS scripts that render the lessons.

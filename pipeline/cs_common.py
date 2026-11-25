@@ -34,6 +34,7 @@ class Lesson(Scene):
     def title_card(self, title, subtitle):
         brand = txt(CHANNEL, 0.45, MUTED).to_edge(UP, buff=0.8)
         t = txt(title, 1.1, INK, weight=BOLD)
+        if t.width > 12: t.scale_to_fit_width(12)
         s = txt(subtitle, 0.6, ON).next_to(t, DOWN, buff=0.35)
         m = ImageMobject(MASCOT).scale_to_fit_height(1.6).next_to(s, DOWN, buff=0.5)
         self.play(FadeIn(brand), Write(t), FadeIn(s, shift=UP*0.2), FadeIn(m), run_time=1.5)

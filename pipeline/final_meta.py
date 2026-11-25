@@ -7,6 +7,24 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "apcsp_bi2": dict(
+   title="AP CSP Big Idea 2: Data (Binary, Overflow, Compression, Metadata) | AP Computer Science Principles",
+   intro="Everything you need for AP CSP Big Idea 2, Data. This video covers bits and binary numbers with overflow and roundoff errors, lossless vs lossy compression, extracting information from data (and why correlation is not causation), cleaning, filtering and visualizing data with programs, and metadata. Each section ends with an AP-style practice question.",
+   course="AP Computer Science Principles", unit=1, part="Big Idea 2: Data (complete)",
+   prev="AP CSP Big Idea 1: Creative Development", next="AP CSP Big Idea 3: Algorithms and Programming",
+   also="",
+   playlists=["AP Computer Science Principles (Full Course)", "AP CSP Big Idea 2: Data"],
+   tags="ap computer science principles, ap csp, big idea 2, data, binary, overflow error, lossless compression, lossy compression, metadata, ap csp review",
+   tagsh="#apcsp #computerscience #apexam"),
+ "apcsp_bi1": dict(
+   title="AP CSP Big Idea 1: Creative Development (Collaboration, Program Design, Errors) | AP Computer Science Principles",
+   intro="Start AP Computer Science Principles with Big Idea 1, Creative Development. This video covers collaboration and pair programming, program function and purpose (inputs, outputs, events), the iterative and incremental development process, and the four kinds of errors (syntax, logic, run time, overflow) with testing and debugging. Each section ends with an AP-style practice question.",
+   course="AP Computer Science Principles", unit=0, part="Big Idea 1: Creative Development (complete)",
+   prev="Intro to Computer Science, Unit 6: Security and Society", next="AP CSP Big Idea 2: Data",
+   also="",
+   playlists=["AP Computer Science Principles (Full Course)", "AP CSP Big Idea 1: Creative Development"],
+   tags="ap computer science principles, ap csp, big idea 1, creative development, collaboration, pair programming, program design, syntax error, logic error, ap csp review",
+   tagsh="#apcsp #computerscience #apexam"),
  "introcs_u6_security": dict(
    title="Cybersecurity Basics: Passwords, Encryption, Phishing, Malware, Privacy & AI Bias | Intro to CS Unit 6",
    intro="How do you stay safe online, and how do computers affect society? This video covers all of Unit 6: passwords and two-factor authentication, the big idea of encryption (from the Caesar cipher to public keys and HTTPS), how to spot phishing and malware, and privacy, PII and bias in AI. Each section ends with a practice question.",

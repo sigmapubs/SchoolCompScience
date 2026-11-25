@@ -594,5 +594,86 @@
 "Bias in AI",
 "Reducing bias",
 "Your turn"
+],
+"csp_b1_l01": [
+"",
+"Why teams build better programs",
+"Pair programming",
+"Feedback from users",
+"Tools for teamwork",
+"On the AP exam",
+"Your turn"
+],
+"csp_b1_l02": [
+"",
+"Purpose",
+"Function: inputs and outputs",
+"Kinds of input, event driven",
+"Kinds of output",
+"Code segments",
+"Your turn"
+],
+"csp_b1_l03": [
+"",
+"The iterative process",
+"Investigate and requirements",
+"Design and decomposition",
+"Incremental development",
+"Comments and credit",
+"Your turn"
+],
+"csp_b1_l04": [
+"",
+"Syntax errors",
+"Logic errors",
+"Run time and overflow errors",
+"Testing and debugging",
+"Expected vs actual",
+"Your turn"
+],
+"csp_b2_l01": [
+"",
+"Bits, bytes and place values",
+"Binary to decimal",
+"n bits make 2^n patterns",
+"Overflow errors",
+"Roundoff errors",
+"Your turn"
+],
+"csp_b2_l02": [
+"",
+"Lossless and run length encoding",
+"When to use lossless",
+"Lossy compression",
+"Photos, music and video",
+"Choosing on the AP exam",
+"Your turn"
+],
+"csp_b2_l03": [
+"",
+"From data to patterns",
+"Correlation is not causation",
+"Processing big data",
+"Bias in data",
+"Questions to ask",
+"Your turn"
+],
+"csp_b2_l04": [
+"",
+"Cleaning data",
+"Filtering",
+"Summarizing",
+"Charts",
+"Tools",
+"Your turn"
+],
+"csp_b2_l05": [
+"",
+"Data about data",
+"Organizing and searching",
+"Changing metadata",
+"Privacy and location",
+"On the AP exam",
+"Your turn"
 ]
 }

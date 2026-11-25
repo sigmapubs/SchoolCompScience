@@ -1,0 +1,602 @@
+1
+00:00:00,000 --> 00:00:05,106
+Welcome to School Computer Science,
+Explained. This is Intro to Computer
+
+2
+00:00:05,106 --> 00:00:10,709
+Science, Unit 4, part one. It's time to
+write real programs in Python, starting
+
+3
+00:00:10,709 --> 00:00:13,120
+from your very first line of code.
+
+4
+00:00:14,293 --> 00:00:19,351
+Time to write real code. We'll use Python,
+one of the most popular programming
+
+5
+00:00:19,351 --> 00:00:20,842
+languages in the world.
+
+6
+00:00:21,292 --> 00:00:25,452
+It's used for websites, games, science,
+and artificial intelligence.
+
+7
+00:00:26,602 --> 00:00:31,992
+Here's a complete Python program. One
+line: print, open parenthesis, quote,
+
+8
+00:00:31,992 --> 00:00:34,794
+Hello, world, quote, close parenthesis.
+
+9
+00:00:35,244 --> 00:00:37,783
+Run it, and the computer shows Hello,
+world.
+
+10
+00:00:38,933 --> 00:00:43,626
+print is a function. It displays whatever
+you put inside the parentheses.
+
+11
+00:00:44,076 --> 00:00:48,812
+Text goes inside quotation marks. Text in
+quotes is called a string.
+
+12
+00:00:49,962 --> 00:00:55,253
+A program can have many lines. Python runs
+them top to bottom, one at a time.
+
+13
+00:00:55,703 --> 00:00:58,220
+Each print starts on a new line of output.
+
+14
+00:00:59,370 --> 00:01:04,832
+A comment starts with a hash sign. Python
+ignores everything after it on that line.
+
+15
+00:01:05,282 --> 00:01:08,780
+Comments are notes for people: what the
+code does, or why.
+
+16
+00:01:09,930 --> 00:01:15,409
+Small mistakes cause errors. Forget a
+quote, or misspell print, and Python stops
+
+17
+00:01:15,409 --> 00:01:16,778
+with a syntax error.
+
+18
+00:01:17,228 --> 00:01:21,831
+The error message tells you the line
+number. Read it carefully: it's a clue,
+
+19
+00:01:21,831 --> 00:01:22,860
+not a punishment.
+
+20
+00:01:24,010 --> 00:01:28,362
+Your turn. What does this program print?
+print, quote, two plus two, quote.
+
+21
+00:01:28,812 --> 00:01:30,092
+Pause the video now.
+
+22
+00:01:30,542 --> 00:01:36,330
+It prints the text two plus two, not four,
+because it's inside quotes. It's a string,
+
+23
+00:01:36,330 --> 00:01:36,942
+not math.
+
+24
+00:01:37,392 --> 00:01:39,675
+Next, we'll store values in variables.
+
+25
+00:01:40,825 --> 00:01:45,604
+Programs need to remember things: a score,
+a name, the number of lives left.
+
+26
+00:01:46,054 --> 00:01:47,270
+They use variables.
+
+27
+00:01:48,420 --> 00:01:51,172
+A variable is a name that refers to a
+value.
+
+28
+00:01:51,622 --> 00:01:57,019
+score equals zero creates a variable
+called score, and gives it the value zero.
+
+29
+00:01:58,169 --> 00:02:02,542
+The equals sign means assign. It doesn't
+mean equal in the math sense.
+
+30
+00:02:02,992 --> 00:02:07,761
+Python works out the right side first,
+then stores the result under the name on
+
+31
+00:02:07,761 --> 00:02:08,304
+the left.
+
+32
+00:02:09,454 --> 00:02:12,569
+That's why score equals score plus ten
+makes sense.
+
+33
+00:02:13,019 --> 00:02:18,096
+Python takes the current score, adds ten,
+and stores the answer back in score.
+
+34
+00:02:19,246 --> 00:02:25,109
+Variable names can use letters, digits and
+underscores, but can't start with a digit,
+
+35
+00:02:25,109 --> 00:02:26,350
+or contain spaces.
+
+36
+00:02:26,800 --> 00:02:31,195
+Good names describe what they hold. lives
+left is clearer than x.
+
+37
+00:02:32,345 --> 00:02:37,828
+Let's trace a short program. a equals
+five. b equals a plus two. a equals ten.
+
+38
+00:02:38,278 --> 00:02:43,782
+After that, a is ten, and b is still
+seven. Changing a later doesn't change b.
+
+39
+00:02:44,932 --> 00:02:51,673
+Your turn. x equals three. x equals x
+times two. x equals x plus one. What is x?
+
+40
+00:02:52,123 --> 00:02:53,403
+Pause the video now.
+
+41
+00:02:53,853 --> 00:02:58,184
+Three times two is six. Six plus one is
+seven. So x is seven.
+
+42
+00:02:58,634 --> 00:03:00,490
+Next, we'll do math with numbers.
+
+43
+00:03:01,640 --> 00:03:06,461
+Computers are great at math. Python can
+work like a powerful calculator.
+
+44
+00:03:06,911 --> 00:03:07,935
+Let's see how.
+
+45
+00:03:09,085 --> 00:03:11,432
+Python has two main kinds of numbers.
+
+46
+00:03:11,882 --> 00:03:17,592
+Integers, or ints, are whole numbers, like
+seven or negative two. Floats have a
+
+47
+00:03:17,592 --> 00:03:20,266
+decimal point, like three point five.
+
+48
+00:03:21,416 --> 00:03:26,664
+The basic operators are plus, minus, star
+for times, and slash for divide.
+
+49
+00:03:27,114 --> 00:03:31,573
+Slash always gives a float. Seven slash
+two is three point five.
+
+50
+00:03:32,723 --> 00:03:38,446
+Double slash is floor division. It divides
+and drops the remainder. Seven double
+
+51
+00:03:38,446 --> 00:03:39,805
+slash two is three.
+
+52
+00:03:40,255 --> 00:03:43,690
+Percent gives the remainder. Seven percent
+two is one.
+
+53
+00:03:44,840 --> 00:03:48,424
+Double star is a power. Two double star
+three is eight.
+
+54
+00:03:48,874 --> 00:03:54,591
+Python follows the usual order of
+operations: powers, then times and divide,
+
+55
+00:03:54,591 --> 00:03:58,879
+then plus and minus. Use parentheses to
+change the order.
+
+56
+00:04:00,029 --> 00:04:05,192
+Percent has a handy use. A number percent
+two is zero when the number is even.
+
+57
+00:04:05,642 --> 00:04:11,184
+And seconds double slash sixty gives whole
+minutes, while seconds percent sixty gives
+
+58
+00:04:11,184 --> 00:04:12,618
+the seconds left over.
+
+59
+00:04:13,768 --> 00:04:18,440
+Your turn. What is seventeen double slash
+five, and seventeen percent five?
+
+60
+00:04:18,890 --> 00:04:20,170
+Pause the video now.
+
+61
+00:04:20,620 --> 00:04:26,101
+Five goes into seventeen three times, with
+two left over. So the answers are three
+
+62
+00:04:26,101 --> 00:04:26,636
+and two.
+
+63
+00:04:27,086 --> 00:04:29,177
+Next, we'll work with text: strings.
+
+64
+00:04:30,327 --> 00:04:33,954
+Names, messages, passwords. Most programs
+handle text.
+
+65
+00:04:34,404 --> 00:04:36,217
+In Python, text is a string.
+
+66
+00:04:37,367 --> 00:04:42,694
+A string is a sequence of characters
+inside quotes. Single or double quotes
+
+67
+00:04:42,694 --> 00:04:43,404
+both work.
+
+68
+00:04:43,854 --> 00:04:48,868
+The len function tells you how many
+characters a string has, including spaces.
+
+69
+00:04:50,018 --> 00:04:53,900
+Plus joins strings together. This is
+called concatenation.
+
+70
+00:04:54,350 --> 00:04:57,252
+Hello plus a space plus Sam gives Hello
+Sam.
+
+71
+00:04:57,702 --> 00:05:01,350
+Star repeats a string. Ha times three
+gives ha ha ha.
+
+72
+00:05:02,500 --> 00:05:07,342
+Each character has a position, called an
+index. Indexes start at zero.
+
+73
+00:05:07,792 --> 00:05:14,098
+In the word python, index zero is p, and
+index five is n. Negative one means the
+
+74
+00:05:14,098 --> 00:05:15,280
+last character.
+
+75
+00:05:16,430 --> 00:05:21,963
+A slice takes part of a string. word,
+bracket, zero colon three, gives the
+
+76
+00:05:21,963 --> 00:05:25,028
+characters at indexes zero, one, and two.
+
+77
+00:05:25,478 --> 00:05:27,462
+The end index is not included.
+
+78
+00:05:28,612 --> 00:05:31,534
+Strings have methods, actions you call
+with a dot.
+
+79
+00:05:31,984 --> 00:05:37,281
+upper makes everything capital. lower
+makes everything small. replace swaps one
+
+80
+00:05:37,281 --> 00:05:39,024
+piece of text for another.
+
+81
+00:05:40,174 --> 00:05:44,761
+Your turn. word equals planet. What is
+word, bracket, one colon four?
+
+82
+00:05:45,211 --> 00:05:46,491
+Pause the video now.
+
+83
+00:05:46,941 --> 00:05:50,888
+Indexes one, two and three: l, a, n. So
+the answer is lan.
+
+84
+00:05:51,338 --> 00:05:53,279
+Next, we'll get input from the user.
+
+85
+00:05:54,429 --> 00:05:57,821
+So far, our programs do the same thing
+every time.
+
+86
+00:05:58,271 --> 00:06:00,618
+Input lets the user change what happens.
+
+87
+00:06:01,768 --> 00:06:06,790
+The input function shows a prompt, waits
+for the user to type, and gives back what
+
+88
+00:06:06,790 --> 00:06:07,464
+they typed.
+
+89
+00:06:07,914 --> 00:06:11,903
+name equals input, what's your name. Then
+print hello plus name.
+
+90
+00:06:13,053 --> 00:06:18,408
+Here's the catch. input always gives back
+a string, even if the user types a number.
+
+91
+00:06:18,858 --> 00:06:22,975
+If the user types five, you get the string
+five, not the number five.
+
+92
+00:06:24,125 --> 00:06:29,505
+To do math, convert it. int of the input
+gives a whole number. float of the input
+
+93
+00:06:29,505 --> 00:06:30,568
+gives a decimal.
+
+94
+00:06:31,018 --> 00:06:33,642
+age equals int of input, how old are you.
+
+95
+00:06:34,792 --> 00:06:40,052
+Let's build a program. Ask for the user's
+age, add one, and print, next year you'll
+
+96
+00:06:40,052 --> 00:06:41,320
+be, and the new age.
+
+97
+00:06:41,770 --> 00:06:47,696
+To join a number with text, convert it
+with str, or pass both to print separated
+
+98
+00:06:47,696 --> 00:06:48,511
+by a comma.
+
+99
+00:06:49,661 --> 00:06:54,589
+If the user types something that isn't a
+number, int will crash with a value error.
+
+100
+00:06:55,039 --> 00:06:58,239
+Later, we'll learn how to check input
+before using it.
+
+101
+00:06:59,389 --> 00:07:05,138
+Your turn. The user types seven. What does
+this print? x equals input. print x plus
+
+102
+00:07:05,138 --> 00:07:05,277
+x.
+
+103
+00:07:05,727 --> 00:07:07,007
+Pause the video now.
+
+104
+00:07:07,457 --> 00:07:12,681
+input gives the string seven. Adding two
+strings joins them, so it prints seventy
+
+105
+00:07:12,681 --> 00:07:13,068
+seven.
+
+106
+00:07:13,518 --> 00:07:16,739
+Next, we'll ask true or false questions
+with Booleans.
+
+107
+00:07:17,889 --> 00:07:22,902
+Programs need to ask questions. Is the
+password right? Is the score high enough?
+
+108
+00:07:23,352 --> 00:07:26,830
+The answer is always one of two values:
+True or False.
+
+109
+00:07:27,980 --> 00:07:32,417
+In Python, True and False are Booleans.
+They start with a capital letter.
+
+110
+00:07:32,867 --> 00:07:34,744
+Comparisons produce Booleans.
+
+111
+00:07:35,894 --> 00:07:38,454
+Python has six comparison operators.
+
+112
+00:07:38,904 --> 00:07:43,983
+Less than, greater than, less than or
+equal, greater than or equal, double
+
+113
+00:07:43,983 --> 00:07:47,758
+equals for equal, and exclamation equals
+for not equal.
+
+114
+00:07:48,908 --> 00:07:53,004
+Remember: one equals sign assigns. Two
+equals signs compare.
+
+115
+00:07:53,454 --> 00:07:58,446
+x equals five stores a value. x double
+equals five asks a question.
+
+116
+00:07:59,596 --> 00:08:02,625
+You can combine questions with and, or,
+and not.
+
+117
+00:08:03,075 --> 00:08:08,423
+And is True when both sides are True. Or
+is True when at least one side is True.
+
+118
+00:08:08,423 --> 00:08:10,094
+Not flips True and False.
+
+119
+00:08:11,244 --> 00:08:16,993
+For example, age greater than or equal to
+thirteen, and age less than or equal to
+
+120
+00:08:16,993 --> 00:08:19,265
+nineteen, is True for teenagers.
+
+121
+00:08:19,715 --> 00:08:25,521
+Python can also write it as thirteen less
+than or equal to age, less than or equal
+
+122
+00:08:25,521 --> 00:08:26,371
+to nineteen.
+
+123
+00:08:27,521 --> 00:08:32,449
+Your turn. x is four. What is x greater
+than three and x less than four?
+
+124
+00:08:32,899 --> 00:08:34,179
+Pause the video now.
+
+125
+00:08:34,629 --> 00:08:39,958
+x greater than three is True, but x less
+than four is False. True and False is
+
+126
+00:08:39,958 --> 00:08:40,368
+False.
+
+127
+00:08:40,818 --> 00:08:44,850
+Next, we'll use these questions to make
+decisions with if statements.
+
+128
+00:08:45,000 --> 00:08:50,676
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+129
+00:08:50,676 --> 00:08:51,952
+miss the next lesson.
+
+130
+00:08:52,402 --> 00:08:53,298
+See you there.
+
