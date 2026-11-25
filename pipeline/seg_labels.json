@@ -1001,5 +1001,80 @@
 "Review: Big Idea 3",
 "Review: Big Ideas 4 and 5",
 "Your turn"
+],
+"csa_u3_l01": [
+"",
+"Abstraction",
+"Data abstraction",
+"Procedural abstraction",
+"Knows and does",
+"BankAccount design",
+"Your turn"
+],
+"csa_u3_l02": [
+"",
+"Reliability",
+"Copyright and licenses",
+"Unintended effects",
+"Thinking ahead",
+"Your turn"
+],
+"csa_u3_l03": [
+"",
+"Class header",
+"Private instance variables",
+"Constructors and methods",
+"Each object's own copy",
+"private vs public",
+"Your turn"
+],
+"csa_u3_l04": [
+"",
+"No return type",
+"Constructor parameters",
+"Overloading",
+"Default constructor and values",
+"Your turn"
+],
+"csa_u3_l05": [
+"",
+"Accessors",
+"Mutators",
+"Return on every path",
+"toString",
+"Your turn"
+],
+"csa_u3_l06": [
+"",
+"References",
+"Changing the object",
+"Reassigning the parameter",
+"Primitives are copied",
+"Returning references",
+"Your turn"
+],
+"csa_u3_l07": [
+"",
+"Static variables",
+"Counting objects",
+"Static methods",
+"What static can't use",
+"Your turn"
+],
+"csa_u3_l08": [
+"",
+"Local variables",
+"Parameters and instance variables",
+"Shadowing",
+"private and public",
+"Your turn"
+],
+"csa_u3_l09": [
+"",
+"The current object",
+"Fixing shadowing",
+"Passing this",
+"No this in static",
+"Your turn"
 ]
 }

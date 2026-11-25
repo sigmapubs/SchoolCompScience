@@ -7,6 +7,15 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "apcsa_u3": dict(
+   title="Java Classes: Constructors, Methods, static, Scope & this | AP CSA Unit 3 (3.1–3.9)",
+   intro="AP CSA Unit 3, Class Creation, complete in one video (Topics 3.1 to 3.9). Learn abstraction and program design, the impact of program design, the anatomy of a class with private instance variables, constructors and overloading, accessor and mutator methods and toString, passing and returning object references, static variables and methods, scope and access, and the this keyword. Each topic ends with an AP-style practice problem.",
+   course="AP Computer Science A", unit=2, part="Unit 3: Class Creation · Complete",
+   prev="Java Loops: while, for, String Algorithms & Nested Loops (Unit 2, Part 2)", next="AP Computer Science A, Unit 4: Data Collections",
+   also="",
+   playlists=["AP Computer Science A (Full Course)", "AP CSA Unit 3: Class Creation"],
+   tags="AP CSA, java classes, constructors, instance variables, accessor, mutator, static, scope, this keyword, encapsulation, java tutorial",
+   tagsh="#APCSA #java #computerscience"),
  "apcsp_exam": dict(
    title="AP CSP Exam Prep: Create Performance Task, Written Response & Multiple Choice Review",
    intro="Get ready for the AP Computer Science Principles exam. This video walks through the Create performance task requirements step by step (input, output, a list, a procedure with a parameter, the video and the Personalized Project Reference), how to answer the written response questions about your program, and a multiple-choice strategy with a fast review of all five Big Ideas. Each section ends with a practice question.",

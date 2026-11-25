@@ -1,0 +1,520 @@
+1
+00:00:00,000 --> 00:00:05,433
+Welcome to School Computer Science,
+Explained. This is AP Computer Science
+
+2
+00:00:05,433 --> 00:00:11,306
+Principles, Big Idea 2: Data. Let's see
+how computers store data, shrink it, and
+
+3
+00:00:11,306 --> 00:00:13,141
+turn it into information.
+
+4
+00:00:14,315 --> 00:00:18,710
+Everything a computer stores, numbers,
+text, pictures, is made of bits.
+
+5
+00:00:19,160 --> 00:00:24,466
+Big Idea 2 starts with how bits represent
+numbers, and what happens when they run
+
+6
+00:00:24,466 --> 00:00:24,728
+out.
+
+7
+00:00:25,878 --> 00:00:28,950
+A bit is a zero or a one. A byte is eight
+bits.
+
+8
+00:00:29,400 --> 00:00:35,073
+In binary, each place is worth twice the
+place to its right: one, two, four, eight,
+
+9
+00:00:35,073 --> 00:00:35,757
+and so on.
+
+10
+00:00:36,907 --> 00:00:41,323
+To convert binary to decimal, add the
+place values where there's a one.
+
+11
+00:00:41,773 --> 00:00:45,997
+One zero one one is eight plus two plus
+one, which is eleven.
+
+12
+00:00:47,147 --> 00:00:50,368
+With n bits, you can make two to the n
+different patterns.
+
+13
+00:00:50,818 --> 00:00:56,397
+Three bits give eight patterns, zero to
+seven. Eight bits give two hundred fifty
+
+14
+00:00:56,397 --> 00:00:58,349
+six, zero to two fifty five.
+
+15
+00:00:59,499 --> 00:01:02,870
+Many languages store numbers in a fixed
+number of bits.
+
+16
+00:01:03,320 --> 00:01:08,723
+If a result is too big to fit, you get an
+overflow error. With four bits, fifteen
+
+17
+00:01:08,723 --> 00:01:12,258
+plus one doesn't fit, because the largest
+is fifteen.
+
+18
+00:01:13,408 --> 00:01:18,712
+Bits are also used for rounding. Some
+numbers, like one third, can't be stored
+
+19
+00:01:18,712 --> 00:01:22,112
+exactly, so computers store a close
+approximation.
+
+20
+00:01:22,562 --> 00:01:28,539
+That's why point one plus point two can
+come out as point three zero zero zero
+
+21
+00:01:28,539 --> 00:01:30,072
+zero zero zero four.
+
+22
+00:01:31,222 --> 00:01:34,976
+Your turn. How many different values can
+be stored with six bits?
+
+23
+00:01:35,426 --> 00:01:36,706
+Pause the video now.
+
+24
+00:01:37,156 --> 00:01:41,722
+Two to the sixth, which is sixty four
+values, from zero to sixty three.
+
+25
+00:01:42,172 --> 00:01:45,116
+Next, we'll compare lossless and lossy
+compression.
+
+26
+00:01:46,265 --> 00:01:51,608
+A raw photo from your phone can be dozens
+of megabytes. Compression makes files
+
+27
+00:01:51,608 --> 00:01:55,396
+smaller, so they're faster to send and
+cheaper to store.
+
+28
+00:01:55,846 --> 00:01:57,019
+There are two kinds.
+
+29
+00:01:58,169 --> 00:02:03,161
+Lossless compression shrinks a file so it
+can be restored exactly, bit for bit.
+
+30
+00:02:03,611 --> 00:02:09,926
+One simple method is run length encoding.
+A A A A B B B becomes four A, three B.
+
+31
+00:02:11,076 --> 00:02:16,398
+Lossless compression is needed when every
+bit matters: text documents, code, and
+
+32
+00:02:16,398 --> 00:02:17,262
+spreadsheets.
+
+33
+00:02:17,712 --> 00:02:19,931
+Zip files use lossless compression.
+
+34
+00:02:21,081 --> 00:02:26,137
+Lossy compression throws away some data
+that people are unlikely to notice.
+
+35
+00:02:26,587 --> 00:02:31,430
+It makes files much smaller, but the
+original can never be fully restored.
+
+36
+00:02:32,580 --> 00:02:38,468
+Photos, music and video often use lossy
+compression, like JPEG and MP3.
+
+37
+00:02:38,918 --> 00:02:43,568
+A slightly blurrier photo is usually fine,
+if it's ten times smaller.
+
+38
+00:02:44,718 --> 00:02:50,286
+On the AP exam, choose lossless when the
+original must be reconstructed exactly.
+
+39
+00:02:50,736 --> 00:02:55,728
+Choose lossy when smaller size matters
+most, and some quality loss is OK.
+
+40
+00:02:56,878 --> 00:03:02,788
+Your turn. Use run length encoding to
+compress W W W W W B B W.
+
+41
+00:03:03,238 --> 00:03:04,518
+Pause the video now.
+
+42
+00:03:04,968 --> 00:03:07,314
+Five W, two B, one W.
+
+43
+00:03:07,764 --> 00:03:10,346
+Next, we'll extract information from data.
+
+44
+00:03:11,496 --> 00:03:15,720
+Data is just raw values. Information is
+what we learn from it.
+
+45
+00:03:16,170 --> 00:03:20,885
+Computers help us turn huge amounts of
+data into useful information.
+
+46
+00:03:22,035 --> 00:03:25,768
+A store records every sale: the item, the
+price, the time.
+
+47
+00:03:26,218 --> 00:03:31,920
+One sale tells you little. A million sales
+can show which items are popular, and when
+
+48
+00:03:31,920 --> 00:03:32,725
+people shop.
+
+49
+00:03:33,875 --> 00:03:36,392
+Patterns in data can lead to new
+knowledge.
+
+50
+00:03:36,842 --> 00:03:42,481
+But a pattern, or correlation, does not
+prove that one thing causes another. Ice
+
+51
+00:03:42,481 --> 00:03:48,190
+cream sales and sunburns rise together,
+but ice cream doesn't cause sunburns. Hot
+
+52
+00:03:48,190 --> 00:03:49,599
+weather causes both.
+
+53
+00:03:50,749 --> 00:03:54,440
+Big data sets are often too large to
+explore by hand.
+
+54
+00:03:54,890 --> 00:04:00,333
+Programs can sort, filter and summarize
+them, and scale to handle more data with
+
+55
+00:04:00,333 --> 00:04:01,354
+more computers.
+
+56
+00:04:02,504 --> 00:04:07,690
+Data can also be misleading. If it's
+incomplete, or collected from only one
+
+57
+00:04:07,690 --> 00:04:10,248
+group, the conclusions can be biased.
+
+58
+00:04:10,698 --> 00:04:14,431
+More data doesn't fix bias if it's the
+same kind of data.
+
+59
+00:04:15,581 --> 00:04:20,853
+So when you see a claim based on data,
+ask: where did the data come from, who is
+
+60
+00:04:20,853 --> 00:04:23,752
+missing, and is it a correlation or a
+cause?
+
+61
+00:04:24,902 --> 00:04:29,978
+Your turn. A study finds students who eat
+breakfast get higher grades. Does that
+
+62
+00:04:29,978 --> 00:04:32,326
+prove breakfast causes higher grades?
+
+63
+00:04:32,776 --> 00:04:34,056
+Pause the video now.
+
+64
+00:04:34,506 --> 00:04:39,690
+No. It's a correlation. Something else,
+like sleep or routine, could explain both.
+
+65
+00:04:40,140 --> 00:04:44,279
+Next, we'll use programs to clean, filter
+and visualize data.
+
+66
+00:04:45,429 --> 00:04:49,120
+Before data can answer questions, it
+usually needs work.
+
+67
+00:04:49,570 --> 00:04:53,026
+Programs help us clean it, filter it, and
+visualize it.
+
+68
+00:04:54,176 --> 00:04:56,842
+Cleaning data makes it uniform and
+correct.
+
+69
+00:04:57,292 --> 00:05:03,287
+For example, a survey has the answers N Y,
+New York, and new york. Cleaning turns
+
+70
+00:05:03,287 --> 00:05:08,764
+them all into New York. Cleaning also
+removes duplicates and fixes obvious
+
+71
+00:05:08,764 --> 00:05:09,282
+errors.
+
+72
+00:05:10,432 --> 00:05:13,077
+Filtering keeps only the rows you care
+about.
+
+73
+00:05:13,527 --> 00:05:17,538
+From a table of students, filter to only
+the ones in grade ten.
+
+74
+00:05:18,688 --> 00:05:23,584
+Then you can transform and summarize:
+count, total, average, or find the
+
+75
+00:05:23,584 --> 00:05:24,128
+maximum.
+
+76
+00:05:24,578 --> 00:05:29,684
+What's the average score of grade ten
+students? A program can answer that in a
+
+77
+00:05:29,684 --> 00:05:32,172
+split second, even for a million rows.
+
+78
+00:05:33,322 --> 00:05:35,946
+Visualizing turns numbers into charts.
+
+79
+00:05:36,396 --> 00:05:41,853
+A bar chart compares categories. A line
+chart shows change over time. Patterns
+
+80
+00:05:41,853 --> 00:05:45,420
+that are hidden in a table can jump out in
+a chart.
+
+81
+00:05:46,570 --> 00:05:51,476
+Tools like spreadsheets, and programs you
+write yourself, let you repeat these
+
+82
+00:05:51,476 --> 00:05:53,802
+steps, and ask new questions quickly.
+
+83
+00:05:54,952 --> 00:06:00,601
+Your turn. A data set has the colors red,
+Red, and RED. Which step fixes this:
+
+84
+00:06:00,601 --> 00:06:03,208
+cleaning, filtering, or visualizing?
+
+85
+00:06:03,658 --> 00:06:04,938
+Pause the video now.
+
+86
+00:06:05,388 --> 00:06:10,402
+Cleaning. It makes the values uniform, so
+they're all counted as the same color.
+
+87
+00:06:10,852 --> 00:06:12,708
+Next, we'll learn about metadata.
+
+88
+00:06:13,857 --> 00:06:16,737
+Every photo you take stores more than the
+picture.
+
+89
+00:06:17,187 --> 00:06:20,942
+It also stores data about the picture.
+That's metadata.
+
+90
+00:06:22,092 --> 00:06:24,182
+Metadata is data about data.
+
+91
+00:06:24,632 --> 00:06:30,098
+For a photo, metadata can include the
+date, the time, the camera model, the
+
+92
+00:06:30,098 --> 00:06:32,867
+image size, and even the GPS location.
+
+93
+00:06:34,017 --> 00:06:36,961
+Metadata helps us organize and find data.
+
+94
+00:06:37,411 --> 00:06:43,503
+Your phone uses it to group photos by date
+and place. Search engines use it to find
+
+95
+00:06:43,503 --> 00:06:45,411
+songs by artist and album.
+
+96
+00:06:46,561 --> 00:06:50,764
+Changing or deleting metadata doesn't
+change the main data.
+
+97
+00:06:51,214 --> 00:06:56,504
+If you remove the location from a photo,
+the picture itself looks exactly the same.
+
+98
+00:06:57,654 --> 00:07:03,286
+But metadata can reveal a lot. A photo's
+location can show where someone lives.
+
+99
+00:07:03,736 --> 00:07:08,280
+Before you post photos publicly, consider
+turning off location data.
+
+100
+00:07:09,430 --> 00:07:14,767
+On the AP exam, look for questions that
+ask which question can be answered using
+
+101
+00:07:14,767 --> 00:07:18,369
+only the metadata, without looking at the
+data itself.
+
+102
+00:07:19,519 --> 00:07:24,955
+Your turn. A music file's metadata has the
+title, artist, and length. Can you use
+
+103
+00:07:24,955 --> 00:07:30,324
+only the metadata to find which songs are
+longer than four minutes? Can you find
+
+104
+00:07:30,324 --> 00:07:32,404
+which songs have a guitar solo?
+
+105
+00:07:32,854 --> 00:07:34,134
+Pause the video now.
+
+106
+00:07:34,584 --> 00:07:39,411
+Yes for the length. No for the guitar
+solo: that's in the sound itself, not the
+
+107
+00:07:39,411 --> 00:07:39,960
+metadata.
+
+108
+00:07:40,410 --> 00:07:46,213
+That's the end of Big Idea two. Next, Big
+Idea three: algorithms and programming.
+
+109
+00:07:47,363 --> 00:07:52,040
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+110
+00:07:52,040 --> 00:07:53,315
+miss the next lesson.
+
+111
+00:07:53,765 --> 00:07:54,661
+See you there.
+

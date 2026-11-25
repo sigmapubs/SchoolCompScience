@@ -1,0 +1,51 @@
+AP CSP Big Idea 2: Data (Binary, Overflow, Compression, Metadata) | AP Computer Science Principles
+
+Everything you need for AP CSP Big Idea 2, Data. This video covers bits and binary numbers with overflow and roundoff errors, lossless vs lossy compression, extracting information from data (and why correlation is not causation), cleaning, filtering and visualizing data with programs, and metadata. Each section ends with an AP-style practice question. 
+
+Course: AP Computer Science Principles · Big Idea 2: Data (complete)
+Previous: AP CSP Big Idea 1: Creative Development
+Next: AP CSP Big Idea 3: Algorithms and Programming
+
+0:00 Introduction
+0:14 Binary numbers, bits and overflow
+0:25 Bits, bytes and place values
+0:36 Binary to decimal
+0:47 n bits make 2^n patterns
+0:59 Overflow errors
+1:13 Roundoff errors
+1:31 Your turn
+1:46 Lossless vs lossy compression
+1:58 Lossless and run length encoding
+2:11 When to use lossless
+2:21 Lossy compression
+2:32 Photos, music and video
+2:44 Choosing on the AP exam
+2:56 Your turn
+3:11 Extracting information from data
+3:22 From data to patterns
+3:33 Correlation is not causation
+3:50 Processing big data
+4:02 Bias in data
+4:15 Questions to ask
+4:45 Using programs with data
+5:10 Filtering
+5:33 Charts
+5:46 Tools
+6:13 Metadata
+6:34 Organizing and searching
+6:46 Changing metadata
+6:57 Privacy and location
+7:09 On the AP exam
+7:19 Your turn
+
+AP Computer Science Principles, the complete course (6 units, full syllabus):
+• Big Idea 1: Creative Development
+▶ Big Idea 2: Data  (you are here)
+• Big Idea 3: Algorithms and Programming
+• Big Idea 4: Computer Systems and Networks
+• Big Idea 5: Impact of Computing
+• Exam Prep: Create Task and Multiple Choice
+Follow the whole course in order in the "AP Computer Science Principles (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#apcsp #computerscience #apexam

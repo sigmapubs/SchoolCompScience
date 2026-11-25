@@ -36,6 +36,7 @@ def fit(d, text, font_fn, size, maxw):
     return font_fn(size)
 import sys
 GROUPS = [
+ ("../final/apcsa_u3", "AP CSA  ·  UNIT 3", "WRITING", "CLASSES", "constructors, methods, static, this", "public class BankAccount"),
  ("../final/apcsp_exam", "AP CSP  ·  EXAM PREP", "CREATE TASK", "& REVIEW", "create task, written response, multiple choice", "score ← score + 1"),
  ("../final/apcsp_bi5", "AP CSP  ·  BIG IDEA 5", "IMPACT OF", "COMPUTING", "bias, digital divide, copyright, safety", "help vs harm"),
  ("../final/apcsp_bi4", "AP CSP  ·  BIG IDEA 4", "SYSTEMS &", "NETWORKS", "internet, TCP/IP, fault tolerance, parallel", "speedup = 120 / 70"),
