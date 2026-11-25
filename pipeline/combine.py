@@ -8,7 +8,9 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"icu3_l01": "What is an algorithm?", "icu3_l02": "Flowcharts and pseudocode", "icu3_l03": "Linear search", "icu3_l04": "Binary search", "icu3_l05": "Selection sort", "icu3_l06": "Comparing algorithms",
+NAMES = {"icu4_l07": "if, elif, else", "icu4_l08": "while loops", "icu4_l09": "for loops and range", "icu4_l10": "Functions: define and call", "icu4_l11": "Parameters and return values", "icu4_l12": "Lists",
+ "icu4_l01": "Your first Python program", "icu4_l02": "Variables and assignment", "icu4_l03": "Numbers and arithmetic", "icu4_l04": "Strings", "icu4_l05": "Input from the user", "icu4_l06": "Booleans and comparisons",
+ "icu3_l01": "What is an algorithm?", "icu3_l02": "Flowcharts and pseudocode", "icu3_l03": "Linear search", "icu3_l04": "Binary search", "icu3_l05": "Selection sort", "icu3_l06": "Comparing algorithms",
  "csa_u2_l07": "2.7 while loops", "csa_u2_l08": "2.8 for loops", "csa_u2_l09": "2.9 Selection and iteration algorithms", "csa_u2_l10": "2.10 String algorithms", "csa_u2_l11": "2.11 Nested iteration", "csa_u2_l12": "2.12 Informal run-time analysis",
  "csa_u2_l01": "2.1 Algorithms with selection and repetition", "csa_u2_l02": "2.2 Boolean expressions", "csa_u2_l03": "2.3 if statements", "csa_u2_l04": "2.4 Nested if statements", "csa_u2_l05": "2.5 Compound Boolean expressions", "csa_u2_l06": "2.6 Equivalent expressions and De Morgan's laws",
  "icu1_l01": "What a computer does", "icu1_l02": "Inside the box: CPU, memory, storage", "icu1_l03": "How the CPU runs instructions", "icu1_l04": "Memory vs storage", "icu1_l05": "The operating system", "icu1_l06": "Software and how programs get made",
@@ -63,6 +65,8 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
+ "introcs_u4_part2": ["icu4_l07", "icu4_l08", "icu4_l09", "icu4_l10", "icu4_l11", "icu4_l12"],
+ "introcs_u4_part1": ["icu4_l01", "icu4_l02", "icu4_l03", "icu4_l04", "icu4_l05", "icu4_l06"],
  "introcs_u3_algorithms": ["icu3_l01", "icu3_l02", "icu3_l03", "icu3_l04", "icu3_l05", "icu3_l06"],
  "apcsa_u2_part2": ["csa_u2_l07", "csa_u2_l08", "csa_u2_l09", "csa_u2_l10", "csa_u2_l11", "csa_u2_l12"],
  "apcsa_u2_part1": ["csa_u2_l01", "csa_u2_l02", "csa_u2_l03", "csa_u2_l04", "csa_u2_l05", "csa_u2_l06"],

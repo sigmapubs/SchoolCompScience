@@ -86,3 +86,14 @@ def num_row(nums, w=0.85, col=ACC, sc=0.55, idx=True):
         ix = VGroup(*[mono(str(k), 0.4, MUTED).next_to(c, DOWN, buff=0.12) for k, c in enumerate(cells)])
         return cells, ix
     return cells, VGroup()
+
+def py(src, sc=1.2):
+    return code(src, lang="python", sc=sc)
+
+def term(lines_, sc=0.6, w=None):
+    """a terminal/output box"""
+    t = VGroup(*[mono(l, sc, INK) for l in lines_]).arrange(DOWN, aligned_edge=LEFT, buff=0.15)
+    box = RoundedRectangle(corner_radius=0.12, width=max(t.width + 0.6, w or 0), height=t.height + 0.8, stroke_color=MUTED, stroke_width=2, fill_color="#0b1220", fill_opacity=1)
+    lab = txt("output", 0.35, MUTED).next_to(box, UP, buff=0.08).align_to(box, LEFT)
+    t.move_to(box).shift(DOWN*0.05)
+    return VGroup(box, t, lab)

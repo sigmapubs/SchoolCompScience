@@ -405,5 +405,113 @@
 "Hard problems and heuristics",
 "Three questions to ask",
 "Your turn"
+],
+"icu4_l01": [
+"",
+"Hello, world!",
+"print and strings",
+"Many lines, top to bottom",
+"Comments",
+"Syntax errors",
+"Your turn"
+],
+"icu4_l02": [
+"",
+"Creating a variable",
+"= means assign",
+"score = score + 10",
+"Naming rules",
+"Tracing a program",
+"Your turn"
+],
+"icu4_l03": [
+"",
+"int and float",
+"+ - * /",
+"// and %",
+"Powers and order of operations",
+"Handy uses of %",
+"Your turn"
+],
+"icu4_l04": [
+"",
+"Quotes and len",
+"Joining and repeating",
+"Indexes",
+"Slices",
+"String methods",
+"Your turn"
+],
+"icu4_l05": [
+"",
+"The input function",
+"input gives a string",
+"int() and float()",
+"An age program",
+"ValueError",
+"Your turn"
+],
+"icu4_l06": [
+"",
+"True and False",
+"Comparison operators",
+"= vs ==",
+"and, or, not",
+"Checking a range",
+"Your turn"
+],
+"icu4_l07": [
+"",
+"The if statement",
+"Indentation",
+"else",
+"elif chains",
+"Tracing score = 85",
+"Your turn"
+],
+"icu4_l08": [
+"",
+"How a while loop works",
+"Countdown example",
+"Start, condition, change",
+"Asking until correct",
+"break",
+"Your turn"
+],
+"icu4_l09": [
+"",
+"for i in range(5)",
+"start, stop, step",
+"Looping over a string",
+"Adding up 1 to 5",
+"for or while?",
+"Your turn"
+],
+"icu4_l10": [
+"",
+"Defining with def",
+"Calling a function",
+"Calling many times",
+"Why functions help",
+"Define before you call",
+"Your turn"
+],
+"icu4_l11": [
+"",
+"Parameters and arguments",
+"return",
+"print vs return",
+"Several parameters",
+"return stops the function",
+"Your turn"
+],
+"icu4_l12": [
+"",
+"Making a list",
+"Indexes and len",
+"Changing a list",
+"Looping over a list",
+"Lists of anything",
+"Your turn"
 ]
 }

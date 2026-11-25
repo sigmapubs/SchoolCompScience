@@ -36,6 +36,8 @@ def fit(d, text, font_fn, size, maxw):
     return font_fn(size)
 import sys
 GROUPS = [
+ ("../final/introcs_u4_part2", "INTRO TO CS  ·  UNIT 4  ·  PART 2", "LOOPS AND", "FUNCTIONS", "if, while, for, def, lists", "for i in range(5):"),
+ ("../final/introcs_u4_part1", "INTRO TO CS  ·  UNIT 4  ·  PART 1", "PYTHON", "BASICS", "print, variables, strings, input", 'print("Hello!")'),
  ("../final/introcs_u3_algorithms", "INTRO TO CS  ·  UNIT 3", "ALGORITHMS:", "SEARCH & SORT", "flowcharts, pseudocode, speed", "binary search: 20 checks"),
  ("../final/apcsa_u2_part2", "AP CSA  ·  UNIT 2  ·  2.7–2.12", "JAVA", "LOOPS", "while, for, nested loops, run time", "for (int i = 0; ...)"),
  ("../final/apcsa_u2_part1", "AP CSA  ·  UNIT 2  ·  2.1–2.6", "IF", "STATEMENTS", "Booleans, else if, &&, De Morgan", "if (x > 5) {"),

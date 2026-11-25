@@ -1,0 +1,57 @@
+Java Loops: while, for, String Algorithms & Nested Loops | AP CSA Unit 2 (2.7–2.12)
+
+AP CSA Topics 2.7 to 2.12, all about iteration: while loops, infinite loops and off-by-one errors, for loops and counting iterations, the standard algorithms (sum, average, count, min and max, digits, any and all), String algorithms (counting, reversing, finding substrings), nested loops, and informal run-time analysis. Each topic ends with an AP-style practice problem. Unit 2 is split into 2 videos: Part 1 (2.1–2.6, selection) and Part 2 (2.7–2.12, iteration).
+
+Course: AP Computer Science A · Unit 2: Selection and Iteration · Part 2 of 2
+Previous: Java if Statements, Boolean Expressions & De Morgan's Laws (Unit 2, Part 1)
+Next: AP Computer Science A, Unit 3: Class Creation
+
+0:00 Introduction
+0:15 2.7 while loops
+0:38 Start, test, change
+0:53 Tracing the loop
+1:07 Never runs vs runs forever
+1:23 Off-by-one errors
+1:36 Your turn
+2:00 2.8 for loops
+2:23 Order of execution
+2:35 for vs while
+2:46 Counting iterations
+3:07 Loop variable scope
+3:35 2.9 Selection and iteration algorithms
+3:47 Accumulating a total
+4:00 Counting matches
+4:12 Finding the max
+4:24 Digit by digit
+4:39 At least one, or every one
+4:55 Your turn
+5:10 2.10 String algorithms
+5:20 Visiting every character
+5:33 Counting vowels
+5:52 Reversing a String
+6:03 Finding a substring
+6:17 Out of bounds
+6:29 Your turn
+6:43 2.11 Nested iteration
+6:54 How many times the body runs
+7:07 A rectangle of stars
+7:19 A triangle of stars
+7:35 Comparing every pair
+7:54 Your turn
+8:16 2.12 Informal run-time analysis
+8:26 Counting executions
+8:43 Nested loops: n squared
+8:54 Doubling steps
+9:08 A counting strategy
+9:19 Your turn
+
+AP Computer Science A, the complete course (5 units, full syllabus):
+• Unit 1: Using Objects and Methods
+▶ Unit 2: Selection and Iteration  (you are here)
+• Unit 3: Class Creation
+• Unit 4: Data Collections
+• Exam Prep: FRQs and Multiple Choice
+Follow the whole course in order in the "AP Computer Science A (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#APCSA #java #computerscience

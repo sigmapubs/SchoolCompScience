@@ -1,0 +1,679 @@
+1
+00:00:00,000 --> 00:00:05,409
+Welcome to School Computer Science,
+Explained. This is AP Computer Science A,
+
+2
+00:00:05,409 --> 00:00:10,747
+Unit 2, part two: topics two point seven
+to two point twelve. We'll make our
+
+3
+00:00:10,747 --> 00:00:14,400
+programs repeat work with while loops and
+for loops.
+
+4
+00:00:15,573 --> 00:00:20,817
+Printing the numbers one to five takes
+five print lines. One to a thousand would
+
+5
+00:00:20,817 --> 00:00:21,866
+take a thousand.
+
+6
+00:00:22,316 --> 00:00:23,831
+A loop does it in three.
+
+7
+00:00:24,981 --> 00:00:29,013
+A while loop repeats its body as long as
+its condition is true.
+
+8
+00:00:29,463 --> 00:00:34,771
+Java checks the condition first. If it's
+true, the body runs, then Java checks
+
+9
+00:00:34,771 --> 00:00:37,356
+again. When it's false, the loop ends.
+
+10
+00:00:38,506 --> 00:00:40,490
+Here's a loop that prints one to five.
+
+11
+00:00:40,940 --> 00:00:46,978
+int i equals one. While i is less than or
+equal to five, print i, then add one to i.
+
+12
+00:00:47,428 --> 00:00:52,249
+Every working loop has three parts: start
+a variable, test it, and change it.
+
+13
+00:00:53,399 --> 00:00:57,922
+Let's trace it. i is one, the test is
+true, print one, i becomes two.
+
+14
+00:00:58,372 --> 00:01:04,231
+This repeats until i is six. Six less than
+or equal to five is false, so the loop
+
+15
+00:01:04,231 --> 00:01:04,665
+stops.
+
+16
+00:01:05,115 --> 00:01:06,822
+The body ran five times.
+
+17
+00:01:07,972 --> 00:01:12,068
+If the condition is false at the start,
+the body never runs at all.
+
+18
+00:01:12,518 --> 00:01:17,283
+If nothing in the body ever makes the
+condition false, the loop runs forever.
+
+19
+00:01:17,283 --> 00:01:18,768
+That's an infinite loop.
+
+20
+00:01:19,218 --> 00:01:21,949
+Forgetting i plus plus is the classic
+cause.
+
+21
+00:01:23,099 --> 00:01:28,091
+An off by one error is when a loop runs
+one time too many, or one too few.
+
+22
+00:01:28,541 --> 00:01:34,231
+Less than versus less than or equal to is
+usually the culprit. Always check the
+
+23
+00:01:34,231 --> 00:01:35,816
+first and last values.
+
+24
+00:01:36,966 --> 00:01:42,801
+Your turn. int n equals ten. While n is
+greater than zero, n minus equals three.
+
+25
+00:01:42,801 --> 00:01:44,624
+What is n after the loop?
+
+26
+00:01:45,074 --> 00:01:46,354
+Pause the video now.
+
+27
+00:01:46,804 --> 00:01:52,696
+n goes ten, seven, four, one, then
+negative two. Negative two isn't greater
+
+28
+00:01:52,696 --> 00:01:55,210
+than zero, so n is negative two.
+
+29
+00:01:55,660 --> 00:01:59,692
+Next, we'll write the same kind of loop
+more compactly, with a for loop.
+
+30
+00:02:00,842 --> 00:02:04,106
+Most loops count: start here, stop there,
+step by one.
+
+31
+00:02:04,556 --> 00:02:07,948
+Java has a loop built exactly for that:
+the for loop.
+
+32
+00:02:09,098 --> 00:02:12,191
+A for loop puts all three loop parts on
+one line.
+
+33
+00:02:12,641 --> 00:02:19,286
+for, open parenthesis, int i equals zero,
+semicolon, i less than five, semicolon, i
+
+34
+00:02:19,286 --> 00:02:20,087
+plus plus.
+
+35
+00:02:20,537 --> 00:02:22,179
+Initialize, test, update.
+
+36
+00:02:23,329 --> 00:02:25,249
+Here's the order Java follows.
+
+37
+00:02:25,699 --> 00:02:31,161
+Initialize once. Then test. If true, run
+the body, then update, then test again.
+
+38
+00:02:31,611 --> 00:02:34,107
+The update always happens after the body.
+
+39
+00:02:35,257 --> 00:02:39,075
+Any for loop can be written as a while
+loop, and the other way around.
+
+40
+00:02:39,525 --> 00:02:44,564
+Use for when you know how many times to
+repeat. Use while when you repeat until
+
+41
+00:02:44,564 --> 00:02:45,712
+something happens.
+
+42
+00:02:46,862 --> 00:02:51,129
+Counting how many times a loop runs is a
+favorite AP question.
+
+43
+00:02:51,579 --> 00:02:56,165
+For i from zero while i is less than n,
+the body runs n times.
+
+44
+00:02:56,615 --> 00:03:02,226
+For i from one while i is less than or
+equal to n, it also runs n times.
+
+45
+00:03:02,676 --> 00:03:06,729
+And with i plus equals two, it runs about
+half as many times.
+
+46
+00:03:07,879 --> 00:03:10,973
+The variable i only exists inside the for
+loop.
+
+47
+00:03:11,423 --> 00:03:15,092
+Try to use it after the loop ends, and
+you'll get a compile error.
+
+48
+00:03:16,242 --> 00:03:22,292
+Your turn. How many times does this print?
+for int k equals three, k less than ten, k
+
+49
+00:03:22,292 --> 00:03:23,431
+plus equals two.
+
+50
+00:03:23,881 --> 00:03:25,161
+Pause the video now.
+
+51
+00:03:25,611 --> 00:03:30,027
+k takes the values three, five, seven, and
+nine. That's four times.
+
+52
+00:03:30,477 --> 00:03:34,467
+Next, we'll use loops and ifs together to
+build real algorithms.
+
+53
+00:03:35,617 --> 00:03:40,400
+Loops and if statements are building
+blocks. Put them together, and you can
+
+54
+00:03:40,400 --> 00:03:41,676
+solve real problems.
+
+55
+00:03:42,126 --> 00:03:46,755
+The AP exam expects you to know a handful
+of standard algorithms.
+
+56
+00:03:47,905 --> 00:03:51,169
+The first is the accumulator. It builds up
+a total.
+
+57
+00:03:51,619 --> 00:03:55,822
+Start sum at zero. Loop through the
+values, adding each one to sum.
+
+58
+00:03:56,272 --> 00:03:59,045
+Divide sum by the count, and you have the
+average.
+
+59
+00:04:00,195 --> 00:04:05,216
+The second is counting. Start count at
+zero. Inside the loop, an if decides
+
+60
+00:04:05,216 --> 00:04:06,488
+whether to add one.
+
+61
+00:04:06,938 --> 00:04:11,802
+For example, count how many numbers from
+one to twenty are multiples of three.
+
+62
+00:04:12,952 --> 00:04:15,512
+The third is finding a minimum or maximum.
+
+63
+00:04:15,962 --> 00:04:21,290
+Start with the first value as your best so
+far. For each value after that, if it
+
+64
+00:04:21,290 --> 00:04:23,088
+beats the best, replace it.
+
+65
+00:04:24,238 --> 00:04:27,800
+The fourth checks a property of a number,
+digit by digit.
+
+66
+00:04:28,250 --> 00:04:32,986
+n percent ten gives the last digit. n
+divided by ten removes it.
+
+67
+00:04:33,436 --> 00:04:38,428
+Loop while n is greater than zero, and you
+can add up the digits of any number.
+
+68
+00:04:39,578 --> 00:04:44,485
+The fifth asks whether at least one value,
+or every value, meets a condition.
+
+69
+00:04:44,935 --> 00:04:49,244
+For at least one, start with false, and
+set it to true when you find a match.
+
+70
+00:04:49,694 --> 00:04:54,814
+For every value, start with true, and set
+it to false when you find one that fails.
+
+71
+00:04:55,964 --> 00:05:00,882
+Your turn. Using the digit trick, what is
+the sum of the digits of four hundred
+
+72
+00:05:00,882 --> 00:05:01,255
+seven?
+
+73
+00:05:01,705 --> 00:05:02,985
+Pause the video now.
+
+74
+00:05:03,435 --> 00:05:06,550
+Seven, then zero, then four. The sum is
+eleven.
+
+75
+00:05:06,000 --> 00:05:09,368
+Next, we'll apply these patterns to
+Strings.
+
+76
+00:05:10,517 --> 00:05:15,530
+A String is a sequence of characters, so
+loops and Strings go together naturally.
+
+77
+00:05:15,980 --> 00:05:19,735
+Let's look at the String algorithms you'll
+see on the AP exam.
+
+78
+00:05:20,885 --> 00:05:26,218
+To visit every character, loop i from zero
+while i is less than the string's length.
+
+79
+00:05:26,668 --> 00:05:32,578
+Use substring of i comma i plus one to get
+the character at index i, as a String.
+
+80
+00:05:33,728 --> 00:05:36,074
+Counting is the same pattern as before.
+
+81
+00:05:36,524 --> 00:05:42,495
+To count the vowels in a word, loop over
+each letter, and add one when the letter
+
+82
+00:05:42,495 --> 00:05:43,970
+is a, e, i, o, or u.
+
+83
+00:05:44,420 --> 00:05:50,597
+A neat trick: aeiou dot index of letter is
+not negative one, exactly when letter is a
+
+84
+00:05:50,597 --> 00:05:51,033
+vowel.
+
+85
+00:05:52,183 --> 00:05:54,871
+To reverse a String, start with an empty
+String.
+
+86
+00:05:55,321 --> 00:05:59,716
+Loop through the characters, and put each
+one in front of what you've built so far.
+
+87
+00:06:00,166 --> 00:06:02,683
+Cat becomes c, then a c, then t a c.
+
+88
+00:06:03,833 --> 00:06:08,481
+To find a substring, loop over each
+starting position, and compare a piece of
+
+89
+00:06:08,481 --> 00:06:09,508
+the right length.
+
+90
+00:06:09,958 --> 00:06:15,497
+Be careful with the end. If the piece has
+length k, the last start index is length
+
+91
+00:06:15,497 --> 00:06:16,038
+minus k.
+
+92
+00:06:17,188 --> 00:06:20,430
+The most common String bug is going one
+past the end.
+
+93
+00:06:20,880 --> 00:06:26,842
+The last valid index is length minus one.
+Going further throws a String Index Out Of
+
+94
+00:06:26,842 --> 00:06:28,048
+Bounds Exception.
+
+95
+00:06:29,198 --> 00:06:34,181
+Your turn. What does this return for the
+word banana? It counts how many times the
+
+96
+00:06:34,181 --> 00:06:35,214
+letter a appears.
+
+97
+00:06:35,664 --> 00:06:36,944
+Pause the video now.
+
+98
+00:06:37,394 --> 00:06:40,061
+banana has three a's, so it returns three.
+
+99
+00:06:40,511 --> 00:06:42,495
+Next, we'll put a loop inside a loop.
+
+100
+00:06:43,645 --> 00:06:48,338
+Some problems have two dimensions: rows
+and columns, hours and minutes.
+
+101
+00:06:48,788 --> 00:06:53,034
+For those, we put one loop inside another.
+That's nested iteration.
+
+102
+00:06:54,184 --> 00:06:57,810
+For each pass of the outer loop, the inner
+loop runs completely.
+
+103
+00:06:58,260 --> 00:07:03,557
+If the outer loop runs three times, and
+the inner loop runs four times, the body
+
+104
+00:07:03,557 --> 00:07:05,940
+runs three times four, twelve times.
+
+105
+00:07:07,090 --> 00:07:11,229
+Here's a loop that prints a rectangle of
+stars, three rows of four.
+
+106
+00:07:11,679 --> 00:07:16,539
+The outer loop picks the row. The inner
+loop prints the stars in that row. Then
+
+107
+00:07:16,539 --> 00:07:18,570
+print line moves to the next row.
+
+108
+00:07:19,720 --> 00:07:22,002
+The inner loop can depend on the outer
+loop.
+
+109
+00:07:22,452 --> 00:07:27,931
+If the inner loop runs from zero up to the
+row number, each row gets one more star,
+
+110
+00:07:27,931 --> 00:07:29,450
+and you get a triangle.
+
+111
+00:07:29,900 --> 00:07:34,166
+Now the total is one plus two plus three,
+not a simple product.
+
+112
+00:07:35,316 --> 00:07:37,706
+Nested loops also compare every pair.
+
+113
+00:07:38,156 --> 00:07:42,821
+To check whether a String has a repeated
+letter, compare each letter with every
+
+114
+00:07:42,821 --> 00:07:43,766
+letter after it.
+
+115
+00:07:44,916 --> 00:07:47,306
+When tracing nested loops, make a table.
+
+116
+00:07:47,756 --> 00:07:52,689
+Write the outer variable, then the inner
+variable for each pass. It keeps you from
+
+117
+00:07:52,689 --> 00:07:53,772
+losing your place.
+
+118
+00:07:54,922 --> 00:08:01,141
+Your turn. The outer loop runs i from zero
+to two. The inner loop runs j from zero to
+
+119
+00:08:01,141 --> 00:08:03,775
+i. How many times does the body run?
+
+120
+00:08:04,225 --> 00:08:05,505
+Pause the video now.
+
+121
+00:08:05,955 --> 00:08:11,312
+When i is zero, once. When i is one,
+twice. When i is two, three times. That's
+
+122
+00:08:11,312 --> 00:08:11,587
+six.
+
+123
+00:08:12,037 --> 00:08:15,664
+Next, we'll learn how to estimate how much
+work a loop does.
+
+124
+00:08:16,814 --> 00:08:21,059
+Two programs can give the same answer, but
+one can be much faster.
+
+125
+00:08:21,509 --> 00:08:25,776
+Run time analysis is a way to compare how
+much work code does.
+
+126
+00:08:26,926 --> 00:08:30,873
+On the AP exam, this means counting
+statement executions.
+
+127
+00:08:31,323 --> 00:08:35,035
+How many times does a line run, given the
+size of the input?
+
+128
+00:08:36,185 --> 00:08:39,982
+A single loop from zero to n runs its body
+n times.
+
+129
+00:08:40,432 --> 00:08:42,181
+Double n, and the work doubles.
+
+130
+00:08:43,331 --> 00:08:48,799
+Two nested loops, each running n times,
+run the inner body n times n, or n
+
+131
+00:08:48,799 --> 00:08:49,390
+squared.
+
+132
+00:08:49,840 --> 00:08:53,019
+Double n, and the work becomes four times
+as much.
+
+133
+00:08:54,169 --> 00:08:56,622
+Loops that change their step change the
+count.
+
+134
+00:08:57,072 --> 00:09:02,440
+A loop where i doubles each time, one,
+two, four, eight, reaches n in very few
+
+135
+00:09:02,440 --> 00:09:02,853
+steps.
+
+136
+00:09:03,303 --> 00:09:06,994
+For n equal to a thousand, that's only
+about ten passes.
+
+137
+00:09:08,144 --> 00:09:13,646
+Here's a strategy. Find the innermost
+statement. Count how many times each loop
+
+138
+00:09:13,646 --> 00:09:18,661
+runs. Multiply nested counts, and add
+loops that come one after another.
+
+139
+00:09:19,811 --> 00:09:25,764
+Your turn. A loop runs i from zero to n.
+Right after it, a separate loop runs j
+
+140
+00:09:25,764 --> 00:09:30,435
+from zero to n. How many times do the two
+bodies run in total?
+
+141
+00:09:30,885 --> 00:09:32,165
+Pause the video now.
+
+142
+00:09:32,615 --> 00:09:37,949
+The loops are one after another, not
+nested. So it's n plus n, which is two n.
+
+143
+00:09:38,399 --> 00:09:43,668
+That's the end of Unit two. Next, we'll
+start Unit three: writing our own classes.
+
+144
+00:09:44,818 --> 00:09:49,495
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+145
+00:09:49,495 --> 00:09:50,770
+miss the next lesson.
+
+146
+00:09:51,220 --> 00:09:52,116
+See you there.
+

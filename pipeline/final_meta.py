@@ -6,6 +6,24 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "introcs_u4_part2": dict(
+   title="Python if/else, while & for Loops, Functions and Lists for Beginners | Intro to CS Unit 4 (Part 2)",
+   intro="Make your Python programs decide, repeat and stay organized. This video covers Unit 4, lessons 7 to 12: if, elif and else, while loops, for loops with range, defining and calling functions, parameters and return values, and lists. Each section ends with a practice problem.",
+   course="Intro to Computer Science", unit=3, part="Unit 4: Programming Basics in Python · Part 2 of 2",
+   prev="Python Basics: print, Variables, Strings, Input (Unit 4, Part 1)", next="Intro to Computer Science, Unit 5: Networks and the Internet",
+   also="Unit 4 is split into 2 videos: Part 1 (the basics) and Part 2 (decisions, loops, functions and lists).",
+   playlists=["Intro to Computer Science (Full Course)", "Intro CS Unit 4: Programming Basics in Python"],
+   tags="python for beginners, python if else, python while loop, python for loop, range, python functions, return, python lists, learn python, computer science",
+   tagsh="#python #coding #computerscience"),
+ "introcs_u4_part1": dict(
+   title="Python for Beginners: print, Variables, Math, Strings, Input & Booleans | Intro to CS Unit 4 (Part 1)",
+   intro="Write your first real programs in Python. This video covers Unit 4, lessons 1 to 6: print and comments, variables and assignment, numbers and arithmetic (including //, % and **), strings (joining, indexes, slices, methods), input from the user with int() and float(), and Booleans and comparisons with and, or and not. Each section ends with a practice problem.",
+   course="Intro to Computer Science", unit=3, part="Unit 4: Programming Basics in Python · Part 1 of 2",
+   prev="Intro to Computer Science, Unit 3: Algorithms", next="Python Decisions, Loops, Functions & Lists (Unit 4, Part 2)",
+   also="Unit 4 is split into 2 videos: Part 1 (the basics) and Part 2 (decisions, loops, functions and lists).",
+   playlists=["Intro to Computer Science (Full Course)", "Intro CS Unit 4: Programming Basics in Python"],
+   tags="python for beginners, python tutorial, print, variables, strings, input, booleans, learn python, computer science",
+   tagsh="#python #coding #computerscience"),
  "introcs_u3_algorithms": dict(
    title="Algorithms: Flowcharts, Linear & Binary Search, Selection Sort | Intro to CS Unit 3",
    intro="What is an algorithm, and how do you tell a good one from a slow one? This video covers all of Unit 3: sequence, selection and repetition, flowcharts and pseudocode, linear search, binary search, selection sort, and comparing algorithms by how their step count grows. Each section ends with a practice problem.",
