@@ -1,0 +1,23 @@
+{
+"ep01": ["Why only 0 and 1?", "Bits: switches off and on", "Place value in base ten", "Place value in base two", "Counting from 0 to 8", "Binary to decimal", "Decimal to binary", "Bits and bytes", "Your turn"],
+"ep02": ["Long binary is hard to read", "Sixteen digits: 0-9 and A-F", "One hex digit = four bits", "Converting a byte to hex", "Hex place values", "Where you see hex", "Your turn"],
+"ep03": ["Computers only store numbers", "Every character gets a number", "Encoding \"Hi!\"", "The ASCII table", "Unicode: every language", "UTF-8", "Your turn"],
+"ep04": ["Photos are numbers", "Pixels", "Black and white images", "Color: red, green, blue", "16 million colors", "How big is an image?", "Resolution", "Your turn"],
+"ep05": ["Sound as numbers", "Sound waves", "Samples", "Sample rate", "CD quality", "Bit depth", "Size of one minute of audio", "Your turn"],
+"ep06": ["Why compress?", "Data repeats", "Run-length encoding", "Lossless compression", "Lossy compression", "Which one to use?", "Your turn"],
+"csa_u1_l01": ["Every program starts as text", "Algorithms", "From algorithm to program", "Your first Java program", "Compilers and bytecode", "Three kinds of errors", "Your turn"],
+"csa_u1_l02": ["Programs need memory", "Variables", "int, double, boolean", "Declaring and initializing", "Naming rules", "Constants with final", "Primitive vs reference", "Your turn"],
+"csa_u1_l03": ["Showing results", "print vs println", "String literals and escapes", "Arithmetic operators", "Remainder with %", "Order of operations", "Dividing by zero", "Your turn"],
+"csa_u1_l04": ["Changing values", "= means assign", "x = x + 1", "Tracing code", "Type must match", "Input with Scanner", "A small program", "Your turn"],
+"csa_u1_l05": ["Changing types", "Casting", "Fixing integer division", "Rounding with a cast", "int range and overflow", "double precision", "Your turn"],
+"csa_u1_l06": ["Updating variables", "Compound assignment", "++ and --", "Tracing", "/= on an int", "Your turn"],
+"csa_u1_l07": ["Don't start from scratch", "Libraries", "The standard library", "Classes and objects", "Packages and import", "Reading an API", "Your turn"],
+"csa_u1_l08": ["Code is read more than written", "// and /* */ comments", "Javadoc comments", "Preconditions", "Postconditions", "Your turn"],
+"csa_u1_l09": ["Methods", "What a method is", "Parameters vs arguments", "void and return types", "Overloading", "Matching the signature", "Your turn"],
+"csa_u1_l10": ["Calling methods", "Class methods", "Calling square", "Using a return value", "Calling a void method", "Nested calls", "Your turn"],
+"csa_u1_l11": ["The Math class", "abs, pow and sqrt", "Math.random", "Random int in a range", "The general pattern", "Your turn"],
+"csa_u1_l12": ["Object-oriented Java", "Classes are blueprints", "A Lamp class", "Three Lamp objects", "References", "Your turn"],
+"csa_u1_l13": ["Creating objects", "The new keyword", "Constructors", "null", "Two references, one object", "Your turn"],
+"csa_u1_l14": ["Instance methods", "Calling on an object", "Class vs instance methods", "Trying String methods", "void instance methods", "Your turn"],
+"csa_u1_l15": ["Strings everywhere", "Indexes", "substring(a, b)", "substring(a)", "indexOf", "equals vs ==", "Strings are immutable", "Your turn"]
+}

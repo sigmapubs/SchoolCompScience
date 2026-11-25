@@ -1,0 +1,58 @@
+Java Basics: Algorithms, Variables, Expressions, Input & Casting | AP CSA Unit 1 (1.1–1.5)
+
+Start AP Computer Science A here. Topics 1.1 to 1.5: algorithms and your first Java program, compilers and errors, variables and primitive types, expressions and output (including integer division and %), assignment and Scanner input, and casting, ranges and overflow. Each topic ends with an AP-style practice problem. Unit 1 is split into 3 videos: Part 1 (1.1–1.5), Part 2 (1.6–1.10), Part 3 (1.11–1.15).
+
+Course: AP Computer Science A · Unit 1: Using Objects and Methods · Part 1 of 3
+Previous: Start of the course
+Next: Java Methods: Compound Assignment, APIs, Comments & Method Calls (Unit 1, Part 2)
+
+0:00 Introduction
+0:16 1.1 Algorithms, programs and compilers
+0:32 Algorithms
+0:52 From algorithm to program
+1:05 Your first Java program
+1:27 Compilers and bytecode
+1:45 Three kinds of errors
+2:09 Your turn
+2:24 1.2 Variables and data types
+2:40 Variables
+2:58 int, double, boolean
+3:15 Declaring and initializing
+3:34 Naming rules
+4:01 Constants with final
+4:14 Primitive vs reference
+4:30 Your turn
+4:50 1.3 Expressions and output
+5:03 print vs println
+5:21 String literals and escapes
+5:39 Arithmetic operators
+6:07 Remainder with %
+6:26 Order of operations
+6:45 Dividing by zero
+6:56 Your turn
+7:20 1.4 Assignment and input
+7:31 = means assign
+7:46 x = x + 1
+8:01 Tracing code
+8:20 Type must match
+8:44 Input with Scanner
+9:05 A small program
+9:16 Your turn
+9:37 1.5 Casting and ranges
+9:49 Casting
+10:05 Fixing integer division
+10:26 Rounding with a cast
+10:48 int range and overflow
+11:14 double precision
+11:36 Your turn
+
+AP Computer Science A, the complete course (5 units, full syllabus):
+▶ Unit 1: Using Objects and Methods  (you are here)
+• Unit 2: Selection and Iteration
+• Unit 3: Class Creation
+• Unit 4: Data Collections
+• Exam Prep: FRQs and Multiple Choice
+Follow the whole course in order in the "AP Computer Science A (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#APCSA #java #computerscience

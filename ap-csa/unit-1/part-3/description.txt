@@ -1,0 +1,52 @@
+Java Objects, the Math Class & String Methods | AP CSA Unit 1 (1.11–1.15)
+
+AP CSA Topics 1.11 to 1.15: the Math class (abs, pow, sqrt, random ints in a range), objects as instances of classes, creating objects with new and constructors, null and references, calling instance methods, and every String method on the exam: substring, indexOf, equals and compareTo. Each topic ends with an AP-style practice problem. Unit 1 is split into 3 videos: Part 1 (1.1–1.5), Part 2 (1.6–1.10), Part 3 (1.11–1.15).
+
+Course: AP Computer Science A · Unit 1: Using Objects and Methods · Part 3 of 3
+Previous: Java Methods: Compound Assignment, APIs, Comments & Method Calls (Unit 1, Part 2)
+Next: AP Computer Science A, Unit 2: Selection and Iteration
+
+0:00 Introduction
+0:15 1.11 The Math class
+0:30 abs, pow and sqrt
+0:56 Math.random
+1:11 Random int in a range
+1:32 The general pattern
+1:50 Your turn
+2:06 1.12 Objects: instances of classes
+2:19 Classes are blueprints
+2:37 A Lamp class
+2:50 Three Lamp objects
+3:05 References
+3:23 Your turn
+3:40 1.13 Creating objects
+3:52 The new keyword
+4:08 Constructors
+4:28 null
+4:43 Two references, one object
+5:00 Your turn
+5:22 1.14 Calling instance methods
+5:33 Calling on an object
+5:50 Class vs instance methods
+6:06 Trying String methods
+6:20 void instance methods
+6:39 Your turn
+6:57 1.15 String methods
+7:10 Indexes
+7:32 substring(a, b)
+7:49 substring(a)
+8:04 indexOf
+8:17 equals vs ==
+8:39 Strings are immutable
+8:56 Your turn
+
+AP Computer Science A, the complete course (5 units, full syllabus):
+▶ Unit 1: Using Objects and Methods  (you are here)
+• Unit 2: Selection and Iteration
+• Unit 3: Class Creation
+• Unit 4: Data Collections
+• Exam Prep: FRQs and Multiple Choice
+Follow the whole course in order in the "AP Computer Science A (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#APCSA #java #computerscience #OOP

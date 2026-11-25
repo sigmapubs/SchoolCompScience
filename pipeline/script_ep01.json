@@ -1,0 +1,61 @@
+{
+ "title": "Counting in Binary: How Computers Count",
+ "voice": "am_puck",
+ "speed": 0.9,
+ "segments": [
+  [
+   "You count with ten digits, zero through nine.",
+   "A computer only has two. Zero and one.",
+   "So how does a computer count past one? Let's find out."
+  ],
+  [
+   "Inside a computer are billions of tiny switches.",
+   "Each switch is either off or on. We write off as zero, and on as one.",
+   "A single zero or one is called a bit, short for binary digit."
+  ],
+  [
+   "First, let's look at how our normal numbers work.",
+   "Take the number three hundred forty five.",
+   "The five means five ones. The four means four tens. The three means three hundreds.",
+   "Each place is worth ten times the place to its right. That's why we call it base ten."
+  ],
+  [
+   "Binary works the same way, but with base two.",
+   "Each place is worth two times the place to its right.",
+   "So instead of ones, tens and hundreds, the places are one, two, four, eight, sixteen, and so on."
+  ],
+  [
+   "Now let's count.",
+   "Zero. One. Now we're out of digits, so we carry, just like going from nine to ten.",
+   "One zero is two. One one is three. Carry again: one zero zero is four.",
+   "Five, six, seven. And carrying once more, one zero zero zero is eight."
+  ],
+  [
+   "To read a binary number, add up the places that hold a one.",
+   "Take one zero one one.",
+   "There's a one in the eights place, the twos place, and the ones place.",
+   "Eight plus two plus one is eleven. So one zero one one in binary is eleven."
+  ],
+  [
+   "Going the other way, start with the biggest place that fits.",
+   "Let's convert thirteen. Eight fits, leaving five.",
+   "Four fits, leaving one. Two doesn't fit, so that place gets a zero. And one fits.",
+   "So thirteen is one one zero one."
+  ],
+  [
+   "Computers usually group bits in eights. Eight bits make one byte.",
+   "With eight bits, the biggest number is all ones, which is two hundred fifty five.",
+   "Counting zero, that's two hundred fifty six different values."
+  ],
+  [
+   "Now you try. What is one zero zero one zero in decimal?",
+   "Pause the video now.",
+   "The answer is eighteen: sixteen plus two.",
+   "Next, we'll see why programmers also use hexadecimal, a shorter way to write binary."
+  ],
+  [
+   "If this helped, subscribe to School Computer Science, Explained, so you don't miss the next lesson.",
+   "See you there."
+  ]
+ ]
+}

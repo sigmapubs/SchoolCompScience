@@ -1,0 +1,900 @@
+1
+00:00:00,000 --> 00:00:05,174
+Welcome to School Computer Science,
+Explained. This is Intro to Computer
+
+2
+00:00:05,174 --> 00:00:10,779
+Science, Unit 2: Data and Binary. We'll
+see how computers store numbers, text,
+
+3
+00:00:10,779 --> 00:00:13,653
+images and sound, all as ones and zeros.
+
+4
+00:00:14,827 --> 00:00:17,536
+You count with ten digits, zero through
+nine.
+
+5
+00:00:17,986 --> 00:00:20,696
+A computer only has two. Zero and one.
+
+6
+00:00:21,146 --> 00:00:24,538
+So how does a computer count past one?
+Let's find out.
+
+7
+00:00:25,688 --> 00:00:28,717
+Inside a computer are billions of tiny
+switches.
+
+8
+00:00:29,167 --> 00:00:33,604
+Each switch is either off or on. We write
+off as zero, and on as one.
+
+9
+00:00:34,054 --> 00:00:38,300
+A single zero or one is called a bit,
+short for binary digit.
+
+10
+00:00:39,450 --> 00:00:42,202
+First, let's look at how our normal
+numbers work.
+
+11
+00:00:42,652 --> 00:00:45,084
+Take the number three hundred forty five.
+
+12
+00:00:45,534 --> 00:00:50,974
+The five means five ones. The four means
+four tens. The three means three hundreds.
+
+13
+00:00:51,424 --> 00:00:56,714
+Each place is worth ten times the place to
+its right. That's why we call it base ten.
+
+14
+00:00:57,864 --> 00:01:00,531
+Binary works the same way, but with base
+two.
+
+15
+00:01:00,981 --> 00:01:04,138
+Each place is worth two times the place to
+its right.
+
+16
+00:01:04,588 --> 00:01:10,525
+So instead of ones, tens and hundreds, the
+places are one, two, four, eight, sixteen,
+
+17
+00:01:10,525 --> 00:01:11,223
+and so on.
+
+18
+00:01:12,873 --> 00:01:13,961
+Now let's count.
+
+19
+00:01:14,411 --> 00:01:19,595
+Zero. One. Now we're out of digits, so we
+carry, just like going from nine to ten.
+
+20
+00:01:20,045 --> 00:01:24,994
+One zero is two. One one is three. Carry
+again: one zero zero is four.
+
+21
+00:01:25,444 --> 00:01:30,351
+Five, six, seven. And carrying once more,
+one zero zero zero is eight.
+
+22
+00:01:31,501 --> 00:01:35,234
+To read a binary number, add up the places
+that hold a one.
+
+23
+00:01:35,684 --> 00:01:37,391
+Take one zero one one.
+
+24
+00:01:37,841 --> 00:01:41,510
+There's a one in the eights place, the
+twos place, and the ones place.
+
+25
+00:01:41,960 --> 00:01:47,656
+Eight plus two plus one is eleven. So one
+zero one one in binary is eleven.
+
+26
+00:01:48,806 --> 00:01:52,049
+Going the other way, start with the
+biggest place that fits.
+
+27
+00:01:52,499 --> 00:01:55,678
+Let's convert thirteen. Eight fits,
+leaving five.
+
+28
+00:01:56,128 --> 00:02:01,568
+Four fits, leaving one. Two doesn't fit,
+so that place gets a zero. And one fits.
+
+29
+00:02:02,018 --> 00:02:04,450
+So thirteen is one one zero one.
+
+30
+00:02:05,600 --> 00:02:09,802
+Computers usually group bits in eights.
+Eight bits make one byte.
+
+31
+00:02:10,252 --> 00:02:15,095
+With eight bits, the biggest number is all
+ones, which is two hundred fifty five.
+
+32
+00:02:15,545 --> 00:02:19,257
+Counting zero, that's two hundred fifty
+six different values.
+
+33
+00:02:20,407 --> 00:02:24,524
+Now you try. What is one zero zero one
+zero in decimal?
+
+34
+00:02:24,974 --> 00:02:26,254
+Pause the video now.
+
+35
+00:02:26,704 --> 00:02:29,350
+The answer is eighteen: sixteen plus two.
+
+36
+00:02:29,800 --> 00:02:35,230
+Next, we'll see why programmers also use
+hexadecimal, a shorter way to write
+
+37
+00:02:35,230 --> 00:02:35,730
+binary.
+
+38
+00:02:36,880 --> 00:02:41,595
+Here's a byte in binary: one one zero one,
+zero one one zero.
+
+39
+00:02:42,045 --> 00:02:44,626
+Eight digits, and it's easy to lose your
+place.
+
+40
+00:02:45,076 --> 00:02:49,961
+Programmers use a shorter way to write the
+same thing. It's called hexadecimal.
+
+41
+00:02:51,111 --> 00:02:54,973
+Hexadecimal is base sixteen, so it needs
+sixteen digits.
+
+42
+00:02:55,423 --> 00:02:57,599
+Zero through nine give us ten of them.
+
+43
+00:02:58,049 --> 00:03:03,609
+For the other six, we borrow letters. A is
+ten, B is eleven, C is twelve, D is
+
+44
+00:03:03,609 --> 00:03:06,603
+thirteen, E is fourteen, and F is fifteen.
+
+45
+00:03:07,753 --> 00:03:09,545
+Here's why hex is so useful.
+
+46
+00:03:09,995 --> 00:03:15,798
+Four bits can make exactly sixteen
+patterns, from zero zero zero zero up to
+
+47
+00:03:15,798 --> 00:03:17,035
+one one one one.
+
+48
+00:03:17,485 --> 00:03:23,224
+That's the same as one hex digit. So every
+group of four bits becomes one hex digit.
+
+49
+00:03:24,374 --> 00:03:27,851
+Let's convert our byte. Split it into two
+groups of four.
+
+50
+00:03:28,301 --> 00:03:34,061
+One one zero one is eight plus four plus
+one, which is thirteen. In hex, that's D.
+
+51
+00:03:34,511 --> 00:03:37,903
+Zero one one zero is four plus two, which
+is six.
+
+52
+00:03:38,353 --> 00:03:42,364
+So the byte is D six in hex. Two
+characters instead of eight.
+
+53
+00:03:43,514 --> 00:03:48,625
+Hex has place values too, but each place
+is worth sixteen times the one to its
+
+54
+00:03:48,625 --> 00:03:49,018
+right.
+
+55
+00:03:49,468 --> 00:03:54,268
+In D six, the D is in the sixteens place,
+and the six is in the ones place.
+
+56
+00:03:54,718 --> 00:03:59,990
+Thirteen times sixteen is two hundred
+eight. Add six, and you get two hundred
+
+57
+00:03:59,990 --> 00:04:00,606
+fourteen.
+
+58
+00:04:01,756 --> 00:04:03,761
+You've probably seen hex already.
+
+59
+00:04:04,211 --> 00:04:10,991
+Web colors are written in hex. Pound F F
+eight eight zero zero means red F F, green
+
+60
+00:04:10,991 --> 00:04:13,278
+eight eight, blue zero zero.
+
+61
+00:04:13,728 --> 00:04:19,275
+F F is two hundred fifty five, the most
+red possible. So this color is orange.
+
+62
+00:04:19,725 --> 00:04:25,564
+Hex also shows up in memory addresses and
+error codes, anywhere people need to read
+
+63
+00:04:25,564 --> 00:04:26,338
+raw binary.
+
+64
+00:04:27,488 --> 00:04:32,587
+Your turn. Convert one zero one zero, zero
+zero one one to hex.
+
+65
+00:04:33,037 --> 00:04:34,317
+Pause the video now.
+
+66
+00:04:34,767 --> 00:04:39,972
+One zero one zero is ten, which is A. Zero
+zero one one is three.
+
+67
+00:04:40,422 --> 00:04:45,521
+So the answer is A three. Next, we'll see
+how computers store text as numbers.
+
+68
+00:04:46,671 --> 00:04:50,276
+A computer can only store numbers. Ones
+and zeros.
+
+69
+00:04:50,726 --> 00:04:53,990
+So when you type the letter A, what
+actually gets saved?
+
+70
+00:04:54,440 --> 00:04:56,787
+Let's find out how text becomes numbers.
+
+71
+00:04:57,937 --> 00:05:01,713
+The trick is an agreement. Every character
+gets its own number.
+
+72
+00:05:02,163 --> 00:05:07,954
+Capital A is sixty five. B is sixty six, C
+is sixty seven, and so on through the
+
+73
+00:05:07,954 --> 00:05:08,606
+alphabet.
+
+74
+00:05:09,056 --> 00:05:14,218
+Lowercase letters start at ninety seven.
+Even a space has a number: thirty two.
+
+75
+00:05:15,368 --> 00:05:18,611
+Let's encode the word Hi, with an
+exclamation mark.
+
+76
+00:05:19,061 --> 00:05:24,632
+H is seventy two. Lowercase i is one
+hundred five. The exclamation mark is
+
+77
+00:05:24,632 --> 00:05:25,610
+thirty three.
+
+78
+00:05:26,060 --> 00:05:28,898
+In memory, those are just three bytes of
+binary.
+
+79
+00:05:30,048 --> 00:05:34,421
+This table is called ASCII. It was created
+in the nineteen sixties.
+
+80
+00:05:34,871 --> 00:05:40,101
+ASCII uses seven bits, so it has room for
+one hundred twenty eight characters:
+
+81
+00:05:40,101 --> 00:05:44,258
+English letters, digits, punctuation, and
+a few control codes.
+
+82
+00:05:44,708 --> 00:05:50,215
+Here's a surprise. The character seven is
+stored as fifty five, not as the number
+
+83
+00:05:50,215 --> 00:05:53,070
+seven. A digit you type is text, not math.
+
+84
+00:05:54,220 --> 00:05:57,847
+But one hundred twenty eight characters
+isn't enough for the world.
+
+85
+00:05:58,297 --> 00:06:03,332
+What about accented letters, Greek,
+Russian, Japanese, Chinese, or emoji?
+
+86
+00:06:03,782 --> 00:06:08,951
+Unicode solves this. It gives a number,
+called a code point, to over one hundred
+
+87
+00:06:08,951 --> 00:06:12,763
+fifty thousand characters from nearly
+every writing system.
+
+88
+00:06:13,213 --> 00:06:17,394
+A is still sixty five, so ASCII fits right
+inside Unicode.
+
+89
+00:06:18,544 --> 00:06:22,171
+To store Unicode, most of the web uses UTF
+eight.
+
+90
+00:06:22,621 --> 00:06:25,970
+In UTF eight, a character takes one to
+four bytes.
+
+91
+00:06:26,420 --> 00:06:32,235
+Plain English letters still use one byte,
+exactly like ASCII. Other characters use
+
+92
+00:06:32,235 --> 00:06:34,079
+more. An emoji takes four.
+
+93
+00:06:35,229 --> 00:06:39,816
+Your turn. Decode these numbers: sixty
+seven, sixty five, eighty four.
+
+94
+00:06:40,266 --> 00:06:41,546
+Pause the video now.
+
+95
+00:06:41,996 --> 00:06:47,286
+Sixty seven is C, sixty five is A, and
+eighty four is T. The word is cat.
+
+96
+00:06:47,736 --> 00:06:50,296
+Next, we'll see how images become numbers.
+
+97
+00:06:51,446 --> 00:06:54,305
+Every photo on your phone is stored as
+numbers.
+
+98
+00:06:54,755 --> 00:06:59,405
+But a picture isn't text, and it isn't a
+single number. So how does that work?
+
+99
+00:06:59,855 --> 00:07:00,901
+Let's zoom in.
+
+100
+00:07:02,051 --> 00:07:07,128
+Zoom in far enough on any digital image,
+and you'll see a grid of tiny squares.
+
+101
+00:07:07,578 --> 00:07:11,013
+Each square is called a pixel, short for
+picture element.
+
+102
+00:07:11,463 --> 00:07:17,095
+A pixel shows exactly one color. The whole
+image is just a grid of colored pixels.
+
+103
+00:07:18,245 --> 00:07:20,847
+Let's start simple, with only black and
+white.
+
+104
+00:07:21,297 --> 00:07:25,308
+One bit per pixel is enough. Zero for
+black, one for white.
+
+105
+00:07:25,758 --> 00:07:31,105
+So this little eight by eight smiley face
+is just sixty four bits, written row by
+
+106
+00:07:31,105 --> 00:07:31,369
+row.
+
+107
+00:07:32,519 --> 00:07:35,975
+For color, screens mix three lights: red,
+green, and blue.
+
+108
+00:07:36,425 --> 00:07:41,568
+Each one gets a brightness from zero to
+two hundred fifty five, which fits in one
+
+109
+00:07:41,568 --> 00:07:41,886
+byte.
+
+110
+00:07:42,336 --> 00:07:47,751
+Full red with no green or blue is pure
+red. Red and green together make yellow.
+
+111
+00:07:47,751 --> 00:07:49,739
+All three at full make white.
+
+112
+00:07:50,889 --> 00:07:55,134
+Three bytes per pixel gives over sixteen
+million possible colors.
+
+113
+00:07:55,584 --> 00:08:00,832
+That's two hundred fifty six, times two
+hundred fifty six, times two hundred fifty
+
+114
+00:08:00,832 --> 00:08:01,088
+six.
+
+115
+00:08:02,238 --> 00:08:03,753
+Now let's count the cost.
+
+116
+00:08:04,203 --> 00:08:09,512
+A typical phone photo is about four
+thousand by three thousand pixels. That's
+
+117
+00:08:09,512 --> 00:08:11,029
+twelve million pixels.
+
+118
+00:08:11,479 --> 00:08:16,609
+At three bytes each, that's thirty six
+million bytes, about thirty six megabytes,
+
+119
+00:08:16,609 --> 00:08:17,495
+for one photo.
+
+120
+00:08:17,945 --> 00:08:21,913
+That's why images are usually compressed,
+which is coming up soon.
+
+121
+00:08:23,063 --> 00:08:27,927
+Resolution is the number of pixels. More
+pixels means finer detail.
+
+122
+00:08:28,377 --> 00:08:33,386
+Color depth is the number of bits per
+pixel. More bits means more possible
+
+123
+00:08:33,386 --> 00:08:33,860
+colors.
+
+124
+00:08:34,310 --> 00:08:37,894
+Both make images look better, and both
+make files bigger.
+
+125
+00:08:39,044 --> 00:08:44,918
+Your turn. A tiny image is ten pixels wide
+and ten pixels tall, with three bytes per
+
+126
+00:08:44,918 --> 00:08:45,337
+pixel.
+
+127
+00:08:45,787 --> 00:08:48,347
+How many bytes is it? Pause the video now.
+
+128
+00:08:48,797 --> 00:08:54,216
+Ten times ten is one hundred pixels. Times
+three bytes is three hundred bytes.
+
+129
+00:08:54,666 --> 00:08:56,757
+Next, we'll turn sound into numbers.
+
+130
+00:08:57,907 --> 00:09:02,814
+Music, voices, this narration. A computer
+stores all of it as numbers.
+
+131
+00:09:03,264 --> 00:09:07,957
+But sound is a smooth wave in the air. How
+do you turn a wave into numbers?
+
+132
+00:09:08,407 --> 00:09:09,836
+The answer is sampling.
+
+133
+00:09:10,986 --> 00:09:17,325
+Sound is a vibration. A microphone turns
+it into a signal that rises and falls over
+
+134
+00:09:17,325 --> 00:09:17,706
+time.
+
+135
+00:09:18,156 --> 00:09:23,319
+This curve is smooth and continuous. It
+has a value at every single instant.
+
+136
+00:09:23,769 --> 00:09:28,989
+A computer can't store infinitely many
+values, so it measures the wave at regular
+
+137
+00:09:28,989 --> 00:09:30,020
+moments instead.
+
+138
+00:09:31,170 --> 00:09:35,910
+Each measurement is called a sample. It
+records the height of the wave at that
+
+139
+00:09:35,910 --> 00:09:36,396
+instant.
+
+140
+00:09:36,846 --> 00:09:41,092
+Store the samples in order, and you have
+the sound as a list of numbers.
+
+141
+00:09:41,542 --> 00:09:45,510
+To play it back, the computer rebuilds the
+wave from those samples.
+
+142
+00:09:46,660 --> 00:09:49,348
+How often you sample is called the sample
+rate.
+
+143
+00:09:49,798 --> 00:09:55,024
+Sample too slowly, and you miss the fast
+wiggles. The wave you rebuild looks wrong.
+
+144
+00:09:55,474 --> 00:09:59,122
+Sample faster, and the copy gets closer to
+the original.
+
+145
+00:10:00,272 --> 00:10:05,584
+Music on a CD uses forty four thousand one
+hundred samples every second.
+
+146
+00:10:06,034 --> 00:10:09,768
+That's fast enough to capture every pitch
+most humans can hear.
+
+147
+00:10:10,918 --> 00:10:14,715
+The second setting is bit depth: how many
+bits store each sample.
+
+148
+00:10:15,165 --> 00:10:20,087
+With only a few bits, each sample has to
+snap to a few allowed levels, and the
+
+149
+00:10:20,087 --> 00:10:21,160
+sound gets rough.
+
+150
+00:10:21,610 --> 00:10:27,386
+CD audio uses sixteen bits, which allows
+sixty five thousand five hundred thirty
+
+151
+00:10:27,386 --> 00:10:28,180
+six levels.
+
+152
+00:10:29,330 --> 00:10:32,104
+So how big is one minute of CD audio?
+
+153
+00:10:32,554 --> 00:10:38,069
+Forty four thousand one hundred samples,
+times two bytes, times two channels for
+
+154
+00:10:38,069 --> 00:10:39,999
+stereo, times sixty seconds.
+
+155
+00:10:40,449 --> 00:10:44,801
+That's about ten and a half million bytes,
+roughly ten megabytes per minute.
+
+156
+00:10:45,951 --> 00:10:51,350
+Your turn. A recording uses ten thousand
+samples per second, with one byte per
+
+157
+00:10:51,350 --> 00:10:52,458
+sample, in mono.
+
+158
+00:10:52,908 --> 00:10:56,172
+How many bytes for ten seconds? Pause the
+video now.
+
+159
+00:10:56,622 --> 00:11:00,824
+Ten thousand times one times ten is one
+hundred thousand bytes.
+
+160
+00:11:01,274 --> 00:11:04,816
+Next, we'll see how compression makes all
+these files smaller.
+
+161
+00:11:05,965 --> 00:11:11,213
+A single phone photo can take thirty six
+megabytes. A minute of music, ten.
+
+162
+00:11:11,663 --> 00:11:15,290
+Yet the files on your phone are usually
+much smaller than that.
+
+163
+00:11:15,740 --> 00:11:20,028
+The trick is compression: storing the same
+information in fewer bits.
+
+164
+00:11:21,178 --> 00:11:23,887
+Compression works because data often
+repeats.
+
+165
+00:11:24,337 --> 00:11:28,881
+Look at this row of pixels: four white,
+three black, two white, one black.
+
+166
+00:11:29,331 --> 00:11:34,195
+Instead of storing every pixel, we can
+store how many in a row, and what color.
+
+167
+00:11:34,645 --> 00:11:40,149
+Four W, three B, two W, one B. That's
+called run length encoding.
+
+168
+00:11:41,299 --> 00:11:45,310
+The original took ten symbols. The
+compressed version takes eight.
+
+169
+00:11:45,760 --> 00:11:50,837
+With long runs, like a clear blue sky in a
+photo, the savings get much bigger.
+
+170
+00:11:51,287 --> 00:11:55,869
+And nothing is lost. We can rebuild the
+exact original from the compressed
+
+171
+00:11:55,869 --> 00:11:56,364
+version.
+
+172
+00:11:57,514 --> 00:12:00,608
+Compression where nothing is lost is
+called lossless.
+
+173
+00:12:01,058 --> 00:12:04,023
+Zip files and P N G images are lossless.
+
+174
+00:12:04,473 --> 00:12:09,839
+Text, code, and spreadsheets must use
+lossless compression. Change a single bit,
+
+175
+00:12:09,839 --> 00:12:12,388
+and a number or a word could be wrong.
+
+176
+00:12:13,538 --> 00:12:18,896
+The other kind is lossy compression. It
+throws away detail you probably won't
+
+177
+00:12:18,896 --> 00:12:19,383
+notice.
+
+178
+00:12:19,833 --> 00:12:26,003
+A J P E G photo blends tiny color
+differences together. An M P three removes
+
+179
+00:12:26,003 --> 00:12:28,601
+sounds your ear can barely hear.
+
+180
+00:12:29,051 --> 00:12:33,936
+Lossy files can be ten times smaller, but
+the lost detail is gone for good.
+
+181
+00:12:35,086 --> 00:12:36,366
+So which should you use?
+
+182
+00:12:36,816 --> 00:12:39,931
+If you need the exact original back,
+choose lossless.
+
+183
+00:12:40,381 --> 00:12:45,998
+If you need the smallest file, and small
+changes are fine, choose lossy. That's why
+
+184
+00:12:45,998 --> 00:12:48,232
+streaming video and music use it.
+
+185
+00:12:49,382 --> 00:12:55,692
+Your turn. Compress this row with run
+length encoding: six W, then three B, then
+
+186
+00:12:55,692 --> 00:12:56,166
+one W.
+
+187
+00:12:56,616 --> 00:12:57,896
+Pause the video now.
+
+188
+00:12:58,346 --> 00:13:01,674
+The answer is six W, three B, one W.
+
+189
+00:13:02,124 --> 00:13:06,518
+That's the end of Unit two. Next, we'll
+start Unit three: algorithms.
+
+190
+00:13:07,668 --> 00:13:12,345
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+191
+00:13:12,345 --> 00:13:13,620
+miss the next lesson.
+
+192
+00:13:14,070 --> 00:13:14,966
+See you there.
+

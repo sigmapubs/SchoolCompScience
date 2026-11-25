@@ -1,0 +1,655 @@
+1
+00:00:00,000 --> 00:00:05,470
+Welcome to School Computer Science,
+Explained. This is AP Computer Science A,
+
+2
+00:00:05,470 --> 00:00:11,083
+Unit 1, part three: topics one point
+eleven to one point fifteen. We'll use the
+
+3
+00:00:11,083 --> 00:00:14,635
+Math class, create objects, and work with
+Strings.
+
+4
+00:00:15,808 --> 00:00:19,968
+Java's Math class is a toolbox of ready
+made calculations.
+
+5
+00:00:20,418 --> 00:00:25,219
+All its methods are static, so you call
+them with the class name: Math dot, then
+
+6
+00:00:25,219 --> 00:00:25,879
+the method.
+
+7
+00:00:26,329 --> 00:00:28,911
+Here are the ones you need for the AP
+exam.
+
+8
+00:00:30,061 --> 00:00:36,013
+Math dot abs gives the absolute value.
+Math dot abs of negative seven is seven.
+
+9
+00:00:36,463 --> 00:00:42,574
+Math dot pow raises a number to a power.
+Math dot pow of two and three is eight
+
+10
+00:00:42,574 --> 00:00:46,596
+point zero. Notice that pow always returns
+a double.
+
+11
+00:00:47,046 --> 00:00:52,736
+Math dot square root gives the square
+root. Math dot square root of eighty one
+
+12
+00:00:52,736 --> 00:00:55,217
+is nine point zero, also a double.
+
+13
+00:00:56,367 --> 00:01:02,630
+Math dot random gives a random double from
+zero point zero up to, but not including,
+
+14
+00:01:02,630 --> 00:01:03,748
+one point zero.
+
+15
+00:01:04,198 --> 00:01:09,998
+Every call gives a different value, like
+zero point three seven, or zero point nine
+
+16
+00:01:09,998 --> 00:01:10,278
+one.
+
+17
+00:01:11,428 --> 00:01:14,884
+To get a random int in a range, stretch,
+shift, and cast.
+
+18
+00:01:15,334 --> 00:01:20,689
+Multiply by how many values you want, cast
+to int, then add the smallest value.
+
+19
+00:01:21,139 --> 00:01:27,218
+For a die roll from one to six: Math dot
+random times six gives zero up to six.
+
+20
+00:01:27,218 --> 00:01:31,528
+Casting gives zero to five. Adding one
+gives one to six.
+
+21
+00:01:32,678 --> 00:01:38,033
+Here's the general pattern. For a random
+int from min to max, including both ends:
+
+22
+00:01:38,483 --> 00:01:44,072
+cast Math dot random, times max minus min
+plus one, to an int, then add min.
+
+23
+00:01:44,522 --> 00:01:48,853
+The plus one is easy to forget, and it's a
+favorite AP exam trap.
+
+24
+00:01:50,003 --> 00:01:54,951
+Your turn. Write an expression for a
+random int from ten to twenty, including
+
+25
+00:01:54,951 --> 00:01:55,272
+both.
+
+26
+00:01:55,722 --> 00:01:57,002
+Pause the video now.
+
+27
+00:01:57,452 --> 00:02:03,169
+There are eleven values, so it's int cast
+of Math dot random times eleven, plus ten.
+
+28
+00:02:03,619 --> 00:02:05,753
+Next, we'll start working with objects.
+
+29
+00:02:06,903 --> 00:02:12,358
+Java is an object oriented language.
+Almost everything you build is made of
+
+30
+00:02:12,358 --> 00:02:12,940
+objects.
+
+31
+00:02:13,390 --> 00:02:18,020
+In this lesson, you'll learn what objects
+are, and how they relate to classes.
+
+32
+00:02:19,170 --> 00:02:24,255
+A class is a blueprint. It describes what
+kind of data something has, and what it
+
+33
+00:02:24,255 --> 00:02:24,695
+can do.
+
+34
+00:02:25,145 --> 00:02:30,729
+An object is one specific thing built from
+that blueprint. We say the object is an
+
+35
+00:02:30,729 --> 00:02:32,228
+instance of the class.
+
+36
+00:02:32,678 --> 00:02:36,240
+One class can be used to build as many
+objects as you need.
+
+37
+00:02:37,390 --> 00:02:39,353
+Let's imagine a class called Lamp.
+
+38
+00:02:39,803 --> 00:02:43,536
+Every Lamp has attributes, like its color,
+and whether it's on.
+
+39
+00:02:43,986 --> 00:02:48,850
+And every Lamp has behaviors, which are
+its methods, like turn on and turn off.
+
+40
+00:02:49,000 --> 00:02:51,750
+Now build three Lamp objects.
+
+41
+00:02:52,200 --> 00:02:57,492
+Each one has its own copy of the
+attributes. One is red and on. One is blue
+
+42
+00:02:57,492 --> 00:02:59,538
+and off. One is green and on.
+
+43
+00:02:59,988 --> 00:03:04,682
+Turning off the red lamp changes only that
+lamp. The others aren't affected.
+
+44
+00:03:05,832 --> 00:03:10,397
+In Java, a variable of a class type
+doesn't hold the object itself.
+
+45
+00:03:10,847 --> 00:03:15,412
+It holds a reference, which tells Java
+where the object lives in memory.
+
+46
+00:03:15,862 --> 00:03:20,431
+That's why class types are called
+reference types, unlike int and double,
+
+47
+00:03:20,431 --> 00:03:22,497
+which hold their values directly.
+
+48
+00:03:23,647 --> 00:03:29,155
+Your turn. String is a class, and the text
+hello in quotes is a String. Which one is
+
+49
+00:03:29,155 --> 00:03:29,876
+the object?
+
+50
+00:03:30,326 --> 00:03:31,606
+Pause the video now.
+
+51
+00:03:32,056 --> 00:03:36,216
+The text hello is the object. It's an
+instance of the String class.
+
+52
+00:03:36,666 --> 00:03:39,312
+Next, we'll create objects with the
+keyword new.
+
+53
+00:03:40,461 --> 00:03:45,672
+You know that objects are built from
+classes. But how do you actually build one
+
+54
+00:03:45,672 --> 00:03:46,200
+in Java?
+
+55
+00:03:46,650 --> 00:03:51,127
+In this lesson, you'll create objects with
+the keyword new, and see where they're
+
+56
+00:03:51,127 --> 00:03:51,514
+stored.
+
+57
+00:03:52,664 --> 00:03:57,762
+To create an object, use the keyword new,
+followed by a call to a constructor.
+
+58
+00:03:58,212 --> 00:04:01,306
+Lamp desk equals new Lamp, with the
+argument red.
+
+59
+00:04:01,756 --> 00:04:06,710
+This builds a new Lamp object in memory,
+and stores a reference to it in the
+
+60
+00:04:06,710 --> 00:04:07,622
+variable desk.
+
+61
+00:04:08,772 --> 00:04:14,122
+A constructor is a special method that
+sets up a new object. It has the same name
+
+62
+00:04:14,122 --> 00:04:14,980
+as the class.
+
+63
+00:04:15,430 --> 00:04:20,789
+Constructors can be overloaded. Lamp might
+have one constructor with no parameters,
+
+64
+00:04:20,789 --> 00:04:22,790
+and another that takes a color.
+
+65
+00:04:23,240 --> 00:04:27,230
+Java picks the constructor whose
+parameters match the arguments.
+
+66
+00:04:28,380 --> 00:04:32,049
+A reference variable can also hold the
+special value null.
+
+67
+00:04:32,499 --> 00:04:36,190
+null means the variable doesn't refer to
+any object at all.
+
+68
+00:04:36,640 --> 00:04:41,551
+If you try to call a method on a null
+reference, the program crashes with a Null
+
+69
+00:04:41,551 --> 00:04:42,656
+Pointer Exception.
+
+70
+00:04:43,806 --> 00:04:46,366
+Here's something that surprises many
+students.
+
+71
+00:04:46,816 --> 00:04:52,549
+If you write Lamp other equals desk, no
+new lamp is made. Both variables now refer
+
+72
+00:04:52,549 --> 00:04:53,877
+to the same object.
+
+73
+00:04:54,327 --> 00:04:59,426
+So calling other dot turn off also turns
+off desk. There's only one lamp.
+
+74
+00:05:00,576 --> 00:05:06,574
+Your turn. How many Lamp objects are
+created by these lines? Lamp a equals new
+
+75
+00:05:06,574 --> 00:05:10,112
+Lamp. Lamp b equals a. Lamp c equals new
+Lamp.
+
+76
+00:05:10,562 --> 00:05:11,842
+Pause the video now.
+
+77
+00:05:12,292 --> 00:05:17,753
+Two. Each new creates one object. Lamp b
+equals a just copies the reference.
+
+78
+00:05:18,203 --> 00:05:21,168
+Next, we'll call instance methods on our
+objects.
+
+79
+00:05:22,319 --> 00:05:26,180
+Objects can do things. Their behaviors are
+instance methods.
+
+80
+00:05:26,630 --> 00:05:31,097
+In this lesson, you'll call instance
+methods, and see how they differ from
+
+81
+00:05:31,097 --> 00:05:31,942
+class methods.
+
+82
+00:05:33,092 --> 00:05:38,101
+To call an instance method, write the
+object reference, a dot, then the method
+
+83
+00:05:38,101 --> 00:05:39,322
+name and arguments.
+
+84
+00:05:39,772 --> 00:05:41,820
+For example, desk dot turn off.
+
+85
+00:05:42,270 --> 00:05:47,927
+The method works on that specific object's
+data. Calling it on desk changes desk, not
+
+86
+00:05:47,927 --> 00:05:48,926
+any other lamp.
+
+87
+00:05:50,076 --> 00:05:55,429
+Compare this with a class method. Math dot
+abs is called on the class, because it
+
+88
+00:05:55,429 --> 00:05:57,478
+doesn't need any object's data.
+
+89
+00:05:57,928 --> 00:06:02,685
+But the length of a String depends on
+which String you ask. So length is an
+
+90
+00:06:02,685 --> 00:06:05,032
+instance method, called on an object.
+
+91
+00:06:06,182 --> 00:06:08,550
+Let's try it. String word equals hello.
+
+92
+00:06:08,000 --> 00:06:13,118
+word dot length returns five, because
+hello has five characters.
+
+93
+00:06:13,568 --> 00:06:18,859
+Like any non void method, the returned
+value can be stored, printed, or used in
+
+94
+00:06:18,859 --> 00:06:19,797
+an expression.
+
+95
+00:06:20,947 --> 00:06:25,847
+Some instance methods are void. They
+change the object, or do an action, and
+
+96
+00:06:25,847 --> 00:06:26,814
+return nothing.
+
+97
+00:06:27,264 --> 00:06:32,776
+Others return a value about the object.
+Either way, you must call them on a real
+
+98
+00:06:32,776 --> 00:06:33,258
+object.
+
+99
+00:06:33,708 --> 00:06:38,380
+Calling an instance method on null crashes
+with a Null Pointer Exception.
+
+100
+00:06:39,530 --> 00:06:45,909
+Your turn. String w equals Java. What does
+w dot length, plus one, evaluate to?
+
+101
+00:06:46,359 --> 00:06:47,639
+Pause the video now.
+
+102
+00:06:48,089 --> 00:06:53,145
+Java has four characters, so w dot length
+is four, plus one is five.
+
+103
+00:06:53,595 --> 00:06:56,710
+Next, we'll explore the most important
+String methods.
+
+104
+00:06:57,859 --> 00:07:01,080
+Strings are everywhere: names, messages,
+passwords.
+
+105
+00:07:01,530 --> 00:07:07,118
+The AP exam tests a handful of String
+methods again and again. In this lesson,
+
+106
+00:07:07,118 --> 00:07:09,338
+you'll learn every one of them.
+
+107
+00:07:10,488 --> 00:07:16,014
+First, indexes. Each character in a String
+has a position, and positions start at
+
+108
+00:07:16,014 --> 00:07:16,355
+zero.
+
+109
+00:07:16,805 --> 00:07:23,154
+In the word computer, c is at index zero,
+o is at index one, and the last character,
+
+110
+00:07:23,154 --> 00:07:24,741
+r, is at index seven.
+
+111
+00:07:25,191 --> 00:07:30,165
+length returns eight, the number of
+characters. So the last index is always
+
+112
+00:07:30,165 --> 00:07:31,292
+length minus one.
+
+113
+00:07:32,442 --> 00:07:35,728
+substring with two arguments returns part
+of the String.
+
+114
+00:07:36,178 --> 00:07:40,508
+It starts at the first index, and stops
+just before the second index.
+
+115
+00:07:40,958 --> 00:07:47,504
+So computer dot substring of three and six
+is p u t, the characters at indexes three,
+
+116
+00:07:47,504 --> 00:07:48,660
+four, and five.
+
+117
+00:07:49,810 --> 00:07:54,098
+substring with one argument starts at that
+index and goes to the end.
+
+118
+00:07:54,548 --> 00:07:57,150
+computer dot substring of three is puter.
+
+119
+00:07:57,600 --> 00:08:03,019
+If an index is out of range, Java throws a
+String Index Out Of Bounds Exception.
+
+120
+00:08:04,169 --> 00:08:08,692
+index Of searches for text and returns the
+index where it first appears.
+
+121
+00:08:09,142 --> 00:08:11,872
+computer dot index Of put returns three.
+
+122
+00:08:12,322 --> 00:08:16,034
+If the text isn't found, index Of returns
+negative one.
+
+123
+00:08:17,184 --> 00:08:22,066
+To compare Strings, use equals, not double
+equals. Equals checks whether the
+
+124
+00:08:22,066 --> 00:08:23,158
+characters match.
+
+125
+00:08:23,608 --> 00:08:28,736
+compare To checks alphabetical order. It
+returns a negative number if the first
+
+126
+00:08:28,736 --> 00:08:33,800
+String comes earlier, zero if they're
+equal, and a positive number if it comes
+
+127
+00:08:33,800 --> 00:08:34,189
+later.
+
+128
+00:08:34,639 --> 00:08:37,946
+For example, apple compare To banana is
+negative.
+
+129
+00:08:39,096 --> 00:08:44,301
+Strings are immutable. No String method
+ever changes the original String.
+
+130
+00:08:44,751 --> 00:08:49,934
+Methods like substring return a new
+String. To keep the result, assign it to a
+
+131
+00:08:49,934 --> 00:08:50,532
+variable.
+
+132
+00:08:50,982 --> 00:08:55,804
+You can also join Strings with the plus
+sign. That's called concatenation.
+
+133
+00:08:56,954 --> 00:09:02,706
+Your turn. String s equals sunshine. What
+is s dot substring of three and six? And
+
+134
+00:09:02,706 --> 00:09:04,740
+what is s dot index Of shine?
+
+135
+00:09:05,190 --> 00:09:06,470
+Pause the video now.
+
+136
+00:09:06,920 --> 00:09:13,163
+Indexes three to five are s, h, i. So the
+substring is s h i. And shine starts at
+
+137
+00:09:13,163 --> 00:09:14,088
+index three.
+
+138
+00:09:14,538 --> 00:09:19,829
+That's the end of Unit one. Next, we'll
+start Unit two: selection and iteration.
+
+139
+00:09:20,979 --> 00:09:25,656
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+140
+00:09:25,656 --> 00:09:26,931
+miss the next lesson.
+
+141
+00:09:27,381 --> 00:09:28,277
+See you there.
+

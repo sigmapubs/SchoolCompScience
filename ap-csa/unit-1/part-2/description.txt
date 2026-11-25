@@ -1,0 +1,52 @@
+Java Methods: Compound Assignment, APIs, Comments & Method Calls | AP CSA Unit 1 (1.6–1.10)
+
+AP CSA Topics 1.6 to 1.10: compound assignment (+=, ++), APIs and libraries, comments, Javadoc, preconditions and postconditions, method signatures and overloading, and calling class (static) methods with flow of control. Each topic ends with an AP-style practice problem. Unit 1 is split into 3 videos: Part 1 (1.1–1.5), Part 2 (1.6–1.10), Part 3 (1.11–1.15).
+
+Course: AP Computer Science A · Unit 1: Using Objects and Methods · Part 2 of 3
+Previous: Java Basics: Algorithms, Variables, Expressions, Input & Casting (Unit 1, Part 1)
+Next: Java Objects, the Math Class & String Methods (Unit 1, Part 3)
+
+0:00 Introduction
+0:16 1.6 Compound assignment
+0:28 Compound assignment
+0:46 ++ and --
+1:03 Tracing
+1:23 /= on an int
+1:35 Your turn
+1:54 1.7 APIs and libraries
+2:08 Libraries
+2:31 The standard library
+2:44 Classes and objects
+3:02 Packages and import
+3:23 Reading an API
+3:44 Your turn
+4:04 1.8 Comments and documentation
+4:19 // and /* */ comments
+4:37 Javadoc comments
+5:01 Preconditions
+5:17 Postconditions
+5:35 Your turn
+5:50 1.9 Method signatures
+6:21 Parameters vs arguments
+6:39 void and return types
+6:56 Overloading
+7:12 Matching the signature
+7:32 Your turn
+7:50 1.10 Calling class methods
+8:03 Class methods
+8:25 Calling square
+8:45 Using a return value
+9:02 Calling a void method
+9:15 Nested calls
+9:26 Your turn
+
+AP Computer Science A, the complete course (5 units, full syllabus):
+▶ Unit 1: Using Objects and Methods  (you are here)
+• Unit 2: Selection and Iteration
+• Unit 3: Class Creation
+• Unit 4: Data Collections
+• Exam Prep: FRQs and Multiple Choice
+Follow the whole course in order in the "AP Computer Science A (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#APCSA #java #computerscience

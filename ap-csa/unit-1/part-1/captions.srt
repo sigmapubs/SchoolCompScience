@@ -1,0 +1,823 @@
+1
+00:00:00,000 --> 00:00:05,524
+Welcome to School Computer Science,
+Explained. This is AP Computer Science A,
+
+2
+00:00:05,524 --> 00:00:11,550
+Unit 1, part one: topics one point one to
+one point five. We'll write our first Java
+
+3
+00:00:11,550 --> 00:00:15,424
+programs and learn how variables and
+expressions work.
+
+4
+00:00:16,597 --> 00:00:20,672
+Every app, game, and website started as
+text that a person typed.
+
+5
+00:00:21,122 --> 00:00:25,858
+In AP Computer Science A, you'll learn to
+write that text in Java.
+
+6
+00:00:26,308 --> 00:00:31,214
+Let's start with three big ideas:
+algorithms, programs, and compilers.
+
+7
+00:00:32,364 --> 00:00:36,610
+An algorithm is a step by step process for
+solving a problem.
+
+8
+00:00:37,060 --> 00:00:41,902
+For example, to find the largest number in
+a list: remember the first number.
+
+9
+00:00:42,352 --> 00:00:46,832
+Then check each number after it. If it's
+bigger, remember that one instead.
+
+10
+00:00:47,282 --> 00:00:51,037
+When you reach the end, the number you
+remember is the largest.
+
+11
+00:00:52,187 --> 00:00:57,587
+An algorithm is just an idea. To make a
+computer follow it, we write a program in
+
+12
+00:00:57,587 --> 00:00:59,120
+a programming language.
+
+13
+00:00:59,570 --> 00:01:04,200
+Here is a complete Java program. When it
+runs, it prints Hello, world.
+
+14
+00:01:05,350 --> 00:01:09,979
+Every Java program lives inside a class.
+This one is called Main.
+
+15
+00:01:10,429 --> 00:01:15,016
+Execution starts at the main method. Every
+Java program needs one.
+
+16
+00:01:15,466 --> 00:01:21,695
+Inside is one statement. System dot out
+dot print l n displays a line of text.
+
+17
+00:01:22,145 --> 00:01:26,561
+Notice the semicolon. In Java, every
+statement ends with one.
+
+18
+00:01:27,711 --> 00:01:33,187
+But a computer can't run Java directly. It
+only understands low level machine
+
+19
+00:01:33,187 --> 00:01:34,111
+instructions.
+
+20
+00:01:34,561 --> 00:01:39,638
+So a program called a compiler checks your
+code and translates it into bytecode.
+
+21
+00:01:40,088 --> 00:01:44,398
+Then the Java Virtual Machine runs that
+bytecode on your computer.
+
+22
+00:01:45,548 --> 00:01:48,300
+When code goes wrong, there are three
+kinds of errors.
+
+23
+00:01:48,750 --> 00:01:54,466
+A syntax error breaks Java's rules, like a
+missing semicolon. The compiler catches
+
+24
+00:01:54,466 --> 00:01:56,558
+it, and the program won't run.
+
+25
+00:01:57,008 --> 00:02:00,250
+A logic error runs fine, but gives the
+wrong answer.
+
+26
+00:02:00,700 --> 00:02:06,526
+A run time error happens while the program
+is running, like dividing by zero. Java
+
+27
+00:02:06,526 --> 00:02:08,231
+calls this an exception.
+
+28
+00:02:09,381 --> 00:02:11,962
+Your turn. What kind of error is in this
+line?
+
+29
+00:02:12,412 --> 00:02:13,692
+Pause the video now.
+
+30
+00:02:14,142 --> 00:02:19,471
+There's no semicolon at the end, so it's a
+syntax error. The compiler will catch it
+
+31
+00:02:19,471 --> 00:02:21,012
+before the program runs.
+
+32
+00:02:21,462 --> 00:02:23,659
+Next, we'll store data in variables.
+
+33
+00:02:24,809 --> 00:02:29,097
+A game has to remember your score. A store
+has to remember prices.
+
+34
+00:02:29,547 --> 00:02:32,214
+Programs remember things using variables.
+
+35
+00:02:32,664 --> 00:02:37,743
+In this lesson, you'll learn how Java
+variables work, and the three primitive
+
+36
+00:02:37,743 --> 00:02:39,128
+types on the AP exam.
+
+37
+00:02:40,278 --> 00:02:44,032
+A variable is a named place in memory that
+holds a value.
+
+38
+00:02:44,482 --> 00:02:50,436
+Think of it as a labeled box. The label is
+the variable's name. What's inside is its
+
+39
+00:02:50,436 --> 00:02:50,861
+value.
+
+40
+00:02:51,311 --> 00:02:56,921
+In Java, every variable also has a type,
+which says what kind of value the box can
+
+41
+00:02:56,921 --> 00:02:57,263
+hold.
+
+42
+00:02:58,413 --> 00:03:01,848
+AP Computer Science A uses three primitive
+types.
+
+43
+00:03:02,298 --> 00:03:06,052
+int holds whole numbers, like forty two or
+negative seven.
+
+44
+00:03:06,502 --> 00:03:10,428
+double holds numbers with decimals, like
+three point one four.
+
+45
+00:03:10,878 --> 00:03:14,526
+boolean holds just two possible values:
+true or false.
+
+46
+00:03:15,676 --> 00:03:20,540
+To create a variable, write the type, then
+the name. That's called a declaration.
+
+47
+00:03:20,990 --> 00:03:25,534
+Give it a starting value with an equals
+sign. That's called initializing.
+
+48
+00:03:25,984 --> 00:03:31,584
+Here, score is an int set to zero, price
+is a double set to four ninety nine, and
+
+49
+00:03:31,584 --> 00:03:33,728
+done is a boolean set to false.
+
+50
+00:03:34,878 --> 00:03:37,032
+Variable names follow a few rules.
+
+51
+00:03:37,482 --> 00:03:42,090
+A name can use letters, digits,
+underscores, and dollar signs, but it
+
+52
+00:03:42,090 --> 00:03:45,696
+can't start with a digit, and it can't
+contain spaces.
+
+53
+00:03:46,146 --> 00:03:50,412
+Names are case sensitive, so score and
+Score are different variables.
+
+54
+00:03:50,862 --> 00:03:56,919
+And you can't use Java keywords, like int
+or class. By convention, Java programmers
+
+55
+00:03:56,919 --> 00:04:00,057
+write names in camel case, like high
+score.
+
+56
+00:04:01,207 --> 00:04:04,556
+Sometimes a value should never change,
+like a tax rate.
+
+57
+00:04:05,006 --> 00:04:09,124
+Add the keyword final, and Java won't let
+anyone change it later.
+
+58
+00:04:09,574 --> 00:04:13,819
+By convention, final constants are written
+in all capital letters.
+
+59
+00:04:14,969 --> 00:04:18,041
+Primitive types store the value directly
+in the box.
+
+60
+00:04:18,491 --> 00:04:23,577
+Other types, like String, are reference
+types. Their box holds a reference, which
+
+61
+00:04:23,577 --> 00:04:26,214
+points to an object stored somewhere else.
+
+62
+00:04:26,664 --> 00:04:29,778
+We'll explore objects in detail later in
+this unit.
+
+63
+00:04:30,928 --> 00:04:35,985
+Your turn. Pick the best type for each
+value. The number of students in a class.
+
+64
+00:04:35,985 --> 00:04:39,462
+A student's average grade. Whether a user
+is logged in.
+
+65
+00:04:39,912 --> 00:04:41,192
+Pause the video now.
+
+66
+00:04:41,642 --> 00:04:46,399
+Students is an int. Average grade is a
+double. Logged in is a boolean.
+
+67
+00:04:46,849 --> 00:04:49,494
+Next, we'll build expressions and print
+output.
+
+68
+00:04:50,645 --> 00:04:53,546
+A program that can't show results isn't
+much use.
+
+69
+00:04:53,996 --> 00:04:59,004
+In this lesson, you'll print output in
+Java, and do math with expressions,
+
+70
+00:04:59,004 --> 00:05:02,658
+including a few surprises that show up on
+the AP exam.
+
+71
+00:05:03,808 --> 00:05:06,069
+Java has two common ways to print.
+
+72
+00:05:06,519 --> 00:05:11,639
+System dot out dot print l n prints its
+value, then moves to a new line.
+
+73
+00:05:12,089 --> 00:05:18,320
+System dot out dot print, without the l n,
+stays on the same line. So the next output
+
+74
+00:05:18,320 --> 00:05:20,153
+continues right after it.
+
+75
+00:05:21,303 --> 00:05:24,567
+Text inside double quotes is called a
+string literal.
+
+76
+00:05:25,017 --> 00:05:30,020
+To put special characters inside a string,
+use an escape sequence, which starts with
+
+77
+00:05:30,020 --> 00:05:30,734
+a backslash.
+
+78
+00:05:31,184 --> 00:05:36,496
+Backslash n starts a new line. Backslash
+quote prints a double quote. And backslash
+
+79
+00:05:36,496 --> 00:05:38,800
+backslash prints a single backslash.
+
+80
+00:05:39,950 --> 00:05:45,547
+Java's arithmetic operators are plus,
+minus, times, divide, and the remainder
+
+81
+00:05:45,547 --> 00:05:48,164
+operator, written as a percent sign.
+
+82
+00:05:48,614 --> 00:05:53,770
+Here's the big surprise. When you divide
+two ints, Java throws away the decimal
+
+83
+00:05:53,770 --> 00:05:54,096
+part.
+
+84
+00:05:54,546 --> 00:05:58,152
+Seven divided by two is three, not three
+point five.
+
+85
+00:05:58,602 --> 00:06:04,684
+If either number is a double, you get the
+decimal answer. Seven point zero divided
+
+86
+00:06:04,684 --> 00:06:06,687
+by two is three point five.
+
+87
+00:06:07,837 --> 00:06:13,042
+The percent sign gives the remainder after
+division. It's called the mod operator.
+
+88
+00:06:13,492 --> 00:06:19,284
+Seventeen mod five is two, because five
+goes into seventeen three times, with two
+
+89
+00:06:19,284 --> 00:06:19,999
+left over.
+
+90
+00:06:20,449 --> 00:06:25,718
+A common use: a number is even exactly
+when the number mod two equals zero.
+
+91
+00:06:26,868 --> 00:06:30,004
+Java follows the usual order of
+operations.
+
+92
+00:06:30,454 --> 00:06:36,409
+Times, divide, and mod happen before plus
+and minus. Operators at the same level go
+
+93
+00:06:36,409 --> 00:06:37,772
+from left to right.
+
+94
+00:06:38,222 --> 00:06:44,170
+So two plus three times four is fourteen,
+not twenty. Use parentheses to change the
+
+95
+00:06:44,170 --> 00:06:44,600
+order.
+
+96
+00:06:45,750 --> 00:06:50,273
+One more thing to watch for. Dividing an
+int by zero isn't allowed.
+
+97
+00:06:50,723 --> 00:06:55,736
+The program compiles, but when it runs, it
+crashes with an arithmetic exception.
+
+98
+00:06:56,886 --> 00:07:02,345
+Your turn. What does this line print?
+Seventeen divided by five, plus seventeen
+
+99
+00:07:02,345 --> 00:07:02,966
+mod five.
+
+100
+00:07:03,416 --> 00:07:04,696
+Pause the video now.
+
+101
+00:07:05,146 --> 00:07:11,789
+Seventeen divided by five is three, using
+integer division. Seventeen mod five is
+
+102
+00:07:11,789 --> 00:07:14,085
+two. Three plus two is five.
+
+103
+00:07:14,535 --> 00:07:18,866
+Next, we'll update variables with
+assignment statements and read input.
+
+104
+00:07:20,015 --> 00:07:23,492
+Variables are only useful if their values
+can change.
+
+105
+00:07:23,942 --> 00:07:28,614
+In this lesson, you'll learn how
+assignment really works in Java, and how
+
+106
+00:07:28,614 --> 00:07:30,406
+to read input from the user.
+
+107
+00:07:31,556 --> 00:07:35,716
+In Java, the equals sign doesn't mean
+equal. It means assign.
+
+108
+00:07:36,166 --> 00:07:41,061
+Java first works out the value on the
+right side. Then it stores that value in
+
+109
+00:07:41,061 --> 00:07:42,630
+the variable on the left.
+
+110
+00:07:43,080 --> 00:07:45,235
+The old value is replaced and gone.
+
+111
+00:07:46,385 --> 00:07:50,886
+That's why this line makes sense in Java,
+even though it's false in math.
+
+112
+00:07:51,336 --> 00:07:53,299
+Score equals score plus ten.
+
+113
+00:07:53,749 --> 00:07:59,225
+Java reads the current score, five, adds
+ten to get fifteen, then stores fifteen
+
+114
+00:07:59,225 --> 00:08:00,320
+back into score.
+
+115
+00:08:01,470 --> 00:08:05,118
+Let's trace a few lines, like the AP exam
+asks you to.
+
+116
+00:08:05,568 --> 00:08:08,128
+a is three. b is a plus two, which is
+five.
+
+117
+00:08:08,578 --> 00:08:11,031
+Then a becomes b times two, which is ten.
+
+118
+00:08:11,481 --> 00:08:17,268
+Notice that changing a later does not
+change b. b is still five. Each assignment
+
+119
+00:08:17,268 --> 00:08:19,438
+copies a value at that moment.
+
+120
+00:08:20,588 --> 00:08:24,343
+You can only assign a value that matches
+the variable's type.
+
+121
+00:08:24,793 --> 00:08:30,981
+Putting an int into a double is fine. Java
+widens it automatically, so five becomes
+
+122
+00:08:30,981 --> 00:08:32,174
+five point zero.
+
+123
+00:08:32,624 --> 00:08:37,720
+But putting a double into an int is a
+compile error. You'd lose the decimal
+
+124
+00:08:37,720 --> 00:08:42,815
+part, so Java makes you ask for it
+explicitly. We'll cover that in the next
+
+125
+00:08:42,815 --> 00:08:43,291
+lesson.
+
+126
+00:08:44,441 --> 00:08:49,177
+Programs often need input from the user.
+One way is the Scanner class.
+
+127
+00:08:49,627 --> 00:08:55,263
+First, import java dot util dot Scanner.
+Then create a Scanner that reads from
+
+128
+00:08:55,263 --> 00:08:57,286
+System dot in, the keyboard.
+
+129
+00:08:57,736 --> 00:09:03,251
+next Int reads a whole number. next Double
+reads a decimal. And next Line reads a
+
+130
+00:09:03,251 --> 00:09:04,477
+full line of text.
+
+131
+00:09:05,627 --> 00:09:10,647
+Here's a small program. It asks for your
+age, reads it, and prints your age next
+
+132
+00:09:10,647 --> 00:09:10,960
+year.
+
+133
+00:09:11,410 --> 00:09:14,973
+If the user types sixteen, the program
+prints seventeen.
+
+134
+00:09:16,123 --> 00:09:22,911
+Your turn. Trace this code. x is four. y
+is x times three. x is y minus x. What are
+
+135
+00:09:22,911 --> 00:09:24,464
+x and y at the end?
+
+136
+00:09:24,914 --> 00:09:26,194
+Pause the video now.
+
+137
+00:09:26,644 --> 00:09:32,604
+y is twelve. Then x becomes twelve minus
+four, which is eight. So x is eight, and y
+
+138
+00:09:32,604 --> 00:09:33,322
+is twelve.
+
+139
+00:09:33,772 --> 00:09:36,460
+Next, we'll convert between types with
+casting.
+
+140
+00:09:37,610 --> 00:09:42,623
+Sometimes you need a double to act like an
+int, or an int to act like a double.
+
+141
+00:09:43,073 --> 00:09:47,919
+That's called casting. In this lesson,
+you'll also learn the limits of what an
+
+142
+00:09:47,919 --> 00:09:48,727
+int can hold.
+
+143
+00:09:49,877 --> 00:09:53,866
+To cast, write the type you want in
+parentheses before the value.
+
+144
+00:09:54,316 --> 00:10:00,245
+Int cast of seven point nine gives seven.
+Java doesn't round. It just cuts off the
+
+145
+00:10:00,245 --> 00:10:01,185
+decimal part.
+
+146
+00:10:01,635 --> 00:10:04,537
+Double cast of seven gives seven point
+zero.
+
+147
+00:10:05,687 --> 00:10:08,417
+Casting is a great fix for integer
+division.
+
+148
+00:10:08,867 --> 00:10:14,567
+Seven divided by two is three. But cast
+seven to a double first, and you get three
+
+149
+00:10:14,567 --> 00:10:15,331
+point five.
+
+150
+00:10:15,781 --> 00:10:20,974
+Watch out, though. If you put parentheses
+around seven divided by two, the int
+
+151
+00:10:20,974 --> 00:10:25,701
+division happens first. You get three,
+then three point zero. Too late.
+
+152
+00:10:26,851 --> 00:10:29,859
+Since casting cuts off decimals, how do
+you round?
+
+153
+00:10:30,309 --> 00:10:33,552
+For a positive number, add one half, then
+cast to int.
+
+154
+00:10:34,002 --> 00:10:39,505
+Two point seven plus one half is three
+point two, which becomes three. Two point
+
+155
+00:10:39,505 --> 00:10:43,495
+three plus one half is two point eight,
+which becomes two.
+
+156
+00:10:43,945 --> 00:10:47,039
+For a negative number, subtract one half
+instead.
+
+157
+00:10:48,189 --> 00:10:51,047
+An int uses thirty two bits, so it has
+limits.
+
+158
+00:10:51,497 --> 00:10:57,524
+The largest int is about two point one
+billion. Java names it Integer dot MAX
+
+159
+00:10:57,524 --> 00:11:03,081
+underscore VALUE. The smallest is about
+negative two point one billion.
+
+160
+00:11:03,531 --> 00:11:09,332
+Go past the limit, and the value wraps
+around. MAX VALUE plus one becomes the
+
+161
+00:11:09,332 --> 00:11:13,174
+most negative int. This is called integer
+overflow.
+
+162
+00:11:14,324 --> 00:11:18,783
+Doubles have a different problem. They
+can't store every decimal exactly.
+
+163
+00:11:19,233 --> 00:11:25,552
+Zero point one plus zero point two prints
+zero point three zero zero zero, with a
+
+164
+00:11:25,552 --> 00:11:27,190
+four at the very end.
+
+165
+00:11:27,640 --> 00:11:33,198
+That tiny difference is called a round off
+error. It's why programmers avoid checking
+
+166
+00:11:33,198 --> 00:11:35,683
+whether two doubles are exactly equal.
+
+167
+00:11:36,833 --> 00:11:42,277
+Your turn. What does this expression
+evaluate to? Int cast of nine point nine
+
+168
+00:11:42,277 --> 00:11:45,601
+nine, plus double cast of five, divided by
+two.
+
+169
+00:11:46,051 --> 00:11:47,331
+Pause the video now.
+
+170
+00:11:47,781 --> 00:11:54,296
+Int cast of nine point nine nine is nine.
+Double five divided by two is two point
+
+171
+00:11:54,296 --> 00:11:57,594
+five. So the answer is eleven point five.
+
+172
+00:11:58,044 --> 00:12:01,841
+Next time, we'll use shortcuts like plus
+equals and plus plus.
+
+173
+00:12:02,991 --> 00:12:07,668
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+174
+00:12:07,668 --> 00:12:08,943
+miss the next lesson.
+
+175
+00:12:09,393 --> 00:12:10,289
+See you there.
+
