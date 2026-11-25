@@ -871,5 +871,103 @@
 "Lists and the robot",
 "Text and block forms",
 "Your turn"
+],
+"csp_b4_l01": [
+"",
+"Devices and networks",
+"Protocols",
+"Packets",
+"Routing and bandwidth",
+"Scalability",
+"Your turn"
+],
+"csp_b4_l02": [
+"",
+"IP",
+"TCP",
+"UDP",
+"The layers",
+"Internet vs the Web",
+"Your turn"
+],
+"csp_b4_l03": [
+"",
+"Fault tolerance",
+"Redundant paths",
+"Single points of failure",
+"Cost vs reliability",
+"Redundancy in practice",
+"Your turn"
+],
+"csp_b4_l04": [
+"",
+"Sequential vs parallel",
+"Timing rules",
+"Worked example",
+"Speedup",
+"Limits of speedup",
+"Your turn"
+],
+"csp_b4_l05": [
+"",
+"What it is",
+"Why use it",
+"Real examples",
+"Challenges",
+"Parallel vs distributed",
+"Your turn"
+],
+"csp_b5_l01": [
+"",
+"Benefits",
+"Help and harm together",
+"Unintended effects",
+"Who is affected",
+"On the AP exam",
+"Your turn"
+],
+"csp_b5_l02": [
+"",
+"What it is",
+"Where the gap comes from",
+"Why it matters",
+"Closing the gap",
+"Skills and cost",
+"Your turn"
+],
+"csp_b5_l03": [
+"",
+"Where bias comes from",
+"Biased hiring data",
+"Face recognition",
+"Reducing bias",
+"Look for it",
+"Your turn"
+],
+"csp_b5_l04": [
+"",
+"Crowdsourcing",
+"Citizen science",
+"The internet makes it possible",
+"Checking volunteer data",
+"Your turn"
+],
+"csp_b5_l05": [
+"",
+"Intellectual property",
+"Permission and credit",
+"Creative Commons",
+"Open source and open access",
+"Legal vs ethical",
+"Your turn"
+],
+"csp_b5_l06": [
+"",
+"PII",
+"Authentication",
+"Encryption",
+"Malware and phishing",
+"Everyday habits",
+"Your turn"
 ]
 }

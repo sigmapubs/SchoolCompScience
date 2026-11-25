@@ -1,0 +1,45 @@
+Cybersecurity Basics: Passwords, Encryption, Phishing, Malware, Privacy & AI Bias | Intro to CS Unit 6
+
+How do you stay safe online, and how do computers affect society? This video covers all of Unit 6: passwords and two-factor authentication, the big idea of encryption (from the Caesar cipher to public keys and HTTPS), how to spot phishing and malware, and privacy, PII and bias in AI. Each section ends with a practice question. This is the final unit of Intro to Computer Science.
+
+Course: Intro to Computer Science · Unit 6: Security and Society (complete unit)
+Previous: How the Internet Works (Unit 5)
+Next: AP Computer Science Principles
+
+0:00 Introduction
+0:14 Passwords and authentication
+0:33 How passwords get cracked
+0:48 Long and never reused
+1:01 Two-factor authentication
+1:13 Hashes and password managers
+1:28 Your turn
+1:45 Encryption, the big idea
+2:06 The Caesar cipher
+2:19 Why Caesar is easy to break
+2:36 Symmetric vs public key
+2:54 How HTTPS uses it
+3:07 Your turn
+3:23 Phishing, malware and staying safe
+3:42 Warning signs
+3:58 Kinds of malware
+4:11 How malware gets in
+4:23 Safe habits
+4:39 Your turn
+5:03 Privacy, AI and bias
+5:24 PII
+5:40 How AI learns from examples
+5:54 Bias in AI
+6:13 Reducing bias
+6:28 Your turn
+
+Intro to Computer Science, the complete course (6 units, full syllabus):
+• Unit 1: What Is a Computer?
+• Unit 2: Data and Binary
+• Unit 3: Algorithms
+• Unit 4: Programming Basics in Python
+• Unit 5: Networks and the Internet
+▶ Unit 6: Security and Society  (you are here)
+Follow the whole course in order in the "Intro to Computer Science (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#cybersecurity #computerscience #encryption

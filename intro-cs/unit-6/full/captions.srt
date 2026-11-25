@@ -1,0 +1,471 @@
+1
+00:00:00,000 --> 00:00:05,086
+Welcome to School Computer Science,
+Explained. This is Intro to Computer
+
+2
+00:00:05,086 --> 00:00:10,667
+Science, Unit 6: Security and Society.
+Let's learn how to stay safe online, and
+
+3
+00:00:10,667 --> 00:00:12,928
+how computing affects all of us.
+
+4
+00:00:14,101 --> 00:00:19,285
+Every time you log in, a computer has to
+answer one question: are you really you?
+
+5
+00:00:19,735 --> 00:00:21,378
+That's called authentication.
+
+6
+00:00:22,528 --> 00:00:27,444
+There are three kinds of proof. Something
+you know, like a password. Something you
+
+7
+00:00:27,444 --> 00:00:32,000
+have, like your phone. And something you
+are, like your fingerprint or face.
+
+8
+00:00:33,150 --> 00:00:37,992
+Attackers guess passwords with programs
+that try millions of guesses a second.
+
+9
+00:00:38,442 --> 00:00:43,429
+A short password with only lowercase
+letters can be cracked in seconds. Each
+
+10
+00:00:43,429 --> 00:00:47,104
+extra character multiplies the number of
+guesses needed.
+
+11
+00:00:48,254 --> 00:00:53,762
+So make passwords long. A passphrase of
+four random words is long, and easy to
+
+12
+00:00:53,762 --> 00:00:54,398
+remember.
+
+13
+00:00:54,848 --> 00:01:00,257
+And never reuse a password. If one site
+leaks it, attackers will try it everywhere
+
+14
+00:01:00,257 --> 00:01:00,586
+else.
+
+15
+00:01:01,736 --> 00:01:06,803
+Two-factor authentication adds a second
+kind of proof, usually a code on your
+
+16
+00:01:06,803 --> 00:01:07,198
+phone.
+
+17
+00:01:07,648 --> 00:01:12,106
+Even if someone steals your password, they
+still can't get in without your phone.
+
+18
+00:01:13,256 --> 00:01:18,126
+Good websites never store your actual
+password. They store a hash, a scrambled
+
+19
+00:01:18,126 --> 00:01:20,872
+fingerprint of it that can't be turned
+back.
+
+20
+00:01:21,322 --> 00:01:26,627
+A password manager can create and remember
+a strong, different password for every
+
+21
+00:01:26,627 --> 00:01:26,954
+site.
+
+22
+00:01:28,104 --> 00:01:33,480
+Your turn. Which is stronger: P at sign ss
+one, or purple tiger river lamp?
+
+23
+00:01:33,930 --> 00:01:35,210
+Pause the video now.
+
+24
+00:01:35,660 --> 00:01:40,745
+purple tiger river lamp. It's much longer,
+so there are far more possibilities to
+
+25
+00:01:40,745 --> 00:01:41,122
+guess.
+
+26
+00:01:41,572 --> 00:01:44,452
+Next, we'll learn the big idea behind
+encryption.
+
+27
+00:01:45,602 --> 00:01:50,409
+When you send a message across the
+internet, it passes through many computers
+
+28
+00:01:50,409 --> 00:01:51,533
+you don't control.
+
+29
+00:01:51,983 --> 00:01:54,372
+Encryption keeps it secret along the way.
+
+30
+00:01:55,522 --> 00:02:00,749
+Encryption turns readable plaintext into
+scrambled ciphertext, using a key.
+
+31
+00:02:01,199 --> 00:02:05,316
+Only someone with the right key can
+decrypt it back into plaintext.
+
+32
+00:02:06,466 --> 00:02:11,556
+One of the oldest examples is the Caesar
+cipher. Shift every letter by a fixed
+
+33
+00:02:11,556 --> 00:02:12,013
+number.
+
+34
+00:02:12,463 --> 00:02:18,799
+With a shift of three, A becomes D, B
+becomes E, and CAT becomes F D W.
+
+35
+00:02:19,949 --> 00:02:25,429
+The Caesar cipher is easy to break. There
+are only twenty five possible shifts, so a
+
+36
+00:02:25,429 --> 00:02:27,778
+computer can try them all instantly.
+
+37
+00:02:28,228 --> 00:02:33,560
+Modern encryption uses keys so large that
+trying every one would take longer than
+
+38
+00:02:33,560 --> 00:02:35,140
+the age of the universe.
+
+39
+00:02:36,290 --> 00:02:41,392
+In symmetric encryption, the same key
+locks and unlocks. It's fast, but both
+
+40
+00:02:41,392 --> 00:02:43,138
+people need the key first.
+
+41
+00:02:43,588 --> 00:02:49,253
+In public key encryption, each person has
+two keys: a public key anyone can use to
+
+42
+00:02:49,253 --> 00:02:53,743
+lock a message, and a private key only
+they can use to unlock it.
+
+43
+00:02:54,893 --> 00:03:01,299
+Public key encryption is what makes HTTPS
+work. Your browser and the server use it
+
+44
+00:03:01,299 --> 00:03:05,986
+to agree on a secret key, safely, even
+over an open network.
+
+45
+00:03:07,136 --> 00:03:11,296
+Your turn. Decrypt this Caesar cipher with
+a shift of three: K L.
+
+46
+00:03:11,746 --> 00:03:13,026
+Pause the video now.
+
+47
+00:03:13,476 --> 00:03:19,129
+Shift each letter back by three. K becomes
+H, and L becomes I. It says HI.
+
+48
+00:03:19,579 --> 00:03:22,353
+Next, we'll learn how to spot phishing and
+malware.
+
+49
+00:03:23,503 --> 00:03:27,300
+Most attacks don't break encryption. They
+trick people instead.
+
+50
+00:03:27,750 --> 00:03:29,265
+Let's learn how to spot them.
+
+51
+00:03:30,415 --> 00:03:35,526
+Phishing is a fake message that pretends
+to come from someone you trust, like your
+
+52
+00:03:35,526 --> 00:03:36,772
+bank or your school.
+
+53
+00:03:37,222 --> 00:03:41,745
+It tries to get you to click a link, or
+type your password into a fake page.
+
+54
+00:03:42,895 --> 00:03:48,036
+Look for warning signs. A sender address
+that's slightly wrong. Urgent pressure,
+
+55
+00:03:48,036 --> 00:03:53,114
+like your account will be closed today.
+And links that go somewhere unexpected.
+
+56
+00:03:53,564 --> 00:03:57,361
+Before you click, hover over a link to see
+where it really goes.
+
+57
+00:03:58,511 --> 00:04:00,751
+Malware is software made to cause harm.
+
+58
+00:04:01,201 --> 00:04:06,670
+A virus attaches to other files.
+Ransomware locks your files and demands
+
+59
+00:04:06,670 --> 00:04:10,012
+money. Spyware secretly watches what you
+do.
+
+60
+00:04:11,162 --> 00:04:16,529
+Malware usually gets in through downloads,
+attachments, or old software with known
+
+61
+00:04:16,529 --> 00:04:16,922
+holes.
+
+62
+00:04:17,372 --> 00:04:22,513
+So only download from trusted sources, and
+keep your system and apps updated.
+
+63
+00:04:23,663 --> 00:04:28,510
+Protect yourself with a few habits:
+updates on, strong unique passwords,
+
+64
+00:04:28,510 --> 00:04:32,751
+two-factor authentication, and backups of
+your important files.
+
+65
+00:04:33,201 --> 00:04:37,958
+If a message feels off, contact the
+company directly, not through the message.
+
+66
+00:04:39,108 --> 00:04:44,545
+Your turn. An email says: your account
+will be deleted in one hour, click here to
+
+67
+00:04:44,545 --> 00:04:50,116
+log in. The link goes to secure dash login
+dot example dot net. What should you do?
+
+68
+00:04:50,566 --> 00:04:51,846
+Pause the video now.
+
+69
+00:04:52,296 --> 00:04:57,224
+Don't click it. The urgency and the
+strange link are signs of phishing. Go to
+
+70
+00:04:57,224 --> 00:04:59,208
+the real site yourself instead.
+
+71
+00:04:59,658 --> 00:05:02,453
+Next, we'll look at privacy, AI and bias.
+
+72
+00:05:03,603 --> 00:05:09,307
+Computers can do amazing things. But they
+also raise big questions about fairness
+
+73
+00:05:09,307 --> 00:05:10,152
+and privacy.
+
+74
+00:05:10,602 --> 00:05:11,904
+Let's look at a few.
+
+75
+00:05:13,054 --> 00:05:18,224
+Apps and websites collect data about you:
+what you click, where you go, who you talk
+
+76
+00:05:18,224 --> 00:05:18,408
+to.
+
+77
+00:05:18,858 --> 00:05:23,232
+Even small pieces, put together, can
+reveal a lot about a person.
+
+78
+00:05:24,382 --> 00:05:30,456
+Personally identifiable information, or
+PII, is data that can identify you, like
+
+79
+00:05:30,456 --> 00:05:33,342
+your name, address, birthday, or face.
+
+80
+00:05:33,792 --> 00:05:38,627
+Share as little of it as you can, and
+check the privacy settings of the apps you
+
+81
+00:05:38,627 --> 00:05:38,869
+use.
+
+82
+00:05:40,019 --> 00:05:45,395
+Many A I systems learn from examples
+instead of following rules a person wrote.
+
+83
+00:05:45,845 --> 00:05:51,215
+A spam filter, for example, studies
+thousands of emails labeled spam or not
+
+84
+00:05:51,215 --> 00:05:53,077
+spam, and learns patterns.
+
+85
+00:05:54,227 --> 00:05:58,494
+That's powerful, but it means the A I
+learns whatever is in its data.
+
+86
+00:05:58,944 --> 00:06:04,400
+If the training data is unfair or
+incomplete, the A I can be unfair too.
+
+87
+00:06:04,400 --> 00:06:10,387
+This is called bias. A face recognition
+system trained mostly on some faces may
+
+88
+00:06:10,387 --> 00:06:11,978
+work worse on others.
+
+89
+00:06:13,128 --> 00:06:18,678
+People who build these systems can reduce
+bias by using diverse data, testing on
+
+90
+00:06:18,678 --> 00:06:22,771
+many groups, and letting humans review
+important decisions.
+
+91
+00:06:23,221 --> 00:06:27,210
+As a computer scientist, you get to help
+make technology fair.
+
+92
+00:06:28,360 --> 00:06:33,402
+Your turn. An A I that screens job
+applications was trained only on past
+
+93
+00:06:33,402 --> 00:06:38,024
+hires, who were mostly from one group.
+What problem might it have?
+
+94
+00:06:38,474 --> 00:06:39,754
+Pause the video now.
+
+95
+00:06:40,204 --> 00:06:45,258
+Bias. It may learn to favor people like
+the past hires, and unfairly reject
+
+96
+00:06:45,258 --> 00:06:45,730
+others.
+
+97
+00:06:46,180 --> 00:06:51,714
+That's the end of Intro to Computer
+Science. Next, take on AP Computer Science
+
+98
+00:06:51,714 --> 00:06:52,494
+Principles.
+
+99
+00:06:53,644 --> 00:06:58,321
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+100
+00:06:58,321 --> 00:06:59,596
+miss the next lesson.
+
+101
+00:07:00,046 --> 00:07:00,942
+See you there.
+

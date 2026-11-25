@@ -7,6 +7,24 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "apcsp_bi5": dict(
+   title="AP CSP Big Idea 5: Impact of Computing (Digital Divide, Bias, Crowdsourcing, Copyright, Safe Computing)",
+   intro="AP CSP Big Idea 5, Impact of Computing, complete in one video. It covers beneficial and harmful effects of computing innovations, the digital divide, computing bias, crowdsourcing and citizen science, legal and ethical concerns (intellectual property, copyright, Creative Commons, open source), and safe computing (PII, authentication, encryption, malware and phishing). Each section ends with an AP-style practice question.",
+   course="AP Computer Science Principles", unit=4, part="Big Idea 5: Impact of Computing · Complete",
+   prev="AP CSP Big Idea 4: The Internet, TCP/IP, Fault Tolerance, Parallel & Distributed Computing", next="AP CSP Exam Prep: Create Task and Multiple Choice",
+   also="",
+   playlists=["AP Computer Science Principles (Full Course)", "AP CSP Big Idea 5: Impact of Computing"],
+   tags="ap computer science principles, ap csp, big idea 5, impact of computing, digital divide, computing bias, crowdsourcing, citizen science, creative commons, copyright, pii, encryption, phishing, ap csp review",
+   tagsh="#apcsp #computerscience #apexam"),
+ "apcsp_bi4": dict(
+   title="AP CSP Big Idea 4: The Internet, TCP/IP, Fault Tolerance, Parallel & Distributed Computing",
+   intro="AP CSP Big Idea 4, Computer Systems and Networks, complete in one video. It covers how the internet works (protocols, packets, routing, bandwidth, scalability), TCP, IP, UDP, HTTP and the layers, fault tolerance and redundancy, parallel computing with speedup calculations, and distributed computing. Each section ends with an AP-style practice question.",
+   course="AP Computer Science Principles", unit=3, part="Big Idea 4: Computer Systems and Networks · Complete",
+   prev="AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations, Efficiency, Heuristics, Undecidable Problems", next="AP CSP Big Idea 5: Impact of Computing",
+   also="",
+   playlists=["AP Computer Science Principles (Full Course)", "AP CSP Big Idea 4: Computer Systems and Networks"],
+   tags="ap computer science principles, ap csp, big idea 4, internet, tcp ip, packets, routing, fault tolerance, redundancy, parallel computing, speedup, distributed computing, ap csp review",
+   tagsh="#apcsp #computerscience #apexam"),
  "apcsp_bi3_part4": dict(
    title="AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations, Efficiency, Heuristics, Undecidable Problems & Reference Sheet",
    intro="AP CSP Big Idea 3, Algorithms and Programming, part 4 of 4. This video covers libraries and APIs, random values with RANDOM(a, b), simulations, algorithmic efficiency (reasonable vs unreasonable time), heuristics, undecidable problems and the halting problem, and a tour of the AP exam reference sheet. Each section ends with an AP-style practice question.",
