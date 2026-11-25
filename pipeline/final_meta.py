@@ -7,6 +7,33 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "apcsp_bi3_part3": dict(
+   title="AP CSP Big Idea 3 Part 3: FOR EACH, Binary Search & Procedures | AP Computer Science Principles",
+   intro="AP CSP Big Idea 3, Algorithms and Programming, part 3 of 5, in AP exam pseudocode. This video covers traversing lists with FOR EACH and linear search, binary search and why it needs sorted data, calling procedures, writing procedures with parameters and RETURN, and procedural abstraction. Each section ends with an AP-style practice question.",
+   course="AP Computer Science Principles", unit=2, part="Big Idea 3: Algorithms and Programming · Part 3 of 5",
+   prev="AP CSP Big Idea 3 Part 2: Conditionals, Iteration and List Operations", next="AP CSP Big Idea 3 Part 4: Libraries, Random Values, Simulations and Efficiency",
+   also="Big Idea 3 is the largest part of the AP exam, so it's split into 5 videos.",
+   playlists=["AP Computer Science Principles (Full Course)", "AP CSP Big Idea 3: Algorithms and Programming"],
+   tags="ap computer science principles, ap csp, big idea 3, ap pseudocode, for each, linear search, binary search, procedures, parameters, procedural abstraction, ap csp review",
+   tagsh="#apcsp #computerscience #apexam"),
+ "apcsp_bi3_part2": dict(
+   title="AP CSP Big Idea 3 Part 2: Conditionals, Nested IF, REPEAT Loops & List Operations | AP Computer Science Principles",
+   intro="AP CSP Big Idea 3, Algorithms and Programming, part 2 of 5, in AP exam pseudocode. This video covers IF and ELSE, nested conditionals and equivalent code, iteration with REPEAT n TIMES and REPEAT UNTIL, developing algorithms like finding the maximum, and the list operations APPEND, INSERT, REMOVE and LENGTH. Each section ends with an AP-style practice question.",
+   course="AP Computer Science Principles", unit=2, part="Big Idea 3: Algorithms and Programming · Part 2 of 5",
+   prev="AP CSP Big Idea 3 Part 1: Variables, Lists, MOD, Strings and Booleans", next="AP CSP Big Idea 3 Part 3: Traversals, Binary Search and Procedures",
+   also="Big Idea 3 is the largest part of the AP exam, so it's split into 5 videos.",
+   playlists=["AP Computer Science Principles (Full Course)", "AP CSP Big Idea 3: Algorithms and Programming"],
+   tags="ap computer science principles, ap csp, big idea 3, ap pseudocode, conditionals, nested conditionals, repeat until, iteration, list operations, ap csp review",
+   tagsh="#apcsp #computerscience #apexam"),
+ "apcsp_bi3_part1": dict(
+   title="AP CSP Big Idea 3 Part 1: Variables, Lists, MOD, Strings & Boolean Expressions | AP Computer Science Principles",
+   intro="AP CSP Big Idea 3, Algorithms and Programming, part 1 of 5, in AP exam pseudocode. This video covers variables and the assignment arrow (and the swap trap), lists with indexes that start at 1, math expressions and MOD, strings with concatenation and substrings, and Boolean expressions with NOT, AND and OR. Each section ends with an AP-style practice question.",
+   course="AP Computer Science Principles", unit=2, part="Big Idea 3: Algorithms and Programming · Part 1 of 5",
+   prev="AP CSP Big Idea 2: Data", next="AP CSP Big Idea 3 Part 2: Conditionals, Iteration and List Operations",
+   also="Big Idea 3 is the largest part of the AP exam, so it's split into 5 videos.",
+   playlists=["AP Computer Science Principles (Full Course)", "AP CSP Big Idea 3: Algorithms and Programming"],
+   tags="ap computer science principles, ap csp, big idea 3, ap pseudocode, variables, lists, mod operator, strings, boolean expressions, ap csp review",
+   tagsh="#apcsp #computerscience #apexam"),
  "apcsp_bi2": dict(
    title="AP CSP Big Idea 2: Data (Binary, Overflow, Compression, Metadata) | AP Computer Science Principles",
    intro="Everything you need for AP CSP Big Idea 2, Data. This video covers bits and binary numbers with overflow and roundoff errors, lossless vs lossy compression, extracting information from data (and why correlation is not causation), cleaning, filtering and visualizing data with programs, and metadata. Each section ends with an AP-style practice question.",

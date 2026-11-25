@@ -1,0 +1,605 @@
+1
+00:00:00,000 --> 00:00:04,899
+Welcome to School Computer Science,
+Explained. This is Intro to Computer
+
+2
+00:00:04,899 --> 00:00:10,139
+Science, Unit 4, part two. Your programs
+will learn to make decisions, repeat
+
+3
+00:00:10,139 --> 00:00:13,269
+steps, use functions, and store data in
+lists.
+
+4
+00:00:14,443 --> 00:00:20,139
+Programs make decisions all the time. In
+Python, decisions start with the word if.
+
+5
+00:00:20,589 --> 00:00:21,848
+Let's see how they work.
+
+6
+00:00:22,998 --> 00:00:28,115
+Here's an if statement. If temp is greater
+than thirty, colon. Then, indented
+
+7
+00:00:28,115 --> 00:00:29,910
+underneath, print it's hot.
+
+8
+00:00:30,360 --> 00:00:35,568
+If the condition is True, the indented
+lines run. If it's False, Python skips
+
+9
+00:00:35,568 --> 00:00:35,906
+them.
+
+10
+00:00:37,056 --> 00:00:41,814
+In Python, indentation matters. The
+indented lines belong to the if.
+
+11
+00:00:42,264 --> 00:00:47,234
+Use four spaces. Forget to indent, and
+Python gives an indentation error.
+
+12
+00:00:48,384 --> 00:00:49,963
+Add else for a second path.
+
+13
+00:00:50,413 --> 00:00:55,930
+If temp is greater than thirty, print hot.
+Else, print not hot. Exactly one of the
+
+14
+00:00:55,930 --> 00:00:56,536
+two runs.
+
+15
+00:00:57,686 --> 00:01:00,587
+For more choices, use elif, short for else
+if.
+
+16
+00:01:01,037 --> 00:01:06,221
+Python checks each condition from the top,
+and runs only the first one that's True.
+
+17
+00:01:06,671 --> 00:01:12,538
+If score is at least ninety, grade A. elif
+at least eighty, grade B. else, grade C.
+
+18
+00:01:13,688 --> 00:01:15,970
+Let's trace it with a score of eighty
+five.
+
+19
+00:01:16,420 --> 00:01:21,412
+At least ninety? No. At least eighty? Yes,
+so the grade is B. The else is skipped.
+
+20
+00:01:22,562 --> 00:01:27,972
+Your turn. x is seven. If x is greater
+than ten, print big. elif x is greater
+
+21
+00:01:27,972 --> 00:01:31,906
+than five, print medium. else, print
+small. What prints?
+
+22
+00:01:32,356 --> 00:01:33,636
+Pause the video now.
+
+23
+00:01:34,086 --> 00:01:39,057
+Seven isn't greater than ten, but it is
+greater than five. So it prints medium.
+
+24
+00:01:39,507 --> 00:01:41,598
+Next, we'll repeat code with while loops.
+
+25
+00:01:42,747 --> 00:01:46,836
+What if you want to print one to a
+hundred? You don't write a hundred print
+
+26
+00:01:46,836 --> 00:01:47,163
+lines.
+
+27
+00:01:47,613 --> 00:01:48,573
+You write a loop.
+
+28
+00:01:49,723 --> 00:01:54,480
+A while loop repeats its indented block as
+long as its condition is True.
+
+29
+00:01:54,930 --> 00:01:59,999
+Each time, Python checks the condition
+first. When it becomes False, the loop
+
+30
+00:01:59,999 --> 00:02:00,328
+ends.
+
+31
+00:02:01,478 --> 00:02:07,238
+Here's a countdown. n equals three. While
+n is greater than zero, print n, then n
+
+32
+00:02:07,238 --> 00:02:10,864
+equals n minus one. After the loop, print
+lift off.
+
+33
+00:02:11,314 --> 00:02:13,469
+It prints three, two, one, then lift off.
+
+34
+00:02:14,619 --> 00:02:19,820
+Every while loop needs three things: a
+starting value, a condition, and a change
+
+35
+00:02:19,820 --> 00:02:21,510
+that moves toward the end.
+
+36
+00:02:21,960 --> 00:02:27,160
+Forget the change, and the condition stays
+True forever. That's an infinite loop.
+
+37
+00:02:27,160 --> 00:02:28,893
+Press control C to stop it.
+
+38
+00:02:30,043 --> 00:02:33,627
+While loops are great when you don't know
+how many times to repeat.
+
+39
+00:02:34,077 --> 00:02:38,706
+For example, keep asking for a password
+until the user types the right one.
+
+40
+00:02:39,856 --> 00:02:43,142
+Python also has break, which leaves a loop
+right away.
+
+41
+00:02:43,592 --> 00:02:47,389
+It's handy, but a clear condition is
+usually easier to read.
+
+42
+00:02:48,539 --> 00:02:54,919
+Your turn. total equals zero, i equals
+one. While i is at most four, total plus
+
+43
+00:02:54,919 --> 00:02:58,715
+equals i, and i plus equals one. What is
+total?
+
+44
+00:02:59,165 --> 00:03:00,445
+Pause the video now.
+
+45
+00:03:00,895 --> 00:03:04,351
+One plus two plus three plus four. Total
+is ten.
+
+46
+00:03:04,801 --> 00:03:07,169
+Next, we'll count with for loops and
+range.
+
+47
+00:03:08,319 --> 00:03:11,839
+When you know how many times to repeat, a
+for loop is simpler.
+
+48
+00:03:12,289 --> 00:03:15,126
+It pairs perfectly with a function called
+range.
+
+49
+00:03:16,276 --> 00:03:18,858
+for i in range of five, colon, print i.
+
+50
+00:03:19,308 --> 00:03:24,938
+This prints zero, one, two, three, four.
+Five numbers, starting at zero, stopping
+
+51
+00:03:24,938 --> 00:03:25,772
+before five.
+
+52
+00:03:26,922 --> 00:03:32,990
+range can take a start and a stop. range
+of two comma six gives two, three, four,
+
+53
+00:03:32,990 --> 00:03:33,364
+five.
+
+54
+00:03:33,814 --> 00:03:40,133
+A third number is the step. range of zero
+comma ten comma two gives zero, two, four,
+
+55
+00:03:40,133 --> 00:03:40,961
+six, eight.
+
+56
+00:03:42,111 --> 00:03:46,122
+A for loop can also go through a string,
+one character at a time.
+
+57
+00:03:46,572 --> 00:03:50,305
+for letter in cat, print letter. It prints
+c, then a, then t.
+
+58
+00:03:51,455 --> 00:03:53,546
+A common pattern is adding things up.
+
+59
+00:03:53,996 --> 00:03:59,700
+Start total at zero. For each number in
+range one to six, add it to total. At the
+
+60
+00:03:59,700 --> 00:04:01,249
+end, total is fifteen.
+
+61
+00:04:02,399 --> 00:04:03,935
+So which loop should you use?
+
+62
+00:04:04,385 --> 00:04:09,290
+for, when you know the count or have a
+collection to go through. while, when you
+
+63
+00:04:09,290 --> 00:04:11,190
+repeat until something happens.
+
+64
+00:04:12,340 --> 00:04:17,840
+Your turn. What does this print? for i in
+range of one comma ten comma three, print
+
+65
+00:04:17,840 --> 00:04:17,972
+i.
+
+66
+00:04:18,422 --> 00:04:19,702
+Pause the video now.
+
+67
+00:04:20,152 --> 00:04:25,315
+Start at one, step by three, stop before
+ten. It prints one, four, seven.
+
+68
+00:04:25,765 --> 00:04:27,792
+Next, we'll write our own functions.
+
+69
+00:04:28,942 --> 00:04:32,675
+You've used functions like print and len.
+Now you'll make your own.
+
+70
+00:04:33,125 --> 00:04:37,221
+A function is a named block of code you
+can run whenever you want.
+
+71
+00:04:38,371 --> 00:04:44,444
+To define a function, write def, a name,
+parentheses, and a colon. Then indent the
+
+72
+00:04:44,444 --> 00:04:44,814
+body.
+
+73
+00:04:45,264 --> 00:04:47,995
+def greet, colon, print hello, print
+welcome.
+
+74
+00:04:49,145 --> 00:04:53,390
+Defining a function doesn't run it. It
+just teaches Python the steps.
+
+75
+00:04:53,840 --> 00:04:56,997
+To run it, call it by name with
+parentheses: greet.
+
+76
+00:04:58,147 --> 00:05:01,113
+You can call a function as many times as
+you like.
+
+77
+00:05:01,563 --> 00:05:05,232
+Call greet three times, and the two lines
+print three times.
+
+78
+00:05:06,382 --> 00:05:11,417
+Functions keep code organized. Each one
+does one job, with a clear name.
+
+79
+00:05:11,867 --> 00:05:15,216
+And if you need to fix something, you fix
+it in one place.
+
+80
+00:05:16,366 --> 00:05:21,614
+Python reads a file from top to bottom, so
+define a function before you call it.
+
+81
+00:05:22,064 --> 00:05:24,517
+Call it too early, and you'll get a name
+error.
+
+82
+00:05:25,667 --> 00:05:30,709
+Your turn. def beep, colon, print beep.
+Then the program calls beep twice. How
+
+83
+00:05:30,709 --> 00:05:32,195
+many lines are printed?
+
+84
+00:05:32,645 --> 00:05:33,925
+Pause the video now.
+
+85
+00:05:34,375 --> 00:05:38,941
+Two. The definition doesn't print
+anything, and each call prints one line.
+
+86
+00:05:39,391 --> 00:05:42,207
+Next, we'll send values in and get values
+back.
+
+87
+00:05:43,357 --> 00:05:47,453
+A function that does the same thing every
+time is a little limited.
+
+88
+00:05:47,903 --> 00:05:52,490
+Parameters let you send values in, and
+return lets you get a value back.
+
+89
+00:05:53,640 --> 00:05:57,032
+A parameter is a variable in the
+function's parentheses.
+
+90
+00:05:57,482 --> 00:06:03,627
+def greet, name, colon, print hello plus
+name. Now greet of Sam prints hello Sam,
+
+91
+00:06:03,627 --> 00:06:06,207
+and greet of Ana prints hello Ana.
+
+92
+00:06:06,657 --> 00:06:10,028
+The value you pass in, like Sam, is called
+an argument.
+
+93
+00:06:11,178 --> 00:06:13,567
+return sends a value back to the caller.
+
+94
+00:06:14,017 --> 00:06:21,033
+def square, x, colon, return x times x.
+Then y equals square of four makes y equal
+
+95
+00:06:21,033 --> 00:06:21,974
+to sixteen.
+
+96
+00:06:23,124 --> 00:06:28,308
+Print and return are different. Print
+shows a value on the screen. Return hands
+
+97
+00:06:28,308 --> 00:06:30,932
+a value back, so the program can use it.
+
+98
+00:06:31,382 --> 00:06:36,374
+A function that prints but doesn't return
+gives back a special value called None.
+
+99
+00:06:37,524 --> 00:06:39,807
+Functions can take several parameters.
+
+100
+00:06:40,257 --> 00:06:46,042
+def area, width comma height, return width
+times height. area of three comma five is
+
+101
+00:06:46,042 --> 00:06:46,593
+fifteen.
+
+102
+00:06:47,743 --> 00:06:50,751
+When a function hits return, it stops
+right there.
+
+103
+00:06:51,201 --> 00:06:53,441
+Any lines after the return don't run.
+
+104
+00:06:54,591 --> 00:06:59,775
+Your turn. def double, n, return n times
+two. What is double of double of three?
+
+105
+00:07:00,225 --> 00:07:01,505
+Pause the video now.
+
+106
+00:07:01,955 --> 00:07:05,816
+The inside call gives six. The outside
+call gives twelve.
+
+107
+00:07:06,266 --> 00:07:08,656
+Next, we'll store many values in a list.
+
+108
+00:07:09,805 --> 00:07:14,876
+What if you need to store a whole class of
+test scores? One variable per score would
+
+109
+00:07:14,876 --> 00:07:15,480
+be a mess.
+
+110
+00:07:15,930 --> 00:07:17,530
+Python has lists for that.
+
+111
+00:07:18,680 --> 00:07:24,269
+A list holds many values in order, inside
+square brackets, separated by commas.
+
+112
+00:07:24,719 --> 00:07:27,663
+scores equals ninety, seventy five, eighty
+eight.
+
+113
+00:07:28,813 --> 00:07:33,933
+Lists use indexes, just like strings. The
+first item is at index zero.
+
+114
+00:07:34,383 --> 00:07:40,630
+scores, bracket zero, is ninety. Negative
+one gives the last item. len of scores is
+
+115
+00:07:40,630 --> 00:07:41,082
+three.
+
+116
+00:07:42,232 --> 00:07:44,194
+Unlike strings, lists can change.
+
+117
+00:07:44,644 --> 00:07:50,389
+scores, bracket one, equals eighty
+replaces an item. append adds an item to
+
+118
+00:07:50,389 --> 00:07:52,687
+the end. remove takes one out.
+
+119
+00:07:53,837 --> 00:07:56,376
+A for loop goes through every item in a
+list.
+
+120
+00:07:56,826 --> 00:08:02,415
+for s in scores, add s to total. Divide by
+len of scores, and you have the average.
+
+121
+00:08:03,565 --> 00:08:07,277
+Lists can hold any type: numbers, strings,
+even other lists.
+
+122
+00:08:07,727 --> 00:08:10,756
+They're one of the most useful tools in
+all of Python.
+
+123
+00:08:11,906 --> 00:08:17,446
+Your turn. nums equals four, eight,
+fifteen. nums dot append sixteen. What is
+
+124
+00:08:17,446 --> 00:08:21,186
+len of nums, and what is nums, bracket
+negative one?
+
+125
+00:08:21,636 --> 00:08:22,916
+Pause the video now.
+
+126
+00:08:23,366 --> 00:08:28,209
+The list now has four items, so len is
+four. The last item is sixteen.
+
+127
+00:08:28,659 --> 00:08:32,734
+That's the end of Unit four. Next, we'll
+learn how the internet works.
+
+128
+00:08:33,884 --> 00:08:38,560
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+129
+00:08:38,560 --> 00:08:39,836
+miss the next lesson.
+
+130
+00:08:40,286 --> 00:08:41,182
+See you there.
+

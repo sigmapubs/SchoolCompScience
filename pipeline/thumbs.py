@@ -36,6 +36,9 @@ def fit(d, text, font_fn, size, maxw):
     return font_fn(size)
 import sys
 GROUPS = [
+ ("../final/apcsp_bi3_part3", "AP CSP  ·  BIG IDEA 3  ·  PART 3", "SEARCH &", "PROCEDURES", "FOR EACH, binary search, procedures", "PROCEDURE square(x)"),
+ ("../final/apcsp_bi3_part2", "AP CSP  ·  BIG IDEA 3  ·  PART 2", "IF, LOOPS", "& LISTS", "conditionals, iteration, list operations", "REPEAT UNTIL (n > 10)"),
+ ("../final/apcsp_bi3_part1", "AP CSP  ·  BIG IDEA 3  ·  PART 1", "VARIABLES,", "LISTS & LOGIC", "assignment, lists, MOD, strings, Booleans", "a <- a + 1"),
  ("../final/apcsp_bi2", "AP CSP  ·  BIG IDEA 2", "DATA", "EXPLAINED", "binary, compression, metadata", "0.1 + 0.2 = 0.30000000000000004"),
  ("../final/apcsp_bi1", "AP CSP  ·  BIG IDEA 1", "CREATIVE", "DEVELOPMENT", "teams, design, testing, debugging", "Investigate > Design > Build > Test"),
  ("../final/introcs_u6_security", "INTRO TO CS  ·  UNIT 6", "STAY SAFE", "ONLINE", "passwords, encryption, phishing, AI bias", "CAT -> FDW"),

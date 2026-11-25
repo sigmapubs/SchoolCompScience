@@ -8,7 +8,10 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"csp_b2_l01": "Binary numbers, bits and overflow", "csp_b2_l02": "Lossless vs lossy compression", "csp_b2_l03": "Extracting information from data", "csp_b2_l04": "Using programs with data", "csp_b2_l05": "Metadata",
+NAMES = {"csp_b3_l11": "Traversing lists with FOR EACH", "csp_b3_l12": "Binary search", "csp_b3_l13": "Calling procedures", "csp_b3_l14": "Developing procedures", "csp_b3_l15": "Procedural abstraction",
+ "csp_b3_l06": "Conditionals", "csp_b3_l07": "Nested conditionals", "csp_b3_l08": "Iteration", "csp_b3_l09": "Developing algorithms", "csp_b3_l10": "List operations",
+ "csp_b3_l01": "Variables and assignments", "csp_b3_l02": "Data abstraction and lists", "csp_b3_l03": "Mathematical expressions and MOD", "csp_b3_l04": "Strings", "csp_b3_l05": "Boolean expressions",
+ "csp_b2_l01": "Binary numbers, bits and overflow", "csp_b2_l02": "Lossless vs lossy compression", "csp_b2_l03": "Extracting information from data", "csp_b2_l04": "Using programs with data", "csp_b2_l05": "Metadata",
  "csp_b1_l01": "Collaboration", "csp_b1_l02": "Program function and purpose", "csp_b1_l03": "Program design and development", "csp_b1_l04": "Identifying and correcting errors",
  "icu6_l01": "Passwords and authentication", "icu6_l02": "Encryption, the big idea", "icu6_l03": "Phishing, malware and staying safe", "icu6_l04": "Privacy, AI and bias",
  "icu5_l01": "What is a network?", "icu5_l02": "Packets and routing", "icu5_l03": "IP addresses and DNS", "icu5_l04": "How the web works: HTTP and browsers", "icu5_l05": "The cloud, explained",
@@ -69,6 +72,9 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
+ "apcsp_bi3_part3": ["csp_b3_l11", "csp_b3_l12", "csp_b3_l13", "csp_b3_l14", "csp_b3_l15"],
+ "apcsp_bi3_part2": ["csp_b3_l06", "csp_b3_l07", "csp_b3_l08", "csp_b3_l09", "csp_b3_l10"],
+ "apcsp_bi3_part1": ["csp_b3_l01", "csp_b3_l02", "csp_b3_l03", "csp_b3_l04", "csp_b3_l05"],
  "apcsp_bi2": ["csp_b2_l01", "csp_b2_l02", "csp_b2_l03", "csp_b2_l04", "csp_b2_l05"],
  "apcsp_bi1": ["csp_b1_l01", "csp_b1_l02", "csp_b1_l03", "csp_b1_l04"],
  "introcs_u6_security": ["icu6_l01", "icu6_l02", "icu6_l03", "icu6_l04"],

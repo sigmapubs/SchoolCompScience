@@ -675,5 +675,140 @@
 "Privacy and location",
 "On the AP exam",
 "Your turn"
+],
+"csp_b3_l01": [
+"",
+"The assignment arrow",
+"Replacing a value",
+"Right side first",
+"The swap trap",
+"Meaningful names",
+"Your turn"
+],
+"csp_b3_l02": [
+"",
+"Making a list",
+"Indexes start at 1",
+"Out of range and LENGTH",
+"Data abstraction",
+"Lists of strings",
+"Your turn"
+],
+"csp_b3_l03": [
+"",
+"Operators and order",
+"What MOD means",
+"MOD priority",
+"Even, odd, last digit",
+"Wrapping around",
+"Your turn"
+],
+"csp_b3_l04": [
+"",
+"Characters and positions",
+"Concatenation",
+"Substrings",
+"Length",
+"Strings vs numbers",
+"Your turn"
+],
+"csp_b3_l05": [
+"",
+"Relational operators",
+"= vs ←",
+"NOT, AND, OR",
+"Checking a range",
+"Order of logic operators",
+"Your turn"
+],
+"csp_b3_l06": [
+"",
+"IF and its block",
+"True or false",
+"ELSE",
+"Tracing score = 55",
+"Block-based code",
+"Your turn"
+],
+"csp_b3_l07": [
+"",
+"An inner IF",
+"Tracing age 70",
+"Tracing age 10",
+"Equivalent code segments",
+"Testing every case",
+"Your turn"
+],
+"csp_b3_l08": [
+"",
+"REPEAT n TIMES",
+"How REPEAT UNTIL works",
+"Tracing REPEAT UNTIL",
+"Zero times and infinite loops",
+"Which loop to use",
+"Your turn"
+],
+"csp_b3_l09": [
+"",
+"Sequencing, selection, iteration",
+"Common patterns",
+"Finding the maximum",
+"Many ways to write it",
+"Edge cases",
+"Your turn"
+],
+"csp_b3_l10": [
+"",
+"APPEND",
+"INSERT",
+"REMOVE",
+"LENGTH",
+"Replacing an item",
+"Your turn"
+],
+"csp_b3_l11": [
+"",
+"FOR EACH",
+"Summing a list",
+"Counting matches",
+"Linear search",
+"Complete vs partial traversal",
+"Your turn"
+],
+"csp_b3_l12": [
+"",
+"Sorted data only",
+"How it works",
+"Finding 37",
+"log2 n steps",
+"When to use it",
+"Your turn"
+],
+"csp_b3_l13": [
+"",
+"What a procedure is",
+"Calling with arguments",
+"Jumping and returning",
+"Return values",
+"Using without seeing the code",
+"Your turn"
+],
+"csp_b3_l14": [
+"",
+"PROCEDURE and parameters",
+"Arguments fill parameters",
+"RETURN",
+"Generalizing",
+"Good procedures",
+"Your turn"
+],
+"csp_b3_l15": [
+"",
+"What, not how",
+"Modularity",
+"Removing repeated code",
+"Improving without breaking callers",
+"On the AP exam",
+"Your turn"
 ]
 }

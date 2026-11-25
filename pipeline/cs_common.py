@@ -98,3 +98,13 @@ def term(lines_, sc=0.6, w=None):
     lab = txt("output", 0.35, MUTED).next_to(box, UP, buff=0.08).align_to(box, LEFT)
     t.move_to(box).shift(DOWN*0.05)
     return VGroup(box, t, lab)
+
+def ap(src, sc=1.2):
+    """AP exam pseudocode block"""
+    return code(src, "text", sc)
+
+def aprow(nums, col=ACC, w=1.0, sc=0.55):
+    """list cells with 1-based AP indexes"""
+    cells = VGroup(*[chip(str(n), col, w, w, sc) for n in nums]).arrange(RIGHT, buff=0.1)
+    ix = VGroup(*[mono(str(k+1), 0.42, MUTED).next_to(c, DOWN, buff=0.12) for k, c in enumerate(cells)])
+    return cells, ix
