@@ -7,6 +7,15 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "apcsp_exam": dict(
+   title="AP CSP Exam Prep: Create Performance Task, Written Response & Multiple Choice Review",
+   intro="Get ready for the AP Computer Science Principles exam. This video walks through the Create performance task requirements step by step (input, output, a list, a procedure with a parameter, the video and the Personalized Project Reference), how to answer the written response questions about your program, and a multiple-choice strategy with a fast review of all five Big Ideas. Each section ends with a practice question.",
+   course="AP Computer Science Principles", unit=5, part="Exam Prep · Complete",
+   prev="AP CSP Big Idea 5: Impact of Computing", next="AP Computer Science A, Unit 1: Using Objects and Methods",
+   also="",
+   playlists=["AP Computer Science Principles (Full Course)", "AP CSP Exam Prep"],
+   tags="ap computer science principles, ap csp, ap csp exam, create performance task, create task, written response, personalized project reference, ap csp multiple choice, ap csp review, ap exam prep",
+   tagsh="#apcsp #computerscience #apexam"),
  "apcsp_bi5": dict(
    title="AP CSP Big Idea 5: Impact of Computing (Digital Divide, Bias, Crowdsourcing, Copyright, Safe Computing)",
    intro="AP CSP Big Idea 5, Impact of Computing, complete in one video. It covers beneficial and harmful effects of computing innovations, the digital divide, computing bias, crowdsourcing and citizen science, legal and ethical concerns (intellectual property, copyright, Creative Commons, open source), and safe computing (PII, authentication, encryption, malware and phishing). Each section ends with an AP-style practice question.",

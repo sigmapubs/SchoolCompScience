@@ -8,7 +8,8 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"csp_b5_l01": "Beneficial and harmful effects", "csp_b5_l02": "The digital divide", "csp_b5_l03": "Computing bias", "csp_b5_l04": "Crowdsourcing and citizen science", "csp_b5_l05": "Legal and ethical concerns", "csp_b5_l06": "Safe computing",
+NAMES = {"csp_ex_l01": "The Create performance task", "csp_ex_l02": "Written response practice", "csp_ex_l03": "Multiple choice strategy and review",
+ "csp_b5_l01": "Beneficial and harmful effects", "csp_b5_l02": "The digital divide", "csp_b5_l03": "Computing bias", "csp_b5_l04": "Crowdsourcing and citizen science", "csp_b5_l05": "Legal and ethical concerns", "csp_b5_l06": "Safe computing",
  "csp_b4_l01": "The Internet: protocols, packets, routing", "csp_b4_l02": "TCP/IP, HTTP and the layers", "csp_b4_l03": "Fault tolerance and redundancy", "csp_b4_l04": "Parallel computing and speedup", "csp_b4_l05": "Distributed computing",
  "csp_b3_l16": "Libraries and APIs", "csp_b3_l17": "Random values", "csp_b3_l18": "Simulations", "csp_b3_l19": "Algorithmic efficiency", "csp_b3_l20": "Heuristics", "csp_b3_l21": "Undecidable problems", "csp_b3_l22": "The AP exam reference sheet",
  "csp_b3_l11": "Traversing lists with FOR EACH", "csp_b3_l12": "Binary search", "csp_b3_l13": "Calling procedures", "csp_b3_l14": "Developing procedures", "csp_b3_l15": "Procedural abstraction",
@@ -75,6 +76,7 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
+ "apcsp_exam": ["csp_ex_l01", "csp_ex_l02", "csp_ex_l03"],
  "apcsp_bi5": ["csp_b5_l01", "csp_b5_l02", "csp_b5_l03", "csp_b5_l04", "csp_b5_l05", "csp_b5_l06"],
  "apcsp_bi4": ["csp_b4_l01", "csp_b4_l02", "csp_b4_l03", "csp_b4_l04", "csp_b4_l05"],
  "apcsp_bi3_part4": ["csp_b3_l16", "csp_b3_l17", "csp_b3_l18", "csp_b3_l19", "csp_b3_l20", "csp_b3_l21", "csp_b3_l22"],

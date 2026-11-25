@@ -969,5 +969,37 @@
 "Malware and phishing",
 "Everyday habits",
 "Your turn"
+],
+"csp_ex_l01": [
+"",
+"30% of your score",
+"Input and output",
+"A list",
+"A procedure with a parameter",
+"What you submit",
+"Example idea",
+"Tips",
+"Your turn"
+],
+"csp_ex_l02": [
+"",
+"Your project reference",
+"Design, function, purpose",
+"Algorithm development",
+"Errors and testing",
+"Data and procedural abstraction",
+"Answer strategy",
+"A strong answer",
+"Your turn"
+],
+"csp_ex_l03": [
+"",
+"Exam format",
+"Timing and guessing",
+"Code questions",
+"Review: Big Ideas 1 and 2",
+"Review: Big Idea 3",
+"Review: Big Ideas 4 and 5",
+"Your turn"
 ]
 }
