@@ -6,6 +6,24 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "introcs_u3_algorithms": dict(
+   title="Algorithms: Flowcharts, Linear & Binary Search, Selection Sort | Intro to CS Unit 3",
+   intro="What is an algorithm, and how do you tell a good one from a slow one? This video covers all of Unit 3: sequence, selection and repetition, flowcharts and pseudocode, linear search, binary search, selection sort, and comparing algorithms by how their step count grows. Each section ends with a practice problem.",
+   course="Intro to Computer Science", unit=2, part="Unit 3: Algorithms (the whole unit in one video)",
+   prev="Intro to Computer Science, Unit 2: Data and Binary", next="Intro to Computer Science, Unit 4: Programming Basics in Python",
+   also="Also covers AP Computer Science Principles Big Idea 3 topics on algorithms, searching and efficiency.",
+   playlists=["Intro to Computer Science (Full Course)", "Intro CS Unit 3: Algorithms", "AP CS Principles Big Idea 3: Algorithms and Programming"],
+   tags="algorithms, flowchart, pseudocode, linear search, binary search, selection sort, algorithm efficiency, computer science, AP CSP",
+   tagsh="#computerscience #algorithms #APCSP"),
+ "apcsa_u2_part2": dict(
+   title="Java Loops: while, for, String Algorithms & Nested Loops | AP CSA Unit 2 (2.7–2.12)",
+   intro="AP CSA Topics 2.7 to 2.12, all about iteration: while loops, infinite loops and off-by-one errors, for loops and counting iterations, the standard algorithms (sum, average, count, min and max, digits, any and all), String algorithms (counting, reversing, finding substrings), nested loops, and informal run-time analysis. Each topic ends with an AP-style practice problem.",
+   course="AP Computer Science A", unit=1, part="Unit 2: Selection and Iteration · Part 2 of 2",
+   prev="Java if Statements, Boolean Expressions & De Morgan's Laws (Unit 2, Part 1)", next="AP Computer Science A, Unit 3: Class Creation",
+   also="Unit 2 is split into 2 videos: Part 1 (2.1–2.6, selection) and Part 2 (2.7–2.12, iteration).",
+   playlists=["AP Computer Science A (Full Course)", "AP CSA Unit 2: Selection and Iteration"],
+   tags="AP CSA, java loops, while loop, for loop, nested loops, string algorithms, run time analysis, java tutorial",
+   tagsh="#APCSA #java #computerscience"),
  "apcsa_u2_part1": dict(
    title="Java if Statements, Boolean Expressions & De Morgan's Laws | AP CSA Unit 2 (2.1–2.6)",
    intro="AP CSA Topics 2.1 to 2.6, all about selection: algorithms with selection and repetition, Boolean expressions and relational operators, if, else and else if, nested ifs and the dangling else, compound conditions with &&, || and ! (including short-circuit evaluation), and equivalent expressions with De Morgan's laws. Each topic ends with an AP-style practice problem.",

@@ -1,0 +1,56 @@
+Java if Statements, Boolean Expressions & De Morgan's Laws | AP CSA Unit 2 (2.1–2.6)
+
+AP CSA Topics 2.1 to 2.6, all about selection: algorithms with selection and repetition, Boolean expressions and relational operators, if, else and else if, nested ifs and the dangling else, compound conditions with &&, || and ! (including short-circuit evaluation), and equivalent expressions with De Morgan's laws. Each topic ends with an AP-style practice problem. Unit 2 is split into 2 videos: Part 1 (2.1–2.6, selection) and Part 2 (2.7–2.12, iteration).
+
+Course: AP Computer Science A · Unit 2: Selection and Iteration · Part 1 of 2
+Previous: Java Objects, the Math Class & String Methods (Unit 1, Part 3)
+Next: Java Loops: while, for, String Algorithms & Nested Loops (Unit 2, Part 2)
+
+0:00 Introduction
+0:16 2.1 Algorithms with selection and repetition
+0:27 Sequencing, selection, repetition
+0:42 Selection: choosing a path
+0:52 Repetition: iterations
+1:02 Finding the max
+1:19 Flowcharts
+1:30 Your turn
+1:48 2.2 Boolean expressions
+1:59 What a Boolean expression is
+2:09 Relational operators
+2:26 Evaluating comparisons
+2:41 Even numbers and multiples
+2:56 Boolean variables
+3:07 Your turn
+3:25 2.3 if statements
+3:45 if else
+3:56 else if chains
+4:09 Tracing a grade program
+4:21 Common mistakes
+4:41 Your turn
+5:02 2.4 Nested if statements
+5:27 Tracing three users
+5:40 The dangling else
+5:54 Nesting vs else if
+6:06 Tracing tips
+6:39 2.5 Compound Boolean expressions
+6:51 &&, || and !
+7:09 Truth tables
+7:38 Short-circuit evaluation
+8:02 Operator order
+8:26 2.6 Equivalent expressions and De Morgan's laws
+8:38 Truth tables
+8:49 De Morgan's laws
+9:05 A worked example
+9:23 Flipping comparisons
+9:36 Cleaner conditions
+
+AP Computer Science A, the complete course (5 units, full syllabus):
+• Unit 1: Using Objects and Methods
+▶ Unit 2: Selection and Iteration  (you are here)
+• Unit 3: Class Creation
+• Unit 4: Data Collections
+• Exam Prep: FRQs and Multiple Choice
+Follow the whole course in order in the "AP Computer Science A (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#APCSA #java #computerscience

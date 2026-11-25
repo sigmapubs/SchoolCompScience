@@ -297,5 +297,113 @@
 "Flipping comparisons",
 "Cleaner conditions",
 "Your turn"
+],
+"csa_u2_l07": [
+"",
+"How a while loop works",
+"Start, test, change",
+"Tracing the loop",
+"Never runs vs runs forever",
+"Off-by-one errors",
+"Your turn"
+],
+"csa_u2_l08": [
+"",
+"The for loop header",
+"Order of execution",
+"for vs while",
+"Counting iterations",
+"Loop variable scope",
+"Your turn"
+],
+"csa_u2_l09": [
+"",
+"Accumulating a total",
+"Counting matches",
+"Finding the max",
+"Digit by digit",
+"At least one, or every one",
+"Your turn"
+],
+"csa_u2_l10": [
+"",
+"Visiting every character",
+"Counting vowels",
+"Reversing a String",
+"Finding a substring",
+"Out of bounds",
+"Your turn"
+],
+"csa_u2_l11": [
+"",
+"How many times the body runs",
+"A rectangle of stars",
+"A triangle of stars",
+"Comparing every pair",
+"Tracing with a table",
+"Your turn"
+],
+"csa_u2_l12": [
+"",
+"Counting executions",
+"One loop: n",
+"Nested loops: n squared",
+"Doubling steps",
+"A counting strategy",
+"Your turn"
+],
+"icu3_l01": [
+"",
+"Definition",
+"Steps must be clear",
+"Sequence, selection, repetition",
+"Crossing the street",
+"Many algorithms, one problem",
+"Your turn"
+],
+"icu3_l02": [
+"",
+"Flowchart shapes",
+"A score-check flowchart",
+"Loops in flowcharts",
+"Pseudocode",
+"Pseudocode example",
+"Your turn"
+],
+"icu3_l03": [
+"",
+"How linear search works",
+"Finding 12",
+"Searching for a missing item",
+"Best and worst case",
+"Works on any list",
+"Your turn"
+],
+"icu3_l04": [
+"",
+"How binary search works",
+"Finding 37",
+"Halving: 20 checks for a million",
+"Linear vs binary",
+"It needs a sorted list",
+"Your turn"
+],
+"icu3_l05": [
+"",
+"The idea",
+"First swap",
+"Finishing the sort",
+"How much work?",
+"Simple but slow",
+"Your turn"
+],
+"icu3_l06": [
+"",
+"Counting steps, not seconds",
+"How step counts grow",
+"A million items",
+"Hard problems and heuristics",
+"Three questions to ask",
+"Your turn"
 ]
 }

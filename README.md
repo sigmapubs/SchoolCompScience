@@ -6,10 +6,11 @@ Each video folder holds `video.mp4` (1080p60 with a caption track), `captions.sr
 
 | Folder | Video |
 |---|---|
-| intro-cs/unit-1/full | What Is a Computer? (Intro CS Unit 1) |
-| intro-cs/unit-2/full | Data and Binary (Intro CS Unit 2) |
-| ap-csa/unit-1/part-1 | Java Basics (AP CSA 1.1–1.5) |
-| ap-csa/unit-1/part-2 | Java Methods (AP CSA 1.6–1.10) |
-| ap-csa/unit-1/part-3 | Objects, Math & Strings (AP CSA 1.11–1.15) |
+| ap-csa/unit-1/part-1 | Java Basics: Algorithms, Variables, Expressions, Input & Casting · AP CSA Unit 1 (1.1–1.5) |
+| ap-csa/unit-1/part-2 | Java Methods: Compound Assignment, APIs, Comments & Method Calls · AP CSA Unit 1 (1.6–1.10) |
+| ap-csa/unit-1/part-3 | Java Objects, the Math Class & String Methods · AP CSA Unit 1 (1.11–1.15) |
+| ap-csa/unit-2/part-1 | Java if Statements, Boolean Expressions & De Morgan's Laws · AP CSA Unit 2 (2.1–2.6) |
+| intro-cs/unit-1/full | What Is a Computer? CPU, Memory, Storage & the Operating System · Intro to CS Unit 1 |
+| intro-cs/unit-2/full | Data and Binary: Bits, Hex, Text, Images, Sound & Compression · Intro to CS Unit 2 |
 
 `pipeline/` has the Manim + Kokoro TTS scripts that render the lessons.

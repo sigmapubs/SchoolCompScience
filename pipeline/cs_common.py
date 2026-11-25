@@ -79,3 +79,10 @@ def practice(self, q_mobj, ans_mobj, nxt_text, t_q=4.0, t_pause=1.3):
 
 def lines(s, sc=0.55, c=INK, buff=0.18):
     return VGroup(*[txt(l, sc, c) for l in s.split("\n")]).arrange(DOWN, buff=buff)
+
+def num_row(nums, w=0.85, col=ACC, sc=0.55, idx=True):
+    cells = VGroup(*[chip(str(n), col, w, w, sc) for n in nums]).arrange(RIGHT, buff=0.1)
+    if idx:
+        ix = VGroup(*[mono(str(k), 0.4, MUTED).next_to(c, DOWN, buff=0.12) for k, c in enumerate(cells)])
+        return cells, ix
+    return cells, VGroup()
