@@ -8,7 +8,10 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"cs1_u6_l01": "Testing your code", "cs1_u6_l02": "Debugging strategies", "cs1_u6_l03": "Exceptions and try/except", "cs1_u6_l04": "Assertions and defensive programming", "cs1_u6_l05": "Reading and writing files",
+NAMES = {"cs1_u9_l01": "Linked lists", "cs1_u9_l02": "Trees and binary search trees", "cs1_u9_l03": "Graphs, BFS and DFS", "cs1_u9_l04": "Where to go next",
+ "cs1_u8_l01": "Counting steps", "cs1_u8_l02": "Big-O notation", "cs1_u8_l03": "Complexity classes", "cs1_u8_l04": "Linear vs binary search", "cs1_u8_l05": "Selection and insertion sort", "cs1_u8_l06": "Merge sort", "cs1_u8_l07": "Hashing", "cs1_u8_l08": "Stacks and queues",
+ "cs1_u7_l01": "Classes and objects", "cs1_u7_l02": "Methods and __init__", "cs1_u7_l03": "Special methods", "cs1_u7_l04": "Encapsulation", "cs1_u7_l05": "Inheritance", "cs1_u7_l06": "Polymorphism", "cs1_u7_l07": "Designing with classes",
+ "cs1_u6_l01": "Testing your code", "cs1_u6_l02": "Debugging strategies", "cs1_u6_l03": "Exceptions and try/except", "cs1_u6_l04": "Assertions and defensive programming", "cs1_u6_l05": "Reading and writing files",
  "cs1_u5_l01": "Thinking recursively", "cs1_u5_l02": "Base and recursive cases", "cs1_u5_l03": "Recursion on lists and strings", "cs1_u5_l04": "Memoization", "cs1_u5_l05": "Recursion vs iteration",
  "cs1_u4_l01": "Tuples", "cs1_u4_l02": "Lists and mutation", "cs1_u4_l03": "Aliasing and cloning", "cs1_u4_l04": "List comprehensions", "cs1_u4_l05": "Dictionaries", "cs1_u4_l06": "Sets", "cs1_u4_l07": "Choosing the right structure",
  "cs1_u3_l01": "Decomposition and abstraction", "cs1_u3_l02": "Functions, scope and the call stack", "cs1_u3_l03": "Specifications and docstrings", "cs1_u3_l04": "Functions as objects; lambda", "cs1_u3_l05": "Modules and imports", "cs1_u3_l06": "Higher-order functions: map and filter",
@@ -87,6 +90,9 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
+ "cs1_u9": ["cs1_u9_l01", "cs1_u9_l02", "cs1_u9_l03", "cs1_u9_l04"],
+ "cs1_u8": ["cs1_u8_l01", "cs1_u8_l02", "cs1_u8_l03", "cs1_u8_l04", "cs1_u8_l05", "cs1_u8_l06", "cs1_u8_l07", "cs1_u8_l08"],
+ "cs1_u7": ["cs1_u7_l01", "cs1_u7_l02", "cs1_u7_l03", "cs1_u7_l04", "cs1_u7_l05", "cs1_u7_l06", "cs1_u7_l07"],
  "cs1_u6": ["cs1_u6_l01", "cs1_u6_l02", "cs1_u6_l03", "cs1_u6_l04", "cs1_u6_l05"],
  "cs1_u5": ["cs1_u5_l01", "cs1_u5_l02", "cs1_u5_l03", "cs1_u5_l04", "cs1_u5_l05"],
  "cs1_u4": ["cs1_u4_l01", "cs1_u4_l02", "cs1_u4_l03", "cs1_u4_l04", "cs1_u4_l05", "cs1_u4_l06", "cs1_u4_l07"],

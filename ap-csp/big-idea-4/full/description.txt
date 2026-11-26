@@ -1,0 +1,45 @@
+AP CSP Big Idea 4: The Internet, TCP/IP, Fault Tolerance, Parallel & Distributed Computing
+
+AP CSP Big Idea 4, Computer Systems and Networks, complete in one video. It covers how the internet works (protocols, packets, routing, bandwidth, scalability), TCP, IP, UDP, HTTP and the layers, fault tolerance and redundancy, parallel computing with speedup calculations, and distributed computing. Each section ends with an AP-style practice question. 
+
+Course: AP Computer Science Principles · Big Idea 4: Computer Systems and Networks · Complete
+Previous: AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations, Efficiency, Heuristics, Undecidable Problems
+Next: AP CSP Big Idea 5: Impact of Computing
+
+0:00 Introduction
+0:17 The Internet: protocols, packets, routing
+0:38 Protocols
+0:54 Packets
+1:08 Routing and bandwidth
+1:24 Scalability
+1:50 TCP/IP, HTTP and the layers
+2:09 TCP
+2:21 UDP
+2:34 The layers
+2:51 Internet vs the Web
+3:01 Your turn
+3:23 Fault tolerance and redundancy
+3:41 Redundant paths
+4:06 Cost vs reliability
+4:18 Redundancy in practice
+4:48 Parallel computing and speedup
+5:07 Timing rules
+5:20 Worked example
+5:36 Speedup
+5:47 Limits of speedup
+6:18 Distributed computing
+6:38 Why use it
+7:00 Challenges
+7:21 Your turn
+
+AP Computer Science Principles, the complete course (6 units, full syllabus):
+• Big Idea 1: Creative Development
+• Big Idea 2: Data
+• Big Idea 3: Algorithms and Programming
+▶ Big Idea 4: Computer Systems and Networks  (you are here)
+• Big Idea 5: Impact of Computing
+• Exam Prep: Create Task and Multiple Choice
+Follow the whole course in order in the "AP Computer Science Principles (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#apcsp #computerscience #apexam

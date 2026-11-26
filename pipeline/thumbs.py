@@ -36,6 +36,9 @@ def fit(d, text, font_fn, size, maxw):
     return font_fn(size)
 import sys
 GROUPS = [
+ ("../final/cs1_u9", "CS1  ·  UNIT 9", "LISTS, TREES", "& GRAPHS", "linked lists, BSTs, BFS, DFS", "graph = {'A': ['B']}"),
+ ("../final/cs1_u8", "CS1  ·  UNIT 8", "ALGORITHMS &", "BIG-O", "search, sorting, hashing, stacks", "O(n log n)"),
+ ("../final/cs1_u7", "CS1  ·  UNIT 7", "OBJECT-ORIENTED", "PYTHON", "classes, inheritance, polymorphism", "class Dog(Animal):"),
  ("../final/cs1_u6", "CS1  ·  UNIT 6", "TESTING &", "DEBUGGING", "tests, exceptions, asserts, files", "try: … except ValueError:"),
  ("../final/cs1_u5", "CS1  ·  UNIT 5", "RECURSION", "IN PYTHON", "base cases, memoization, recursion vs loops", "fib(n-1) + fib(n-2)"),
  ("../final/cs1_u4", "CS1  ·  UNIT 4", "PYTHON DATA", "STRUCTURES", "tuples, lists, dicts, sets", "{'Ana': 15}"),

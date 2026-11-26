@@ -1,0 +1,513 @@
+1
+00:00:00,000 --> 00:00:04,987
+Welcome to School Computer Science,
+Explained. This is AP Computer Science
+
+2
+00:00:04,987 --> 00:00:10,446
+Principles, Big Idea 4: computer systems
+and networks. We'll see how the internet
+
+3
+00:00:10,446 --> 00:00:15,568
+moves data, why it keeps working when
+parts fail, and how many computers can
+
+4
+00:00:15,568 --> 00:00:16,512
+share one job.
+
+5
+00:00:17,685 --> 00:00:21,141
+Big Idea 4 is about computer systems and
+networks.
+
+6
+00:00:21,591 --> 00:00:24,066
+Let's start with how the internet moves
+data.
+
+7
+00:00:25,216 --> 00:00:31,170
+A computing device is any machine that can
+run a program, like a phone, a laptop, or
+
+8
+00:00:31,170 --> 00:00:31,808
+a server.
+
+9
+00:00:32,258 --> 00:00:37,762
+A computer network is a group of connected
+devices that can send and receive data.
+
+10
+00:00:38,912 --> 00:00:43,157
+The internet is a network of networks,
+built on open protocols.
+
+11
+00:00:43,607 --> 00:00:49,799
+A protocol is an agreed set of rules for
+how data is sent and received. Open means
+
+12
+00:00:49,799 --> 00:00:53,122
+anyone can use them, so any device can
+join.
+
+13
+00:00:54,272 --> 00:00:58,984
+Data is sent in packets. Each packet
+carries a piece of the data, plus
+
+14
+00:00:58,984 --> 00:01:02,485
+metadata, like where it's from and where
+it's going.
+
+15
+00:01:02,935 --> 00:01:07,052
+Packets can arrive out of order, and the
+receiver puts them back together.
+
+16
+00:01:08,202 --> 00:01:13,987
+Routing is finding a path from sender to
+receiver. The path is chosen as the data
+
+17
+00:01:13,987 --> 00:01:16,416
+travels, by routers along the way.
+
+18
+00:01:16,866 --> 00:01:21,939
+Bandwidth is the most data that can be
+sent in a fixed amount of time, measured
+
+19
+00:01:21,939 --> 00:01:23,159
+in bits per second.
+
+20
+00:01:24,309 --> 00:01:29,384
+The internet was designed to be scalable:
+it can grow to handle more users and
+
+21
+00:01:29,384 --> 00:01:32,117
+devices, and it keeps working as it grows.
+
+22
+00:01:33,267 --> 00:01:37,470
+Your turn. Why is it important that
+internet protocols are open?
+
+23
+00:01:37,920 --> 00:01:39,200
+Pause the video now.
+
+24
+00:01:39,650 --> 00:01:44,367
+Because anyone can use them, so devices
+from any company can connect and
+
+25
+00:01:44,367 --> 00:01:45,154
+communicate.
+
+26
+00:01:45,604 --> 00:01:49,188
+Next, we'll look at TCP, IP, and HTTP.
+
+27
+00:01:50,338 --> 00:01:55,263
+When you load a web page, several
+protocols work together, each with its own
+
+28
+00:01:55,263 --> 00:01:55,522
+job.
+
+29
+00:01:55,972 --> 00:01:57,124
+They work in layers.
+
+30
+00:01:58,274 --> 00:02:03,178
+IP, the internet protocol, gives each
+device an address, and moves packets
+
+31
+00:02:03,178 --> 00:02:04,503
+toward that address.
+
+32
+00:02:04,953 --> 00:02:08,772
+But IP alone doesn't guarantee that every
+packet arrives.
+
+33
+00:02:09,922 --> 00:02:14,701
+TCP, the transmission control protocol,
+makes delivery reliable.
+
+34
+00:02:15,151 --> 00:02:20,076
+It numbers the packets, puts them in
+order, and asks for any missing ones to be
+
+35
+00:02:20,076 --> 00:02:20,761
+sent again.
+
+36
+00:02:21,911 --> 00:02:27,671
+UDP is another option. It's faster, but it
+doesn't check that every packet arrives.
+
+37
+00:02:28,121 --> 00:02:33,253
+It's used for video calls and live games,
+where speed matters more than a few lost
+
+38
+00:02:33,253 --> 00:02:33,753
+packets.
+
+39
+00:02:34,903 --> 00:02:42,195
+HTTP sits on top. It's the protocol for
+requesting and sending web pages. HTTPS
+
+40
+00:02:42,195 --> 00:02:43,671
+adds encryption.
+
+41
+00:02:44,121 --> 00:02:48,847
+Each layer relies on the one below,
+without needing to know its details.
+
+42
+00:02:48,847 --> 00:02:50,095
+That's abstraction.
+
+43
+00:02:51,245 --> 00:02:57,430
+The web and the internet aren't the same:
+the World Wide Web is a system of linked
+
+44
+00:02:57,430 --> 00:03:00,674
+pages that uses the internet, through
+HTTP.
+
+45
+00:03:01,824 --> 00:03:08,504
+Your turn. Which protocol makes sure
+packets arrive and are put in order: IP,
+
+46
+00:03:08,504 --> 00:03:09,632
+TCP, or HTTP?
+
+47
+00:03:10,082 --> 00:03:11,362
+Pause the video now.
+
+48
+00:03:11,812 --> 00:03:18,084
+TCP. IP handles addresses and routing, and
+HTTP handles web pages.
+
+49
+00:03:18,534 --> 00:03:22,097
+Next, fault tolerance: how the internet
+survives failures.
+
+50
+00:03:23,247 --> 00:03:27,130
+Cables get cut. Routers break. Yet the
+internet keeps working.
+
+51
+00:03:27,580 --> 00:03:28,902
+That's fault tolerance.
+
+52
+00:03:30,052 --> 00:03:34,959
+A system is fault tolerant if it can keep
+working even when some parts fail.
+
+53
+00:03:35,409 --> 00:03:40,764
+The internet achieves this through
+redundancy: extra paths and extra devices.
+
+54
+00:03:41,914 --> 00:03:45,690
+Redundancy means there's more than one
+path between devices.
+
+55
+00:03:46,140 --> 00:03:50,641
+If one connection fails, data is routed
+around it, through another path.
+
+56
+00:03:51,791 --> 00:03:57,207
+On the AP exam, you'll see network
+diagrams. A common question: which single
+
+57
+00:03:57,207 --> 00:04:01,839
+connection, if broken, would stop two
+devices from communicating?
+
+58
+00:04:02,289 --> 00:04:05,574
+Look for a connection that is the only
+path between them.
+
+59
+00:04:06,724 --> 00:04:11,695
+Redundancy costs more, because extra
+connections and devices must be built.
+
+60
+00:04:12,145 --> 00:04:17,436
+But it makes the system more reliable, and
+protects against single points of failure.
+
+61
+00:04:18,586 --> 00:04:23,981
+Fault tolerance is used beyond networks
+too: backup power, copies of data in
+
+62
+00:04:23,981 --> 00:04:26,820
+several data centers, and spare servers.
+
+63
+00:04:27,970 --> 00:04:33,396
+Your turn. In a network, devices A and B
+connect only through router R. Is that
+
+64
+00:04:33,396 --> 00:04:35,181
+connection fault tolerant?
+
+65
+00:04:35,631 --> 00:04:36,911
+Pause the video now.
+
+66
+00:04:37,361 --> 00:04:43,173
+No. If R fails, A and B can't communicate.
+Adding a second path would make it fault
+
+67
+00:04:43,173 --> 00:04:43,804
+tolerant.
+
+68
+00:04:44,254 --> 00:04:47,475
+Next, we'll speed up computing with
+parallel computing.
+
+69
+00:04:48,625 --> 00:04:51,185
+Some jobs take too long on one processor.
+
+70
+00:04:51,635 --> 00:04:54,024
+Splitting them up can make them much
+faster.
+
+71
+00:04:55,174 --> 00:04:59,270
+Sequential computing runs operations one
+at a time, in order.
+
+72
+00:04:59,720 --> 00:05:04,763
+Parallel computing splits a program into
+parts, and runs some of them at the same
+
+73
+00:05:04,763 --> 00:05:06,568
+time on different processors.
+
+74
+00:05:07,718 --> 00:05:11,153
+A sequential solution's time is the sum of
+all its steps.
+
+75
+00:05:11,603 --> 00:05:16,464
+A parallel solution's time is the
+sequential part, plus the longest of the
+
+76
+00:05:16,464 --> 00:05:19,091
+parallel parts running at the same time.
+
+77
+00:05:20,241 --> 00:05:25,551
+Example: three tasks take forty, thirty
+and fifty seconds. Sequentially, that's
+
+78
+00:05:25,551 --> 00:05:27,366
+one hundred twenty seconds.
+
+79
+00:05:27,816 --> 00:05:33,494
+On two processors, put fifty on one, and
+forty plus thirty on the other. The time
+
+80
+00:05:33,494 --> 00:05:35,667
+is the larger: seventy seconds.
+
+81
+00:05:36,817 --> 00:05:40,870
+Speedup is the sequential time divided by
+the parallel time.
+
+82
+00:05:41,320 --> 00:05:46,120
+Here, one hundred twenty divided by
+seventy is about one point seven.
+
+83
+00:05:47,270 --> 00:05:52,023
+Adding processors helps less and less,
+because some steps must still happen in
+
+84
+00:05:52,023 --> 00:05:55,313
+order, and processors may have to wait for
+each other.
+
+85
+00:05:56,463 --> 00:06:02,020
+Your turn. Tasks take twenty, twenty, and
+twenty seconds. What's the parallel time
+
+86
+00:06:02,020 --> 00:06:04,527
+on three processors, and the speedup?
+
+87
+00:06:04,977 --> 00:06:06,257
+Pause the video now.
+
+88
+00:06:06,707 --> 00:06:12,382
+All three run at once, so twenty seconds.
+Sequential is sixty, so the speedup is
+
+89
+00:06:12,382 --> 00:06:15,219
+sixty divided by twenty, which is three.
+
+90
+00:06:15,669 --> 00:06:17,461
+Next, distributed computing.
+
+91
+00:06:18,611 --> 00:06:23,262
+Some problems are too big for any single
+computer, no matter how fast.
+
+92
+00:06:23,712 --> 00:06:27,360
+So we use many computers, working together
+over a network.
+
+93
+00:06:28,510 --> 00:06:33,139
+Distributed computing uses multiple
+devices to run a program.
+
+94
+00:06:33,589 --> 00:06:37,557
+The devices can be in the same building,
+or spread around the world.
+
+95
+00:06:48,454 --> 00:06:53,749
+Search engines, weather forecasts and big
+science projects all use distributed
+
+96
+00:06:53,749 --> 00:06:54,428
+computing.
+
+97
+00:06:54,878 --> 00:06:59,486
+Some projects even let volunteers donate
+their computers' spare time.
+
+98
+00:07:00,636 --> 00:07:05,916
+The challenge is coordination. Computers
+must communicate over the network, which
+
+99
+00:07:05,916 --> 00:07:08,849
+takes time, and work must be split
+carefully.
+
+100
+00:07:09,999 --> 00:07:15,294
+Parallel computing usually means many
+processors in one machine. Distributed
+
+101
+00:07:15,294 --> 00:07:19,962
+computing means many machines on a
+network. Both split up the work.
+
+102
+00:07:21,112 --> 00:07:26,357
+Your turn. A research project needs to
+analyze more data than any one computer
+
+103
+00:07:26,357 --> 00:07:29,048
+can store. What kind of computing helps?
+
+104
+00:07:29,498 --> 00:07:30,778
+Pause the video now.
+
+105
+00:07:31,228 --> 00:07:36,142
+Distributed computing: the data and work
+are spread across many computers on a
+
+106
+00:07:36,142 --> 00:07:36,646
+network.
+
+107
+00:07:37,096 --> 00:07:42,707
+That's the end of Big Idea four. Next, Big
+Idea five: the impact of computing.
+
+108
+00:07:43,857 --> 00:07:48,534
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+109
+00:07:48,534 --> 00:07:49,809
+miss the next lesson.
+
+110
+00:07:50,259 --> 00:07:51,155
+See you there.
+

@@ -8,6 +8,33 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "cs1_u9": dict(
+   title="Intro to Computer Science (College CS1) Unit 9: Linked Lists, Binary Search Trees, Graphs, BFS & DFS",
+   intro="Unit 9, the final unit of a first college course in computer science, in Python. It covers linked lists and nodes, trees and binary search trees, graphs as adjacency lists with breadth-first and depth-first search, and where to go after CS1. Each lesson ends with a practice problem.",
+   course="Intro College CS (CS1)", unit=8, part="Unit 9: Beyond CS1 · Complete",
+   prev="CS1 Unit 8: Big-O, Searching, Sorting, Hashing, Stacks & Queues", next="none, this is the final unit of CS1",
+   also="",
+   playlists=["Intro College CS: CS1 in Python (Full Course)", "CS1 Unit 9: Beyond CS1"],
+   tags="intro to computer science, cs1, linked list, binary search tree, bst, graphs, bfs, dfs, breadth first search, depth first search, data structures, python",
+   tagsh="#datastructures #computerscience #python"),
+ "cs1_u8": dict(
+   title="Intro to Computer Science (College CS1) Unit 8: Big-O, Searching, Sorting, Hashing, Stacks & Queues",
+   intro="Unit 8 of a first college course in computer science, in Python. It covers counting steps, Big-O notation, the common complexity classes from O(1) to O(2^n), linear vs binary search, selection and insertion sort, merge sort, hashing and why dict and set are fast, and stacks and queues. Each lesson ends with a practice problem.",
+   course="Intro College CS (CS1)", unit=7, part="Unit 8: Algorithms and Complexity · Complete",
+   prev="CS1 Unit 7: Object-Oriented Programming in Python, Classes, Inheritance & Polymorphism", next="CS1 Unit 9: Beyond CS1",
+   also="",
+   playlists=["Intro College CS: CS1 in Python (Full Course)", "CS1 Unit 8: Algorithms and Complexity"],
+   tags="intro to computer science, cs1, big o notation, time complexity, binary search, merge sort, insertion sort, selection sort, hashing, stacks and queues, algorithms",
+   tagsh="#algorithms #computerscience #bigO"),
+ "cs1_u7": dict(
+   title="Intro to Computer Science (College CS1) Unit 7: Object-Oriented Programming in Python, Classes, Inheritance & Polymorphism",
+   intro="Unit 7 of a first college course in computer science, in Python. It covers classes and objects, __init__ and methods, self, special (dunder) methods like __str__, __add__ and __eq__, encapsulation, inheritance with super(), overriding, polymorphism, and how to design a program with classes (is-a vs has-a). Each lesson ends with a practice problem.",
+   course="Intro College CS (CS1)", unit=6, part="Unit 7: Object-Oriented Programming · Complete",
+   prev="CS1 Unit 6: Testing, Debugging, Exceptions, Assertions & Files in Python", next="CS1 Unit 8: Algorithms and Complexity",
+   also="",
+   playlists=["Intro College CS: CS1 in Python (Full Course)", "CS1 Unit 7: Object-Oriented Programming"],
+   tags="intro to computer science, cs1, python classes, object oriented programming, oop, inheritance, polymorphism, encapsulation, dunder methods, learn python",
+   tagsh="#python #computerscience #oop"),
  "cs1_u6": dict(
    title="Intro to Computer Science (College CS1) Unit 6: Testing, Debugging, Exceptions, Assertions & Files in Python",
    intro="Unit 5 of a first college course in computer science, in Python. It covers black box and glass box testing, unit and regression tests, debugging strategies (reading tracebacks, print debugging, bisection), exceptions with try/except/else/finally and raise, assertions and defensive programming, and reading and writing files. Each lesson ends with a practice problem.",

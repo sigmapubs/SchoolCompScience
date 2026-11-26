@@ -1528,5 +1528,159 @@
 "Write and append modes",
 "Missing files",
 "Your turn"
+],
+"cs1_u7_l01": [
+"",
+"Blueprints and instances",
+"Creating an object",
+"Separate objects",
+"Attributes",
+"Your turn"
+],
+"cs1_u7_l02": [
+"",
+"The __init__ method",
+"What self means",
+"Writing methods",
+"How method calls work",
+"Your turn"
+],
+"cs1_u7_l03": [
+"",
+"Dunder methods",
+"__str__",
+"__add__",
+"__eq__ and __lt__",
+"Your turn"
+],
+"cs1_u7_l04": [
+"",
+"Bundling data and methods",
+"Internal attributes",
+"Methods that enforce rules",
+"Changing the inside safely",
+"Your turn"
+],
+"cs1_u7_l05": [
+"",
+"Subclasses",
+"Adding methods",
+"Overriding",
+"super().__init__",
+"Your turn"
+],
+"cs1_u7_l06": [
+"",
+"Same call, different behavior",
+"A list of animals",
+"No type checks",
+"Easy to extend",
+"Your turn"
+],
+"cs1_u7_l07": [
+"",
+"Nouns become classes",
+"Verbs become methods",
+"is-a vs has-a",
+"One job per class",
+"Your turn"
+],
+"cs1_u8_l01": [
+"",
+"Why timing isn't enough",
+"Basic steps",
+"Counting a loop",
+"How the count grows",
+"Your turn"
+],
+"cs1_u8_l02": [
+"",
+"What Big-O means",
+"Dropping terms and constants",
+"Why the biggest term wins",
+"Shape of growth",
+"Your turn"
+],
+"cs1_u8_l03": [
+"",
+"O(1)",
+"O(log n)",
+"O(n) and O(n log n)",
+"O(n²) and O(2ⁿ)",
+"Growth on one graph",
+"Your turn"
+],
+"cs1_u8_l04": [
+"",
+"Linear search",
+"Binary search",
+"Why it's O(log n)",
+"A billion items",
+"Your turn"
+],
+"cs1_u8_l05": [
+"",
+"Selection sort",
+"Insertion sort",
+"Both are O(n²)",
+"Nearly sorted data",
+"Your turn"
+],
+"cs1_u8_l06": [
+"",
+"Divide and conquer",
+"Merging",
+"Why O(n log n)",
+"n log n vs n²",
+"Your turn"
+],
+"cs1_u8_l07": [
+"",
+"Hash functions and buckets",
+"Direct lookup",
+"Collisions",
+"O(1) on average",
+"Your turn"
+],
+"cs1_u8_l08": [
+"",
+"Stacks (LIFO)",
+"A list as a stack",
+"Queues (FIFO)",
+"deque",
+"Your turn"
+],
+"cs1_u9_l01": [
+"",
+"Nodes and links",
+"A Node class",
+"Walking the list",
+"Costs",
+"Your turn"
+],
+"cs1_u9_l02": [
+"",
+"Roots and leaves",
+"Binary trees",
+"The BST ordering rule",
+"Searching a BST",
+"Your turn"
+],
+"cs1_u9_l03": [
+"",
+"Vertices and edges",
+"Adjacency lists",
+"Breadth-first search",
+"Depth-first search",
+"Visited sets",
+"Your turn"
+],
+"cs1_u9_l04": [
+"",
+"What you've learned",
+"Data structures and algorithms",
+"Other paths",
+"Build projects",
+"Your turn"
 ]
 }
