@@ -16,6 +16,7 @@ Each video folder holds `video.mp4` (1080p60 with a caption track), `captions.sr
 | ap-csp/big-idea-3/part-1 | AP CSP Big Idea 3 Part 1: Variables, Lists, MOD, Strings & Boolean Expressions · AP Computer Science Principles |
 | ap-csp/big-idea-3/part-2 | AP CSP Big Idea 3 Part 2: Conditionals, Nested IF, REPEAT Loops & List Operations · AP Computer Science Principles |
 | ap-csp/big-idea-3/part-3 | AP CSP Big Idea 3 Part 3: FOR EACH, Binary Search & Procedures · AP Computer Science Principles |
+| ap-csp/big-idea-3/part-4 | AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations, Efficiency, Heuristics, Undecidable Problems & Reference Sheet |
 | intro-cs/unit-1/full | What Is a Computer? CPU, Memory, Storage & the Operating System · Intro to CS Unit 1 |
 | intro-cs/unit-2/full | Data and Binary: Bits, Hex, Text, Images, Sound & Compression · Intro to CS Unit 2 |
 | intro-cs/unit-3/full | Algorithms: Flowcharts, Linear & Binary Search, Selection Sort · Intro to CS Unit 3 |

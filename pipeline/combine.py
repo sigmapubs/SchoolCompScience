@@ -8,7 +8,10 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"cs1_u3_l01": "Decomposition and abstraction", "cs1_u3_l02": "Functions, scope and the call stack", "cs1_u3_l03": "Specifications and docstrings", "cs1_u3_l04": "Functions as objects; lambda", "cs1_u3_l05": "Modules and imports", "cs1_u3_l06": "Higher-order functions: map and filter",
+NAMES = {"cs1_u6_l01": "Testing your code", "cs1_u6_l02": "Debugging strategies", "cs1_u6_l03": "Exceptions and try/except", "cs1_u6_l04": "Assertions and defensive programming", "cs1_u6_l05": "Reading and writing files",
+ "cs1_u5_l01": "Thinking recursively", "cs1_u5_l02": "Base and recursive cases", "cs1_u5_l03": "Recursion on lists and strings", "cs1_u5_l04": "Memoization", "cs1_u5_l05": "Recursion vs iteration",
+ "cs1_u4_l01": "Tuples", "cs1_u4_l02": "Lists and mutation", "cs1_u4_l03": "Aliasing and cloning", "cs1_u4_l04": "List comprehensions", "cs1_u4_l05": "Dictionaries", "cs1_u4_l06": "Sets", "cs1_u4_l07": "Choosing the right structure",
+ "cs1_u3_l01": "Decomposition and abstraction", "cs1_u3_l02": "Functions, scope and the call stack", "cs1_u3_l03": "Specifications and docstrings", "cs1_u3_l04": "Functions as objects; lambda", "cs1_u3_l05": "Modules and imports", "cs1_u3_l06": "Higher-order functions: map and filter",
  "cs1_u2_l01": "Branching", "cs1_u2_l02": "while loops and invariants", "cs1_u2_l03": "for loops and iteration patterns", "cs1_u2_l04": "Guess-and-check and approximation", "cs1_u2_l05": "Bisection search",
  "cs1_u1_l01": "What is computation?", "cs1_u1_l02": "Expressions, types and the interpreter", "cs1_u1_l03": "Variables and state", "cs1_u1_l04": "Strings and string methods", "cs1_u1_l05": "Input, output and formatting",
  "csa_ex_l01": "FRQ 1: Methods and control structures", "csa_ex_l02": "FRQ 2: Class design", "csa_ex_l03": "FRQ 3: ArrayList and data analysis", "csa_ex_l04": "FRQ 4: 2D arrays", "csa_ex_l05": "Multiple choice strategy and review",
@@ -84,6 +87,9 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
+ "cs1_u6": ["cs1_u6_l01", "cs1_u6_l02", "cs1_u6_l03", "cs1_u6_l04", "cs1_u6_l05"],
+ "cs1_u5": ["cs1_u5_l01", "cs1_u5_l02", "cs1_u5_l03", "cs1_u5_l04", "cs1_u5_l05"],
+ "cs1_u4": ["cs1_u4_l01", "cs1_u4_l02", "cs1_u4_l03", "cs1_u4_l04", "cs1_u4_l05", "cs1_u4_l06", "cs1_u4_l07"],
  "cs1_u3": ["cs1_u3_l01", "cs1_u3_l02", "cs1_u3_l03", "cs1_u3_l04", "cs1_u3_l05", "cs1_u3_l06"],
  "cs1_u2": ["cs1_u2_l01", "cs1_u2_l02", "cs1_u2_l03", "cs1_u2_l04", "cs1_u2_l05"],
  "cs1_u1": ["cs1_u1_l01", "cs1_u1_l02", "cs1_u1_l03", "cs1_u1_l04", "cs1_u1_l05"],

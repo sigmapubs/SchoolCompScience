@@ -1393,5 +1393,140 @@
 "Getting a list",
 "Replacing loops",
 "Your turn"
+],
+"cs1_u4_l01": [
+"",
+"Indexing and slicing",
+"Immutable",
+"Returning several values",
+"One-item tuples",
+"Your turn"
+],
+"cs1_u4_l02": [
+"",
+"List basics",
+"Changing a list",
+"List methods",
+"sorted vs sort",
+"Your turn"
+],
+"cs1_u4_l03": [
+"",
+"Two names, one list",
+"Changes show everywhere",
+"Cloning",
+"Lists in functions",
+"Your turn"
+],
+"cs1_u4_l04": [
+"",
+"Building a list",
+"Filtering",
+"Loop vs comprehension",
+"Keep it readable",
+"Your turn"
+],
+"cs1_u4_l05": [
+"",
+"Keys and values",
+"Look up, add, change",
+"Rules for keys",
+"Looping and get",
+"Counting",
+"Your turn"
+],
+"cs1_u4_l06": [
+"",
+"No duplicates",
+"Fast membership",
+"Union, intersection, difference",
+"Your turn"
+],
+"cs1_u4_l07": [
+"",
+"list",
+"tuple",
+"dict",
+"set",
+"Your turn"
+],
+"cs1_u5_l01": [
+"",
+"A line of people",
+"The base case",
+"The shape of recursion",
+"The leap of faith",
+"Your turn"
+],
+"cs1_u5_l02": [
+"",
+"Two kinds of cases",
+"The power function",
+"Infinite recursion",
+"Tracing the call stack",
+"Your turn"
+],
+"cs1_u5_l03": [
+"",
+"Summing a list",
+"Palindromes",
+"Flattening nested lists",
+"Your turn"
+],
+"cs1_u5_l04": [
+"",
+"Fibonacci",
+"Repeated work",
+"Storing answers in a dict",
+"From slow to instant",
+"Your turn"
+],
+"cs1_u5_l05": [
+"",
+"Why recursion",
+"Why loops",
+"Factorial both ways",
+"Which to choose",
+"Your turn"
+],
+"cs1_u6_l01": [
+"",
+"What a test does",
+"Black box testing",
+"Glass box testing",
+"Unit and regression tests",
+"Your turn"
+],
+"cs1_u6_l02": [
+"",
+"Read the error message",
+"Common errors",
+"Print debugging",
+"Bisection",
+"Your turn"
+],
+"cs1_u6_l03": [
+"",
+"What an exception is",
+"try and except",
+"Specific exceptions, else, finally",
+"Raising exceptions",
+"Your turn"
+],
+"cs1_u6_l04": [
+"",
+"The assert statement",
+"Checking assumptions",
+"Fail fast",
+"Assert vs raise",
+"Your turn"
+],
+"cs1_u6_l05": [
+"",
+"The with statement",
+"Reading line by line",
+"Write and append modes",
+"Missing files",
+"Your turn"
 ]
 }

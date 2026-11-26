@@ -1,0 +1,56 @@
+AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations, Efficiency, Heuristics, Undecidable Problems & Reference Sheet
+
+AP CSP Big Idea 3, Algorithms and Programming, part 4 of 4. This video covers libraries and APIs, random values with RANDOM(a, b), simulations, algorithmic efficiency (reasonable vs unreasonable time), heuristics, undecidable problems and the halting problem, and a tour of the AP exam reference sheet. Each section ends with an AP-style practice question. Big Idea 3 is the largest part of the AP exam, so it's split into 4 videos.
+
+Course: AP Computer Science Principles · Big Idea 3: Algorithms and Programming · Part 4 of 4
+Previous: AP CSP Big Idea 3 Part 3: FOR EACH, Binary Search and Procedures
+Next: AP CSP Big Idea 4: Computer Systems and Networks
+
+0:00 Introduction
+0:14 Libraries and APIs
+0:33 APIs
+0:47 Reading documentation
+0:59 Why use libraries
+1:12 Reading procedures carefully
+1:40 Random values
+2:01 Rolling a die
+2:13 Random chances
+2:25 Possible outputs
+2:43 Your turn
+3:04 Simulations
+3:14 Models
+3:38 Randomness in simulations
+3:51 Why simulate
+4:04 Checking the model
+4:33 Algorithmic efficiency
+4:52 log n, n, n squared
+5:03 Reasonable vs unreasonable time
+5:20 Exponential growth
+5:34 On the AP exam
+5:44 Your turn
+6:06 Heuristics
+6:26 The traveling driver
+6:39 Nearest neighbor
+6:49 Where heuristics are used
+7:00 Your turn
+7:16 Undecidable problems
+7:36 Undecidable problems
+7:48 The halting problem
+8:05 Some inputs vs all inputs
+8:32 The AP exam reference sheet
+8:50 Operators and RANDOM
+9:03 Control and procedures
+9:13 Lists and the robot
+9:29 Text and block forms
+
+AP Computer Science Principles, the complete course (6 units, full syllabus):
+• Big Idea 1: Creative Development
+• Big Idea 2: Data
+▶ Big Idea 3: Algorithms and Programming  (you are here)
+• Big Idea 4: Computer Systems and Networks
+• Big Idea 5: Impact of Computing
+• Exam Prep: Create Task and Multiple Choice
+Follow the whole course in order in the "AP Computer Science Principles (Full Course)" playlist.
+
+School Computer Science, Explained covers the full school computer science syllabus: Intro to Computer Science, AP Computer Science Principles, AP Computer Science A and intro college CS (Python).
+#apcsp #computerscience #apexam

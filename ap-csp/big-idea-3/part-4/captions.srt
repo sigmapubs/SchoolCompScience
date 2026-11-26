@@ -1,0 +1,693 @@
+1
+00:00:00,000 --> 00:00:05,312
+Welcome to School Computer Science,
+Explained. This is AP Computer Science
+
+2
+00:00:05,312 --> 00:00:11,271
+Principles, Big Idea 3, part four. We'll
+use libraries and randomness, and discover
+
+3
+00:00:11,271 --> 00:00:13,568
+what computers can and can't do.
+
+4
+00:00:14,741 --> 00:00:16,960
+Programmers rarely start from nothing.
+
+5
+00:00:17,410 --> 00:00:20,994
+They build on code that other people
+already wrote and tested.
+
+6
+00:00:22,144 --> 00:00:26,884
+A software library is a collection of
+procedures you can use in your own
+
+7
+00:00:26,884 --> 00:00:27,477
+programs.
+
+8
+00:00:27,927 --> 00:00:32,023
+There are libraries for math, graphics,
+sound, maps, and much more.
+
+9
+00:00:33,173 --> 00:00:39,544
+An API, an application program interface,
+is the documentation that explains how to
+
+10
+00:00:39,544 --> 00:00:40,618
+use a library.
+
+11
+00:00:41,068 --> 00:00:45,567
+It lists each procedure's name, its
+parameters, what it does, and what it
+
+12
+00:00:45,567 --> 00:00:46,060
+returns.
+
+13
+00:00:47,210 --> 00:00:53,893
+For example, an API might say: drawCircle,
+x comma y comma radius, draws a circle
+
+14
+00:00:53,893 --> 00:00:55,296
+centered at x, y.
+
+15
+00:00:55,746 --> 00:00:58,626
+You can use it correctly just from that
+description.
+
+16
+00:00:59,776 --> 00:01:05,102
+Libraries save time, and because they're
+widely used and tested, they're often more
+
+17
+00:01:05,102 --> 00:01:07,925
+reliable than code you'd write from
+scratch.
+
+18
+00:01:08,375 --> 00:01:11,319
+This is procedural abstraction on a large
+scale.
+
+19
+00:01:12,469 --> 00:01:17,541
+On the exam, read the description of a
+procedure carefully: what each parameter
+
+20
+00:01:17,541 --> 00:01:19,274
+means, and what comes back.
+
+21
+00:01:20,424 --> 00:01:25,842
+Your turn. A library has a procedure,
+round, x, that returns x rounded to the
+
+22
+00:01:25,842 --> 00:01:30,344
+nearest whole number. What does round of
+seven point six return?
+
+23
+00:01:30,794 --> 00:01:32,074
+Pause the video now.
+
+24
+00:01:32,524 --> 00:01:36,542
+Eight. You know that from the
+documentation alone, without seeing the
+
+25
+00:01:36,542 --> 00:01:36,834
+code.
+
+26
+00:01:37,284 --> 00:01:39,502
+Next, we'll generate random values.
+
+27
+00:01:40,653 --> 00:01:44,834
+Games, simulations and security all need
+unpredictability.
+
+28
+00:01:45,284 --> 00:01:48,250
+So programs need a way to make random
+choices.
+
+29
+00:01:49,400 --> 00:01:55,645
+In AP pseudocode, RANDOM, a comma b,
+returns a random whole number from a to b,
+
+30
+00:01:55,645 --> 00:01:57,464
+including both a and b.
+
+31
+00:01:57,914 --> 00:02:00,730
+Every value in that range is equally
+likely.
+
+32
+00:02:01,880 --> 00:02:08,021
+RANDOM one comma six acts like rolling a
+die. It can return one, two, three, four,
+
+33
+00:02:08,021 --> 00:02:08,920
+five or six.
+
+34
+00:02:09,370 --> 00:02:12,591
+Each time the program runs, the result may
+be different.
+
+35
+00:02:13,741 --> 00:02:16,408
+You can use random values to make choices.
+
+36
+00:02:16,858 --> 00:02:22,689
+IF RANDOM one comma four equals one, the
+event happens. That's a one in four, or
+
+37
+00:02:22,689 --> 00:02:24,730
+twenty five percent, chance.
+
+38
+00:02:25,880 --> 00:02:31,634
+Because results change from run to run,
+exam questions often ask which outputs are
+
+39
+00:02:31,634 --> 00:02:34,370
+possible, not which output will happen.
+
+40
+00:02:35,520 --> 00:02:40,823
+To test random code, run it many times,
+and check that every result is in the
+
+41
+00:02:40,823 --> 00:02:41,856
+expected range.
+
+42
+00:02:43,006 --> 00:02:49,239
+Your turn. x gets RANDOM one comma three,
+plus RANDOM one comma three. What are the
+
+43
+00:02:49,239 --> 00:02:52,393
+smallest and largest possible values of x?
+
+44
+00:02:52,843 --> 00:02:54,123
+Pause the video now.
+
+45
+00:02:54,573 --> 00:02:59,864
+Smallest: one plus one, which is two.
+Largest: three plus three, which is six.
+
+46
+00:03:00,314 --> 00:03:03,258
+Next, we'll use randomness to build
+simulations.
+
+47
+00:03:04,407 --> 00:03:09,652
+How do scientists test a new traffic light
+pattern, or the spread of a disease,
+
+48
+00:03:09,652 --> 00:03:11,511
+without risking real people?
+
+49
+00:03:11,961 --> 00:03:13,390
+They use simulations.
+
+50
+00:03:14,540 --> 00:03:19,063
+A simulation is a program that imitates
+something from the real world.
+
+51
+00:03:19,513 --> 00:03:23,289
+It uses a model: a simplified version of
+the real thing.
+
+52
+00:03:24,439 --> 00:03:29,367
+To keep things manageable, simulations
+leave out details that don't matter much.
+
+53
+00:03:29,817 --> 00:03:34,809
+That makes them faster to build and run,
+but it can also introduce bias if
+
+54
+00:03:34,809 --> 00:03:36,900
+important details are left out.
+
+55
+00:03:38,050 --> 00:03:43,544
+Many simulations use random values to
+model uncertainty, like whether a car
+
+56
+00:03:43,544 --> 00:03:45,815
+arrives, or a coin lands heads.
+
+57
+00:03:46,265 --> 00:03:50,169
+Running the simulation many times shows
+what usually happens.
+
+58
+00:03:51,319 --> 00:03:56,659
+Simulations are useful when real
+experiments would be too expensive, too
+
+59
+00:03:56,659 --> 00:03:59,255
+dangerous, too slow, or impossible.
+
+60
+00:03:59,705 --> 00:04:03,822
+You can test many ideas quickly, and
+change conditions easily.
+
+61
+00:04:04,972 --> 00:04:09,866
+But a simulation is only as good as its
+model. Its results should be checked
+
+62
+00:04:09,866 --> 00:04:11,927
+against real data when possible.
+
+63
+00:04:13,077 --> 00:04:18,445
+Your turn. A simulation of a city's
+traffic ignores bicycles. What's one risk
+
+64
+00:04:18,445 --> 00:04:19,840
+of leaving them out?
+
+65
+00:04:20,290 --> 00:04:21,570
+Pause the video now.
+
+66
+00:04:22,020 --> 00:04:27,155
+The results may be wrong or biased for
+areas with many bicycles, so decisions
+
+67
+00:04:27,155 --> 00:04:28,889
+based on it could be poor.
+
+68
+00:04:29,339 --> 00:04:32,155
+Next, we'll measure how efficient an
+algorithm is.
+
+69
+00:04:33,305 --> 00:04:38,577
+Two algorithms can solve the same problem,
+but one might take seconds while the other
+
+70
+00:04:38,577 --> 00:04:39,321
+takes years.
+
+71
+00:04:39,771 --> 00:04:40,923
+That's efficiency.
+
+72
+00:04:42,073 --> 00:04:46,745
+Efficiency is about how the number of
+steps grows as the input gets bigger.
+
+73
+00:04:47,195 --> 00:04:51,099
+We don't time it on one computer. We count
+how the work grows.
+
+74
+00:04:52,249 --> 00:04:55,961
+Linear search grows like n: double the
+list, double the work.
+
+75
+00:04:56,411 --> 00:05:02,278
+Binary search grows like log n. Checking
+all pairs in a list grows like n squared.
+
+76
+00:05:03,428 --> 00:05:08,977
+Algorithms whose steps grow like a
+polynomial, such as n, n squared, or n
+
+77
+00:05:08,977 --> 00:05:11,257
+cubed, run in reasonable time.
+
+78
+00:05:11,707 --> 00:05:17,812
+Algorithms that grow exponentially, like
+two to the n, or like n factorial, run in
+
+79
+00:05:17,812 --> 00:05:19,152
+unreasonable time.
+
+80
+00:05:20,302 --> 00:05:25,645
+With two to the n, adding just one item
+doubles the work. At one hundred items, it
+
+81
+00:05:25,645 --> 00:05:28,708
+would take longer than the age of the
+universe.
+
+82
+00:05:29,158 --> 00:05:33,147
+Trying every possible route between many
+cities is an example.
+
+83
+00:05:34,297 --> 00:05:40,237
+On the exam, reasonable time means
+polynomial or slower growth. Unreasonable
+
+84
+00:05:40,237 --> 00:05:43,598
+time means exponential or factorial
+growth.
+
+85
+00:05:44,748 --> 00:05:50,542
+Your turn. An algorithm checks every
+possible subset of a list of n items. Is
+
+86
+00:05:50,542 --> 00:05:53,175
+it reasonable or unreasonable time?
+
+87
+00:05:53,625 --> 00:05:54,905
+Pause the video now.
+
+88
+00:05:55,355 --> 00:06:00,048
+There are two to the n subsets, so it's
+exponential: unreasonable time.
+
+89
+00:06:00,498 --> 00:06:05,042
+Next: heuristics, undecidable problems,
+and the exam reference sheet.
+
+90
+00:06:06,193 --> 00:06:11,270
+Some problems would take an unreasonable
+amount of time to solve perfectly.
+
+91
+00:06:11,720 --> 00:06:14,387
+So we settle for a good answer, found
+quickly.
+
+92
+00:06:15,537 --> 00:06:20,721
+A heuristic is an approach that finds a
+solution that's good enough, when finding
+
+93
+00:06:20,721 --> 00:06:22,833
+the best solution is impractical.
+
+94
+00:06:23,283 --> 00:06:25,352
+It trades a perfect answer for speed.
+
+95
+00:06:26,502 --> 00:06:32,220
+Think of a delivery driver visiting twenty
+cities. Checking every possible route is
+
+96
+00:06:32,220 --> 00:06:33,116
+unreasonable.
+
+97
+00:06:33,566 --> 00:06:37,960
+A heuristic: always drive to the nearest
+city you haven't visited yet.
+
+98
+00:06:39,110 --> 00:06:43,377
+That nearest neighbor rule runs fast, and
+usually gives a short route.
+
+99
+00:06:43,827 --> 00:06:48,136
+It isn't guaranteed to be the shortest,
+but it's close enough to be useful.
+
+100
+00:06:49,286 --> 00:06:53,468
+Heuristics are everywhere: in map apps,
+game AI, and scheduling.
+
+101
+00:06:53,918 --> 00:06:59,170
+On the exam, choose a heuristic when an
+exact solution would take unreasonable
+
+102
+00:06:59,170 --> 00:06:59,507
+time.
+
+103
+00:07:00,657 --> 00:07:04,604
+Your turn. Is a heuristic guaranteed to
+find the best solution?
+
+104
+00:07:05,054 --> 00:07:06,334
+Pause the video now.
+
+105
+00:07:06,784 --> 00:07:12,043
+No. It finds a good enough solution in
+reasonable time, but not always the best
+
+106
+00:07:12,043 --> 00:07:12,309
+one.
+
+107
+00:07:12,759 --> 00:07:15,703
+Next, problems no algorithm can ever
+solve.
+
+108
+00:07:16,853 --> 00:07:20,928
+Can every problem be solved by a computer,
+if we're patient enough?
+
+109
+00:07:21,378 --> 00:07:22,636
+Surprisingly, no.
+
+110
+00:07:23,786 --> 00:07:28,501
+A decision problem has a yes or no answer,
+like: is this number even?
+
+111
+00:07:28,951 --> 00:07:34,189
+A decidable problem has an algorithm that
+gives the correct answer for every
+
+112
+00:07:34,189 --> 00:07:35,223
+possible input.
+
+113
+00:07:36,373 --> 00:07:41,985
+An undecidable problem has no algorithm
+that can always give a correct yes or no
+
+114
+00:07:41,985 --> 00:07:43,669
+answer, for every input.
+
+115
+00:07:44,119 --> 00:07:47,212
+Not a slow algorithm. No algorithm at all.
+
+116
+00:07:48,362 --> 00:07:54,157
+The famous example is the halting problem:
+given any program and its input, will the
+
+117
+00:07:54,157 --> 00:07:56,917
+program eventually stop, or run forever?
+
+118
+00:07:57,367 --> 00:08:03,646
+Alan Turing proved in 1936 that no
+algorithm can answer this correctly for
+
+119
+00:08:03,646 --> 00:08:04,834
+every program.
+
+120
+00:08:05,984 --> 00:08:09,994
+An undecidable problem may still be
+solvable for some inputs.
+
+121
+00:08:10,444 --> 00:08:14,711
+It's just impossible to write one
+algorithm that works for all of them.
+
+122
+00:08:15,861 --> 00:08:20,234
+Your turn. Is is this number even?
+decidable or undecidable?
+
+123
+00:08:20,684 --> 00:08:21,964
+Pause the video now.
+
+124
+00:08:22,414 --> 00:08:28,409
+Decidable. n MOD two equals zero answers
+it correctly for every whole number.
+
+125
+00:08:28,859 --> 00:08:31,504
+Next, let's tour the AP exam reference
+sheet.
+
+126
+00:08:32,654 --> 00:08:37,262
+On the AP exam, you get a reference sheet
+with all the pseudocode you need.
+
+127
+00:08:37,712 --> 00:08:40,699
+Knowing it well saves time and prevents
+mistakes.
+
+128
+00:08:41,849 --> 00:08:46,382
+Assignment and display: a arrow
+expression, DISPLAY of expression, and
+
+129
+00:08:46,382 --> 00:08:49,038
+INPUT, which returns what the user types.
+
+130
+00:08:50,188 --> 00:08:55,591
+Math and logic: plus, minus, times,
+divide, MOD, and the comparisons, plus
+
+131
+00:08:55,591 --> 00:08:56,759
+NOT, AND and OR.
+
+132
+00:08:57,209 --> 00:09:02,243
+RANDOM a comma b returns a random whole
+number from a to b, inclusive.
+
+133
+00:09:03,393 --> 00:09:08,727
+Control: IF and ELSE, REPEAT n TIMES,
+REPEAT UNTIL, and FOR EACH item IN list.
+
+134
+00:09:09,177 --> 00:09:12,739
+Procedures: PROCEDURE name with
+parameters, and RETURN.
+
+135
+00:09:13,889 --> 00:09:19,376
+Lists: square brackets, list bracket i,
+INSERT, APPEND, REMOVE and LENGTH. And
+
+136
+00:09:19,376 --> 00:09:21,697
+remember: the first index is one.
+
+137
+00:09:22,147 --> 00:09:27,869
+The sheet also shows robot commands: MOVE
+FORWARD, ROTATE LEFT, ROTATE RIGHT, and
+
+138
+00:09:27,869 --> 00:09:28,505
+CAN MOVE.
+
+139
+00:09:29,655 --> 00:09:35,113
+The same commands appear in both text and
+block form. Practice reading both, so
+
+140
+00:09:35,113 --> 00:09:37,463
+nothing surprises you on test day.
+
+141
+00:09:38,613 --> 00:09:44,793
+Your turn. A robot faces right. It runs
+ROTATE LEFT twice. Which way does it face
+
+142
+00:09:44,793 --> 00:09:45,098
+now?
+
+143
+00:09:45,548 --> 00:09:46,828
+Pause the video now.
+
+144
+00:09:47,278 --> 00:09:52,767
+Each ROTATE LEFT turns ninety degrees
+counterclockwise. Right, then up, then
+
+145
+00:09:52,767 --> 00:09:54,211
+left. It faces left.
+
+146
+00:09:54,661 --> 00:10:00,128
+That's the end of Big Idea three. Next,
+Big Idea four: computer systems and
+
+147
+00:10:00,128 --> 00:10:00,784
+networks.
+
+148
+00:10:01,934 --> 00:10:06,611
+If this helped, subscribe to School
+Computer Science, Explained, so you don't
+
+149
+00:10:06,611 --> 00:10:07,886
+miss the next lesson.
+
+150
+00:10:08,336 --> 00:10:09,232
+See you there.
+

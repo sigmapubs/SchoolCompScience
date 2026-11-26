@@ -8,6 +8,33 @@ COURSES = {
  "AP Computer Science A": ["Unit 1: Using Objects and Methods", "Unit 2: Selection and Iteration", "Unit 3: Class Creation", "Unit 4: Data Collections", "Exam Prep: FRQs and Multiple Choice"],
 }
 V = {
+ "cs1_u6": dict(
+   title="Intro to Computer Science (College CS1) Unit 6: Testing, Debugging, Exceptions, Assertions & Files in Python",
+   intro="Unit 5 of a first college course in computer science, in Python. It covers black box and glass box testing, unit and regression tests, debugging strategies (reading tracebacks, print debugging, bisection), exceptions with try/except/else/finally and raise, assertions and defensive programming, and reading and writing files. Each lesson ends with a practice problem.",
+   course="Intro College CS (CS1)", unit=5, part="Unit 6: Testing, Debugging and Exceptions · Complete",
+   prev="CS1 Unit 5: Recursion in Python, Base Cases, Memoization & Recursion vs Loops", next="CS1 Unit 7: Object-Oriented Programming",
+   also="",
+   playlists=["Intro College CS: CS1 in Python (Full Course)", "CS1 Unit 6: Testing, Debugging and Exceptions"],
+   tags="intro to computer science, cs1, testing, debugging, python exceptions, try except, assert, file io, defensive programming, learn python",
+   tagsh="#python #computerscience #debugging"),
+ "cs1_u5": dict(
+   title="Intro to Computer Science (College CS1) Unit 5: Recursion in Python, Base Cases, Memoization & Recursion vs Loops",
+   intro="Unit 5 of a first college course in computer science, in Python. It covers thinking recursively, base and recursive cases, tracing the call stack, recursion on lists and strings (sum, palindromes, flattening nested lists), memoization with Fibonacci, and when to choose recursion or a loop. Each lesson ends with a practice problem.",
+   course="Intro College CS (CS1)", unit=4, part="Unit 5: Recursion · Complete",
+   prev="CS1 Unit 4: Python Tuples, Lists, Aliasing, Comprehensions, Dictionaries & Sets", next="CS1 Unit 6: Testing, Debugging and Exceptions",
+   also="",
+   playlists=["Intro College CS: CS1 in Python (Full Course)", "CS1 Unit 5: Recursion"],
+   tags="intro to computer science, cs1, recursion, python recursion, base case, memoization, fibonacci, call stack, recursion vs iteration, learn python",
+   tagsh="#python #computerscience #recursion"),
+ "cs1_u4": dict(
+   title="Intro to Computer Science (College CS1) Unit 4: Python Tuples, Lists, Aliasing, Comprehensions, Dictionaries & Sets",
+   intro="Unit 4 of a first college course in computer science, in Python. It covers tuples, lists and mutation, aliasing and cloning, list comprehensions, dictionaries (including counting with get), sets and their operations, and how to choose the right data structure. Each lesson ends with a practice problem.",
+   course="Intro College CS (CS1)", unit=3, part="Unit 4: Data Structures in Python · Complete",
+   prev="CS1 Unit 3: Functions, Scope, Call Stack, Docstrings, lambda, map & filter", next="CS1 Unit 5: Recursion",
+   also="",
+   playlists=["Intro College CS: CS1 in Python (Full Course)", "CS1 Unit 4: Data Structures in Python"],
+   tags="intro to computer science, cs1, python lists, tuples, dictionaries, sets, aliasing, list comprehension, data structures, learn python",
+   tagsh="#python #computerscience #cs1"),
  "cs1_u3": dict(
    title="Intro to Computer Science (College CS1) Unit 3: Functions, Scope, Call Stack, Docstrings, lambda, map & filter",
    intro="Unit 3 of a first college course in computer science, in Python. It covers decomposition and abstraction, defining and calling functions with scope and the call stack, specifications and docstrings, functions as objects and lambda, modules and imports, and the higher-order functions map and filter. Each lesson ends with a practice problem.",
