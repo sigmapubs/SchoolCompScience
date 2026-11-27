@@ -10,7 +10,7 @@ Each video folder holds `video.mp4` (1080p60 with a caption track), `captions.sr
 | ap-csa/unit-1/part-2 | Java Methods: Compound Assignment, APIs, Comments & Method Calls · AP CSA Unit 1 (1.6–1.10) |
 | ap-csa/unit-1/part-3 | Java Objects, the Math Class & String Methods · AP CSA Unit 1 (1.11–1.15) |
 | ap-csa/unit-2/part-1 | Java if Statements, Boolean Expressions & De Morgan's Laws · AP CSA Unit 2 (2.1–2.6) |
-| ap-csa/unit-2/part-2 | Java Loops: while, for, String Algorithms & Nested Loops · AP CSA Unit 2 (2.7–2.12) |
+| ap-csa/unit-2/part-2 | Java Loops with Worked Examples: while, for, String Algorithms & Nested Loops · AP CSA Unit 2 (2.7–2.12) |
 | ap-csp/big-idea-1/full | AP CSP Big Idea 1: Creative Development (Collaboration, Program Design, Errors) · AP Computer Science Principles |
 | ap-csp/big-idea-2/full | AP CSP Big Idea 2: Data (Binary, Overflow, Compression, Metadata) · AP Computer Science Principles |
 | ap-csp/big-idea-3/part-1 | AP CSP Big Idea 3 Part 1: Variables, Lists, MOD, Strings & Boolean Expressions · AP Computer Science Principles |

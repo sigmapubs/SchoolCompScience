@@ -261,8 +261,8 @@ V = {
    tags="algorithms, flowchart, pseudocode, linear search, binary search, selection sort, algorithm efficiency, computer science, AP CSP",
    tagsh="#computerscience #algorithms #APCSP"),
  "apcsa_u2_part2": dict(
-   title="Java Loops: while, for, String Algorithms & Nested Loops | AP CSA Unit 2 (2.7–2.12)",
-   intro="AP CSA Topics 2.7 to 2.12, all about iteration: while loops, infinite loops and off-by-one errors, for loops and counting iterations, the standard algorithms (sum, average, count, min and max, digits, any and all), String algorithms (counting, reversing, finding substrings), nested loops, and informal run-time analysis. Each topic ends with an AP-style practice problem.",
+   title="Java Loops with Worked Examples: while, for, String Algorithms & Nested Loops | AP CSA Unit 2 (2.7–2.12)",
+   intro="AP CSA Topics 2.7 to 2.12, all about iteration: while loops, infinite loops and off-by-one errors, for loops and counting iterations, the standard algorithms (sum, average, count, min and max, digits, any and all), String algorithms (counting, reversing, finding substrings), nested loops, and informal run-time analysis. Extended edition: every topic is followed by a step-by-step worked example with a trace table (sum of digits, odd-number sums, smallest factor, counting a substring, nested-loop output, counting executions), plus AP-style practice problems.",
    course="AP Computer Science A", unit=1, part="Unit 2: Selection and Iteration · Part 2 of 2",
    prev="Java if Statements, Boolean Expressions & De Morgan's Laws (Unit 2, Part 1)", next="AP Computer Science A, Unit 3: Class Creation",
    also="Unit 2 is split into 2 videos: Part 1 (2.1–2.6, selection) and Part 2 (2.7–2.12, iteration).",
