@@ -1,6 +1,6 @@
 Python for Beginners: print, Variables, Math, Strings, Input & Booleans | Intro to CS Unit 4 (Part 1)
 
-Write your first real programs in Python. This video covers Unit 4, lessons 1 to 6: print and comments, variables and assignment, numbers and arithmetic (including //, % and **), strings (joining, indexes, slices, methods), input from the user with int() and float(), and Booleans and comparisons with and, or and not. Each section ends with a practice problem. Unit 4 is split into 2 videos: Part 1 (the basics) and Part 2 (decisions, loops, functions and lists).
+Write your first real programs in Python. This video covers Unit 4, lessons 1 to 6: print and comments, variables and assignment, numbers and arithmetic (including //, % and **), strings (joining, indexes, slices, methods), input from the user with int() and float(), and Booleans and comparisons with and, or and not. Each section ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. Unit 4 is split into 2 videos: Part 1 (the basics) and Part 2 (decisions, loops, functions and lists).
 
 Course: Intro to Computer Science · Unit 4: Programming Basics in Python · Part 1 of 2
 Previous: Intro to Computer Science, Unit 3: Algorithms

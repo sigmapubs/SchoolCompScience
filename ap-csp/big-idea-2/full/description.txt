@@ -1,6 +1,6 @@
 AP CSP Big Idea 2: Data (Binary, Overflow, Compression, Metadata) | AP Computer Science Principles
 
-Everything you need for AP CSP Big Idea 2, Data. This video covers bits and binary numbers with overflow and roundoff errors, lossless vs lossy compression, extracting information from data (and why correlation is not causation), cleaning, filtering and visualizing data with programs, and metadata. Each section ends with an AP-style practice question. 
+Everything you need for AP CSP Big Idea 2, Data. This video covers bits and binary numbers with overflow and roundoff errors, lossless vs lossy compression, extracting information from data (and why correlation is not causation), cleaning, filtering and visualizing data with programs, and metadata. Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. 
 
 Course: AP Computer Science Principles · Big Idea 2: Data (complete)
 Previous: AP CSP Big Idea 1: Creative Development

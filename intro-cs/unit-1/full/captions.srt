@@ -1,694 +1,1356 @@
 1
-00:00:00,000 --> 00:00:05,034
+00:00:00,000 --> 00:00:04,092
 Welcome to School Computer Science,
 Explained. This is Intro to Computer
 
 2
-00:00:05,034 --> 00:00:10,696
+00:00:04,092 --> 00:00:08,696
 Science, Unit 1: What Is a Computer? We'll
 open up the box and see how a computer
 
 3
-00:00:10,696 --> 00:00:11,605
-really works.
+00:00:08,696 --> 00:00:13,300
+really works. After every lesson, we'll
+work through a full example step by step,
 
 4
-00:00:12,779 --> 00:00:17,982
+00:00:13,300 --> 00:00:16,256
+and we'll finish by putting the whole unit
+together.
+
+5
+00:00:17,429 --> 00:00:22,236
 Phones, laptops, game consoles, even the
 chip in a microwave. They look very
 
-5
-00:00:17,982 --> 00:00:18,667
+6
+00:00:22,236 --> 00:00:22,869
 different.
 
-6
-00:00:19,117 --> 00:00:21,890
+7
+00:00:23,319 --> 00:00:25,879
 But every computer does the same four
 jobs.
 
-7
-00:00:22,340 --> 00:00:23,599
+8
+00:00:26,329 --> 00:00:27,460
 Let's see what they are.
 
-8
-00:00:24,749 --> 00:00:29,250
+9
+00:00:28,610 --> 00:00:32,876
 Job one is input. Input is information
 going into the computer.
 
-9
-00:00:29,700 --> 00:00:35,047
+10
+00:00:33,326 --> 00:00:38,229
 A keyboard, a mouse, a touch screen, a
 microphone and a camera are all input
 
-10
-00:00:35,047 --> 00:00:35,610
+11
+00:00:38,229 --> 00:00:38,745
 devices.
 
-11
-00:00:36,760 --> 00:00:41,971
+12
+00:00:39,895 --> 00:00:44,792
 Job two is processing. The computer
 follows instructions to change the input
 
-12
-00:00:41,971 --> 00:00:43,480
+13
+00:00:44,792 --> 00:00:46,210
 into something useful.
 
-13
-00:00:43,930 --> 00:00:48,559
+14
+00:00:46,660 --> 00:00:50,926
 Adding numbers, sorting a list, or
 brightening a photo are all processing.
 
-14
-00:00:49,709 --> 00:00:54,274
+15
+00:00:52,076 --> 00:00:56,322
 Job three is storage. The computer keeps
 data so it can use it later.
 
-15
-00:00:54,724 --> 00:00:58,948
+16
+00:00:56,772 --> 00:01:00,697
 Your photos, your saved games, and the
 apps themselves are all stored.
 
-16
-00:01:00,098 --> 00:01:04,706
+17
+00:01:01,847 --> 00:01:06,263
 Job four is output. Output is information
 coming out of the computer.
 
-17
-00:01:05,156 --> 00:01:10,468
+18
+00:01:06,713 --> 00:01:11,726
 A screen, speakers, a printer, and a
 phone's vibration are all output devices.
 
-18
-00:01:11,618 --> 00:01:15,821
+19
+00:01:12,876 --> 00:01:16,844
 Put it together, and you get the input,
 process, store, output cycle.
 
-19
-00:01:16,271 --> 00:01:20,111
+20
+00:01:17,294 --> 00:01:20,793
 Take a calculator. You press seven, plus,
 five. That's input.
 
-20
-00:01:20,561 --> 00:01:25,059
+21
+00:01:21,243 --> 00:01:25,421
 It adds them. That's processing. It
 remembers the answer for the next step.
 
-21
-00:01:25,059 --> 00:01:25,958
+22
+00:01:25,421 --> 00:01:26,256
 That's storage.
 
-22
-00:01:26,408 --> 00:01:28,435
+23
+00:01:26,706 --> 00:01:28,626
 And it shows twelve. That's output.
 
-23
-00:01:29,585 --> 00:01:33,980
+24
+00:01:29,776 --> 00:01:33,894
 Your turn. You take a photo with your
 phone. Which job is the camera doing?
 
-24
-00:01:34,430 --> 00:01:35,710
+25
+00:01:34,344 --> 00:01:35,538
 Pause the video now.
 
-25
-00:01:36,160 --> 00:01:39,893
+26
+00:01:35,988 --> 00:01:39,530
 The camera is input. It sends light, as
 data, into the phone.
 
-26
-00:01:40,343 --> 00:01:44,290
+27
+00:01:39,980 --> 00:01:42,966
+Next, let's work through a full example,
+step by step.
+
+28
+00:01:44,117 --> 00:01:49,476
+Let's apply input, processing, storage and
+output to a machine you've probably used:
+
+29
+00:01:49,476 --> 00:01:51,008
+a store's self-checkout.
+
+30
+00:01:52,158 --> 00:01:56,469
+The problem: when you buy a snack at
+self-checkout, which parts do each of the
+
+31
+00:01:56,469 --> 00:01:57,022
+four jobs?
+
+32
+00:01:57,472 --> 00:02:01,568
+We'll follow one purchase from start to
+finish, and label every step.
+
+33
+00:02:02,718 --> 00:02:05,811
+Here's the purchase, step by step. You
+scan the barcode.
+
+34
+00:02:06,261 --> 00:02:07,776
+The machine looks up the price.
+
+35
+00:02:08,226 --> 00:02:11,639
+It adds the price to your total, and keeps
+a record of the sale.
+
+36
+00:02:12,089 --> 00:02:15,161
+Then it shows the total on the screen and
+prints a receipt.
+
+37
+00:02:16,311 --> 00:02:21,303
+Now label each step. Scanning the barcode
+is input: data goes into the machine.
+
+38
+00:02:21,753 --> 00:02:25,038
+Looking up the price and adding it to the
+total are processing.
+
+39
+00:02:25,488 --> 00:02:28,923
+Recording the sale is storage: the store
+keeps it for later.
+
+40
+00:02:29,373 --> 00:02:32,168
+Showing the total and printing the receipt
+are output.
+
+41
+00:02:33,318 --> 00:02:37,414
+Every job appears, in order: input,
+processing, storage, output.
+
+42
+00:02:37,864 --> 00:02:42,849
+A common mistake is calling the screen
+input. A touch screen can be both: tapping
+
+43
+00:02:42,849 --> 00:02:45,373
+it is input, and what it shows is output.
+
+44
+00:02:46,523 --> 00:02:51,616
+Your turn. A smart speaker hears you say,
+play music, and starts a song. Which part
+
+45
+00:02:51,616 --> 00:02:53,456
+is input, and which is output?
+
+46
+00:02:53,906 --> 00:02:55,101
+Pause the video now.
+
+47
+00:02:55,551 --> 00:02:59,980
+The microphone hearing your voice is
+input. The speaker playing the song is
+
+48
+00:02:59,980 --> 00:03:00,394
+output.
+
+49
+00:03:00,844 --> 00:03:04,598
 Next, we'll open up the box and see the
 parts that do each job.
 
-27
-00:01:45,439 --> 00:01:49,492
+50
+00:03:05,748 --> 00:03:09,439
 If you open up a computer, you'll find
 three parts that matter most.
 
-28
-00:01:49,942 --> 00:01:52,374
+51
+00:03:09,889 --> 00:03:12,193
 The C P U, the memory, and the storage.
 
-29
-00:01:53,524 --> 00:01:58,474
+52
+00:03:13,343 --> 00:03:17,801
 The C P U, or central processing unit, is
 the part that processes.
 
-30
-00:01:58,924 --> 00:02:04,513
+53
+00:03:18,251 --> 00:03:23,521
 It follows instructions, one tiny step at
 a time, billions of times every second.
 
-31
-00:02:04,963 --> 00:02:10,609
+54
+00:03:23,971 --> 00:03:29,270
 That speed is measured in gigahertz. Three
 gigahertz means about three billion steps
 
-32
-00:02:10,609 --> 00:02:11,214
+55
+00:03:29,270 --> 00:03:29,837
 a second.
 
-33
-00:02:12,364 --> 00:02:17,825
+56
+00:03:30,987 --> 00:03:36,150
 Memory, also called RAM, holds what the
 computer is working on right now.
 
-34
-00:02:18,275 --> 00:02:22,200
+57
+00:03:36,600 --> 00:03:40,333
 The app you have open, and the web page
 you're reading, sit in memory.
 
-35
-00:02:22,650 --> 00:02:26,746
+58
+00:03:40,783 --> 00:03:44,666
 Memory is very fast, so the C P U never
 has to wait long.
 
-36
-00:02:27,896 --> 00:02:31,459
+59
+00:03:45,816 --> 00:03:49,187
 Storage holds everything else, even when
 the power is off.
 
-37
-00:02:31,909 --> 00:02:35,258
+60
+00:03:49,637 --> 00:03:52,709
 That's your files, your photos, and all
 your installed apps.
 
-38
-00:02:35,708 --> 00:02:41,639
+61
+00:03:53,159 --> 00:03:58,641
 Storage is a hard drive or a solid state
 drive, and it holds much more than memory.
 
-39
-00:02:42,789 --> 00:02:46,352
+62
+00:03:59,791 --> 00:04:03,077
 Here's a way to picture it. Think of a
 student doing homework.
 
-40
-00:02:46,802 --> 00:02:49,426
+63
+00:04:03,527 --> 00:04:05,959
 The student is the C P U, doing the work.
 
-41
-00:02:49,876 --> 00:02:53,929
+64
+00:04:06,409 --> 00:04:10,078
 The desk is memory: small, but everything
 on it is right at hand.
 
-42
-00:02:54,379 --> 00:02:58,923
+65
+00:04:10,528 --> 00:04:14,795
 The backpack is storage: it holds much
 more, but it's slower to reach into.
 
-43
-00:03:00,073 --> 00:03:03,294
+66
+00:04:15,945 --> 00:04:19,017
 All three are connected on a board called
 the motherboard.
 
-44
-00:03:03,744 --> 00:03:09,504
+67
+00:04:19,467 --> 00:04:24,821
 Data moves between them along tiny wires,
 again and again, as you use the computer.
 
-45
-00:03:10,654 --> 00:03:16,064
+68
+00:04:25,971 --> 00:04:30,914
 Your turn. You open a document you saved
 last week. Where was it while the computer
 
-46
-00:03:16,064 --> 00:03:16,585
+69
+00:04:30,914 --> 00:04:31,390
 was off?
 
-47
-00:03:17,035 --> 00:03:18,315
+70
+00:04:31,840 --> 00:04:33,035
 Pause the video now.
 
-48
-00:03:18,765 --> 00:03:24,306
+71
+00:04:33,485 --> 00:04:38,678
 It was in storage. When you open it, a
 copy moves into memory so the C P U can
 
-49
-00:03:24,306 --> 00:03:25,229
+72
+00:04:38,678 --> 00:04:39,543
 work with it.
 
-50
-00:03:25,679 --> 00:03:29,583
-Next, we'll see how the C P U actually
-runs an instruction.
+73
+00:04:39,993 --> 00:04:42,980
+Next, let's work through a full example,
+step by step.
 
-51
-00:03:30,733 --> 00:03:36,728
+74
+00:04:44,130 --> 00:04:48,781
+Let's follow a photo through the CPU,
+memory and storage, as you edit it.
+
+75
+00:04:49,931 --> 00:04:53,813
+The problem: you open a saved photo,
+brighten it, and save it again.
+
+76
+00:04:54,263 --> 00:04:57,762
+At each step, where is the photo, and
+which part is working on it?
+
+77
+00:04:58,912 --> 00:05:01,579
+Here are the steps. The photo starts on
+the drive.
+
+78
+00:05:02,029 --> 00:05:03,949
+Opening it copies it into memory.
+
+79
+00:05:04,399 --> 00:05:07,193
+The CPU changes each pixel to brighten it.
+
+80
+00:05:07,643 --> 00:05:10,353
+Saving copies the new version back to
+storage.
+
+81
+00:05:11,503 --> 00:05:15,385
+Let's track it. Before you open it, the
+photo is only in storage.
+
+82
+00:05:15,835 --> 00:05:19,889
+After opening, there are two copies: one
+in storage, one in memory.
+
+83
+00:05:20,339 --> 00:05:24,243
+While brightening, the CPU reads and
+writes the copy in memory.
+
+84
+00:05:24,693 --> 00:05:27,530
+After saving, storage holds the new
+version too.
+
+85
+00:05:28,680 --> 00:05:31,688
+The CPU only ever works on data in memory.
+
+86
+00:05:32,138 --> 00:05:37,660
+Common mistake: thinking the CPU edits the
+file on the drive directly. It doesn't.
+
+87
+00:05:37,660 --> 00:05:39,882
+Data is copied into memory first.
+
+88
+00:05:41,032 --> 00:05:45,663
+Your turn. You edit a document, and the
+power goes out before you save. Which
+
+89
+00:05:45,663 --> 00:05:46,685
+version survives?
+
+90
+00:05:47,135 --> 00:05:48,330
+Pause the video now.
+
+91
+00:05:48,780 --> 00:05:53,239
+Only the old version in storage. The edits
+were in memory, and they were lost.
+
+92
+00:05:53,689 --> 00:05:55,971
+Next, how the CPU runs instructions.
+
+93
+00:05:57,121 --> 00:06:02,646
 A program is a list of instructions. But
 how does the C P U actually follow them?
 
-52
-00:03:37,178 --> 00:03:40,250
+94
+00:06:03,096 --> 00:06:05,955
 It repeats a simple three step loop, over
 and over.
 
-53
-00:03:41,400 --> 00:03:46,029
+95
+00:06:07,105 --> 00:06:11,500
 Step one is fetch. The C P U gets the next
 instruction from memory.
 
-54
-00:03:46,479 --> 00:03:51,834
+96
+00:06:11,950 --> 00:06:16,984
 A small counter inside the C P U keeps
 track of which instruction comes next.
 
-55
-00:03:52,984 --> 00:03:57,762
+97
+00:06:18,134 --> 00:06:22,444
 Step two is decode. The C P U works out
 what the instruction means.
 
-56
-00:03:58,212 --> 00:04:01,924
+98
+00:06:22,894 --> 00:06:26,328
 Is it asking to add? To compare? To copy a
 number somewhere?
 
-57
-00:04:03,074 --> 00:04:07,341
+99
+00:06:27,478 --> 00:06:31,446
 Step three is execute. The C P U carries
 out the instruction.
 
-58
-00:04:07,791 --> 00:04:12,228
+100
+00:06:31,896 --> 00:06:36,014
 Then the counter moves on, and the loop
 starts again with the next instruction.
 
-59
-00:04:13,378 --> 00:04:17,837
+101
+00:06:37,164 --> 00:06:41,302
 Let's watch a tiny program. Load five. Add
 three. Store the result.
 
-60
-00:04:18,287 --> 00:04:24,825
+102
+00:06:41,752 --> 00:06:47,777
 Fetch: load five. Decode: it's a load.
 Execute: five goes into a register, a tiny
 
-61
-00:04:24,825 --> 00:04:27,247
+103
+00:06:47,777 --> 00:06:50,008
 storage spot inside the C P U.
 
-62
-00:04:27,697 --> 00:04:32,966
+104
+00:06:50,458 --> 00:06:55,130
 Fetch: add three. Decode: it's an add.
 Execute: the register now holds eight.
 
-63
-00:04:33,416 --> 00:04:38,451
+105
+00:06:55,580 --> 00:07:00,210
 Fetch: store. Decode: it's a store.
 Execute: eight is copied back to memory.
 
-64
-00:04:39,601 --> 00:04:45,404
+106
+00:07:01,360 --> 00:07:06,800
 Each loop is called a cycle. A modern C P
 U does billions of cycles a second.
 
-65
-00:04:45,854 --> 00:04:51,751
+107
+00:07:07,250 --> 00:07:12,776
 Many C P Us also have several cores. Each
 core runs its own fetch, decode, execute
 
-66
-00:04:51,751 --> 00:04:55,347
+108
+00:07:12,776 --> 00:07:16,146
 loop, so they can work on different tasks
 at once.
 
-67
-00:04:56,497 --> 00:04:59,868
+109
+00:07:17,296 --> 00:07:20,389
 Your turn. Put these in order: execute,
 fetch, decode.
 
-68
-00:05:00,318 --> 00:05:01,598
+110
+00:07:20,839 --> 00:07:22,034
 Pause the video now.
 
-69
-00:05:02,048 --> 00:05:05,461
+111
+00:07:22,484 --> 00:07:25,641
 The order is fetch, decode, execute. Then
 it repeats.
 
-70
-00:05:05,911 --> 00:05:10,178
-Next, we'll find out why memory forgets
-everything when the power goes off.
+112
+00:07:26,091 --> 00:07:29,078
+Next, let's work through a full example,
+step by step.
 
-71
-00:05:11,328 --> 00:05:16,209
+113
+00:07:30,228 --> 00:07:34,752
+Let's trace a short program through the
+fetch, decode, execute cycle, one
+
+114
+00:07:34,752 --> 00:07:36,116
+instruction at a time.
+
+115
+00:07:37,266 --> 00:07:42,253
+The problem: the CPU runs four
+instructions. What is in register A, and
+
+116
+00:07:42,253 --> 00:07:44,711
+in memory spot X, when it finishes?
+
+117
+00:07:45,861 --> 00:07:48,805
+Here's the program. Load seven into
+register A.
+
+118
+00:07:49,255 --> 00:07:50,343
+Add five to A.
+
+119
+00:07:50,793 --> 00:07:52,052
+Subtract two from A.
+
+120
+00:07:52,502 --> 00:07:54,123
+Store A into memory spot X.
+
+121
+00:07:55,273 --> 00:08:01,235
+Each row is one cycle. Cycle one: fetch
+LOAD 7, decode it as a load, execute: A
+
+122
+00:08:01,235 --> 00:08:02,292
+becomes seven.
+
+123
+00:08:02,742 --> 00:08:05,238
+Cycle two: ADD 5. A becomes twelve.
+
+124
+00:08:05,688 --> 00:08:08,099
+Cycle three: SUB 2. A becomes ten.
+
+125
+00:08:08,549 --> 00:08:13,434
+Cycle four: STORE X. X becomes ten. The
+counter now points past the end.
+
+126
+00:08:14,584 --> 00:08:17,421
+When the program ends, A is ten and X is
+ten.
+
+127
+00:08:17,871 --> 00:08:23,529
+Common mistake: changing X too early. Only
+STORE writes to memory. Until then, the
+
+128
+00:08:23,529 --> 00:08:25,530
+result stays in the register.
+
+129
+00:08:26,680 --> 00:08:32,611
+Your turn. LOAD 4, ADD 4, ADD 4, STORE Y.
+What is Y, and how many cycles run?
+
+130
+00:08:33,061 --> 00:08:34,255
+Pause the video now.
+
+131
+00:08:34,705 --> 00:08:36,668
+Y is twelve, after four cycles.
+
+132
+00:08:37,118 --> 00:08:40,403
+Next, why memory forgets everything when
+the power goes off.
+
+133
+00:08:41,553 --> 00:08:46,149
 You're writing an essay, and the power
 goes out. When the computer comes back,
 
-72
-00:05:16,209 --> 00:05:17,899
+134
+00:08:46,149 --> 00:08:47,740
 your last changes are gone.
 
-73
-00:05:18,349 --> 00:05:21,634
+135
+00:08:48,190 --> 00:08:51,112
 But the files you saved yesterday are
 fine. Why?
 
-74
-00:05:22,784 --> 00:05:27,776
+136
+00:08:52,262 --> 00:08:56,870
 Memory, or RAM, is volatile. That means it
 needs power to keep its data.
 
-75
-00:05:28,226 --> 00:05:34,383
+137
+00:08:57,320 --> 00:09:03,078
 RAM stores each bit as a tiny electric
 charge. When the power stops, the charges
 
-76
-00:05:34,383 --> 00:05:36,461
+138
+00:09:03,078 --> 00:09:05,022
 fade, and the data is gone.
 
-77
-00:05:37,611 --> 00:05:41,877
+139
+00:09:06,172 --> 00:09:10,204
 Storage is non volatile. It keeps data
 with no power at all.
 
-78
-00:05:42,327 --> 00:05:48,189
+140
+00:09:10,654 --> 00:09:16,188
 A solid state drive traps charge in cells
 that hold it for years. A hard drive
 
-79
-00:05:48,189 --> 00:05:52,247
+141
+00:09:16,188 --> 00:09:20,019
 stores bits as tiny magnetic spots on a
 spinning disk.
 
-80
-00:05:53,397 --> 00:05:56,320
+142
+00:09:21,169 --> 00:09:23,900
 So why not use storage for everything?
 Speed.
 
-81
-00:05:56,770 --> 00:06:02,823
+143
+00:09:24,350 --> 00:09:29,923
 RAM can be about a hundred times faster
 than a solid state drive, and thousands of
 
-82
-00:06:02,823 --> 00:06:05,111
+144
+00:09:29,923 --> 00:09:32,030
 times faster than a hard drive.
 
-83
-00:06:05,561 --> 00:06:11,917
+145
+00:09:32,480 --> 00:09:38,369
 And why not use RAM for everything? Cost.
 RAM costs much more per gigabyte, and it
 
-84
-00:06:11,917 --> 00:06:12,537
+146
+00:09:38,369 --> 00:09:38,944
 forgets.
 
-85
-00:06:13,687 --> 00:06:15,501
+147
+00:09:40,094 --> 00:09:41,779
 That's why computers use both.
 
-86
-00:06:15,951 --> 00:06:21,382
+148
+00:09:42,229 --> 00:09:47,392
 A typical laptop might have sixteen
 gigabytes of RAM, and five hundred twelve
 
-87
-00:06:21,382 --> 00:06:22,863
+149
+00:09:47,392 --> 00:09:48,800
 gigabytes of storage.
 
-88
-00:06:23,313 --> 00:06:29,030
+150
+00:09:49,250 --> 00:09:54,583
 Programs and files live in storage, and
 get copied into RAM while you use them.
 
-89
-00:06:30,180 --> 00:06:32,228
+151
+00:09:55,733 --> 00:09:57,589
 This is also why saving matters.
 
-90
-00:06:32,678 --> 00:06:38,027
+152
+00:09:58,039 --> 00:10:03,066
 When you press save, the computer copies
 your work from RAM to storage, where it's
 
-91
-00:06:38,027 --> 00:06:38,353
+153
+00:10:03,066 --> 00:10:03,372
 safe.
 
-92
-00:06:39,503 --> 00:06:43,556
+154
+00:10:04,522 --> 00:10:08,277
 Your turn. Which one is volatile: RAM, or
 a solid state drive?
 
-93
-00:06:44,006 --> 00:06:45,286
+155
+00:10:08,727 --> 00:10:09,922
 Pause the video now.
 
-94
-00:06:45,736 --> 00:06:50,024
+156
+00:10:10,372 --> 00:10:14,340
 RAM is volatile. It loses its data when
 the power is off.
 
-95
-00:06:50,474 --> 00:06:55,807
-Next, we'll meet the program that runs all
-the other programs: the operating system.
+157
+00:10:14,790 --> 00:10:17,776
+Next, let's work through a full example,
+step by step.
 
-96
-00:06:56,957 --> 00:07:01,138
+158
+00:10:18,927 --> 00:10:22,618
+Let's do the math on RAM and storage for a
+real laptop.
+
+159
+00:10:23,768 --> 00:10:30,274
+The problem: a laptop has 16 gigabytes of
+RAM and 512 gigabytes of storage.
+
+160
+00:10:30,724 --> 00:10:37,025
+The system uses 4 gigabytes of RAM. You
+open a browser, a video editor and a game.
+
+161
+00:10:37,025 --> 00:10:39,407
+Do they all fit in RAM at once?
+
+162
+00:10:40,557 --> 00:10:44,013
+Here's the plan. Start with the RAM in use
+by the system.
+
+163
+00:10:44,463 --> 00:10:45,850
+Add each app as it opens.
+
+164
+00:10:46,300 --> 00:10:49,777
+Compare the running total with the 16
+gigabytes available.
+
+165
+00:10:50,927 --> 00:10:53,402
+System: four gigabytes used, twelve free.
+
+166
+00:10:53,852 --> 00:10:55,708
+Browser: seven used, nine free.
+
+167
+00:10:56,158 --> 00:10:58,440
+Video editor: thirteen used, three free.
+
+168
+00:10:58,890 --> 00:11:03,477
+Game: eighteen needed, but only sixteen
+exist. Two gigabytes don't fit.
+
+169
+00:11:04,627 --> 00:11:08,126
+They don't all fit. The computer runs
+short by two gigabytes.
+
+170
+00:11:08,576 --> 00:11:14,051
+The operating system can move some data
+out to storage temporarily, but storage is
+
+171
+00:11:14,051 --> 00:11:19,394
+much slower, so everything slows down.
+That's why more RAM makes a computer feel
+
+172
+00:11:19,394 --> 00:11:19,861
+faster.
+
+173
+00:11:21,011 --> 00:11:26,540
+Your turn. The same laptop runs only the
+system, the browser and the game. Do they
+
+174
+00:11:26,540 --> 00:11:28,563
+fit, and how much RAM is free?
+
+175
+00:11:29,013 --> 00:11:30,208
+Pause the video now.
+
+176
+00:11:30,658 --> 00:11:33,324
+Yes. They use twelve gigabytes, so four
+are free.
+
+177
+00:11:33,774 --> 00:11:37,550
+Next, the program that runs all the
+others: the operating system.
+
+178
+00:11:38,700 --> 00:11:42,668
 When you turn on a computer, one program
 starts before all the others.
 
-97
-00:07:01,588 --> 00:07:07,761
+179
+00:11:43,118 --> 00:11:48,755
 It's the operating system. Windows, mac O
 S, Linux, Android and i O S are all
 
-98
-00:07:07,761 --> 00:07:09,204
+180
+00:11:48,755 --> 00:11:50,073
 operating systems.
 
-99
-00:07:10,354 --> 00:07:13,981
+181
+00:11:51,223 --> 00:11:54,551
 The operating system sits between your
 apps and the hardware.
 
-100
-00:07:14,431 --> 00:07:20,577
+182
+00:11:55,001 --> 00:12:00,577
 Apps don't talk to the C P U, memory, or
 storage directly. They ask the operating
 
-101
-00:07:20,577 --> 00:07:21,108
+183
+00:12:00,577 --> 00:12:01,059
 system.
 
-102
-00:07:22,258 --> 00:07:24,520
+184
+00:12:02,209 --> 00:12:04,300
 Job one: managing the C P U.
 
-103
-00:07:24,970 --> 00:07:30,728
+185
+00:12:04,750 --> 00:12:10,142
 You might have music, a browser and a game
 running at once. The operating system
 
-104
-00:07:30,728 --> 00:07:36,343
+186
+00:12:10,142 --> 00:12:15,400
 switches the C P U between them, so fast
 that they all seem to run at the same
 
-105
-00:07:36,343 --> 00:07:36,703
+187
+00:12:15,400 --> 00:12:15,737
 time.
 
-106
-00:07:37,853 --> 00:07:39,645
+188
+00:12:16,887 --> 00:12:18,508
 Job two: managing memory.
 
-107
-00:07:40,095 --> 00:07:45,524
+189
+00:12:18,958 --> 00:12:24,042
 The operating system gives each app its
 own space in RAM, and keeps apps from
 
-108
-00:07:45,524 --> 00:07:47,498
+190
+00:12:24,042 --> 00:12:25,891
 reading each other's memory.
 
-109
-00:07:48,648 --> 00:07:51,272
+191
+00:12:27,041 --> 00:12:29,537
 Job three: managing files and devices.
 
-110
-00:07:51,722 --> 00:07:56,903
+192
+00:12:29,987 --> 00:12:34,790
 It organizes storage into files and
 folders, and it talks to the keyboard, the
 
-111
-00:07:56,903 --> 00:07:59,295
+193
+00:12:34,790 --> 00:12:37,006
 screen, the printer and the network.
 
-112
-00:08:00,445 --> 00:08:03,240
+194
+00:12:38,156 --> 00:12:40,759
 Job four: security and the user interface.
 
-113
-00:08:03,690 --> 00:08:09,047
+195
+00:12:41,209 --> 00:12:46,056
 It handles logins and permissions, like
 whether an app may use your camera. And it
 
-114
-00:08:09,047 --> 00:08:13,098
+196
+00:12:46,056 --> 00:12:49,721
 draws the desktop, the windows and the
 home screen you tap on.
 
-115
-00:08:14,248 --> 00:08:20,098
+197
+00:12:50,871 --> 00:12:56,261
 Your turn. Two apps are open, and only one
 C P U core. Which part of the computer
 
-116
-00:08:20,098 --> 00:08:22,120
+198
+00:12:56,261 --> 00:12:58,124
 decides which app runs next?
 
-117
-00:08:22,570 --> 00:08:23,850
+199
+00:12:58,574 --> 00:12:59,769
 Pause the video now.
 
-118
-00:08:24,300 --> 00:08:28,396
+200
+00:13:00,219 --> 00:13:04,101
 The operating system. It schedules the C P
 U between apps.
 
-119
-00:08:28,846 --> 00:08:32,472
-Next, we'll see what software is, and how
-programs get made.
+201
+00:13:04,551 --> 00:13:07,538
+Next, let's work through a full example,
+step by step.
 
-120
-00:08:33,623 --> 00:08:36,588
+202
+00:13:08,688 --> 00:13:13,000
+Let's see exactly how an operating system
+shares one CPU core between three apps.
+
+203
+00:13:15,150 --> 00:13:18,905
+The problem: music, a browser and a game
+all run on one core.
+
+204
+00:13:19,355 --> 00:13:24,543
+The operating system gives each app a turn
+of ten milliseconds, in order. Who runs
+
+205
+00:13:24,543 --> 00:13:26,821
+during the first sixty milliseconds?
+
+206
+00:13:27,971 --> 00:13:32,302
+Here's the rule the scheduler follows.
+Keep a list of the apps that are ready.
+
+207
+00:13:32,752 --> 00:13:34,992
+Give the first app a ten millisecond turn.
+
+208
+00:13:35,442 --> 00:13:39,261
+When its time is up, move it to the back
+of the line, and run the next app.
+
+209
+00:13:40,411 --> 00:13:43,333
+Zero to ten: music runs. Then it goes to
+the back.
+
+210
+00:13:43,783 --> 00:13:46,621
+Ten to twenty: browser. Twenty to thirty:
+game.
+
+211
+00:13:47,071 --> 00:13:52,105
+Thirty to forty: music again. Forty to
+fifty: browser. Fifty to sixty: game.
+
+212
+00:13:53,255 --> 00:13:58,665
+Each app ran twice in sixty milliseconds.
+That's so fast it feels like they all run
+
+213
+00:13:58,665 --> 00:13:59,186
+at once.
+
+214
+00:13:59,636 --> 00:14:04,336
+Common mistake: thinking the apps really
+run at the same time on one core. They
+
+215
+00:14:04,336 --> 00:14:04,991
+take turns.
+
+216
+00:14:06,141 --> 00:14:10,350
+Your turn. With the same three apps, which
+app runs from seventy to eighty
+
+217
+00:14:10,350 --> 00:14:11,090
+milliseconds?
+
+218
+00:14:11,540 --> 00:14:12,735
+Pause the video now.
+
+219
+00:14:13,185 --> 00:14:18,027
+The browser. Sixty to seventy is music,
+then seventy to eighty is the browser.
+
+220
+00:14:18,477 --> 00:14:21,421
+Next, what software is, and how programs
+get made.
+
+221
+00:14:22,571 --> 00:14:25,323
 Hardware is the parts of a computer you
 can touch.
 
-121
-00:08:37,038 --> 00:08:40,558
+222
+00:14:25,773 --> 00:14:29,101
 Software is the instructions that tell the
 hardware what to do.
 
-122
-00:08:41,708 --> 00:08:43,756
+223
+00:14:30,251 --> 00:14:32,128
 There are two main kinds of software.
 
-123
-00:08:44,206 --> 00:08:49,547
+224
+00:14:32,578 --> 00:14:37,648
 System software runs the computer itself,
 like the operating system and device
 
-124
-00:08:49,547 --> 00:08:50,094
+225
+00:14:37,648 --> 00:14:38,168
 drivers.
 
-125
-00:08:50,544 --> 00:08:55,834
+226
+00:14:38,618 --> 00:14:43,681
 Application software, or apps, does jobs
 for you: a browser, a game, a word
 
-126
-00:08:55,834 --> 00:08:56,539
+227
+00:14:43,681 --> 00:14:44,356
 processor.
 
-127
-00:08:57,689 --> 00:09:03,236
+228
+00:14:45,506 --> 00:14:50,714
 Every program starts as source code: text
 written by a person in a programming
 
-128
-00:09:03,236 --> 00:09:05,369
+229
+00:14:50,714 --> 00:14:52,717
 language, like Python or Java.
 
-129
-00:09:05,819 --> 00:09:09,744
+230
+00:14:53,167 --> 00:14:56,815
 Here's one line of Python. It tells the
 computer to print hello.
 
-130
-00:09:10,894 --> 00:09:16,446
+231
+00:14:57,965 --> 00:15:03,208
 But the C P U only understands machine
 code: instructions written as binary
 
-131
-00:09:16,446 --> 00:09:17,038
+232
+00:15:03,208 --> 00:15:03,768
 numbers.
 
-132
-00:09:17,488 --> 00:09:19,771
+233
+00:15:04,218 --> 00:15:06,372
 So source code has to be translated.
 
-133
-00:09:20,921 --> 00:09:22,628
+234
+00:15:07,522 --> 00:15:09,122
 There are two ways to translate.
 
-134
-00:09:23,078 --> 00:09:29,200
+235
+00:15:09,572 --> 00:15:15,283
 A compiler translates the whole program
 into machine code before it runs. C and C
 
-135
-00:09:29,200 --> 00:09:31,014
+236
+00:15:15,283 --> 00:15:16,975
 plus plus work this way.
 
-136
-00:09:31,464 --> 00:09:37,278
+237
+00:15:17,425 --> 00:15:22,879
 An interpreter translates and runs the
 program one line at a time. Python usually
 
-137
-00:09:37,278 --> 00:09:38,354
+238
+00:15:22,879 --> 00:15:23,889
 works this way.
 
-138
-00:09:39,504 --> 00:09:45,129
+239
+00:15:25,039 --> 00:15:30,229
 Real programs are built step by step.
 Plan, write the code, test it, and fix the
 
-139
-00:09:45,129 --> 00:09:46,395
+240
+00:15:30,229 --> 00:15:31,396
 bugs. Then repeat.
 
-140
-00:09:46,845 --> 00:09:51,782
+241
+00:15:31,846 --> 00:15:36,499
 That cycle is how every app you use was
 made, and it's how you'll write programs
 
-141
-00:09:51,782 --> 00:09:52,029
+242
+00:15:36,499 --> 00:15:36,732
 too.
 
-142
-00:09:53,179 --> 00:09:57,894
+243
+00:15:37,882 --> 00:15:42,191
 Your turn. Is a web browser system
 software, or application software?
 
-143
-00:09:58,344 --> 00:09:59,624
+244
+00:15:42,641 --> 00:15:43,836
 Pause the video now.
 
-144
-00:10:00,074 --> 00:10:03,188
+245
+00:15:44,286 --> 00:15:47,166
 It's application software. It does a job
 for you.
 
-145
-00:10:03,638 --> 00:10:08,808
-That's the end of Unit one. Next, we'll
-start Unit two: how computers store
+246
+00:15:47,616 --> 00:15:50,602
+Next, let's work through a full example,
+step by step.
 
-146
-00:10:08,808 --> 00:10:10,806
-everything as ones and zeros.
+247
+00:15:51,753 --> 00:15:55,920
+Let's see the difference between a
+compiler and an interpreter on a program
 
-147
-00:10:11,956 --> 00:10:16,633
-If this helped, subscribe to School
-Computer Science, Explained, so you don't
+248
+00:15:55,920 --> 00:15:56,532
+with a bug.
 
-148
-00:10:16,633 --> 00:10:17,908
-miss the next lesson.
+249
+00:15:57,682 --> 00:16:01,991
+The problem: this three-line Python
+program has a typo on line three.
 
-149
-00:10:18,358 --> 00:10:19,254
+250
+00:16:02,441 --> 00:16:06,132
+What happens when an interpreter runs it?
+And what would a compiler do?
+
+251
+00:16:07,282 --> 00:16:09,607
+Here's the program. Line one prints hello.
+
+252
+00:16:10,057 --> 00:16:11,849
+Line two prints two plus three.
+
+253
+00:16:12,299 --> 00:16:15,691
+Line three has a typo: p r n t instead of
+print.
+
+254
+00:16:16,841 --> 00:16:20,297
+With Python's interpreter, line one runs
+and prints hello.
+
+255
+00:16:20,747 --> 00:16:22,539
+Line two runs and prints five.
+
+256
+00:16:22,989 --> 00:16:26,360
+Line three fails with a NameError, and the
+program stops.
+
+257
+00:16:26,810 --> 00:16:31,349
+A compiler checks the whole program first,
+so it would report the error before
+
+258
+00:16:31,349 --> 00:16:32,164
+anything runs.
+
+259
+00:16:33,314 --> 00:16:37,954
+The interpreter ran two lines before
+stopping. A compiler would run nothing
+
+260
+00:16:37,954 --> 00:16:39,501
+until the error is fixed.
+
+261
+00:16:39,951 --> 00:16:45,347
+Either way, the fix is the same: correct
+the typo, and test again. That's the plan,
+
+262
+00:16:45,347 --> 00:16:46,842
+write, test, fix cycle.
+
+263
+00:16:47,992 --> 00:16:52,600
+Your turn. If the typo were on line one
+instead, what would the interpreter print?
+
+264
+00:16:53,050 --> 00:16:54,244
+Pause the video now.
+
+265
+00:16:54,694 --> 00:16:57,084
+Nothing. It stops with an error on line
+one.
+
+266
+00:16:57,534 --> 00:16:59,518
+Next, let's put the whole unit together.
+
+267
+00:17:00,667 --> 00:17:03,376
+You've learned each part of a computer on
+its own.
+
+268
+00:17:03,826 --> 00:17:08,625
+Now let's follow one real action through
+all of them: typing a letter into a
+
+269
+00:17:08,625 --> 00:17:10,141
+document, and saving it.
+
+270
+00:17:11,291 --> 00:17:14,512
+Here's the plan. Each step uses one idea
+from the unit.
+
+271
+00:17:14,962 --> 00:17:19,357
+Input, the operating system, the CPU,
+memory, output, and storage.
+
+272
+00:17:20,507 --> 00:17:25,941
+Step one: input. You press A. The keyboard
+sends a small code, which is data, to the
+
+273
+00:17:25,941 --> 00:17:26,523
+computer.
+
+274
+00:17:27,673 --> 00:17:30,510
+Step two: the operating system receives
+the code.
+
+275
+00:17:30,960 --> 00:17:35,708
+It checks which app is active, the text
+editor, and delivers the letter to it.
+
+276
+00:17:35,708 --> 00:17:38,022
+Apps never read the keyboard directly.
+
+277
+00:17:39,172 --> 00:17:41,902
+Step three: the CPU runs the editor's
+code.
+
+278
+00:17:42,352 --> 00:17:47,566
+It fetches each instruction, decodes it,
+and executes it, adding the letter to the
+
+279
+00:17:47,566 --> 00:17:52,208
+document. That takes thousands of cycles,
+in a tiny fraction of a second.
+
+280
+00:17:53,358 --> 00:17:58,884
+Step four: the document being edited is in
+RAM, so the new letter goes into memory.
+
+281
+00:17:59,334 --> 00:18:03,046
+Then the screen is redrawn, and the letter
+appears. That's output.
+
+282
+00:18:04,196 --> 00:18:09,910
+Step five: you press save. The operating
+system copies the document from RAM to
+
+283
+00:18:09,910 --> 00:18:10,489
+storage.
+
+284
+00:18:10,939 --> 00:18:13,179
+Now it's safe, even if the power goes off.
+
+285
+00:18:14,329 --> 00:18:19,024
+Your turn. The power goes out after step
+four, before you save. Is the letter A
+
+286
+00:18:19,024 --> 00:18:19,321
+kept?
+
+287
+00:18:19,771 --> 00:18:20,966
+Pause the video now.
+
+288
+00:18:21,416 --> 00:18:25,682
+No. It was only in memory. The saved file
+on the drive doesn't have it.
+
+289
+00:18:26,132 --> 00:18:31,444
+That's the end of Unit 1. Next, Unit 2:
+how computers store everything as numbers.
+
+290
+00:18:32,594 --> 00:18:37,023
+If this helped, subscribe to School STEM,
+Explained, so you don't miss the next
+
+291
+00:18:37,023 --> 00:18:37,416
+lesson.
+
+292
+00:18:37,866 --> 00:18:38,698
 See you there.
 

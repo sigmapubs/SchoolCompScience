@@ -1,6 +1,6 @@
 Java Basics: Algorithms, Variables, Expressions, Input & Casting | AP CSA Unit 1 (1.1–1.5)
 
-Start AP Computer Science A here. Topics 1.1 to 1.5: algorithms and your first Java program, compilers and errors, variables and primitive types, expressions and output (including integer division and %), assignment and Scanner input, and casting, ranges and overflow. Each topic ends with an AP-style practice problem. Unit 1 is split into 3 videos: Part 1 (1.1–1.5), Part 2 (1.6–1.10), Part 3 (1.11–1.15).
+Start AP Computer Science A here. Topics 1.1 to 1.5: algorithms and your first Java program, compilers and errors, variables and primitive types, expressions and output (including integer division and %), assignment and Scanner input, and casting, ranges and overflow. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. Unit 1 is split into 3 videos: Part 1 (1.1–1.5), Part 2 (1.6–1.10), Part 3 (1.11–1.15).
 
 Course: AP Computer Science A · Unit 1: Using Objects and Methods · Part 1 of 3
 Previous: Start of the course

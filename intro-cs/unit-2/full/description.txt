@@ -1,6 +1,6 @@
 Data and Binary: Bits, Hex, Text, Images, Sound & Compression | Intro to CS Unit 2
 
-How does a computer store everything as 0s and 1s? This video covers all of Unit 2: counting in binary, hexadecimal, how text (ASCII and Unicode), images (pixels and RGB) and sound (sampling) become numbers, and how compression makes files smaller. Each topic ends with a practice problem. Also covers AP Computer Science Principles Big Idea 2: Data.
+How does a computer store everything as 0s and 1s? This video covers all of Unit 2: counting in binary, hexadecimal, how text (ASCII and Unicode), images (pixels and RGB) and sound (sampling) become numbers, and how compression makes files smaller. Each topic ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. Also covers AP Computer Science Principles Big Idea 2: Data.
 
 Course: Intro to Computer Science · Unit 2: Data and Binary (the whole unit in one video)
 Previous: Intro to Computer Science, Unit 1: What Is a Computer?

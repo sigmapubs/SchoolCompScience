@@ -27,7 +27,7 @@ class Worked(Lesson):
 
         self.seg(2)
         c = code(self.CODE, lang=self.LANG, sc=self.CODE_SC)
-        c.scale_to_fit_width(min(c.width, 12.5)); c.scale_to_fit_height(min(c.height, 6.0))
+        c.scale(min(12.0 / c.width, 5.8 / c.height, 1.6))
         self.play(FadeIn(c))
         n = max(1, len(self.HL_LINES)); step = max(1.2, (self.dur(2) - 2.0) / n)
         self.wait(0.5)
@@ -36,17 +36,23 @@ class Worked(Lesson):
         self.end_seg()
 
         self.seg(3)
-        cols = len(self.HEAD); xs = [(-(cols - 1) / 2 + j) * min(3.4, 12.0 / cols) for j in range(cols)]
-        hdr = VGroup(*[mono(hd, 0.62, MUTED) for hd in self.HEAD])
-        for m, x in zip(hdr, xs): m.move_to([x, 2.6, 0])
-        rule = Line([xs[0] - 1.2, 2.25, 0], [xs[-1] + 1.2, 2.25, 0], color=MUTED, stroke_width=2)
-        self.play(FadeIn(hdr), Create(rule), run_time=0.8)
-        nr = len(self.ROWS); rh = min(0.72, 4.6 / max(1, nr))
+        cols = len(self.HEAD); nr = len(self.ROWS)
+        rh = min(0.72, 4.6 / max(1, nr)); fs = min(0.75, rh * 1.35)
+        hdr = [mono(hd, 0.62, MUTED) for hd in self.HEAD]
+        cells = [[mono(str(v), fs, ON if (j == cols - 1) else INK) for j, v in enumerate(r)] for r in self.ROWS]
+        widths = [max([hdr[j].width] + [row[j].width for row in cells]) for j in range(cols)]
+        gap = 0.7; total = sum(widths) + gap * (cols - 1)
+        k = min(1.0, 12.6 / total)
+        xs = []; x = -total * k / 2
+        for w in widths:
+            xs.append(x + w * k / 2); x += (w + gap) * k
+        for j, m in enumerate(hdr): m.scale(k).move_to([xs[j], 2.6, 0])
+        rule = Line([-total * k / 2 - 0.2, 2.25, 0], [total * k / 2 + 0.2, 2.25, 0], color=MUTED, stroke_width=2)
+        self.play(*[FadeIn(m) for m in hdr], Create(rule), run_time=0.8)
         step = max(0.7, (self.dur(3) - 1.6) / max(1, nr))
-        for k, r in enumerate(self.ROWS):
-            row = VGroup(*[mono(str(v), min(0.75, rh * 1.35), ON if (j == cols - 1) else INK) for j, v in enumerate(r)])
-            for m, x in zip(row, xs): m.move_to([x, 1.85 - rh * k, 0])
-            self.play(FadeIn(row, shift=UP * 0.1), run_time=0.5); self.wait(step - 0.5)
+        for r, row in enumerate(cells):
+            for j, m in enumerate(row): m.scale(k).move_to([xs[j], 1.85 - rh * r, 0])
+            self.play(FadeIn(VGroup(*row), shift=UP * 0.1), run_time=0.5); self.wait(step - 0.5)
         self.end_seg()
 
         self.seg(4)

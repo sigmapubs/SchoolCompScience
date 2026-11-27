@@ -5,7 +5,7 @@ import json, os, re, sys, importlib, ast
 P = "/mnt/project-files/cs-channel"
 sys.path.insert(0, P + "/pipeline/examples_data")
 D = importlib.import_module(sys.argv[1])
-SUB = ["If this helped, subscribe to School Computer Science, Explained, so you don't miss the next lesson.", "See you there."]
+SUB = ["If this helped, subscribe to School STEM, Explained, so you don't miss the next lesson.", "See you there."]
 def cls(i): return "".join(w.capitalize() for w in i.split("_"))
 def write(i, script, scene):
     d = f"{P}/videos/{i}"; os.makedirs(d, exist_ok=True)

@@ -1802,5 +1802,1315 @@
 "4 · memory and output",
 "5 · storage",
 "Your turn"
+],
+"ep01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"ep02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"ep03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"ep04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"ep05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"ep06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"ep_cap": [
+"",
+"The plan",
+"1 · caption → ASCII → binary",
+"2 · bytes in hex",
+"3 · the photo",
+"4 · the voice note",
+"5 · compression",
+"Your turn"
+],
+"icu3_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu3_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu3_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu3_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu3_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu3_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu3_cap": [
+"",
+"The plan",
+"1 · the problem",
+"2 · linear search",
+"3 · selection sort",
+"4 · binary search",
+"5 · compare",
+"Your turn"
+],
+"icu4_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4a_cap": [
+"",
+"The plan",
+"1 · ask for the details",
+"2 · do the math",
+"3 · show the results",
+"Run it",
+"Your turn"
+],
+"icu4_l07b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l08b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l09b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l10b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l11b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4_l12b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu4b_cap": [
+"",
+"The plan",
+"1 · letter grades",
+"2 · the average",
+"3 · read the scores",
+"4 · print the report",
+"Run it",
+"Your turn"
+],
+"icu5_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu5_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu5_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu5_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu5_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu5_cap": [
+"",
+"The plan",
+"1 · join the network",
+"2 · DNS lookup",
+"3 · HTTP request",
+"4 · packets and routers",
+"5 · the response",
+"Your turn"
+],
+"icu6_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu6_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu6_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu6_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu6_cap": [
+"",
+"The plan",
+"1 · the real site",
+"2 · the password",
+"3 · two-factor",
+"4 · the phishing email",
+"5 · privacy",
+"Your turn"
+],
+"csa_u1_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1a_cap": [
+"",
+"The plan",
+"1 · set up and read input",
+"2 · count the pizzas",
+"3 · cost and output",
+"Run it",
+"Your turn"
+],
+"csa_u1_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l07b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l08b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l09b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l10b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1b_cap": [
+"",
+"The plan",
+"1 · steps to miles",
+"2 · calories and report",
+"3 · main",
+"Run it",
+"Your turn"
+],
+"csa_u1_l11b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l12b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l13b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l14b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1_l15b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u1c_cap": [
+"",
+"The plan",
+"1 · read and split",
+"2 · capitals and ID",
+"3 · print the results",
+"Run it",
+"Your turn"
+],
+"csa_u2_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u2_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u2_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u2_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u2_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u2_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u2a_cap": [
+"",
+"The plan",
+"1 · read the input",
+"2 · base price",
+"3 · discount and message",
+"4 · De Morgan check",
+"Run it",
+"Your turn"
+],
+"csa_u3_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u3_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u3_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u3_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u3_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u3a_cap": [
+"",
+"The plan",
+"1 · data and constructors",
+"2 · methods",
+"3 · main",
+"Run it",
+"Your turn"
+],
+"csa_u3_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u3_l07b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u3_l08b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u3_l09b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u3b_cap": [
+"",
+"The plan",
+"1 · the Pet class",
+"2 · methods in Shelter",
+"3 · main",
+"Run it",
+"Your turn"
+],
+"csa_u4_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4a_cap": [
+"",
+"The plan",
+"1 · read the file",
+"2 · sum, max, min, count",
+"3 · reverse and print",
+"Run it",
+"Your turn"
+],
+"csa_u4_l07b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l08b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l09b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l10b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l11b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l12b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4b_cap": [
+"",
+"The plan",
+"1 · seats and waitlist",
+"2 · free seats per row",
+"3 · seat people",
+"Run it",
+"Your turn"
+],
+"csa_u4_l13b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l14b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l15b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l16b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4_l17b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_u4c_cap": [
+"",
+"The plan",
+"1 · best per player",
+"2 · insertion sort",
+"3 · recursion",
+"4 · main",
+"Run it",
+"Your turn"
+],
+"csa_ex_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_ex_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_ex_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_ex_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csa_ex_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b1_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b1_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b1_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b1_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b1_cap": [
+"",
+"The plan",
+"1 · purpose and helpers",
+"2 · input and output",
+"Run it",
+"Your turn"
+],
+"csp_b2_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b2_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b2_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b2_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b2_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b2_cap": [
+"",
+"The plan",
+"1 · data and metadata",
+"2 · clean and count",
+"3 · report and filter",
+"Run it",
+"Your turn"
+],
+"csp_b3_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3a_cap": [
+"",
+"The plan",
+"1 · data and total",
+"2 · dollars and cents",
+"3 · message and goal",
+"Run it",
+"Your turn"
+],
+"csp_b3_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l07b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l08b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l09b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l10b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3b_cap": [
+"",
+"The plan",
+"1 · setup and loop",
+"2 · grade with nested IF",
+"3 · the summary",
+"Run it",
+"Your turn"
+],
+"csp_b3_l11b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l12b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l13b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l14b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l15b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3c_cap": [
+"",
+"The plan",
+"1 · data and totalTime",
+"2 · binaryFind",
+"3 · countLonger and main",
+"Run it",
+"Your turn"
+],
+"csp_b3_l16b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l17b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l18b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l19b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3d_cap": [
+"",
+"The plan",
+"1 · rollTwo",
+"2 · the simulation",
+"3 · results",
+"Run it",
+"Your turn"
+],
+"csp_b3_l20b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l21b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3_l22b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b3e_cap": [
+"",
+"The plan",
+"1 · data and dist",
+"2 · nearest",
+"3 · drive the route",
+"Run it",
+"Your turn"
+],
+"csp_b4_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b4_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b4_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b4_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b4_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b4_cap": [
+"",
+"The plan",
+"1 · send the file",
+"2 · a router fails",
+"3 · make 4 versions in parallel",
+"4 · serve the world",
+"Your turn"
+],
+"csp_b5_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b5_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b5_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b5_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b5_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b5_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_b5_cap": [
+"",
+"The plan",
+"1 · effects and access",
+"2 · crowdsourcing and bias",
+"3 · licenses and safety",
+"Your turn"
+],
+"csp_ex_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_ex_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"csp_ex_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u1_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u1_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u1_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u1_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u1_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u1_cap": [
+"",
+"The plan",
+"1 · read the input",
+"2 · build the username",
+"3 · print the results",
+"Run it",
+"Your turn"
 ]
 }

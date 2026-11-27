@@ -1,6 +1,6 @@
 Java Methods: Compound Assignment, APIs, Comments & Method Calls | AP CSA Unit 1 (1.6–1.10)
 
-AP CSA Topics 1.6 to 1.10: compound assignment (+=, ++), APIs and libraries, comments, Javadoc, preconditions and postconditions, method signatures and overloading, and calling class (static) methods with flow of control. Each topic ends with an AP-style practice problem. Unit 1 is split into 3 videos: Part 1 (1.1–1.5), Part 2 (1.6–1.10), Part 3 (1.11–1.15).
+AP CSA Topics 1.6 to 1.10: compound assignment (+=, ++), APIs and libraries, comments, Javadoc, preconditions and postconditions, method signatures and overloading, and calling class (static) methods with flow of control. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. Unit 1 is split into 3 videos: Part 1 (1.1–1.5), Part 2 (1.6–1.10), Part 3 (1.11–1.15).
 
 Course: AP Computer Science A · Unit 1: Using Objects and Methods · Part 2 of 3
 Previous: Java Basics: Algorithms, Variables, Expressions, Input & Casting (Unit 1, Part 1)

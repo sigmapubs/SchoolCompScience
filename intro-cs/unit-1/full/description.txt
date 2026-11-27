@@ -1,51 +1,82 @@
 What Is a Computer? CPU, Memory, Storage & the Operating System | Intro to CS Unit 1
 
-Start Intro to Computer Science here. This video covers all of Unit 1: the four jobs every computer does (input, processing, storage, output), what the CPU, memory and storage do, how the CPU runs instructions with fetch, decode, execute, why RAM forgets and storage doesn't, what the operating system does, and how software is written, compiled and interpreted. Each section ends with a practice problem. Also covers AP Computer Science Principles Big Idea 4 basics: computing systems.
+Start Intro to Computer Science here. This video covers all of Unit 1: the four jobs every computer does (input, processing, storage, output), what the CPU, memory and storage do, how the CPU runs instructions with fetch, decode, execute, why RAM forgets and storage doesn't, what the operating system does, and how software is written, compiled and interpreted. Each section ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. Also covers AP Computer Science Principles Big Idea 4 basics: computing systems.
 
 Course: Intro to Computer Science · Unit 1: What Is a Computer? (the whole unit in one video)
 Previous: Start of the course
 Next: Intro to Computer Science, Unit 2: Data and Binary
 
 0:00 Introduction
-0:12 What a computer does
-0:24 Input
-0:36 Processing
-0:49 Storage
-1:00 Output
-1:11 The cycle: a calculator
+0:17 What a computer does
+0:28 Input
+0:39 Processing
+0:52 Storage
+1:12 The cycle: a calculator
 1:29 Your turn
-1:45 Inside the box: CPU, memory, storage
-2:12 Memory (RAM)
-2:27 Storage
-2:42 Student, desk and backpack
-3:00 The motherboard
-3:10 Your turn
-3:30 How the CPU runs instructions
-3:41 Fetch
-3:52 Decode
-4:03 Execute
-4:13 Tracing a tiny program
-4:39 Cycles and cores
-4:56 Your turn
-5:11 Memory vs storage
-5:22 RAM is volatile
-5:37 Storage is non-volatile
-5:53 Speed vs cost
-6:13 Why computers use both
-6:30 Why saving matters
-6:56 The operating system
-7:10 Between apps and hardware
-7:22 Managing the CPU
-7:37 Managing memory
-7:48 Files and devices
-8:00 Security and the interface
-8:14 Your turn
-8:33 Software and how programs get made
-8:57 Source code
-9:10 Machine code
-9:20 Compilers and interpreters
-9:39 Plan, write, test, fix
-9:53 Your turn
+1:44 Worked example: a self-checkout machine
+2:02 The work
+2:16 Step by step
+2:33 Result and tips
+2:46 Your turn
+3:05 Inside the box: CPU, memory, storage
+3:30 Memory (RAM)
+3:45 Storage
+3:59 Student, desk and backpack
+4:15 The motherboard
+4:25 Your turn
+4:44 Worked example: where the data is
+4:58 The work
+5:11 Step by step
+5:28 Result and tips
+5:41 Your turn
+5:57 How the CPU runs instructions
+6:18 Decode
+6:37 Tracing a tiny program
+7:01 Cycles and cores
+7:17 Your turn
+7:30 Worked example: tracing fetch-decode-execute
+7:45 The work
+8:14 Result and tips
+8:26 Your turn
+8:41 Memory vs storage
+8:52 RAM is volatile
+9:06 Storage is non-volatile
+9:21 Speed vs cost
+9:40 Why computers use both
+9:55 Why saving matters
+10:18 Worked example: choosing RAM or storage
+10:40 The work
+10:50 Step by step
+11:04 Result and tips
+11:21 Your turn
+11:38 The operating system
+11:51 Between apps and hardware
+12:02 Managing the CPU
+12:16 Managing memory
+12:27 Files and devices
+12:38 Security and the interface
+12:50 Your turn
+13:08 Worked example: the OS sharing one CPU
+13:27 The work
+13:40 Step by step
+13:53 Result and tips
+14:06 Your turn
+14:22 Software and how programs get made
+14:45 Source code
+14:57 Machine code
+15:25 Plan, write, test, fix
+15:37 Your turn
+15:51 Worked example: compiler or interpreter
+16:07 The work
+16:33 Result and tips
+16:47 Your turn
+17:00 Putting Unit 1 together: one keypress, start to finish
+17:11 The plan
+17:27 2 · operating system
+17:39 3 · CPU
+17:53 4 · memory and output
+18:04 5 · storage
+18:14 Your turn
 
 Intro to Computer Science, the complete course (6 units, full syllabus):
 ▶ Unit 1: What Is a Computer?  (you are here)
