@@ -1731,5 +1731,76 @@
 "Trace table",
 "Result and tips",
 "Your turn"
+],
+"csa_u2_prog": [
+"",
+"The program's plan",
+"Class and main",
+"Part 1: factors",
+"Tracing the factors of 28",
+"Part 2: if / else if / else",
+"Part 3: binary with a while loop",
+"Part 4: compound boolean",
+"Part 5: nested loops",
+"Compile and run",
+"Your turn"
+],
+"icu1_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu1_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu1_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu1_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu1_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu1_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"icu1_cap": [
+"",
+"The plan",
+"1 · input",
+"2 · operating system",
+"3 · CPU",
+"4 · memory and output",
+"5 · storage",
+"Your turn"
 ]
 }

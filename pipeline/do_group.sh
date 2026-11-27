@@ -3,7 +3,8 @@
 exec 9>/tmp/render.lock; flock 9
 P=/mnt/project-files/cs-channel; S=$1; R=$2; shift 2; ST=/tmp/status_$S.txt; : > $ST
 for dc in "$@"; do n=${dc%%:*}; c=${dc##*:}
-  bash $P/pipeline/build.sh $P/videos/$n $c > /tmp/rb_$n.log 2>&1
+  if [ -n "$ONLY" ] && ! echo " $ONLY " | grep -q " $n " && [ -f $P/videos/$n/video.mp4 ]; then :; else
+  bash $P/pipeline/build.sh $P/videos/$n $c > /tmp/rb_$n.log 2>&1; fi
   echo "$n $(ffprobe -v error -show_entries stream=codec_type,duration -of compact $P/videos/$n/video.mp4 | tr '\n' ' ') $(grep -c 'WARNING seg' /tmp/rb_$n.log) warn" >> $ST
 done
 bash $P/pipeline/build_intro.sh $S >> $ST 2>&1

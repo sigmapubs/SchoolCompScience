@@ -2,11 +2,12 @@
 # 0 hook+title, 1 problem, 2 code, 3 trace table, 4 result/pitfall, 5 practice, 6 outro
 from cs_common import *
 RED = "#ef476f"
+def C(c): return {"INK": INK, "HL": HL, "ACC": ACC, "ON": ON, "RED": RED, "MUTED": MUTED}.get(c, c)
 
 class Worked(Lesson):
     TITLE = ""; SUB = ""; PROBLEM = []; CODE = ""; CODE_SC = 1.4
     HL_LINES = []; HEAD = []; ROWS = []; RESULT = ""; TIP = []
-    Q = ""; Q_IS_CODE = True; A = ""; NEXT = ""; OUTRO = ""
+    Q = ""; Q_IS_CODE = True; A = ""; NEXT = ""; OUTRO = ""; LANG = "java"
     def dur(self, i): return self.T[i]["duration"]
     def construct(self):
         self.seg(0)
@@ -17,7 +18,7 @@ class Worked(Lesson):
         self.end_seg()
 
         self.seg(1)
-        ls = VGroup(*[mono(s, 0.85, c) for s, c in self.PROBLEM]).arrange(DOWN, buff=0.45)
+        ls = VGroup(*[mono(s, 0.85, C(c)) for s, c in self.PROBLEM]).arrange(DOWN, buff=0.45)
         ls.scale_to_fit_width(min(ls.width, 12.5))
         step = max(0.6, (self.dur(1) - 1.5) / max(1, len(ls)))
         for m in ls:
@@ -25,7 +26,7 @@ class Worked(Lesson):
         self.end_seg()
 
         self.seg(2)
-        c = code(self.CODE, sc=self.CODE_SC)
+        c = code(self.CODE, lang=self.LANG, sc=self.CODE_SC)
         c.scale_to_fit_width(min(c.width, 12.5)); c.scale_to_fit_height(min(c.height, 6.0))
         self.play(FadeIn(c))
         n = max(1, len(self.HL_LINES)); step = max(1.2, (self.dur(2) - 2.0) / n)
@@ -51,7 +52,7 @@ class Worked(Lesson):
         self.seg(4)
         res = mono(self.RESULT, 0.95, ON).shift(UP * 1.6)
         self.play(FadeIn(res))
-        tips = VGroup(*[mono(s, 0.72, c) for s, c in self.TIP]).arrange(DOWN, buff=0.4).shift(DOWN * 0.6)
+        tips = VGroup(*[mono(s, 0.72, C(c)) for s, c in self.TIP]).arrange(DOWN, buff=0.4).shift(DOWN * 0.6)
         tips.scale_to_fit_width(min(tips.width, 12.5))
         step = max(0.8, (self.dur(4) - 2.7) / max(1, len(tips)))
         self.wait(0.6)
@@ -61,7 +62,7 @@ class Worked(Lesson):
 
         self.seg(5)
         if self.Q_IS_CODE:
-            q = code(self.Q, sc=1.15); q.scale_to_fit_height(min(q.height, 3.2)); q.shift(UP * 0.7)
+            q = code(self.Q, lang=self.LANG, sc=1.15); q.scale_to_fit_height(min(q.height, 3.2)); q.shift(UP * 0.7)
         else:
             q = mono(self.Q, 0.75, INK).shift(UP * 0.6); q.scale_to_fit_width(min(q.width, 12.5))
         a = mono(self.A, 0.75, ON).shift(DOWN * 1.9)

@@ -40,13 +40,13 @@ class Lesson(Scene):
         self.play(FadeIn(brand), Write(t), FadeIn(s, shift=UP*0.2), FadeIn(m), run_time=1.5)
     def subscribe_outro(self, next_title="Next lesson"):
         """End card with empty slots that YouTube end-screen elements cover exactly (matches math channel):
-        'watch next' 16:9 slot centred (-3.3,-0.25), 32.7% of frame width; round Subscribe slot centred (3.3,-0.25), 15.6% width."""
+        'watch next' 16:9 slot centred (-2.3,-0.25), 32.7% of frame width; round Subscribe slot centred (4.3,-0.25), 15.6% width."""
         top = txt("Thanks for watching!", 0.75, ON, weight=BOLD).move_to(UP * 2.75)
-        vs = RoundedRectangle(width=4.65, height=2.62, corner_radius=0.12, stroke_color=MUTED, stroke_width=3).move_to([-3.3, -0.25, 0])
+        vs = RoundedRectangle(width=4.65, height=2.62, corner_radius=0.12, stroke_color=MUTED, stroke_width=3).move_to([-2.3, -0.25, 0])
         vl = txt("Watch next", 0.5, INK, weight=BOLD).next_to(vs, UP, buff=0.25)
         nx = txt(next_title, 0.42, MUTED).next_to(vs, DOWN, buff=0.25)
         if nx.width > 5.2: nx.scale_to_fit_width(5.2)
-        cs = Circle(radius=1.11, stroke_color="#e02424", stroke_width=5).move_to([3.3, -0.25, 0])
+        cs = Circle(radius=1.11, stroke_color="#e02424", stroke_width=5).move_to([4.3, -0.25, 0])
         m = ImageMobject(LOGO).scale_to_fit_height(1.5).move_to(cs)
         sl = txt("SUBSCRIBE", 0.5, "#ff4d4d", weight=BOLD).next_to(cs, UP, buff=0.25)
         bl = txt("and tap the bell", 0.42, MUTED).next_to(cs, DOWN, buff=0.25)

@@ -11,7 +11,7 @@ timings, cues, rel, t0 = [], [], [], 0.0
 for i, seg in enumerate(S["segments"]):
     parts, t = [], 0.0
     for sent in seg:
-        a, sr = k.create(sent, voice=S.get("voice", "am_puck"), speed=S.get("speed", 0.90), lang="en-us")
+        a, sr = k.create(sent, voice=S.get("voice", "am_puck"), speed=S.get("speed", 1.0), lang="en-us")
         cues.append((t0 + t, t0 + t + len(a) / sr, sent)); rel.append([i, t, t + len(a) / sr, sent])
         parts += [a, np.zeros(int(GAP * sr), dtype=a.dtype)]
         t += len(a) / sr + GAP

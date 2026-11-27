@@ -1,77 +1,89 @@
 Java Loops with Worked Examples: while, for, String Algorithms & Nested Loops | AP CSA Unit 2 (2.7–2.12)
 
-AP CSA Topics 2.7 to 2.12, all about iteration: while loops, infinite loops and off-by-one errors, for loops and counting iterations, the standard algorithms (sum, average, count, min and max, digits, any and all), String algorithms (counting, reversing, finding substrings), nested loops, and informal run-time analysis. Extended edition: every topic is followed by a step-by-step worked example with a trace table (sum of digits, odd-number sums, smallest factor, counting a substring, nested-loop output, counting executions), plus AP-style practice problems. Unit 2 is split into 2 videos: Part 1 (2.1–2.6, selection) and Part 2 (2.7–2.12, iteration).
+AP CSA Topics 2.7 to 2.12, all about iteration: while loops, infinite loops and off-by-one errors, for loops and counting iterations, the standard algorithms (sum, average, count, min and max, digits, any and all), String algorithms (counting, reversing, finding substrings), nested loops, and informal run-time analysis. Extended edition: every topic is followed by a step-by-step worked example with a trace table (sum of digits, odd-number sums, smallest factor, counting a substring, nested-loop output, counting executions), plus AP-style practice problems. It ends with a complete Java program, NumberReport, that uses the whole unit, compiled and run on screen.
+
+Full program (NumberReport.java): https://github.com/sigmapubs/SchoolCompScience/blob/main/ap-csa/unit-2/part-2/NumberReport.java Unit 2 is split into 2 videos: Part 1 (2.1–2.6, selection) and Part 2 (2.7–2.12, iteration).
 
 Course: AP Computer Science A · Unit 2: Selection and Iteration · Part 2 of 2
 Previous: Java if Statements, Boolean Expressions & De Morgan's Laws (Unit 2, Part 1)
 Next: AP Computer Science A, Unit 3: Class Creation
 
 0:00 Introduction
-0:17 2.7 while loops
-0:38 Start, test, change
-0:52 Tracing the loop
-1:06 Never runs vs runs forever
-1:20 Off-by-one errors
-1:34 Your turn
-1:55 Worked example: sum of digits
-2:16 The code
-2:33 Trace table
-3:01 Result and tips
-3:19 Your turn
-3:39 2.8 for loops
-4:00 Order of execution
-4:11 for vs while
-4:22 Counting iterations
-4:42 Loop variable scope
-5:07 Worked example: tracing a for loop
-5:20 The code
-5:32 Trace table
-5:49 Result and tips
-6:06 Your turn
-6:25 2.9 Selection and iteration algorithms
-6:36 Accumulating a total
-6:48 Counting matches
-7:00 Finding the max
-7:10 Digit by digit
-7:25 At least one, or every one
-7:40 Your turn
-7:55 Worked example: smallest factor
-8:14 The code
-8:25 Trace table
-8:45 Result and tips
-8:59 Your turn
-9:17 2.10 String algorithms
-9:39 Counting vowels
-9:56 Reversing a String
-10:07 Finding a substring
-10:20 Out of bounds
-10:31 Your turn
-10:46 Worked example: counting a substring
-11:05 The plan
-11:21 The code
-11:40 Tracing banana
-12:05 Two mistakes to avoid
-12:24 Your turn
-12:39 2.11 Nested iteration
-13:01 A rectangle of stars
-13:13 A triangle of stars
-13:28 Comparing every pair
-13:47 Your turn
-14:07 Worked example: tracing nested loops
-14:22 The code
-14:34 Trace table
-14:53 Result and tips
-15:09 Your turn
-15:25 2.12 Informal run-time analysis
-15:43 One loop: n
-16:00 Doubling steps
-16:13 A counting strategy
-16:24 Your turn
-16:46 Worked example: counting executions
-17:03 The code
-17:17 Trace table
-17:35 Result and tips
-17:53 Your turn
+0:18 2.7 while loops
+0:40 Start, test, change
+0:54 Tracing the loop
+1:07 Never runs vs runs forever
+1:22 Off-by-one errors
+1:35 Your turn
+1:57 Worked example: sum of digits
+2:17 The code
+2:35 Trace table
+3:02 Result and tips
+3:20 Your turn
+3:40 2.8 for loops
+4:02 Order of execution
+4:13 for vs while
+4:24 Counting iterations
+4:43 Loop variable scope
+5:09 Worked example: tracing a for loop
+5:21 The code
+5:34 Trace table
+5:51 Result and tips
+6:07 Your turn
+6:26 2.9 Selection and iteration algorithms
+6:38 Accumulating a total
+6:49 Counting matches
+7:01 Finding the max
+7:12 Digit by digit
+7:26 At least one, or every one
+7:42 Your turn
+7:56 Worked example: smallest factor
+8:15 The code
+8:26 Trace table
+8:46 Result and tips
+9:00 Your turn
+9:19 2.10 String algorithms
+9:41 Counting vowels
+9:58 Reversing a String
+10:09 Finding a substring
+10:21 Out of bounds
+10:33 Your turn
+10:47 Worked example: counting a substring
+11:07 The plan
+11:22 The code
+11:41 Tracing banana
+12:06 Two mistakes to avoid
+12:25 Your turn
+12:41 2.11 Nested iteration
+13:03 A rectangle of stars
+13:15 A triangle of stars
+13:30 Comparing every pair
+13:48 Your turn
+14:09 Worked example: tracing nested loops
+14:23 The code
+14:35 Trace table
+14:54 Result and tips
+15:10 Your turn
+15:26 2.12 Informal run-time analysis
+15:45 One loop: n
+16:01 Doubling steps
+16:15 A counting strategy
+16:26 Your turn
+16:47 Worked example: counting executions
+17:04 The code
+17:18 Trace table
+17:36 Result and tips
+17:55 Your turn
+18:14 Putting Unit 2 together: a complete Java program
+18:25 The program's plan
+18:41 Class and main
+18:57 Part 1: factors
+19:14 Tracing the factors of 28
+19:30 Part 2: if / else if / else
+19:51 Part 3: binary with a while loop
+20:10 Part 4: compound boolean
+20:28 Part 5: nested loops
+20:49 Your turn
 
 AP Computer Science A, the complete course (5 units, full syllabus):
 • Unit 1: Using Objects and Methods

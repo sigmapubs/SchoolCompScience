@@ -8,7 +8,8 @@ def part(d):
     if d == "ep01":
         return dict(video=f"{V}/ep01/ep01_counting_in_binary.mp4", srt=f"{V}/ep01/ep01_captions.srt", timings="/tmp/cs_ep01_audio/timings.json", extra=0.5, name="Counting in Binary")
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"cs1_u9_l01": "Linked lists", "cs1_u9_l02": "Trees and binary search trees", "cs1_u9_l03": "Graphs, BFS and DFS", "cs1_u9_l04": "Where to go next",
+NAMES = {"icu1_l01b": "Worked example: a self-checkout machine", "icu1_l02b": "Worked example: where the data is", "icu1_l03b": "Worked example: tracing fetch-decode-execute", "icu1_l04b": "Worked example: choosing RAM or storage", "icu1_l05b": "Worked example: the OS sharing one CPU", "icu1_l06b": "Worked example: compiler or interpreter", "icu1_cap": "Putting Unit 1 together: one keypress, start to finish", 
+ "cs1_u9_l01": "Linked lists", "cs1_u9_l02": "Trees and binary search trees", "cs1_u9_l03": "Graphs, BFS and DFS", "cs1_u9_l04": "Where to go next",
  "cs1_u8_l01": "Counting steps", "cs1_u8_l02": "Big-O notation", "cs1_u8_l03": "Complexity classes", "cs1_u8_l04": "Linear vs binary search", "cs1_u8_l05": "Selection and insertion sort", "cs1_u8_l06": "Merge sort", "cs1_u8_l07": "Hashing", "cs1_u8_l08": "Stacks and queues",
  "cs1_u7_l01": "Classes and objects", "cs1_u7_l02": "Methods and __init__", "cs1_u7_l03": "Special methods", "cs1_u7_l04": "Encapsulation", "cs1_u7_l05": "Inheritance", "cs1_u7_l06": "Polymorphism", "cs1_u7_l07": "Designing with classes",
  "cs1_u6_l01": "Testing your code", "cs1_u6_l02": "Debugging strategies", "cs1_u6_l03": "Exceptions and try/except", "cs1_u6_l04": "Assertions and defensive programming", "cs1_u6_l05": "Reading and writing files",
@@ -36,7 +37,7 @@ NAMES = {"cs1_u9_l01": "Linked lists", "cs1_u9_l02": "Trees and binary search tr
  "icu4_l07": "if, elif, else", "icu4_l08": "while loops", "icu4_l09": "for loops and range", "icu4_l10": "Functions: define and call", "icu4_l11": "Parameters and return values", "icu4_l12": "Lists",
  "icu4_l01": "Your first Python program", "icu4_l02": "Variables and assignment", "icu4_l03": "Numbers and arithmetic", "icu4_l04": "Strings", "icu4_l05": "Input from the user", "icu4_l06": "Booleans and comparisons",
  "icu3_l01": "What is an algorithm?", "icu3_l02": "Flowcharts and pseudocode", "icu3_l03": "Linear search", "icu3_l04": "Binary search", "icu3_l05": "Selection sort", "icu3_l06": "Comparing algorithms",
- "csa_u2_l07": "2.7 while loops", "csa_u2_l08": "2.8 for loops", "csa_u2_l09": "2.9 Selection and iteration algorithms", "csa_u2_l10": "2.10 String algorithms", "csa_u2_l10b": "Worked example: counting a substring", "csa_u2_l07b": "Worked example: sum of digits", "csa_u2_l08b": "Worked example: tracing a for loop", "csa_u2_l09b": "Worked example: smallest factor", "csa_u2_l11b": "Worked example: tracing nested loops", "csa_u2_l12b": "Worked example: counting executions", "csa_u2_l11": "2.11 Nested iteration", "csa_u2_l12": "2.12 Informal run-time analysis",
+ "csa_u2_l07": "2.7 while loops", "csa_u2_l08": "2.8 for loops", "csa_u2_l09": "2.9 Selection and iteration algorithms", "csa_u2_l10": "2.10 String algorithms", "csa_u2_l10b": "Worked example: counting a substring", "csa_u2_prog": "Putting Unit 2 together: a complete Java program", "csa_u2_l07b": "Worked example: sum of digits", "csa_u2_l08b": "Worked example: tracing a for loop", "csa_u2_l09b": "Worked example: smallest factor", "csa_u2_l11b": "Worked example: tracing nested loops", "csa_u2_l12b": "Worked example: counting executions", "csa_u2_l11": "2.11 Nested iteration", "csa_u2_l12": "2.12 Informal run-time analysis",
  "csa_u2_l01": "2.1 Algorithms with selection and repetition", "csa_u2_l02": "2.2 Boolean expressions", "csa_u2_l03": "2.3 if statements", "csa_u2_l04": "2.4 Nested if statements", "csa_u2_l05": "2.5 Compound Boolean expressions", "csa_u2_l06": "2.6 Equivalent expressions and De Morgan's laws",
  "icu1_l01": "What a computer does", "icu1_l02": "Inside the box: CPU, memory, storage", "icu1_l03": "How the CPU runs instructions", "icu1_l04": "Memory vs storage", "icu1_l05": "The operating system", "icu1_l06": "Software and how programs get made",
  "ep01": "Counting in binary", "ep02": "Hexadecimal", "ep03": "Text as numbers: ASCII and Unicode", "ep04": "Images as numbers: pixels and RGB",
@@ -118,12 +119,13 @@ GROUPS = {
  "introcs_u4_part2": ["icu4_l07", "icu4_l08", "icu4_l09", "icu4_l10", "icu4_l11", "icu4_l12"],
  "introcs_u4_part1": ["icu4_l01", "icu4_l02", "icu4_l03", "icu4_l04", "icu4_l05", "icu4_l06"],
  "introcs_u3_algorithms": ["icu3_l01", "icu3_l02", "icu3_l03", "icu3_l04", "icu3_l05", "icu3_l06"],
- "apcsa_u2_part2": ["csa_u2_l07", "csa_u2_l07b", "csa_u2_l08", "csa_u2_l08b", "csa_u2_l09", "csa_u2_l09b", "csa_u2_l10", "csa_u2_l10b", "csa_u2_l11", "csa_u2_l11b", "csa_u2_l12", "csa_u2_l12b"],
+ "apcsa_u2_part2": ["csa_u2_l07", "csa_u2_l07b", "csa_u2_l08", "csa_u2_l08b", "csa_u2_l09", "csa_u2_l09b", "csa_u2_l10", "csa_u2_l10b", "csa_u2_l11", "csa_u2_l11b", "csa_u2_l12", "csa_u2_l12b", "csa_u2_prog"],
  "apcsa_u2_part1": ["csa_u2_l01", "csa_u2_l02", "csa_u2_l03", "csa_u2_l04", "csa_u2_l05", "csa_u2_l06"],
- "introcs_u1_what_is_a_computer": ["icu1_l01", "icu1_l02", "icu1_l03", "icu1_l04", "icu1_l05", "icu1_l06"],
+ "introcs_u1_what_is_a_computer": ["icu1_l01", "icu1_l01b", "icu1_l02", "icu1_l02b", "icu1_l03", "icu1_l03b", "icu1_l04", "icu1_l04b", "icu1_l05", "icu1_l05b", "icu1_l06", "icu1_l06b", "icu1_cap"],
  "introcs_u2_data_and_binary": ["ep01", "ep02", "ep03", "ep04", "ep05", "ep06"],
  "apcsa_u1_part1": ["csa_u1_l01", "csa_u1_l02", "csa_u1_l03", "csa_u1_l04", "csa_u1_l05"],
  "apcsa_u1_part2": ["csa_u1_l06", "csa_u1_l07", "csa_u1_l08", "csa_u1_l09", "csa_u1_l10"],
- "apcsa_u1_part3": ["csa_u1_l11", "csa_u1_l12", "csa_u1_l13", "csa_u1_l14", "csa_u1_l15"]}
+ "apcsa_u1_part3": ["csa_u1_l11", "csa_u1_l12", "csa_u1_l13", "csa_u1_l14", "csa_u1_l15"],
+}
 if __name__ == "__main__":
     for s in (sys.argv[1:] or GROUPS): build(s, ["intro:" + s] + GROUPS[s])
