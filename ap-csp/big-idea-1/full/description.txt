@@ -1,6 +1,6 @@
 AP CSP Big Idea 1: Creative Development (Collaboration, Program Design, Errors) | AP Computer Science Principles
 
-Start AP Computer Science Principles with Big Idea 1, Creative Development. This video covers collaboration and pair programming, program function and purpose (inputs, outputs, events), the iterative and incremental development process, and the four kinds of errors (syntax, logic, run time, overflow) with testing and debugging. Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. 
+Start AP Computer Science Principles with Big Idea 1, Creative Development. This video covers collaboration and pair programming, program function and purpose (inputs, outputs, events), the iterative and incremental development process, and the four kinds of errors (syntax, logic, run time, overflow) with testing and debugging. Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. 
 
 Course: AP Computer Science Principles · Big Idea 1: Creative Development (complete)
 Previous: Intro to Computer Science, Unit 6: Security and Society

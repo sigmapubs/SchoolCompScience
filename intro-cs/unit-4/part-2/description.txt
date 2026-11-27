@@ -1,6 +1,6 @@
 Python if/else, while & for Loops, Functions and Lists for Beginners | Intro to CS Unit 4 (Part 2)
 
-Make your Python programs decide, repeat and stay organized. This video covers Unit 4, lessons 7 to 12: if, elif and else, while loops, for loops with range, defining and calling functions, parameters and return values, and lists. Each section ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. Unit 4 is split into 2 videos: Part 1 (the basics) and Part 2 (decisions, loops, functions and lists).
+Make your Python programs decide, repeat and stay organized. This video covers Unit 4, lessons 7 to 12: if, elif and else, while loops, for loops with range, defining and calling functions, parameters and return values, and lists. Each section ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Unit 4 is split into 2 videos: Part 1 (the basics) and Part 2 (decisions, loops, functions and lists).
 
 Course: Intro to Computer Science · Unit 4: Programming Basics in Python · Part 2 of 2
 Previous: Python Basics: print, Variables, Strings, Input (Unit 4, Part 1)

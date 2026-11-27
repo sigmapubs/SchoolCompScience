@@ -37,11 +37,14 @@ def fit(d, text, font_fn, size, maxw):
 import sys
 GROUPS = [
  ("../final/cs1_u9", "CS1  ·  UNIT 9", "LISTS, TREES", "& GRAPHS", "linked lists, BSTs, BFS, DFS", "graph = {'A': ['B']}"),
- ("../final/cs1_u8", "CS1  ·  UNIT 8", "ALGORITHMS &", "BIG-O", "search, sorting, hashing, stacks", "O(n log n)"),
- ("../final/cs1_u7", "CS1  ·  UNIT 7", "OBJECT-ORIENTED", "PYTHON", "classes, inheritance, polymorphism", "class Dog(Animal):"),
+ ("../final/cs1_u8_part1", "CS1  ·  UNIT 8  ·  PART 1", "BIG-O &", "SEARCHING", "counting steps, Big-O, binary search", "O(log n)"),
+ ("../final/cs1_u8_part2", "CS1  ·  UNIT 8  ·  PART 2", "SORTING &", "HASHING", "sorting, hashing, stacks, queues", "O(n log n)"),
+ ("../final/cs1_u7_part1", "CS1  ·  UNIT 7  ·  PART 1", "CLASSES", "& OBJECTS", "__init__, methods, dunder methods", "def __str__(self):"),
+ ("../final/cs1_u7_part2", "CS1  ·  UNIT 7  ·  PART 2", "INHERITANCE &", "POLYMORPHISM", "super(), overriding, design", "class Dog(Animal):"),
  ("../final/cs1_u6", "CS1  ·  UNIT 6", "TESTING &", "DEBUGGING", "tests, exceptions, asserts, files", "try: … except ValueError:"),
  ("../final/cs1_u5", "CS1  ·  UNIT 5", "RECURSION", "IN PYTHON", "base cases, memoization, recursion vs loops", "fib(n-1) + fib(n-2)"),
- ("../final/cs1_u4", "CS1  ·  UNIT 4", "PYTHON DATA", "STRUCTURES", "tuples, lists, dicts, sets", "{'Ana': 15}"),
+ ("../final/cs1_u4_part1", "CS1  ·  UNIT 4  ·  PART 1", "PYTHON LISTS", "& TUPLES", "tuples, lists, aliasing, comprehensions", "b = a[:]"),
+ ("../final/cs1_u4_part2", "CS1  ·  UNIT 4  ·  PART 2", "DICTS", "& SETS", "dictionaries, sets, choosing a structure", "{'Ana': 15}"),
  ("../final/cs1_u3", "CS1  ·  UNIT 3", "FUNCTIONS &", "ABSTRACTION", "scope, call stack, lambda, map, filter", "lambda x: x * 2"),
  ("../final/cs1_u2", "CS1  ·  UNIT 2", "CONTROL", "FLOW", "if, loops, approximation, bisection", "while lo <= hi:"),
  ("../final/cs1_u1", "CS1  ·  UNIT 1", "COMPUTATION", "& PYTHON", "types, variables, strings, I/O", "x = 7 // 2"),

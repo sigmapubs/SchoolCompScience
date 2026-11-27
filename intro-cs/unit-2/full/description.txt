@@ -1,58 +1,93 @@
 Data and Binary: Bits, Hex, Text, Images, Sound & Compression | Intro to CS Unit 2
 
-How does a computer store everything as 0s and 1s? This video covers all of Unit 2: counting in binary, hexadecimal, how text (ASCII and Unicode), images (pixels and RGB) and sound (sampling) become numbers, and how compression makes files smaller. Each topic ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. Also covers AP Computer Science Principles Big Idea 2: Data.
+How does a computer store everything as 0s and 1s? This video covers all of Unit 2: counting in binary, hexadecimal, how text (ASCII and Unicode), images (pixels and RGB) and sound (sampling) become numbers, and how compression makes files smaller. Each topic ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Also covers AP Computer Science Principles Big Idea 2: Data.
 
 Course: Intro to Computer Science · Unit 2: Data and Binary (the whole unit in one video)
 Previous: Intro to Computer Science, Unit 1: What Is a Computer?
 Next: Intro to Computer Science, Unit 3: Algorithms
 
 0:00 Introduction
-0:14 Counting in binary
-0:25 Bits: switches off and on
-0:39 Place value in base ten
-0:57 Place value in base two
+0:18 Counting in binary
+0:28 Bits: switches off and on
+0:41 Place value in base ten
+0:59 Place value in base two
 1:12 Counting from 0 to 8
-1:31 Binary to decimal
-1:48 Decimal to binary
-2:05 Bits and bytes
-2:20 Your turn
-2:36 Hexadecimal
-2:51 Sixteen digits: 0-9 and A-F
-3:07 One hex digit = four bits
-3:24 Converting a byte to hex
-3:43 Hex place values
-4:01 Where you see hex
-4:27 Your turn
-4:46 Text as numbers: ASCII and Unicode
-4:57 Every character gets a number
-5:15 Encoding "Hi!"
-5:30 The ASCII table
-5:54 Unicode: every language
-6:18 UTF-8
-6:35 Your turn
-6:51 Images as numbers: pixels and RGB
-7:02 Pixels
-7:18 Black and white images
-7:32 Color: red, green, blue
-7:50 16 million colors
-8:02 How big is an image?
-8:23 Resolution
-8:39 Your turn
-8:57 Sound as numbers: sampling
-9:10 Sound waves
-9:31 Samples
-9:46 Sample rate
-10:00 CD quality
-10:10 Bit depth
-10:29 Size of one minute of audio
-10:45 Your turn
-11:05 Compression: lossless and lossy
-11:21 Data repeats
-11:41 Run-length encoding
-11:57 Lossless compression
-12:13 Lossy compression
-12:35 Which one to use?
-12:49 Your turn
+1:30 Binary to decimal
+1:46 Decimal to binary
+2:02 Bits and bytes
+2:16 Your turn
+2:29 Worked example: converting 45 to binary
+2:41 The work
+2:56 Step by step
+3:13 Result and tips
+3:28 Your turn
+3:43 Hexadecimal
+3:56 Sixteen digits: 0-9 and A-F
+4:12 One hex digit = four bits
+4:27 Converting a byte to hex
+4:46 Hex place values
+5:03 Where you see hex
+5:27 Your turn
+5:43 Worked example: decoding a web color
+5:59 The work
+6:12 Step by step
+6:31 Result and tips
+6:45 Your turn
+7:00 Text as numbers: ASCII and Unicode
+7:11 Every character gets a number
+7:27 Encoding "Hi!"
+7:41 The ASCII table
+8:04 Unicode: every language
+8:27 UTF-8
+8:43 Your turn
+8:59 Worked example: encoding a word
+9:12 The work
+9:23 Step by step
+9:50 Result and tips
+10:03 Your turn
+10:15 Images as numbers: pixels and RGB
+10:26 Pixels
+10:41 Black and white images
+10:54 Color: red, green, blue
+11:12 16 million colors
+11:23 How big is an image?
+11:42 Resolution
+11:57 Your turn
+12:16 Worked example: how big is a photo
+12:31 The work
+12:44 Step by step
+13:00 Result and tips
+13:13 Your turn
+13:33 Sound as numbers: sampling
+13:45 Sound waves
+14:04 Samples
+14:18 Sample rate
+14:31 CD quality
+14:41 Bit depth
+14:59 Size of one minute of audio
+15:14 Your turn
+15:33 Worked example: sizing a voice message
+15:50 The work
+16:21 Result and tips
+16:35 Your turn
+16:48 Compression: lossless and lossy
+17:02 Data repeats
+17:21 Run-length encoding
+17:36 Lossless compression
+17:51 Lossy compression
+18:11 Which one to use?
+18:25 Your turn
+18:41 Worked example: run-length encoding an image row
+18:59 The work
+19:09 Step by step
+19:26 Result and tips
+19:42 Your turn
+19:54 Putting Unit 2 together: sending a photo message
+20:05 The plan
+20:17 Caption → ASCII → binary
+20:30 Bytes in hex
+20:51 The voice note
+21:19 Your turn
 
 Intro to Computer Science, the complete course (6 units, full syllabus):
 • Unit 1: What Is a Computer?

@@ -28,7 +28,7 @@ e = m.index('intro="', k) + 7; f = m.index('",', e)
 intro = m[e:f]
 extra = " Every lesson is followed by a step-by-step worked example" + (", and the unit ends with a 'putting it together' example that uses everything at once." if cap else ".")
 if "step-by-step worked example" not in intro:
-    intro = intro.replace(" Each lesson ends with a practice problem.", "").replace(" Each topic ends with an AP-style practice problem.", "") + extra + " Each part ends with a practice problem."
+    intro = intro.replace(" Each lesson ends with a practice problem.", "").replace(" Each topic ends with an AP-style practice problem.", "") + extra + ("" if re.search(r"ends with (a|an) [^.]*practice", intro) else " Each part ends with a practice problem.")
     m = m[:e] + intro + m[f:]
     open(fm, "w").write(m)
 print(g, len(lessons), "lessons; cap:", cap)

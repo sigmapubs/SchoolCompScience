@@ -1,6 +1,6 @@
 How the Internet Works: Networks, Packets, IP Addresses, DNS, HTTP & the Cloud | Intro to CS Unit 5
 
-What really happens when you load a web page? This video covers all of Unit 5: what a network is (LAN, WAN, bandwidth, latency), packets and routing, IP addresses and DNS, how the web works with HTTP, HTTPS and browsers, and what the cloud really is. Each section ends with a practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. 
+What really happens when you load a web page? This video covers all of Unit 5: what a network is (LAN, WAN, bandwidth, latency), packets and routing, IP addresses and DNS, how the web works with HTTP, HTTPS and browsers, and what the cloud really is. Each section ends with a practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. 
 
 Course: Intro to Computer Science · Unit 5: Networks and the Internet (complete unit)
 Previous: Python Decisions, Loops, Functions & Lists (Unit 4, Part 2)

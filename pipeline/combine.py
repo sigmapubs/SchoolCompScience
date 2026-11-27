@@ -6,7 +6,14 @@ def part(d):
     if d.startswith("intro:"):
         k = d[6:]; return dict(video=f"{I}/{k}/intro.mp4", srt=f"{I}/{k}/captions.srt", timings=f"{I}/{k}/timings.json", extra=0.0, name="Introduction", intro=True)
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"cs1_u1_l01b": "Worked example: running the square root recipe", "cs1_u1_l02b": "Worked example: predicting values and types", "cs1_u1_l03b": "Worked example: tracing state line by line", "cs1_u1_l04b": "Worked example: cleaning up an email address", "cs1_u1_l05b": "Worked example: a receipt line with f-strings", "cs1_u1_cap": "Putting Unit 1 together: a username generator", 
+NAMES = {
+ "cs1_u6_l01b": "Worked example: tests that catch a leap year bug", "cs1_u6_l02b": "Worked example: finding a bug with print", "cs1_u6_l03b": "Worked example: a division that never crashes", "cs1_u6_l04b": "Worked example: failing fast with assert", "cs1_u6_l05b": "Worked example: write, append, read back", "cs1_u6_cap": "Putting Unit 6 together: a grade report that never crashes", 
+ "cs1_u5_l01b": "Worked example: sum to n, the recursive way", "cs1_u5_l02b": "Worked example: counting digits recursively", "cs1_u5_l03b": "Worked example: flattening a nested list", "cs1_u5_l04b": "Worked example: counting calls with and without a memo", "cs1_u5_l05b": "Worked example: reversing a string both ways", "cs1_u5_cap": "Putting Unit 5 together: a folder explorer", 
+ "cs1_u4_l05b": "Worked example: counting words with a dictionary", "cs1_u4_l06b": "Worked example: comparing two clubs with sets", "cs1_u4_l07b": "Worked example: choosing structures for a library app", "cs1_u4b_cap": "Putting Part 2 together: word statistics", 
+ "cs1_u4_l01b": "Worked example: returning two values with a tuple", "cs1_u4_l02b": "Worked example: tracing list mutations", "cs1_u4_l03b": "Worked example: the aliasing bug in a function", "cs1_u4_l04b": "Worked example: loops into comprehensions", "cs1_u4a_cap": "Putting Part 1 together: a playlist tool", 
+ "cs1_u3_l01b": "Worked example: decomposing a grade calculator", "cs1_u3_l02b": "Worked example: tracing the call stack", "cs1_u3_l03b": "Worked example: writing and testing a spec", "cs1_u3_l04b": "Worked example: passing functions around", "cs1_u3_l05b": "Worked example: writing and importing your own module", "cs1_u3_l06b": "Worked example: a filter then map pipeline", "cs1_u3_cap": "Putting Unit 3 together: a gradebook with a curve", 
+ "cs1_u2_l01b": "Worked example: fixing a letter grade bug", "cs1_u2_l02b": "Worked example: summing digits with a while loop", "cs1_u2_l03b": "Worked example: counting and searching in a string", "cs1_u2_l04b": "Worked example: how the step size changes everything", "cs1_u2_l05b": "Worked example: bisection for a cube root", "cs1_u2_cap": "Putting Unit 2 together: a loan payoff calculator", 
+ "cs1_u1_l01b": "Worked example: running the square root recipe", "cs1_u1_l02b": "Worked example: predicting values and types", "cs1_u1_l03b": "Worked example: tracing state line by line", "cs1_u1_l04b": "Worked example: cleaning up an email address", "cs1_u1_l05b": "Worked example: a receipt line with f-strings", "cs1_u1_cap": "Putting Unit 1 together: a username generator", 
  "csp_ex_l01b": "Worked example: checking a Create program against the rules", "csp_ex_l02b": "Worked example: answering the two-calls question", "csp_ex_l03b": "Worked example: three questions in five minutes", 
  "csp_b5_l01b": "Worked example: benefits and harms of a smart doorbell", "csp_b5_l02b": "Worked example: planning for the digital divide", "csp_b5_l03b": "Worked example: spotting bias in training data", "csp_b5_l04b": "Worked example: checking volunteer data", "csp_b5_l05b": "Worked example: can I use it in my project?", "csp_b5_l06b": "Worked example: how strong is a password?", "csp_b5_cap": "Putting Big Idea 5 together: launching a school app", 
  "csp_b4_l01b": "Worked example: bandwidth and packets", "csp_b4_l02b": "Worked example: which protocol does what?", "csp_b4_l03b": "Worked example: finding the weak link in a network", "csp_b4_l04b": "Worked example: speedup with 1, 2 and 4 processors", "csp_b4_l05b": "Worked example: how many computers do we need?", "csp_b4_cap": "Putting Big Idea 4 together: uploading a video", 
@@ -91,6 +98,7 @@ def build(slug, parts):
                 starts.append(st + (p["extra"] if k >= 4 else 0)); st += x["duration"]
             full.append((t0, NAMES[d]))
             for k, lab in enumerate(LABELS[d][1:], 1):
+                lab = re.sub(r"^\d+ · ", "", lab); lab = lab[:1].upper() + lab[1:]
                 if k < len(T) - 1 and starts[k] < cut: full.append((t0 + starts[k], lab))
         else: full.append((t0, "Introduction"))
         for m in re.finditer(r"\d+\n(\d\d):(\d\d):(\d\d),(\d\d\d) --> (\d\d):(\d\d):(\d\d),(\d\d\d)\n(.*?)\n\n", open(p["srt"]).read() + "\n", re.S):
@@ -117,13 +125,16 @@ def build(slug, parts):
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
  "cs1_u9": ["cs1_u9_l01", "cs1_u9_l02", "cs1_u9_l03", "cs1_u9_l04"],
- "cs1_u8": ["cs1_u8_l01", "cs1_u8_l02", "cs1_u8_l03", "cs1_u8_l04", "cs1_u8_l05", "cs1_u8_l06", "cs1_u8_l07", "cs1_u8_l08"],
- "cs1_u7": ["cs1_u7_l01", "cs1_u7_l02", "cs1_u7_l03", "cs1_u7_l04", "cs1_u7_l05", "cs1_u7_l06", "cs1_u7_l07"],
- "cs1_u6": ["cs1_u6_l01", "cs1_u6_l02", "cs1_u6_l03", "cs1_u6_l04", "cs1_u6_l05"],
- "cs1_u5": ["cs1_u5_l01", "cs1_u5_l02", "cs1_u5_l03", "cs1_u5_l04", "cs1_u5_l05"],
- "cs1_u4": ["cs1_u4_l01", "cs1_u4_l02", "cs1_u4_l03", "cs1_u4_l04", "cs1_u4_l05", "cs1_u4_l06", "cs1_u4_l07"],
- "cs1_u3": ["cs1_u3_l01", "cs1_u3_l02", "cs1_u3_l03", "cs1_u3_l04", "cs1_u3_l05", "cs1_u3_l06"],
- "cs1_u2": ["cs1_u2_l01", "cs1_u2_l02", "cs1_u2_l03", "cs1_u2_l04", "cs1_u2_l05"],
+ "cs1_u8_part1": ["cs1_u8_l01", "cs1_u8_l02", "cs1_u8_l03", "cs1_u8_l04"],
+ "cs1_u8_part2": ["cs1_u8_l05", "cs1_u8_l06", "cs1_u8_l07", "cs1_u8_l08"],
+ "cs1_u7_part1": ["cs1_u7_l01", "cs1_u7_l02", "cs1_u7_l03", "cs1_u7_l04"],
+ "cs1_u7_part2": ["cs1_u7_l05", "cs1_u7_l06", "cs1_u7_l07"],
+ "cs1_u6": ["cs1_u6_l01", "cs1_u6_l01b", "cs1_u6_l02", "cs1_u6_l02b", "cs1_u6_l03", "cs1_u6_l03b", "cs1_u6_l04", "cs1_u6_l04b", "cs1_u6_l05", "cs1_u6_l05b", "cs1_u6_cap"],
+ "cs1_u5": ["cs1_u5_l01", "cs1_u5_l01b", "cs1_u5_l02", "cs1_u5_l02b", "cs1_u5_l03", "cs1_u5_l03b", "cs1_u5_l04", "cs1_u5_l04b", "cs1_u5_l05", "cs1_u5_l05b", "cs1_u5_cap"],
+ "cs1_u4_part1": ["cs1_u4_l01", "cs1_u4_l01b", "cs1_u4_l02", "cs1_u4_l02b", "cs1_u4_l03", "cs1_u4_l03b", "cs1_u4_l04", "cs1_u4_l04b", "cs1_u4a_cap"],
+ "cs1_u4_part2": ["cs1_u4_l05", "cs1_u4_l05b", "cs1_u4_l06", "cs1_u4_l06b", "cs1_u4_l07", "cs1_u4_l07b", "cs1_u4b_cap"],
+ "cs1_u3": ["cs1_u3_l01", "cs1_u3_l01b", "cs1_u3_l02", "cs1_u3_l02b", "cs1_u3_l03", "cs1_u3_l03b", "cs1_u3_l04", "cs1_u3_l04b", "cs1_u3_l05", "cs1_u3_l05b", "cs1_u3_l06", "cs1_u3_l06b", "cs1_u3_cap"],
+ "cs1_u2": ["cs1_u2_l01", "cs1_u2_l01b", "cs1_u2_l02", "cs1_u2_l02b", "cs1_u2_l03", "cs1_u2_l03b", "cs1_u2_l04", "cs1_u2_l04b", "cs1_u2_l05", "cs1_u2_l05b", "cs1_u2_cap"],
  "cs1_u1": ["cs1_u1_l01", "cs1_u1_l01b", "cs1_u1_l02", "cs1_u1_l02b", "cs1_u1_l03", "cs1_u1_l03b", "cs1_u1_l04", "cs1_u1_l04b", "cs1_u1_l05", "cs1_u1_l05b", "cs1_u1_cap"],
  "apcsa_exam": ["csa_ex_l01", "csa_ex_l01b", "csa_ex_l02", "csa_ex_l02b", "csa_ex_l03", "csa_ex_l03b", "csa_ex_l04", "csa_ex_l04b", "csa_ex_l05", "csa_ex_l05b"],
  "apcsa_u4_part3": ["csa_u4_l13", "csa_u4_l13b", "csa_u4_l14", "csa_u4_l14b", "csa_u4_l15", "csa_u4_l15b", "csa_u4_l16", "csa_u4_l16b", "csa_u4_l17", "csa_u4_l17b", "csa_u4c_cap"],

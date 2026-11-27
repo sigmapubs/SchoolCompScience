@@ -1,6 +1,6 @@
 Algorithms: Flowcharts, Linear & Binary Search, Selection Sort | Intro to CS Unit 3
 
-What is an algorithm, and how do you tell a good one from a slow one? This video covers all of Unit 3: sequence, selection and repetition, flowcharts and pseudocode, linear search, binary search, selection sort, and comparing algorithms by how their step count grows. Each section ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. Also covers AP Computer Science Principles Big Idea 3 topics on algorithms, searching and efficiency.
+What is an algorithm, and how do you tell a good one from a slow one? This video covers all of Unit 3: sequence, selection and repetition, flowcharts and pseudocode, linear search, binary search, selection sort, and comparing algorithms by how their step count grows. Each section ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Also covers AP Computer Science Principles Big Idea 3 topics on algorithms, searching and efficiency.
 
 Course: Intro to Computer Science · Unit 3: Algorithms (the whole unit in one video)
 Previous: Intro to Computer Science, Unit 2: Data and Binary

@@ -1,6 +1,6 @@
 Cybersecurity Basics: Passwords, Encryption, Phishing, Malware, Privacy & AI Bias | Intro to CS Unit 6
 
-How do you stay safe online, and how do computers affect society? This video covers all of Unit 6: passwords and two-factor authentication, the big idea of encryption (from the Caesar cipher to public keys and HTTPS), how to spot phishing and malware, and privacy, PII and bias in AI. Each section ends with a practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. This is the final unit of Intro to Computer Science.
+How do you stay safe online, and how do computers affect society? This video covers all of Unit 6: passwords and two-factor authentication, the big idea of encryption (from the Caesar cipher to public keys and HTTPS), how to spot phishing and malware, and privacy, PII and bias in AI. Each section ends with a practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. This is the final unit of Intro to Computer Science.
 
 Course: Intro to Computer Science · Unit 6: Security and Society (complete unit)
 Previous: How the Internet Works (Unit 5)
