@@ -1,6 +1,6 @@
 What Is a Computer? CPU, Memory, Storage & the Operating System | Intro to CS Unit 1
 
-Start Intro to Computer Science here. This video covers all of Unit 1: the four jobs every computer does (input, processing, storage, output), what the CPU, memory and storage do, how the CPU runs instructions with fetch, decode, execute, why RAM forgets and storage doesn't, what the operating system does, and how software is written, compiled and interpreted. Each section ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem. Also covers AP Computer Science Principles Big Idea 4 basics: computing systems.
+Start Intro to Computer Science here. This video covers all of Unit 1: the four jobs every computer does (input, processing, storage, output), what the CPU, memory and storage do, how the CPU runs instructions with fetch, decode, execute, why RAM forgets and storage doesn't, what the operating system does, and how software is written, compiled and interpreted. Each section ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Also covers AP Computer Science Principles Big Idea 4 basics: computing systems.
 
 Course: Intro to Computer Science · Unit 1: What Is a Computer? (the whole unit in one video)
 Previous: Start of the course
@@ -72,10 +72,10 @@ Next: Intro to Computer Science, Unit 2: Data and Binary
 16:47 Your turn
 17:00 Putting Unit 1 together: one keypress, start to finish
 17:11 The plan
-17:27 2 · operating system
-17:39 3 · CPU
-17:53 4 · memory and output
-18:04 5 · storage
+17:27 Operating system
+17:39 CPU
+17:53 Memory and output
+18:04 Storage
 18:14 Your turn
 
 Intro to Computer Science, the complete course (6 units, full syllabus):
