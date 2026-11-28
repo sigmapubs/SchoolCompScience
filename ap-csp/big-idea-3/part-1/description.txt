@@ -7,30 +7,55 @@ Previous: AP CSP Big Idea 2: Data
 Next: AP CSP Big Idea 3 Part 2: Conditionals, Iteration and List Operations
 
 0:00 Introduction
-0:15 Variables and assignments
-0:36 Replacing a value
-0:48 Right side first
-0:59 The swap trap
+0:18 Variables and assignments
+0:38 Replacing a value
+0:49 Right side first
+1:00 The swap trap
 1:15 Meaningful names
-1:43 Data abstraction and lists
-2:01 Indexes start at 1
-2:13 Out of range and LENGTH
-2:25 Data abstraction
-2:38 Lists of strings
-3:04 Mathematical expressions and MOD
-3:34 What MOD means
-3:47 MOD priority
-3:57 Even, odd, last digit
-4:08 Wrapping around
-4:37 Strings
-4:52 Concatenation
-5:02 Substrings
-5:17 Length
-5:38 Your turn
-5:58 Boolean expressions
-6:20 = vs ←
-6:31 NOT, AND, OR
-6:51 Order of logic operators
+1:42 Worked example: a variable that doesn't update
+1:54 The work
+2:16 Result and tips
+2:29 Your turn
+2:39 Data abstraction and lists
+2:56 Indexes start at 1
+3:07 Out of range and LENGTH
+3:19 Data abstraction
+3:30 Lists of strings
+3:55 Worked example: tracing list procedures
+4:11 The work
+4:21 Step by step
+4:38 Result and tips
+4:51 Your turn
+5:02 Mathematical expressions and MOD
+5:30 What MOD means
+5:42 MOD priority
+6:03 Wrapping around
+6:31 Worked example: clocks and calendars with MOD
+6:52 The work
+7:05 Step by step
+7:24 Result and tips
+7:35 Your turn
+7:49 Strings
+8:03 Concatenation
+8:27 Length
+8:47 Your turn
+9:07 Worked example: building a username
+9:28 The work
+9:49 Result and tips
+10:00 Your turn
+10:12 Boolean expressions
+10:32 = vs ←
+10:43 NOT, AND, OR
+11:02 Order of logic operators
+11:30 Worked example: who can enter
+11:48 The work
+12:15 Result and tips
+12:38 Putting Part 1 together: a complete program
+12:50 The plan
+13:01 Data and total
+13:14 Dollars and cents
+13:36 Run it
+13:50 Your turn
 
 AP Computer Science Principles, the complete course (6 units, full syllabus):
 • Big Idea 1: Creative Development

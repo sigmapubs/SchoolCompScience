@@ -1,508 +1,1037 @@
 1
-00:00:00,000 --> 00:00:05,530
+00:00:00,000 --> 00:00:04,222
 Welcome to School Computer Science,
 Explained. This is AP Computer Science
 
 2
-00:00:05,530 --> 00:00:11,059
+00:00:04,222 --> 00:00:08,444
 Principles, Big Idea 3, part one. We'll
 learn the building blocks of every
 
 3
-00:00:11,059 --> 00:00:13,973
+00:00:08,444 --> 00:00:13,008
 program, written in AP exam pseudocode.
+After every lesson, we'll work through a
 
 4
-00:00:15,147 --> 00:00:20,928
+00:00:13,008 --> 00:00:17,515
+full example step by step, and we'll
+finish by putting the whole unit together.
+
+5
+00:00:18,688 --> 00:00:24,064
 Big Idea 3 is the biggest part of the AP
 exam: algorithms and programming.
 
-5
-00:00:21,378 --> 00:00:22,914
+6
+00:00:24,514 --> 00:00:25,965
 And it starts with variables.
 
-6
-00:00:24,064 --> 00:00:30,263
+7
+00:00:27,115 --> 00:00:32,749
 A variable is a named place that holds a
 value. On the AP exam, assignment uses a
 
-7
-00:00:30,263 --> 00:00:31,104
+8
+00:00:32,749 --> 00:00:33,515
 left arrow.
 
-8
-00:00:31,554 --> 00:00:35,437
+9
+00:00:33,965 --> 00:00:37,698
 a, arrow, five, stores five in a. You read
 it as a gets five.
 
-9
-00:00:36,587 --> 00:00:42,343
+10
+00:00:38,848 --> 00:00:44,178
 A variable holds one value at a time.
 Assigning a new value replaces the old
 
-10
-00:00:42,343 --> 00:00:42,646
+11
+00:00:44,178 --> 00:00:44,459
 one.
 
-11
-00:00:43,096 --> 00:00:46,936
+12
+00:00:44,909 --> 00:00:48,493
 a gets five. Then a gets eight. Now a is
 eight, and five is gone.
 
-12
-00:00:48,086 --> 00:00:51,072
+13
+00:00:49,643 --> 00:00:52,480
 The right side is evaluated first, then
 stored.
 
-13
-00:00:51,522 --> 00:00:56,639
+14
+00:00:52,930 --> 00:00:57,797
 score gets score plus ten takes the
 current score, adds ten, and stores the
 
-14
-00:00:56,639 --> 00:00:58,072
+15
+00:00:57,797 --> 00:00:59,159
 result back in score.
 
-15
-00:00:59,222 --> 00:01:05,224
+16
+00:01:00,309 --> 00:01:05,900
 Watch out for this classic exam question.
 a gets one, b gets two, a gets b, b gets
 
-16
-00:01:05,224 --> 00:01:06,688
+17
+00:01:05,900 --> 00:01:07,264
 a. What are a and b?
 
-17
-00:01:07,138 --> 00:01:12,668
+18
+00:01:07,714 --> 00:01:12,933
 a becomes two. Then b gets a, which is now
 two. Both are two. To swap, you need a
 
-18
-00:01:12,668 --> 00:01:13,965
+19
+00:01:12,933 --> 00:01:14,157
 temporary variable.
 
-19
-00:01:15,115 --> 00:01:18,379
+20
+00:01:15,307 --> 00:01:18,421
 Choose meaningful names, like highScore
 instead of x.
 
-20
-00:01:18,829 --> 00:01:23,309
+21
+00:01:18,871 --> 00:01:23,181
 Good names make code easier to read, for
 you and for anyone you work with.
 
-21
-00:01:24,459 --> 00:01:31,008
+22
+00:01:24,331 --> 00:01:30,432
 Your turn. x gets three. y gets x plus
 two. x gets y times two. What are x and y?
 
-22
-00:01:31,458 --> 00:01:32,738
+23
+00:01:30,882 --> 00:01:32,077
 Pause the video now.
 
-23
-00:01:33,188 --> 00:01:39,311
+24
+00:01:32,527 --> 00:01:38,244
 y is five. Then x is five times two, which
 is ten. So x is ten and y is five.
 
-24
-00:01:39,761 --> 00:01:42,150
-Next, we'll store many values in a list.
-
 25
-00:01:43,300 --> 00:01:48,128
+00:01:38,694 --> 00:01:41,681
+Next, let's work through a full example,
+step by step.
+
+26
+00:01:42,831 --> 00:01:47,524
+Let's trace assignments in AP pseudocode,
+and catch a trap the exam loves.
+
+27
+00:01:48,674 --> 00:01:53,309
+The problem: what does this code display?
+Watch what happens to total when price
+
+28
+00:01:53,309 --> 00:01:53,773
+changes.
+
+29
+00:01:54,923 --> 00:01:59,296
+The arrow means gets. The right side is
+worked out once, right then, and stored.
+
+30
+00:01:59,746 --> 00:02:03,138
+Changing price later does not go back and
+change total.
+
+31
+00:02:04,288 --> 00:02:06,848
+price gets twenty, qty gets three.
+
+32
+00:02:07,298 --> 00:02:09,645
+total gets twenty times three: sixty.
+
+33
+00:02:10,095 --> 00:02:15,275
+price gets twenty five. total still holds
+sixty. It doesn't recalculate. Display
+
+34
+00:02:15,275 --> 00:02:15,663
+sixty.
+
+35
+00:02:16,813 --> 00:02:19,586
+The program displays sixty, not seventy
+five.
+
+36
+00:02:20,036 --> 00:02:25,956
+A variable holds a value, not a formula.
+To update total, you'd need to run total
+
+37
+00:02:25,956 --> 00:02:27,930
+gets price times qty again.
+
+38
+00:02:29,080 --> 00:02:32,024
+Your turn. Trace these four lines. What is
+displayed?
+
+39
+00:02:32,474 --> 00:02:33,668
+Pause the video now.
+
+40
+00:02:34,118 --> 00:02:36,721
+Three. b got a copy of three before a
+changed.
+
+41
+00:02:37,171 --> 00:02:38,046
+Next, lists.
+
+42
+00:02:39,195 --> 00:02:43,662
 What if a program needs a hundred test
 scores? A hundred variables would be a
 
-26
-00:01:48,128 --> 00:01:48,441
+43
+00:02:43,662 --> 00:02:43,952
 mess.
 
-27
-00:01:48,891 --> 00:01:50,171
+44
+00:02:44,402 --> 00:02:45,576
 A list solves that.
 
-28
-00:01:51,321 --> 00:01:56,426
+45
+00:02:46,726 --> 00:02:51,495
 A list is an ordered collection of
 elements. On the AP exam it's written with
 
-29
-00:01:56,426 --> 00:01:57,487
+46
+00:02:51,495 --> 00:02:52,486
 square brackets.
 
-30
-00:01:57,937 --> 00:02:00,646
+47
+00:02:52,936 --> 00:02:55,453
 scores gets eighty five, ninety, seventy
 two.
 
-31
-00:02:01,796 --> 00:02:07,087
+48
+00:02:56,603 --> 00:03:01,531
 Here's a big difference from Python. AP
 lists start at index one, not zero.
 
-32
-00:02:07,537 --> 00:02:12,593
+49
+00:03:01,981 --> 00:03:06,738
 scores, bracket one, is eighty five.
 scores, bracket three, is seventy two.
 
-33
-00:02:13,743 --> 00:02:18,415
+50
+00:03:07,888 --> 00:03:12,240
 Using an index outside the list, like
 scores bracket four, is an error.
 
-34
-00:02:18,865 --> 00:02:23,618
+51
+00:03:12,690 --> 00:03:16,993
 LENGTH of scores gives the number of
 elements, so the last index is always
 
-35
-00:02:23,618 --> 00:02:24,710
+52
+00:03:16,993 --> 00:03:17,981
 LENGTH of scores.
 
-36
-00:02:25,860 --> 00:02:30,689
+53
+00:03:19,131 --> 00:03:23,642
 Lists are a kind of data abstraction. You
 give one name to a whole collection, and
 
-37
-00:02:30,689 --> 00:02:32,985
+54
+00:03:23,642 --> 00:03:25,787
 you don't need to know how it's stored.
 
-38
-00:02:33,435 --> 00:02:36,934
+55
+00:03:26,237 --> 00:03:29,458
 That makes programs simpler to write, and
 easier to change.
 
-39
-00:02:38,084 --> 00:02:43,322
+56
+00:03:30,608 --> 00:03:35,542
 Strings and lists are both ordered. Each
 element of a list can even be a string,
 
-40
-00:02:43,322 --> 00:02:44,697
+57
+00:03:35,542 --> 00:03:36,838
 like a list of names.
 
-41
-00:02:45,847 --> 00:02:51,440
+58
+00:03:37,988 --> 00:03:43,300
 Your turn. nums gets ten, twenty, thirty,
 forty. What is nums bracket two, and what
 
-42
-00:02:51,440 --> 00:02:52,653
+59
+00:03:43,300 --> 00:03:44,452
 is LENGTH of nums?
 
-43
-00:02:53,103 --> 00:02:54,383
+60
+00:03:44,902 --> 00:03:46,096
 Pause the video now.
 
-44
-00:02:54,833 --> 00:03:00,017
+61
+00:03:46,546 --> 00:03:51,261
 nums bracket two is twenty, because
 indexes start at one. LENGTH is four.
 
-45
-00:03:00,467 --> 00:03:03,389
-Next, we'll do math with expressions and
-MOD.
+62
+00:03:51,711 --> 00:03:54,698
+Next, let's work through a full example,
+step by step.
 
-46
-00:03:04,539 --> 00:03:11,521
+63
+00:03:55,848 --> 00:04:01,437
+Let's trace a list through every AP list
+procedure, remembering that AP lists start
+
+64
+00:04:01,437 --> 00:04:02,312
+at index one.
+
+65
+00:04:03,462 --> 00:04:08,736
+The problem: scores starts as eighty five,
+ninety, seventy two, sixty four. Show the
+
+66
+00:04:08,736 --> 00:04:10,054
+list after each line.
+
+67
+00:04:11,204 --> 00:04:16,404
+Index one is the first element. INSERT
+puts a value at an index and shifts the
+
+68
+00:04:16,404 --> 00:04:20,271
+rest right. REMOVE takes one out and
+shifts the rest left.
+
+69
+00:04:21,421 --> 00:04:25,687
+scores at two is the second element,
+ninety. It becomes ninety five.
+
+70
+00:04:26,137 --> 00:04:30,729
+APPEND adds eighty eight at the end.
+INSERT puts seventy at index one, so
+
+71
+00:04:30,729 --> 00:04:32,239
+everything shifts right.
+
+72
+00:04:32,689 --> 00:04:37,097
+REMOVE at three takes out the third
+element, ninety five. Five elements
+
+73
+00:04:37,097 --> 00:04:37,531
+remain.
+
+74
+00:04:38,681 --> 00:04:43,716
+The list ends as seventy, eighty five,
+seventy two, sixty four, eighty eight, and
+
+75
+00:04:43,716 --> 00:04:45,145
+the display shows five.
+
+76
+00:04:45,595 --> 00:04:50,737
+Using index zero, or an index bigger than
+the length, is an error on the AP exam.
+
+77
+00:04:51,887 --> 00:04:55,236
+Your turn. After all that, what is scores
+at LENGTH of scores?
+
+78
+00:04:55,686 --> 00:04:56,881
+Pause the video now.
+
+79
+00:04:57,331 --> 00:04:58,803
+Eighty eight, the last element.
+
+80
+00:04:59,253 --> 00:05:01,343
+Next, math expressions and MOD.
+
+81
+00:05:02,493 --> 00:05:08,967
 Programs calculate constantly. The AP exam
 uses the familiar operators, plus one that
 
-47
-00:03:11,521 --> 00:03:13,328
+82
+00:05:08,967 --> 00:05:10,642
 surprises people: MOD.
 
-48
-00:03:14,478 --> 00:03:20,875
+83
+00:05:11,792 --> 00:05:17,771
 Plus, minus, times and divide work as
 usual. In AP pseudocode, divide gives the
 
-49
-00:03:20,875 --> 00:03:25,572
+84
+00:05:17,771 --> 00:05:22,160
 exact answer, so seven divided by two is
 three point five.
 
-50
-00:03:26,022 --> 00:03:30,405
+85
+00:05:22,610 --> 00:05:26,691
 Order of operations applies:
 multiplication and division before
 
-51
-00:03:30,405 --> 00:03:33,744
+86
+00:05:26,691 --> 00:05:29,800
 addition and subtraction, and parentheses
 first.
 
-52
-00:03:34,894 --> 00:03:38,948
+87
+00:05:30,950 --> 00:05:34,747
 a MOD b gives the remainder when a is
 divided by b.
 
-53
-00:03:39,398 --> 00:03:45,569
+88
+00:05:35,197 --> 00:05:40,913
 Seventeen MOD five is two, because five
 goes into seventeen three times, with two
 
-54
-00:03:45,569 --> 00:03:46,331
+89
+00:05:40,913 --> 00:05:41,618
 left over.
 
-55
-00:03:47,481 --> 00:03:51,684
+90
+00:05:42,768 --> 00:05:46,800
 MOD has the same priority as
 multiplication and division.
 
-56
-00:03:52,134 --> 00:03:56,443
+91
+00:05:47,250 --> 00:05:51,325
 So three plus ten MOD four is three plus
 two, which is five.
 
-57
-00:03:57,593 --> 00:04:04,356
+92
+00:05:52,475 --> 00:05:58,854
 MOD is very useful. n MOD two is zero for
 even numbers and one for odd numbers.
 
-58
-00:04:04,806 --> 00:04:07,814
+93
+00:05:59,304 --> 00:06:02,098
 And n MOD ten gives the last digit of n.
 
-59
-00:04:08,964 --> 00:04:14,998
+94
+00:06:03,248 --> 00:06:08,874
 MOD also wraps around. To go around a
 clock, hour gets hour plus one, MOD
 
-60
-00:04:14,998 --> 00:04:15,577
+95
+00:06:08,874 --> 00:06:09,414
 twelve.
 
-61
-00:04:16,727 --> 00:04:22,795
+96
+00:06:10,564 --> 00:06:16,190
 Your turn. What is twenty three MOD four,
 and what is four plus six times two MOD
 
-62
-00:04:22,795 --> 00:04:23,170
+97
+00:06:16,190 --> 00:06:16,537
 five?
 
-63
-00:04:23,620 --> 00:04:24,900
+98
+00:06:16,987 --> 00:06:18,182
 Pause the video now.
 
-64
-00:04:25,350 --> 00:04:31,664
+99
+00:06:18,632 --> 00:06:24,527
 Twenty three MOD four is three. Then six
 times two is twelve, twelve MOD five is
 
-65
-00:04:31,664 --> 00:04:34,032
+100
+00:06:24,527 --> 00:06:26,738
 two, and four plus two is six.
 
-66
-00:04:34,482 --> 00:04:36,104
-Next, we'll work with strings.
+101
+00:06:27,188 --> 00:06:30,175
+Next, let's work through a full example,
+step by step.
 
-67
-00:04:37,254 --> 00:04:41,627
+102
+00:06:31,325 --> 00:06:36,859
+Let's use MOD to solve three real
+wrap-around problems: a clock, a calendar,
+
+103
+00:06:36,859 --> 00:06:38,024
+and odd or even.
+
+104
+00:06:39,174 --> 00:06:44,036
+The problem: it's ten o'clock. What time
+is it five hours later on a twelve hour
+
+105
+00:06:44,036 --> 00:06:44,400
+clock?
+
+106
+00:06:44,850 --> 00:06:50,617
+Today is Saturday, day six, with Sunday as
+day zero. What day is it in ten days? And
+
+107
+00:06:50,617 --> 00:06:51,784
+is seventeen odd?
+
+108
+00:06:52,934 --> 00:06:56,518
+a MOD b is the remainder when a is divided
+by b.
+
+109
+00:06:56,968 --> 00:07:03,185
+MOD is perfect for anything that wraps
+around, like hours and days. MOD two tells
+
+110
+00:07:03,185 --> 00:07:04,413
+you odd or even.
+
+111
+00:07:05,563 --> 00:07:11,180
+Ten plus five is fifteen. Fifteen divided
+by twelve is one, remainder three. Three
+
+112
+00:07:11,180 --> 00:07:11,728
+o'clock.
+
+113
+00:07:12,178 --> 00:07:18,191
+Six plus ten is sixteen. Sixteen divided
+by seven is two, remainder two. Day two is
+
+114
+00:07:18,191 --> 00:07:18,770
+Tuesday.
+
+115
+00:07:19,220 --> 00:07:23,722
+Seventeen divided by two leaves one. So
+seventeen is odd: true.
+
+116
+00:07:24,872 --> 00:07:26,536
+Three o'clock, Tuesday, and odd.
+
+117
+00:07:26,986 --> 00:07:32,654
+Common mistake: thinking MOD gives the
+quotient. Fifteen MOD twelve is three, the
+
+118
+00:07:32,654 --> 00:07:33,983
+remainder, not one.
+
+119
+00:07:35,133 --> 00:07:39,762
+Your turn. What is twenty three MOD five,
+and five MOD twenty three?
+
+120
+00:07:40,212 --> 00:07:41,407
+Pause the video now.
+
+121
+00:07:41,857 --> 00:07:46,242
+Three, and five. When the first number is
+smaller, the remainder is the number
+
+122
+00:07:46,242 --> 00:07:46,636
+itself.
+
+123
+00:07:47,086 --> 00:07:48,110
+Next, strings.
+
+124
+00:07:49,260 --> 00:07:53,313
 Names, messages, passwords. Programs work
 with text all the time.
 
-68
-00:04:42,077 --> 00:04:43,699
+125
+00:07:53,763 --> 00:07:55,235
 Text is stored as strings.
 
-69
-00:04:44,849 --> 00:04:48,582
+126
+00:07:56,385 --> 00:07:59,863
 A string is an ordered sequence of
 characters, written in quotes.
 
-70
-00:04:49,032 --> 00:04:51,208
+127
+00:08:00,313 --> 00:08:02,297
 The string hello has five characters.
 
-71
-00:04:52,358 --> 00:04:55,003
+128
+00:08:03,447 --> 00:08:05,879
 Concatenation joins strings end to end.
 
-72
-00:04:55,453 --> 00:05:00,758
+129
+00:08:06,329 --> 00:08:11,377
 Concatenating sun and flower gives
 sunflower. No space is added unless you
 
-73
-00:05:00,758 --> 00:05:01,619
+130
+00:08:11,377 --> 00:08:12,195
 include one.
 
-74
-00:05:02,769 --> 00:05:04,646
+131
+00:08:13,345 --> 00:08:15,095
 A substring is part of a string.
 
-75
-00:05:05,096 --> 00:05:10,413
+132
+00:08:15,545 --> 00:08:20,533
 On the AP exam, a substring is often
 described by a starting position and a
 
-76
-00:05:10,413 --> 00:05:16,013
+133
+00:08:20,533 --> 00:08:25,788
 length. Starting at position one, with
 length three, the substring of sunflower
 
-77
-00:05:16,013 --> 00:05:16,509
+134
+00:08:25,788 --> 00:08:26,254
 is sun.
 
-78
-00:05:17,659 --> 00:05:21,926
+135
+00:08:27,404 --> 00:08:31,372
 Like lists, strings in AP pseudocode count
 positions from one.
 
-79
-00:05:22,376 --> 00:05:26,280
+136
+00:08:31,822 --> 00:08:35,534
 The number of characters is the length.
 sunflower has length nine.
 
-80
-00:05:27,430 --> 00:05:32,256
+137
+00:08:36,684 --> 00:08:41,198
 Strings and numbers are different types.
 The string five and the number five are
 
-81
-00:05:32,256 --> 00:05:33,041
+138
+00:08:41,198 --> 00:08:41,932
 not the same.
 
-82
-00:05:33,491 --> 00:05:37,523
+139
+00:08:42,382 --> 00:08:46,179
 Joining the strings one and two gives the
 string one two, not three.
 
-83
-00:05:38,673 --> 00:05:43,828
+140
+00:08:47,329 --> 00:08:52,185
 Your turn. Concatenate code and run. Then
 take the substring starting at position
 
-84
-00:05:43,828 --> 00:05:46,374
+141
+00:08:52,185 --> 00:08:54,583
 three with length four. What do you get?
 
-85
-00:05:46,824 --> 00:05:48,104
+142
+00:08:55,033 --> 00:08:56,227
 Pause the video now.
 
-86
-00:05:48,554 --> 00:05:54,526
+143
+00:08:56,677 --> 00:09:02,227
 coderun. Starting at position three, four
 characters: d, e, r, u. So the answer is
 
-87
-00:05:54,526 --> 00:05:54,890
+144
+00:09:02,227 --> 00:09:02,565
 deru.
 
-88
-00:05:55,340 --> 00:05:57,388
-Next, we'll learn Boolean expressions.
+145
+00:09:03,015 --> 00:09:06,002
+Next, let's work through a full example,
+step by step.
 
-89
-00:05:58,538 --> 00:06:03,359
+146
+00:09:07,152 --> 00:09:12,037
+Let's build a username with concatenation
+and substrings, AP exam style.
+
+147
+00:09:13,187 --> 00:09:17,438
+The problem: make a username from the
+first three letters of the first name,
+
+148
+00:09:17,438 --> 00:09:21,913
+plus the first three letters of the last
+name, plus the length of the full name.
+
+149
+00:09:22,363 --> 00:09:26,992
+The exam defines substring of str, start,
+length, counting from one.
+
+150
+00:09:28,142 --> 00:09:32,707
+substring of first, one, three, takes
+three characters starting at position one.
+
+151
+00:09:33,157 --> 00:09:36,805
+concat joins strings end to end. No spaces
+are added.
+
+152
+00:09:37,955 --> 00:09:40,259
+substring of Maya, one, three: M a y.
+
+153
+00:09:40,709 --> 00:09:43,419
+substring of Rodriguez, one, three: R o d.
+
+154
+00:09:43,869 --> 00:09:48,647
+Four letters plus nine letters is
+thirteen. Join them all: May Rod thirteen.
+
+155
+00:09:49,797 --> 00:09:51,845
+The username is May Rod thirteen.
+
+156
+00:09:52,295 --> 00:09:57,730
+On the exam, always read how the question
+defines its string procedures. Positions
+
+157
+00:09:57,730 --> 00:09:59,122
+usually start at one.
+
+158
+00:10:00,272 --> 00:10:03,216
+Your turn. What is substring of sunflower,
+four, six?
+
+159
+00:10:03,666 --> 00:10:04,861
+Pause the video now.
+
+160
+00:10:05,311 --> 00:10:08,937
+flower. Start at position four, the f, and
+take six characters.
+
+161
+00:10:09,387 --> 00:10:10,923
+Next, Boolean expressions.
+
+162
+00:10:12,073 --> 00:10:16,574
 Every decision a program makes comes down
 to one question: true or false?
 
-90
-00:06:03,809 --> 00:06:05,367
+163
+00:10:17,024 --> 00:10:18,411
 Those are Boolean values.
 
-91
-00:06:06,517 --> 00:06:09,013
+164
+00:10:19,561 --> 00:10:21,844
 A Boolean value is either true or false.
 
-92
-00:06:09,463 --> 00:06:15,320
+165
+00:10:22,294 --> 00:10:27,723
 Relational operators compare values and
 give a Boolean: equals, not equal, greater
 
-93
-00:06:15,320 --> 00:06:19,105
+166
+00:10:27,723 --> 00:10:31,232
 than, less than, and greater or equal,
 less or equal.
 
-94
-00:06:20,255 --> 00:06:26,335
+167
+00:10:32,382 --> 00:10:38,057
 On the AP exam, equals is a single equals
 sign, because assignment uses the arrow.
 
-95
-00:06:26,785 --> 00:06:30,839
+168
+00:10:38,507 --> 00:10:42,283
 And not equal is written as an equals sign
 with a slash through it.
 
-96
-00:06:31,989 --> 00:06:34,314
+169
+00:10:43,433 --> 00:10:45,673
 NOT flips a Boolean. NOT true is false.
 
-97
-00:06:34,764 --> 00:06:39,991
+170
+00:10:46,123 --> 00:10:51,094
 AND is true only if both sides are true.
 OR is true if at least one side is true.
 
-98
-00:06:41,141 --> 00:06:46,891
+171
+00:10:52,244 --> 00:10:57,735
 To check if age is a teenager: age greater
 than or equal to thirteen, AND age less
 
-99
-00:06:46,891 --> 00:06:48,714
+172
+00:10:57,735 --> 00:10:59,476
 than or equal to nineteen.
 
-100
-00:06:49,164 --> 00:06:50,785
+173
+00:10:59,926 --> 00:11:01,355
 Both parts must be true.
 
-101
-00:06:51,935 --> 00:06:57,812
+174
+00:11:02,505 --> 00:11:07,900
 NOT is applied before AND, and AND before
 OR. When in doubt, use parentheses to make
 
-102
-00:06:57,812 --> 00:06:58,442
+175
+00:11:07,900 --> 00:11:08,478
 it clear.
 
-103
-00:06:59,592 --> 00:07:06,241
+176
+00:11:09,628 --> 00:11:15,740
 Your turn. x is seven. Is this true or
 false: x greater than five AND x MOD two
 
-104
-00:07:06,241 --> 00:07:07,251
+177
+00:11:15,740 --> 00:11:16,668
 equals zero?
 
-105
-00:07:07,701 --> 00:07:08,981
+178
+00:11:17,118 --> 00:11:18,313
 Pause the video now.
 
-106
-00:07:09,431 --> 00:07:14,880
+179
+00:11:18,763 --> 00:11:23,835
 Seven is greater than five, true. But
 seven MOD two is one, so that part is
 
-107
-00:07:14,880 --> 00:07:17,132
+180
+00:11:23,835 --> 00:11:25,931
 false. True AND false is false.
 
-108
-00:07:17,582 --> 00:07:21,209
-Next, we'll use Booleans to make decisions
-with conditionals.
+181
+00:11:26,381 --> 00:11:29,368
+Next, let's work through a full example,
+step by step.
 
-109
-00:07:22,359 --> 00:07:27,035
-If this helped, subscribe to School
-Computer Science, Explained, so you don't
+182
+00:11:30,518 --> 00:11:35,702
+Let's evaluate a Boolean expression with
+AND, OR and NOT for three real visitors.
 
-110
-00:07:27,035 --> 00:07:28,311
-miss the next lesson.
+183
+00:11:36,852 --> 00:11:42,332
+The problem: a science museum's late night
+event is open to visitors aged sixteen or
 
-111
-00:07:28,761 --> 00:07:29,657
+184
+00:11:42,332 --> 00:11:45,855
+older who have a ticket, or to anyone who
+is a member.
+
+185
+00:11:46,305 --> 00:11:47,201
+Who gets in?
+
+186
+00:11:48,351 --> 00:11:53,151
+AND is true only when both sides are true.
+OR is true when at least one side is.
+
+187
+00:11:53,601 --> 00:11:55,265
+Work out the parentheses first.
+
+188
+00:11:56,415 --> 00:12:01,631
+Visitor one: seventeen, with a ticket, not
+a member. Both parts of the AND are true,
+
+189
+00:12:01,631 --> 00:12:02,687
+so true. Gets in.
+
+190
+00:12:03,137 --> 00:12:07,951
+Visitor two: fourteen, with a ticket, not
+a member. The AND is false. Not a member.
+
+191
+00:12:07,951 --> 00:12:08,299
+False.
+
+192
+00:12:08,749 --> 00:12:13,870
+Visitor three: twelve, no ticket, but a
+member. The AND is false, but OR member is
+
+193
+00:12:13,870 --> 00:12:14,744
+true. Gets in.
+
+194
+00:12:15,894 --> 00:12:17,515
+Visitors one and three get in.
+
+195
+00:12:17,965 --> 00:12:22,104
+NOT flips a value. NOT canEnter would be
+true only for visitor two.
+
+196
+00:12:23,254 --> 00:12:28,235
+Your turn. What is NOT, open parenthesis,
+five greater than three, AND two equals
+
+197
+00:12:28,235 --> 00:12:28,481
+two?
+
+198
+00:12:28,931 --> 00:12:30,125
+Pause the video now.
+
+199
+00:12:30,575 --> 00:12:34,714
+False. Both comparisons are true, so the
+AND is true, and NOT flips it.
+
+200
+00:12:35,164 --> 00:12:36,871
+Next, let's put Part 1 together.
+
+201
+00:12:38,021 --> 00:12:42,736
+You've learned variables, lists, math with
+MOD, strings and Boolean expressions.
+
+202
+00:12:43,186 --> 00:12:48,722
+Now let's write one complete program in AP
+pseudocode that uses every one, and run
+
+203
+00:12:48,722 --> 00:12:48,924
+it.
+
+204
+00:12:50,074 --> 00:12:52,122
+Here's the plan: a savings tracker.
+
+205
+00:12:52,572 --> 00:12:57,465
+It stores how many cents Maya saved each
+day, totals them, shows the amount in
+
+206
+00:12:57,465 --> 00:12:59,911
+dollars and cents, and checks the goal.
+
+207
+00:13:01,061 --> 00:13:05,690
+Part one: a list of cents saved each day,
+and a goal of nine hundred cents.
+
+208
+00:13:06,140 --> 00:13:11,079
+FOR EACH adds every element to total, the
+accumulator pattern. You'll study the loop
+
+209
+00:13:11,079 --> 00:13:13,372
+in Part 2, but you can already read it.
+
+210
+00:13:14,522 --> 00:13:17,914
+Part two: MOD one hundred gives the
+leftover cents.
+
+211
+00:13:18,364 --> 00:13:22,930
+Subtracting the cents first makes the
+division exact, so dollars is a whole
+
+212
+00:13:22,930 --> 00:13:23,356
+number.
+
+213
+00:13:24,506 --> 00:13:29,335
+Part three: concat builds the message.
+reached is a Boolean: the total meets the
+
+214
+00:13:29,335 --> 00:13:31,568
+goal, and it took at most seven days.
+
+215
+00:13:32,018 --> 00:13:35,772
+saved at four is the fourth day, because
+AP lists start at one.
+
+216
+00:13:36,922 --> 00:13:41,514
+Let's run it. The total is nine hundred
+thirty cents: nine dollars and thirty
+
+217
+00:13:41,514 --> 00:13:41,872
+cents.
+
+218
+00:13:42,322 --> 00:13:47,097
+That's at least nine hundred, in five
+days, so reached is true. And day four was
+
+219
+00:13:47,097 --> 00:13:49,127
+the best day, three hundred cents.
+
+220
+00:13:50,277 --> 00:13:53,541
+Your turn. If the goal were one thousand,
+what would reached be?
+
+221
+00:13:53,991 --> 00:13:55,186
+Pause the video now.
+
+222
+00:13:55,636 --> 00:13:58,580
+False. Nine hundred thirty is less than
+one thousand.
+
+223
+00:13:59,030 --> 00:14:03,915
+That's Part 1. Next, Part 2: conditionals,
+iteration, and list algorithms.
+
+224
+00:14:05,065 --> 00:14:09,494
+If this helped, subscribe to School STEM,
+Explained, so you don't miss the next
+
+225
+00:14:09,494 --> 00:14:09,886
+lesson.
+
+226
+00:14:10,336 --> 00:14:11,168
 See you there.
 
