@@ -7,40 +7,71 @@ Previous: Intro to Computer Science, Unit 3: Algorithms
 Next: Python Decisions, Loops, Functions & Lists (Unit 4, Part 2)
 
 0:00 Introduction
-0:14 Your first Python program
-0:26 Hello, world!
-0:38 print and strings
-0:49 Many lines, top to bottom
-1:09 Syntax errors
+0:18 Your first Python program
+0:29 Hello, world!
+0:41 Print and strings
+0:52 Many lines, top to bottom
+1:11 Syntax errors
 1:24 Your turn
-1:40 Variables and assignment
-1:58 = means assign
-2:09 score = score + 10
-2:32 Tracing a program
-2:44 Your turn
-3:01 Numbers and arithmetic
-3:21 + - * /
-3:32 // and %
-3:44 Powers and order of operations
-4:00 Handy uses of %
-4:13 Your turn
-4:30 Strings
-4:50 Joining and repeating
-5:02 Indexes
-5:16 Slices
-5:28 String methods
-5:40 Your turn
-5:54 Input from the user
-6:13 input gives a string
-6:24 int() and float()
-6:34 An age program
-6:49 ValueError
-7:17 Booleans and comparisons
-7:27 True and False
-7:48 = vs ==
-7:59 and, or, not
-8:11 Checking a range
-8:27 Your turn
+1:40 Worked example: printing a ticket
+1:57 The work
+2:12 Step by step
+2:24 Result and tips
+2:37 Your turn
+2:48 Variables and assignment
+3:05 = means assign
+3:16 Score = score + 10
+3:37 Tracing a program
+3:49 Your turn
+4:06 Worked example: tracking a game score
+4:23 The work
+4:49 Result and tips
+4:59 Your turn
+5:09 Numbers and arithmetic
+5:28 + - * /
+5:39 // and %
+5:50 Powers and order of operations
+6:04 Handy uses of %
+6:17 Your turn
+6:34 Worked example: minutes to hours
+6:46 The work
+7:05 Result and tips
+7:16 Your turn
+7:30 Strings
+7:49 Joining and repeating
+8:01 Indexes
+8:14 Slices
+8:25 String methods
+8:36 Your turn
+8:51 Worked example: making a username
+9:08 The work
+9:29 Result and tips
+9:40 Your turn
+9:52 Input from the user
+10:10 Input gives a string
+10:20 Int() and float()
+10:44 ValueError
+11:10 Worked example: a tip calculator
+11:26 The work
+11:37 Step by step
+11:53 Result and tips
+12:07 Your turn
+12:19 Booleans and comparisons
+12:36 Comparison operators
+12:48 = vs ==
+12:58 And, or, not
+13:09 Checking a range
+13:24 Your turn
+13:41 Worked example: who gets the teen discount
+13:59 The work
+14:24 Result and tips
+14:36 Your turn
+14:54 Putting Part 1 together: a road trip planner
+15:14 Ask for the details
+15:26 Do the math
+15:37 Show the results
+15:50 Run it
+16:07 Your turn
 
 Intro to Computer Science, the complete course (6 units, full syllabus):
 • Unit 1: What Is a Computer?

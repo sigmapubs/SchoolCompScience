@@ -1,602 +1,1209 @@
 1
-00:00:00,000 --> 00:00:05,106
+00:00:00,000 --> 00:00:04,039
 Welcome to School Computer Science,
 Explained. This is Intro to Computer
 
 2
-00:00:05,106 --> 00:00:10,709
+00:00:04,039 --> 00:00:08,471
 Science, Unit 4, part one. It's time to
 write real programs in Python, starting
 
 3
-00:00:10,709 --> 00:00:13,120
-from your very first line of code.
+00:00:08,471 --> 00:00:12,958
+from your very first line of code. After
+every lesson, we'll work through a full
 
 4
-00:00:14,293 --> 00:00:19,351
+00:00:12,958 --> 00:00:17,109
+example step by step, and we'll finish by
+putting the whole unit together.
+
+5
+00:00:18,283 --> 00:00:23,044
 Time to write real code. We'll use Python,
 one of the most popular programming
 
-5
-00:00:19,351 --> 00:00:20,842
+6
+00:00:23,044 --> 00:00:24,448
 languages in the world.
 
-6
-00:00:21,292 --> 00:00:25,452
+7
+00:00:24,898 --> 00:00:28,781
 It's used for websites, games, science,
 and artificial intelligence.
 
-7
-00:00:26,602 --> 00:00:31,992
+8
+00:00:29,931 --> 00:00:34,970
 Here's a complete Python program. One
 line: print, open parenthesis, quote,
 
-8
-00:00:31,992 --> 00:00:34,794
+9
+00:00:34,970 --> 00:00:37,590
 Hello, world, quote, close parenthesis.
 
-9
-00:00:35,244 --> 00:00:37,783
+10
+00:00:38,040 --> 00:00:40,408
 Run it, and the computer shows Hello,
 world.
 
-10
-00:00:38,933 --> 00:00:43,626
+11
+00:00:41,558 --> 00:00:45,888
 print is a function. It displays whatever
 you put inside the parentheses.
 
-11
-00:00:44,076 --> 00:00:48,812
+12
+00:00:46,338 --> 00:00:50,882
 Text goes inside quotation marks. Text in
 quotes is called a string.
 
-12
-00:00:49,962 --> 00:00:55,253
+13
+00:00:52,032 --> 00:00:57,003
 A program can have many lines. Python runs
 them top to bottom, one at a time.
 
-13
-00:00:55,703 --> 00:00:58,220
+14
+00:00:57,453 --> 00:00:59,778
 Each print starts on a new line of output.
 
-14
-00:00:59,370 --> 00:01:04,832
+15
+00:01:00,928 --> 00:01:06,134
 A comment starts with a hash sign. Python
 ignores everything after it on that line.
 
-15
-00:01:05,282 --> 00:01:08,780
+16
+00:01:06,584 --> 00:01:09,890
 Comments are notes for people: what the
 code does, or why.
 
-16
-00:01:09,930 --> 00:01:15,409
+17
+00:01:11,040 --> 00:01:16,024
 Small mistakes cause errors. Forget a
 quote, or misspell print, and Python stops
 
-17
-00:01:15,409 --> 00:01:16,778
+18
+00:01:16,024 --> 00:01:17,270
 with a syntax error.
 
-18
-00:01:17,228 --> 00:01:21,831
+19
+00:01:17,720 --> 00:01:22,061
 The error message tells you the line
 number. Read it carefully: it's a clue,
 
-19
-00:01:21,831 --> 00:01:22,860
+20
+00:01:22,061 --> 00:01:23,032
 not a punishment.
 
-20
-00:01:24,010 --> 00:01:28,362
+21
+00:01:24,182 --> 00:01:28,128
 Your turn. What does this program print?
 print, quote, two plus two, quote.
 
-21
-00:01:28,812 --> 00:01:30,092
+22
+00:01:28,578 --> 00:01:29,773
 Pause the video now.
 
-22
-00:01:30,542 --> 00:01:36,330
+23
+00:01:30,223 --> 00:01:35,624
 It prints the text two plus two, not four,
 because it's inside quotes. It's a string,
 
-23
-00:01:36,330 --> 00:01:36,942
+24
+00:01:35,624 --> 00:01:36,196
 not math.
 
-24
-00:01:37,392 --> 00:01:39,675
-Next, we'll store values in variables.
-
 25
-00:01:40,825 --> 00:01:45,604
+00:01:36,646 --> 00:01:39,633
+Next, let's work through a full example,
+step by step.
+
+26
+00:01:40,783 --> 00:01:45,679
+Let's write a small program with several
+print lines and a comment, and predict its
+
+27
+00:01:45,679 --> 00:01:46,564
+output exactly.
+
+28
+00:01:47,714 --> 00:01:52,544
+The problem: print a movie ticket on four
+lines: a border, the movie name, the seat,
+
+29
+00:01:52,544 --> 00:01:53,752
+and the border again.
+
+30
+00:01:54,202 --> 00:01:56,804
+Also add a comment saying what the program
+does.
+
+31
+00:01:57,954 --> 00:02:01,901
+Here's the program. The first line is a
+comment, so Python skips it.
+
+32
+00:02:02,351 --> 00:02:06,042
+Then four print lines. Each one puts its
+string on its own line.
+
+33
+00:02:06,492 --> 00:02:11,441
+Notice the quotes. Everything inside them
+is printed exactly, spaces included.
+
+34
+00:02:12,591 --> 00:02:16,858
+Python runs top to bottom. Line one is a
+comment: nothing happens.
+
+35
+00:02:17,308 --> 00:02:22,860
+Line two prints the stars. Line three, the
+title. Line four, the seat. Line five, the
+
+36
+00:02:22,860 --> 00:02:23,644
+stars again.
+
+37
+00:02:24,794 --> 00:02:28,442
+The output is four lines, in the same
+order as the print lines.
+
+38
+00:02:28,892 --> 00:02:34,194
+Common mistakes: forgetting a quote, or
+writing Print with a capital P. Python is
+
+39
+00:02:34,194 --> 00:02:36,550
+case sensitive, so both give errors.
+
+40
+00:02:37,700 --> 00:02:39,898
+Your turn. How many lines does this print?
+
+41
+00:02:40,348 --> 00:02:41,542
+Pause the video now.
+
+42
+00:02:41,992 --> 00:02:46,195
+Two lines: A, then C. The B line starts
+with a hash, so it's a comment.
+
+43
+00:02:46,645 --> 00:02:47,754
+Next, variables.
+
+44
+00:02:48,904 --> 00:02:53,277
 Programs need to remember things: a score,
 a name, the number of lives left.
 
-26
-00:01:46,054 --> 00:01:47,270
+45
+00:02:53,727 --> 00:02:54,858
 They use variables.
 
-27
-00:01:48,420 --> 00:01:51,172
+46
+00:02:56,008 --> 00:02:58,611
 A variable is a name that refers to a
 value.
 
-28
-00:01:51,622 --> 00:01:57,019
+47
+00:02:59,061 --> 00:03:04,138
 score equals zero creates a variable
 called score, and gives it the value zero.
 
-29
-00:01:58,169 --> 00:02:02,542
+48
+00:03:05,288 --> 00:03:09,384
 The equals sign means assign. It doesn't
 mean equal in the math sense.
 
-30
-00:02:02,992 --> 00:02:07,761
+49
+00:03:09,834 --> 00:03:14,392
 Python works out the right side first,
 then stores the result under the name on
 
-31
-00:02:07,761 --> 00:02:08,304
+50
+00:03:14,392 --> 00:03:14,911
 the left.
 
-32
-00:02:09,454 --> 00:02:12,569
+51
+00:03:16,061 --> 00:03:19,005
 That's why score equals score plus ten
 makes sense.
 
-33
-00:02:13,019 --> 00:02:18,096
+52
+00:03:19,455 --> 00:03:24,127
 Python takes the current score, adds ten,
 and stores the answer back in score.
 
-34
-00:02:19,246 --> 00:02:25,109
+53
+00:03:25,277 --> 00:03:30,805
 Variable names can use letters, digits and
 underscores, but can't start with a digit,
 
-35
-00:02:25,109 --> 00:02:26,350
+54
+00:03:30,805 --> 00:03:31,976
 or contain spaces.
 
-36
-00:02:26,800 --> 00:02:31,195
+55
+00:03:32,426 --> 00:03:36,565
 Good names describe what they hold. lives
 left is clearer than x.
 
-37
-00:02:32,345 --> 00:02:37,828
+56
+00:03:37,715 --> 00:03:42,792
 Let's trace a short program. a equals
 five. b equals a plus two. a equals ten.
 
-38
-00:02:38,278 --> 00:02:43,782
+57
+00:03:43,242 --> 00:03:48,255
 After that, a is ten, and b is still
 seven. Changing a later doesn't change b.
 
-39
-00:02:44,932 --> 00:02:51,673
+58
+00:03:49,405 --> 00:03:55,656
 Your turn. x equals three. x equals x
 times two. x equals x plus one. What is x?
 
-40
-00:02:52,123 --> 00:02:53,403
+59
+00:03:56,106 --> 00:03:57,301
 Pause the video now.
 
-41
-00:02:53,853 --> 00:02:58,184
+60
+00:03:57,751 --> 00:04:01,847
 Three times two is six. Six plus one is
 seven. So x is seven.
 
-42
-00:02:58,634 --> 00:03:00,490
-Next, we'll do math with numbers.
+61
+00:04:02,297 --> 00:04:05,283
+Next, let's work through a full example,
+step by step.
 
-43
-00:03:01,640 --> 00:03:06,461
+62
+00:04:06,433 --> 00:04:10,337
+Let's trace variables that change, line by
+line, in a tiny game.
+
+63
+00:04:11,487 --> 00:04:15,199
+The problem: a player starts with zero
+points and three lives.
+
+64
+00:04:15,649 --> 00:04:20,252
+They collect a coin worth ten, collect
+another coin, then get hit and lose a
+
+65
+00:04:20,252 --> 00:04:22,796
+life. What are score and lives at the end?
+
+66
+00:04:23,946 --> 00:04:26,698
+Here's the code. Each line updates one
+variable.
+
+67
+00:04:27,148 --> 00:04:32,054
+score equals score plus ten takes the old
+score, adds ten, and stores it back.
+
+68
+00:04:33,204 --> 00:04:36,511
+Line one: score is zero. Line two: lives
+is three.
+
+69
+00:04:36,961 --> 00:04:42,554
+Line three: zero plus ten, so score is
+ten. Line four: ten plus ten, score is
+
+70
+00:04:42,554 --> 00:04:43,062
+twenty.
+
+71
+00:04:43,512 --> 00:04:48,248
+Line five: three minus one, lives is two.
+Line six prints twenty and two.
+
+72
+00:04:49,398 --> 00:04:51,105
+The program prints twenty, two.
+
+73
+00:04:51,555 --> 00:04:57,024
+A trace table is the best way to follow
+variables. Each row shows the values right
+
+74
+00:04:57,024 --> 00:04:58,424
+after that line runs.
+
+75
+00:04:59,574 --> 00:05:01,196
+Your turn. What does this print?
+
+76
+00:05:01,646 --> 00:05:02,840
+Pause the video now.
+
+77
+00:05:03,290 --> 00:05:06,938
+Six and five. y got a copy of five before
+x changed.
+
+78
+00:05:07,388 --> 00:05:08,668
+Next, numbers and math.
+
+79
+00:05:09,819 --> 00:05:14,342
 Computers are great at math. Python can
 work like a powerful calculator.
 
-44
-00:03:06,911 --> 00:03:07,935
+80
+00:05:14,792 --> 00:05:15,709
 Let's see how.
 
-45
-00:03:09,085 --> 00:03:11,432
+81
+00:05:16,859 --> 00:05:18,992
 Python has two main kinds of numbers.
 
-46
-00:03:11,882 --> 00:03:17,592
+82
+00:05:19,442 --> 00:05:24,731
 Integers, or ints, are whole numbers, like
 seven or negative two. Floats have a
 
-47
-00:03:17,592 --> 00:03:20,266
+83
+00:05:24,731 --> 00:05:27,208
 decimal point, like three point five.
 
-48
-00:03:21,416 --> 00:03:26,664
+84
+00:05:28,358 --> 00:05:33,286
 The basic operators are plus, minus, star
 for times, and slash for divide.
 
-49
-00:03:27,114 --> 00:03:31,573
+85
+00:05:33,736 --> 00:05:37,853
 Slash always gives a float. Seven slash
 two is three point five.
 
-50
-00:03:32,723 --> 00:03:38,446
+86
+00:05:39,003 --> 00:05:44,313
 Double slash is floor division. It divides
 and drops the remainder. Seven double
 
-51
-00:03:38,446 --> 00:03:39,805
+87
+00:05:44,313 --> 00:05:45,574
 slash two is three.
 
-52
-00:03:40,255 --> 00:03:43,690
+88
+00:05:46,024 --> 00:05:49,202
 Percent gives the remainder. Seven percent
 two is one.
 
-53
-00:03:44,840 --> 00:03:48,424
+89
+00:05:50,352 --> 00:05:53,680
 Double star is a power. Two double star
 three is eight.
 
-54
-00:03:48,874 --> 00:03:54,591
+90
+00:05:54,130 --> 00:05:59,384
 Python follows the usual order of
 operations: powers, then times and divide,
 
-55
-00:03:54,591 --> 00:03:58,879
+91
+00:05:59,384 --> 00:06:03,325
 then plus and minus. Use parentheses to
 change the order.
 
-56
-00:04:00,029 --> 00:04:05,192
+92
+00:06:04,475 --> 00:06:09,275
 Percent has a handy use. A number percent
 two is zero when the number is even.
 
-57
-00:04:05,642 --> 00:04:11,184
+93
+00:06:09,725 --> 00:06:14,945
 And seconds double slash sixty gives whole
 minutes, while seconds percent sixty gives
 
-58
-00:04:11,184 --> 00:04:12,618
+94
+00:06:14,945 --> 00:06:16,296
 the seconds left over.
 
-59
-00:04:13,768 --> 00:04:18,440
+95
+00:06:17,446 --> 00:06:21,776
 Your turn. What is seventeen double slash
 five, and seventeen percent five?
 
-60
-00:04:18,890 --> 00:04:20,170
+96
+00:06:22,226 --> 00:06:23,421
 Pause the video now.
 
-61
-00:04:20,620 --> 00:04:26,101
+97
+00:06:23,871 --> 00:06:29,002
 Five goes into seventeen three times, with
 two left over. So the answers are three
 
-62
-00:04:26,101 --> 00:04:26,636
+98
+00:06:29,002 --> 00:06:29,503
 and two.
 
-63
-00:04:27,086 --> 00:04:29,177
-Next, we'll work with text: strings.
+99
+00:06:29,953 --> 00:06:32,940
+Next, let's work through a full example,
+step by step.
 
-64
-00:04:30,327 --> 00:04:33,954
+100
+00:06:34,089 --> 00:06:38,965
+Let's use floor division and remainder to
+solve a problem you see on every video
+
+101
+00:06:38,965 --> 00:06:39,209
+app.
+
+102
+00:06:40,359 --> 00:06:45,277
+The problem: a movie is one hundred twenty
+five minutes long. Show it as hours and
+
+103
+00:06:45,277 --> 00:06:45,756
+minutes.
+
+104
+00:06:46,906 --> 00:06:51,173
+Double slash gives the whole hours.
+Percent gives the minutes left over.
+
+105
+00:06:52,323 --> 00:06:57,390
+One hundred twenty five double slash
+sixty: sixty goes in twice, so hours is
+
+106
+00:06:57,390 --> 00:06:57,656
+two.
+
+107
+00:06:58,106 --> 00:07:03,759
+One hundred twenty five percent sixty: two
+sixties make one twenty, leaving five. So
+
+108
+00:07:03,759 --> 00:07:04,634
+mins is five.
+
+109
+00:07:05,784 --> 00:07:07,683
+The output is two h, five min.
+
+110
+00:07:08,133 --> 00:07:13,896
+Common mistake: using a single slash. One
+twenty five slash sixty is two point zero
+
+111
+00:07:13,896 --> 00:07:15,770
+eight three, not two hours.
+
+112
+00:07:16,920 --> 00:07:21,740
+Your turn. You have seventeen cookies to
+share among five friends. Each gets how
+
+113
+00:07:21,740 --> 00:07:23,427
+many, and how many are left?
+
+114
+00:07:23,877 --> 00:07:25,072
+Pause the video now.
+
+115
+00:07:25,522 --> 00:07:28,060
+Each friend gets three, and two are left
+over.
+
+116
+00:07:28,510 --> 00:07:29,534
+Next, strings.
+
+117
+00:07:30,685 --> 00:07:34,184
 Names, messages, passwords. Most programs
 handle text.
 
-65
-00:04:34,404 --> 00:04:36,217
+118
+00:07:34,634 --> 00:07:36,319
 In Python, text is a string.
 
-66
-00:04:37,367 --> 00:04:42,694
+119
+00:07:37,469 --> 00:07:42,495
 A string is a sequence of characters
 inside quotes. Single or double quotes
 
-67
-00:04:42,694 --> 00:04:43,404
+120
+00:07:42,495 --> 00:07:43,165
 both work.
 
-68
-00:04:43,854 --> 00:04:48,868
+121
+00:07:43,615 --> 00:07:48,330
 The len function tells you how many
 characters a string has, including spaces.
 
-69
-00:04:50,018 --> 00:04:53,900
+122
+00:07:49,480 --> 00:07:53,021
 Plus joins strings together. This is
 called concatenation.
 
-70
-00:04:54,350 --> 00:04:57,252
+123
+00:07:53,471 --> 00:07:56,159
 Hello plus a space plus Sam gives Hello
 Sam.
 
-71
-00:04:57,702 --> 00:05:01,350
+124
+00:07:56,609 --> 00:07:59,958
 Star repeats a string. Ha times three
 gives ha ha ha.
 
-72
-00:05:02,500 --> 00:05:07,342
+125
+00:08:01,108 --> 00:08:05,674
 Each character has a position, called an
 index. Indexes start at zero.
 
-73
-00:05:07,792 --> 00:05:14,098
+126
+00:08:06,124 --> 00:08:12,016
 In the word python, index zero is p, and
 index five is n. Negative one means the
 
-74
-00:05:14,098 --> 00:05:15,280
+127
+00:08:12,016 --> 00:08:13,121
 last character.
 
-75
-00:05:16,430 --> 00:05:21,963
+128
+00:08:14,271 --> 00:08:19,391
 A slice takes part of a string. word,
 bracket, zero colon three, gives the
 
-76
-00:05:21,963 --> 00:05:25,028
+129
+00:08:19,391 --> 00:08:22,228
 characters at indexes zero, one, and two.
 
-77
-00:05:25,478 --> 00:05:27,462
+130
+00:08:22,678 --> 00:08:24,470
 The end index is not included.
 
-78
-00:05:28,612 --> 00:05:31,534
+131
+00:08:25,620 --> 00:08:28,372
 Strings have methods, actions you call
 with a dot.
 
-79
-00:05:31,984 --> 00:05:37,281
+132
+00:08:28,822 --> 00:08:33,814
 upper makes everything capital. lower
 makes everything small. replace swaps one
 
-80
-00:05:37,281 --> 00:05:39,024
+133
+00:08:33,814 --> 00:08:35,457
 piece of text for another.
 
-81
-00:05:40,174 --> 00:05:44,761
+134
+00:08:36,607 --> 00:08:41,066
 Your turn. word equals planet. What is
 word, bracket, one colon four?
 
-82
-00:05:45,211 --> 00:05:46,491
+135
+00:08:41,516 --> 00:08:42,710
 Pause the video now.
 
-83
-00:05:46,941 --> 00:05:50,888
+136
+00:08:43,160 --> 00:08:46,766
 Indexes one, two and three: l, a, n. So
 the answer is lan.
 
-84
-00:05:51,338 --> 00:05:53,279
-Next, we'll get input from the user.
+137
+00:08:47,216 --> 00:08:50,202
+Next, let's work through a full example,
+step by step.
 
-85
-00:05:54,429 --> 00:05:57,821
+138
+00:08:51,352 --> 00:08:56,813
+Let's slice and join strings to build a
+username, a job real sign-up pages do.
+
+139
+00:08:57,963 --> 00:09:02,301
+The problem: build a username from the
+first three letters of a first name, the
+
+140
+00:09:02,301 --> 00:09:04,278
+whole last name, and the birth year.
+
+141
+00:09:04,728 --> 00:09:06,883
+For Sam Rivera, born in twenty eleven.
+
+142
+00:09:08,033 --> 00:09:12,214
+Slice first from zero to three, add last,
+and add the year as a string.
+
+143
+00:09:12,664 --> 00:09:14,499
+Then lower makes it all lowercase.
+
+144
+00:09:15,649 --> 00:09:19,510
+Here the first name is Samuel. first, zero
+to three, is S A M.
+
+145
+00:09:19,960 --> 00:09:23,885
+Join with Rivera, then twenty eleven: Sam
+Rivera twenty eleven.
+
+146
+00:09:24,335 --> 00:09:27,877
+lower makes it all lowercase. It's
+thirteen characters long.
+
+147
+00:09:29,027 --> 00:09:32,397
+The program prints sam rivera twenty
+eleven, and thirteen.
+
+148
+00:09:32,847 --> 00:09:38,022
+Remember: a slice stops before the end
+index, so zero to three gives indexes
+
+149
+00:09:38,022 --> 00:09:39,247
+zero, one and two.
+
+150
+00:09:40,397 --> 00:09:45,453
+Your turn. word equals computer. What are
+word, bracket zero to four, and word,
+
+151
+00:09:45,453 --> 00:09:46,797
+bracket negative one?
+
+152
+00:09:47,247 --> 00:09:48,442
+Pause the video now.
+
+153
+00:09:48,892 --> 00:09:49,809
+comp, and r.
+
+154
+00:09:50,259 --> 00:09:51,198
+Next, input.
+
+155
+00:09:52,348 --> 00:09:55,569
 So far, our programs do the same thing
 every time.
 
-86
-00:05:58,271 --> 00:06:00,618
+156
+00:09:56,019 --> 00:09:58,195
 Input lets the user change what happens.
 
-87
-00:06:01,768 --> 00:06:06,790
+157
+00:09:59,345 --> 00:10:04,048
 The input function shows a prompt, waits
 for the user to type, and gives back what
 
-88
-00:06:06,790 --> 00:06:07,464
+158
+00:10:04,048 --> 00:10:04,679
 they typed.
 
-89
-00:06:07,914 --> 00:06:11,903
+159
+00:10:05,129 --> 00:10:08,862
 name equals input, what's your name. Then
 print hello plus name.
 
-90
-00:06:13,053 --> 00:06:18,408
+160
+00:10:10,012 --> 00:10:14,940
 Here's the catch. input always gives back
 a string, even if the user types a number.
 
-91
-00:06:18,858 --> 00:06:22,975
+161
+00:10:15,390 --> 00:10:19,187
 If the user types five, you get the string
 five, not the number five.
 
-92
-00:06:24,125 --> 00:06:29,505
+162
+00:10:20,337 --> 00:10:25,236
 To do math, convert it. int of the input
 gives a whole number. float of the input
 
-93
-00:06:29,505 --> 00:06:30,568
+163
+00:10:25,236 --> 00:10:26,204
 gives a decimal.
 
-94
-00:06:31,018 --> 00:06:33,642
+164
+00:10:26,654 --> 00:10:29,107
 age equals int of input, how old are you.
 
-95
-00:06:34,792 --> 00:06:40,052
+165
+00:10:30,257 --> 00:10:35,122
 Let's build a program. Ask for the user's
 age, add one, and print, next year you'll
 
-96
-00:06:40,052 --> 00:06:41,320
+166
+00:10:35,122 --> 00:10:36,295
 be, and the new age.
 
-97
-00:06:41,770 --> 00:06:47,696
+167
+00:10:36,745 --> 00:10:42,202
 To join a number with text, convert it
 with str, or pass both to print separated
 
-98
-00:06:47,696 --> 00:06:48,511
+168
+00:10:42,202 --> 00:10:42,953
 by a comma.
 
-99
-00:06:49,661 --> 00:06:54,589
+169
+00:10:44,103 --> 00:10:48,625
 If the user types something that isn't a
 number, int will crash with a value error.
 
-100
-00:06:55,039 --> 00:06:58,239
+170
+00:10:49,075 --> 00:10:51,934
 Later, we'll learn how to check input
 before using it.
 
-101
-00:06:59,389 --> 00:07:05,138
+171
+00:10:53,084 --> 00:10:58,521
 Your turn. The user types seven. What does
 this print? x equals input. print x plus
 
-102
-00:07:05,138 --> 00:07:05,277
+172
+00:10:58,521 --> 00:10:58,652
 x.
 
-103
-00:07:05,727 --> 00:07:07,007
+173
+00:10:59,102 --> 00:11:00,297
 Pause the video now.
 
-104
-00:07:07,457 --> 00:07:12,681
+174
+00:11:00,747 --> 00:11:05,772
 input gives the string seven. Adding two
 strings joins them, so it prints seventy
 
-105
-00:07:12,681 --> 00:07:13,068
+175
+00:11:05,772 --> 00:11:06,144
 seven.
 
-106
-00:07:13,518 --> 00:07:16,739
-Next, we'll ask true or false questions
-with Booleans.
+176
+00:11:06,594 --> 00:11:09,581
+Next, let's work through a full example,
+step by step.
 
-107
-00:07:17,889 --> 00:07:22,902
+177
+00:11:10,731 --> 00:11:15,510
+Let's write a program that asks the user
+for numbers, converts them, and calculates
+
+178
+00:11:15,510 --> 00:11:16,086
+an answer.
+
+179
+00:11:17,236 --> 00:11:21,875
+The problem: ask for a restaurant bill and
+a tip percent, then print the tip and the
+
+180
+00:11:21,875 --> 00:11:22,206
+total.
+
+181
+00:11:22,656 --> 00:11:25,792
+The user types forty for the bill, and
+fifteen for the tip.
+
+182
+00:11:26,942 --> 00:11:29,780
+input gives back strings, so wrap each one
+in float.
+
+183
+00:11:30,230 --> 00:11:35,811
+The tip is the bill times percent over one
+hundred. Use str to join numbers with
+
+184
+00:11:35,811 --> 00:11:36,160
+text.
+
+185
+00:11:37,310 --> 00:11:43,109
+The user types forty: bill becomes forty
+point zero. Then fifteen: pct becomes
+
+186
+00:11:43,109 --> 00:11:44,521
+fifteen point zero.
+
+187
+00:11:44,971 --> 00:11:51,061
+tip is forty times fifteen, divided by a
+hundred: six point zero. total is forty
+
+188
+00:11:51,061 --> 00:11:52,203
+six point zero.
+
+189
+00:11:53,353 --> 00:11:58,281
+The program prints Tip: six point zero,
+and Total: forty six point zero.
+
+190
+00:11:58,731 --> 00:12:03,806
+Common mistake: forgetting float. Then
+bill is the string forty, and multiplying
+
+191
+00:12:03,806 --> 00:12:06,027
+gives an error or a strange result.
+
+192
+00:12:07,177 --> 00:12:10,761
+Your turn. A user types seven at this
+prompt. What does it print?
+
+193
+00:12:11,211 --> 00:12:12,406
+Pause the video now.
+
+194
+00:12:12,856 --> 00:12:16,568
+Seven seven. n is the string seven, and
+plus joins strings.
+
+195
+00:12:17,018 --> 00:12:18,042
+Next, Booleans.
+
+196
+00:12:19,191 --> 00:12:23,948
 Programs need to ask questions. Is the
 password right? Is the score high enough?
 
-108
-00:07:23,352 --> 00:07:26,830
+197
+00:12:24,398 --> 00:12:27,620
 The answer is always one of two values:
 True or False.
 
-109
-00:07:27,980 --> 00:07:32,417
+198
+00:12:28,770 --> 00:12:32,823
 In Python, True and False are Booleans.
 They start with a capital letter.
 
-110
-00:07:32,867 --> 00:07:34,744
+199
+00:12:33,273 --> 00:12:35,108
 Comparisons produce Booleans.
 
-111
-00:07:35,894 --> 00:07:38,454
+200
+00:12:36,258 --> 00:12:38,626
 Python has six comparison operators.
 
-112
-00:07:38,904 --> 00:07:43,983
+201
+00:12:39,076 --> 00:12:43,873
 Less than, greater than, less than or
 equal, greater than or equal, double
 
-113
-00:07:43,983 --> 00:07:47,758
+202
+00:12:43,873 --> 00:12:47,438
 equals for equal, and exclamation equals
 for not equal.
 
-114
-00:07:48,908 --> 00:07:53,004
+203
+00:12:48,588 --> 00:12:52,450
 Remember: one equals sign assigns. Two
 equals signs compare.
 
-115
-00:07:53,454 --> 00:07:58,446
+204
+00:12:52,900 --> 00:12:57,614
 x equals five stores a value. x double
 equals five asks a question.
 
-116
-00:07:59,596 --> 00:08:02,625
+205
+00:12:58,764 --> 00:13:01,516
 You can combine questions with and, or,
 and not.
 
-117
-00:08:03,075 --> 00:08:08,423
+206
+00:13:01,966 --> 00:13:06,875
 And is True when both sides are True. Or
 is True when at least one side is True.
 
-118
-00:08:08,423 --> 00:08:10,094
+207
+00:13:06,875 --> 00:13:08,409
 Not flips True and False.
 
-119
-00:08:11,244 --> 00:08:16,993
+208
+00:13:09,559 --> 00:13:14,911
 For example, age greater than or equal to
 thirteen, and age less than or equal to
 
-120
-00:08:16,993 --> 00:08:19,265
+209
+00:13:14,911 --> 00:13:17,026
 nineteen, is True for teenagers.
 
-121
-00:08:19,715 --> 00:08:25,521
+210
+00:13:17,476 --> 00:13:22,891
 Python can also write it as thirteen less
 than or equal to age, less than or equal
 
-122
-00:08:25,521 --> 00:08:26,371
+211
+00:13:22,891 --> 00:13:23,684
 to nineteen.
 
-123
-00:08:27,521 --> 00:08:32,449
+212
+00:13:24,834 --> 00:13:29,356
 Your turn. x is four. What is x greater
 than three and x less than four?
 
-124
-00:08:32,899 --> 00:08:34,179
+213
+00:13:29,806 --> 00:13:31,001
 Pause the video now.
 
-125
-00:08:34,629 --> 00:08:39,958
+214
+00:13:31,451 --> 00:13:36,423
 x greater than three is True, but x less
 than four is False. True and False is
 
-126
-00:08:39,958 --> 00:08:40,368
+215
+00:13:36,423 --> 00:13:36,806
 False.
 
-127
-00:08:40,818 --> 00:08:44,850
-Next, we'll use these questions to make
-decisions with if statements.
+216
+00:13:37,256 --> 00:13:40,242
+Next, let's work through a full example,
+step by step.
 
-128
-00:08:45,000 --> 00:08:50,676
-If this helped, subscribe to School
-Computer Science, Explained, so you don't
+217
+00:13:41,393 --> 00:13:46,300
+Let's combine comparisons with and, or and
+not, and test them on real values.
 
-129
-00:08:50,676 --> 00:08:51,952
-miss the next lesson.
+218
+00:13:47,450 --> 00:13:52,568
+The problem: a museum gives a discount to
+teens, ages thirteen to nineteen, or
 
-130
-00:08:52,402 --> 00:08:53,298
+219
+00:13:52,568 --> 00:13:54,340
+anyone with a student card.
+
+220
+00:13:54,790 --> 00:13:58,246
+Write one Boolean expression, and test it
+on three visitors.
+
+221
+00:13:59,396 --> 00:14:03,279
+The age part needs and: at least thirteen,
+and at most nineteen.
+
+222
+00:14:03,729 --> 00:14:06,865
+Then or with the card. Parentheses make
+the order clear.
+
+223
+00:14:08,015 --> 00:14:12,943
+Visitor one: age twenty two, with a card.
+teen is False, but card is True, so
+
+224
+00:14:12,943 --> 00:14:14,031
+discount is True.
+
+225
+00:14:14,481 --> 00:14:18,897
+Visitor two: age fifteen, no card. teen is
+True, so discount is True.
+
+226
+00:14:19,347 --> 00:14:23,592
+Visitor three: age forty, no card. Both
+are False, so no discount.
+
+227
+00:14:24,742 --> 00:14:26,897
+Only visitor three misses the discount.
+
+228
+00:14:27,347 --> 00:14:33,114
+Common mistake: writing thirteen less than
+or equal to age, or nineteen. Each side of
+
+229
+00:14:33,114 --> 00:14:35,624
+and and or must be a full comparison.
+
+230
+00:14:36,774 --> 00:14:41,894
+Your turn. With x equal to seven, what is
+not x greater than five, or x double
+
+231
+00:14:41,894 --> 00:14:42,748
+equals seven?
+
+232
+00:14:43,198 --> 00:14:44,392
+Pause the video now.
+
+233
+00:14:44,842 --> 00:14:50,173
+True. not x greater than five is False,
+but x equals seven is True, and or needs
+
+234
+00:14:50,173 --> 00:14:50,773
+only one.
+
+235
+00:14:51,223 --> 00:14:52,930
+Next, let's put Part 1 together.
+
+236
+00:14:54,079 --> 00:14:57,578
+You've learned print, variables, math,
+strings, input and Booleans.
+
+237
+00:14:58,028 --> 00:15:02,572
+Now let's use all of them in one complete
+Python program that really runs.
+
+238
+00:15:03,722 --> 00:15:05,770
+Here's the plan: a road trip planner.
+
+239
+00:15:06,220 --> 00:15:10,941
+It asks for the trip details, works out
+the gas and the cost, splits it between
+
+240
+00:15:10,941 --> 00:15:13,452
+riders, and tells you if it's a long trip.
+
+241
+00:15:14,602 --> 00:15:17,418
+Part one: print a title, then ask for the
+details.
+
+242
+00:15:17,868 --> 00:15:23,001
+name stays a string. Miles, miles per
+gallon and price become floats. riders is
+
+243
+00:15:23,001 --> 00:15:24,950
+a whole number, so we use int.
+
+244
+00:15:26,100 --> 00:15:30,388
+Part two: the math. Gallons is miles
+divided by miles per gallon.
+
+245
+00:15:30,838 --> 00:15:35,958
+Cost is gallons times the price, and each
+person pays cost divided by riders.
+
+246
+00:15:37,108 --> 00:15:42,142
+Part three: print the results. upper
+shouts the name. round keeps two decimals
+
+247
+00:15:42,142 --> 00:15:44,916
+for money, and str turns numbers into
+text.
+
+248
+00:15:45,366 --> 00:15:49,441
+The last line prints a Boolean: is the
+trip over three hundred miles?
+
+249
+00:15:50,591 --> 00:15:55,185
+Let's run it. Maya is driving three
+hundred sixty miles, at thirty miles per
+
+250
+00:15:55,185 --> 00:15:58,570
+gallon, with gas at three eighty nine, and
+three people.
+
+251
+00:15:59,020 --> 00:16:04,236
+Twelve gallons, forty six dollars sixty
+eight in total, fifteen fifty six each.
+
+252
+00:16:04,236 --> 00:16:05,953
+And yes, it's a long trip.
+
+253
+00:16:07,103 --> 00:16:12,131
+Your turn. One hundred fifty miles, twenty
+five miles per gallon, four dollar gas,
+
+254
+00:16:12,131 --> 00:16:15,871
+two people. What does each person pay, and
+is it a long trip?
+
+255
+00:16:16,321 --> 00:16:17,516
+Pause the video now.
+
+256
+00:16:17,966 --> 00:16:23,317
+Six gallons costs twenty four dollars, so
+twelve dollars each. It's not over three
+
+257
+00:16:23,317 --> 00:16:25,731
+hundred miles, so long trip is False.
+
+258
+00:16:26,181 --> 00:16:30,384
+That's Part 1. Next, Part 2: decisions,
+loops, functions and lists.
+
+259
+00:16:31,534 --> 00:16:35,963
+If this helped, subscribe to School STEM,
+Explained, so you don't miss the next
+
+260
+00:16:35,963 --> 00:16:36,355
+lesson.
+
+261
+00:16:36,805 --> 00:16:37,637
 See you there.
 
