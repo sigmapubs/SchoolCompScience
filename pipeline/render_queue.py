@@ -1,6 +1,8 @@
 """render_queue.py : render+push every group listed in pipeline/queue.txt ("<group> <repo_path>") that is not yet in
 pipeline/queue_done.txt. Safe to re-run after a container restart (resumes)."""
-import subprocess, re, ast, os, time
+import subprocess, re, ast, os, time, sys
+MAXG = int(sys.argv[1]) if len(sys.argv) > 1 else 10**9   # stop after this many groups (keeps a run under the 2 h task limit)
+N = 0
 P = "/mnt/project-files/cs-channel"
 def groups():
     s = open(f"{P}/pipeline/combine.py").read(); a = s.index("GROUPS = {") + 9; d = 0
@@ -15,6 +17,8 @@ while True:
     done = set(x.replace("_FAILED", "") for x in open(f"{P}/pipeline/queue_done.txt").read().split()) if os.path.exists(f"{P}/pipeline/queue_done.txt") else set()
     todo = [x for x in q if x[0] not in done]
     if not todo: print("queue empty", flush=True); break
+    if N >= MAXG: print(f"stopping after {N} groups; {len(todo)} left", flush=True); break
+    N += 1
     g, repo = todo[0]; G = groups()
     args = [f"{l}:" + re.search(r"^class (\w+)\(", open(f"{P}/videos/{l}/scene.py").read(), re.M).group(1) for l in G[g]]
     t0 = time.time()

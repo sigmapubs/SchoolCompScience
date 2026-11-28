@@ -7,37 +7,66 @@ Previous: Python Decisions, Loops, Functions & Lists (Unit 4, Part 2)
 Next: Intro to Computer Science, Unit 6: Security and Society
 
 0:00 Introduction
-0:13 What is a network?
-0:23 Nodes and links
-0:34 Wired vs wireless
-0:50 LAN and WAN
-1:04 Routers and the internet
-1:17 Bandwidth and latency
+0:18 What is a network?
+0:38 Wired vs wireless
+0:53 LAN and WAN
+1:06 Routers and the internet
+1:18 Bandwidth and latency
 1:30 Your turn
-1:49 Packets and routing
-2:12 Routers pass packets along
-2:22 Fault tolerance
-2:36 Putting packets back in order
-2:50 Packet switching
-3:02 Your turn
-3:25 IP addresses and DNS
-3:51 IPv4 vs IPv6
-4:06 DNS, the phone book
-4:20 A DNS lookup
-4:36 Your own IP address
-4:46 Your turn
-5:04 How the web works: HTTP and browsers
-5:16 Parts of a URL
-5:30 Clients and servers
-5:57 HTML becomes a page
-6:11 HTTPS
-6:24 Your turn
-6:42 The cloud, explained
-6:59 Inside a data center
-7:12 Storage, apps, computing
-7:28 Benefits and tradeoffs
-7:48 How syncing works
-7:58 Your turn
+1:48 Worked example: naming real networks
+2:08 The work
+2:22 Step by step
+2:42 Result and tips
+2:55 Your turn
+3:10 Packets and routing
+3:31 Routers pass packets along
+3:55 Putting packets back in order
+4:08 Packet switching
+4:19 Your turn
+4:39 Worked example: sending a message in packets
+4:57 The work
+5:08 Step by step
+5:23 Result and tips
+5:35 Your turn
+5:48 IP addresses and DNS
+6:12 IPv4 vs IPv6
+6:27 DNS, the phone book
+6:40 A DNS lookup
+6:54 Your own IP address
+7:04 Your turn
+7:21 Worked example: a DNS lookup, step by step
+7:38 The work
+7:55 Step by step
+8:16 Result and tips
+8:30 Your turn
+8:44 How the web works: HTTP and browsers
+8:55 Parts of a URL
+9:08 Clients and servers
+9:34 HTML becomes a page
+9:46 HTTPS
+9:59 Your turn
+10:17 Worked example: reading URLs and status codes
+10:38 The work
+10:53 Step by step
+11:09 Result and tips
+11:21 Your turn
+11:39 The cloud, explained
+11:56 Inside a data center
+12:08 Storage, apps, computing
+12:22 Benefits and tradeoffs
+12:41 How syncing works
+13:07 Worked example: backing up photos to the cloud
+13:25 The work
+13:39 Step by step
+13:54 Result and tips
+14:06 Your turn
+14:23 Putting Unit 5 together: opening a web page
+14:34 The plan
+14:47 Join the network
+14:58 DNS lookup
+15:14 HTTP request
+15:35 The response
+15:49 Your turn
 
 Intro to Computer Science, the complete course (6 units, full syllabus):
 • Unit 1: What Is a Computer?
