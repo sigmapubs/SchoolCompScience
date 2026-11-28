@@ -7,34 +7,66 @@ Previous: Python Basics: print, Variables, Strings, Input (Unit 4, Part 1)
 Next: Intro to Computer Science, Unit 5: Networks and the Internet
 
 0:00 Introduction
-0:14 if, elif, else
-0:37 Indentation
-0:48 else
+0:18 if, elif, else
+0:39 Indentation
+0:50 Else
 1:13 Tracing score = 85
-1:42 while loops
-2:01 Countdown example
-2:14 Start, condition, change
-2:30 Asking until correct
-2:48 Your turn
-3:08 for loops and range
-3:26 start, stop, step
-3:42 Looping over a string
-4:02 for or while?
-4:28 Functions: define and call
-4:49 Calling a function
-5:06 Why functions help
-5:25 Your turn
-5:43 Parameters and return values
-5:53 Parameters and arguments
-6:11 return
-6:23 print vs return
-6:37 Several parameters
-6:47 return stops the function
-7:09 Lists
-7:28 Indexes and len
-7:42 Changing a list
-7:53 Looping over a list
-8:11 Your turn
+1:42 Worked example: movie ticket prices
+2:03 The work
+2:13 Step by step
+2:30 Result and tips
+2:41 Your turn
+2:55 while loops
+3:12 Countdown example
+3:25 Start, condition, change
+3:39 Asking until correct
+3:57 Your turn
+4:16 Worked example: saving for a goal
+4:31 The work
+4:43 Step by step
+4:59 Result and tips
+5:18 for loops and range
+5:36 Start, stop, step
+5:50 Looping over a string
+6:09 For or while?
+6:35 Worked example: adding up squares
+6:49 The work
+6:59 Step by step
+7:14 Result and tips
+7:24 Your turn
+7:37 Functions: define and call
+7:56 Calling a function
+8:12 Why functions help
+8:30 Your turn
+8:47 Worked example: a birthday card
+9:03 The work
+9:15 Step by step
+9:29 Result and tips
+9:39 Your turn
+9:50 Parameters and return values
+10:16 Return
+10:28 Print vs return
+10:41 Several parameters
+10:57 Your turn
+11:12 Worked example: a temperature converter
+11:30 The work
+11:57 Result and tips
+12:09 Your turn
+12:21 Lists
+12:39 Indexes and len
+12:52 Changing a list
+13:03 Looping over a list
+13:20 Your turn
+13:40 Worked example: finding the top score
+13:55 The work
+14:14 Result and tips
+14:24 Your turn
+14:35 Putting Unit 4 together: a grade book program
+14:54 Letter grades
+15:04 The average
+15:27 Print the report
+15:37 Run it
+15:49 Your turn
 
 Intro to Computer Science, the complete course (6 units, full syllabus):
 • Unit 1: What Is a Computer?

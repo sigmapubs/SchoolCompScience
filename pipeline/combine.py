@@ -6,7 +6,11 @@ def part(d):
     if d.startswith("intro:"):
         k = d[6:]; return dict(video=f"{I}/{k}/intro.mp4", srt=f"{I}/{k}/captions.srt", timings=f"{I}/{k}/timings.json", extra=0.0, name="Introduction", intro=True)
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {"cs1_u9_l01b": "Worked example: walking and changing a linked list", "cs1_u9_l02b": "Worked example: building and searching a BST", "cs1_u9_l03b": "Worked example: tracing breadth-first search", "cs1_u9_l04b": "Worked example: choosing the right data structure", "cs1_u9_cap": "Putting Unit 9 together: a campus map", 
+NAMES = {
+ 
+ 
+ 
+ "cs1_u9_l01b": "Worked example: walking and changing a linked list", "cs1_u9_l02b": "Worked example: building and searching a BST", "cs1_u9_l03b": "Worked example: tracing breadth-first search", "cs1_u9_l04b": "Worked example: choosing the right data structure", "cs1_u9_cap": "Putting Unit 9 together: a campus map", 
  "cs1_u8_l05b": "Worked example: tracing insertion sort", "cs1_u8_l06b": "Worked example: tracing merge sort on eight numbers", "cs1_u8_l07b": "Worked example: a tiny hash table by hand", "cs1_u8_l08b": "Worked example: checking brackets with a stack", "cs1_u8b_cap": "Putting Part 2 together: a help desk", 
  "cs1_u8_l01b": "Worked example: counting the steps in a duplicate check", "cs1_u8_l02b": "Worked example: finding the Big-O of a function", "cs1_u8_l03b": "Worked example: five classes at n = 1,000", "cs1_u8_l04b": "Worked example: tracing binary search", "cs1_u8a_cap": "Putting Part 1 together: a search race", 
  "cs1_u7_l05b": "Worked example: a Square that inherits from Rect", "cs1_u7_l06b": "Worked example: one payroll loop, three kinds of employee", "cs1_u7_l07b": "Worked example: designing a course sign-up", "cs1_u7b_cap": "Putting Part 2 together: a small bank", 

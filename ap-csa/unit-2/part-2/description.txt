@@ -1,4 +1,4 @@
-Java Loops with Worked Examples: while, for, String Algorithms & Nested Loops | AP CSA Unit 2 (2.7–2.12)
+Java Loops: while, for, String Algorithms & Nested Loops | AP CSA Unit 2 (2.7–2.12)
 
 AP CSA Topics 2.7 to 2.12, all about iteration: while loops, infinite loops and off-by-one errors, for loops and counting iterations, the standard algorithms (sum, average, count, min and max, digits, any and all), String algorithms (counting, reversing, finding substrings), nested loops, and informal run-time analysis. Extended edition: every topic is followed by a step-by-step worked example with a trace table (sum of digits, odd-number sums, smallest factor, counting a substring, nested-loop output, counting executions), plus AP-style practice problems. It ends with a complete Java program, NumberReport, that uses the whole unit, compiled and run on screen.
 

@@ -9,7 +9,7 @@ COURSES = {
 }
 V = {
  "cs1_u9": dict(
-   title="Intro to Computer Science (College CS1) Unit 9: Linked Lists, Binary Search Trees, Graphs, BFS & DFS",
+   title="Linked Lists, Binary Search Trees, Graphs, BFS & DFS | College CS1 Unit 9",
    intro="Unit 9, the final unit of a first college course in computer science, in Python. It covers linked lists and nodes, trees and binary search trees, graphs as adjacency lists with breadth-first and depth-first search, and where to go after CS1. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="Intro College CS (CS1)", unit=8, part="Unit 9: Beyond CS1 · Complete",
    prev="CS1 Unit 8 Part 2: Sorting, Hashing, Stacks and Queues", next="none, this is the final unit of CS1",
@@ -18,7 +18,7 @@ V = {
    tags="intro to computer science, cs1, linked list, binary search tree, bst, graphs, bfs, dfs, breadth first search, depth first search, data structures, python",
    tagsh="#datastructures #computerscience #python"),
  "cs1_u8_part1": dict(
-   title="Intro to Computer Science (College CS1) Unit 8 Part 1: Counting Steps, Big-O Notation, Complexity Classes & Linear vs Binary Search",
+   title="Counting Steps, Big-O, Complexity Classes & Linear vs Binary Search | College CS1 Unit 8 Part 1",
    intro="Unit 8, part 1 of 2, of a first college course in computer science, in Python. It covers counting steps, Big-O notation, the common complexity classes from O(1) to O(2^n), and linear vs binary search. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="Intro College CS (CS1)", unit=7, part="Unit 8: Algorithms and Complexity · Part 1 of 2",
    prev="CS1 Unit 7: Object-Oriented Programming in Python, Classes, Inheritance & Polymorphism", next="CS1 Unit 8 Part 2: Sorting, Hashing, Stacks and Queues",
@@ -27,7 +27,7 @@ V = {
    tags="intro to computer science, cs1, big o notation, time complexity, binary search, merge sort, insertion sort, selection sort, hashing, stacks and queues, algorithms",
    tagsh="#algorithms #computerscience #bigO"),
  "cs1_u8_part2": dict(
-   title="Intro to Computer Science (College CS1) Unit 8 Part 2: Selection, Insertion & Merge Sort, Hashing, Stacks & Queues in Python",
+   title="Selection, Insertion & Merge Sort, Hashing, Stacks & Queues in Python | College CS1 Unit 8 Part 2",
    intro="Unit 8, part 2 of 2, of a first college course in computer science, in Python. It covers selection and insertion sort, merge sort, hashing and why dict and set are fast, and stacks and queues. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="Intro College CS (CS1)", unit=7, part="Unit 8: Algorithms and Complexity · Part 2 of 2",
    prev="CS1 Unit 8 Part 1: Big-O, Complexity Classes and Searching", next="CS1 Unit 9: Beyond CS1",
@@ -36,7 +36,7 @@ V = {
    tags="intro to computer science, cs1, big o notation, time complexity, binary search, merge sort, insertion sort, selection sort, hashing, stacks and queues, algorithms",
    tagsh="#algorithms #computerscience #bigO"),
  "cs1_u7_part1": dict(
-   title="Intro to Computer Science (College CS1) Unit 7 Part 1: Python Classes & Objects, __init__, Methods, Dunder Methods & Encapsulation",
+   title="Python Classes & Objects, __init__, Special Methods & Encapsulation | College CS1 Unit 7 Part 1",
    intro="Unit 7, part 1 of 2, of a first college course in computer science, in Python. It covers classes and objects, __init__, methods and self, special (dunder) methods like __str__, __add__ and __eq__, and encapsulation. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="Intro College CS (CS1)", unit=6, part="Unit 7: Object-Oriented Programming · Part 1 of 2",
    prev="CS1 Unit 6: Testing, Debugging, Exceptions, Assertions & Files in Python", next="CS1 Unit 7 Part 2: Inheritance, Polymorphism and Designing with Classes",
@@ -45,7 +45,7 @@ V = {
    tags="intro to computer science, cs1, python classes, object oriented programming, oop, inheritance, polymorphism, encapsulation, dunder methods, learn python",
    tagsh="#python #computerscience #oop"),
  "cs1_u7_part2": dict(
-   title="Intro to Computer Science (College CS1) Unit 7 Part 2: Python Inheritance, super(), Polymorphism & Designing with Classes",
+   title="Python Inheritance, super(), Polymorphism & Designing with Classes | College CS1 Unit 7 Part 2",
    intro="Unit 7, part 2 of 2, of a first college course in computer science, in Python. It covers inheritance with super(), overriding methods, polymorphism, and how to design a program with classes (is-a vs has-a). Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="Intro College CS (CS1)", unit=6, part="Unit 7: Object-Oriented Programming · Part 2 of 2",
    prev="CS1 Unit 7 Part 1: Classes, Methods, Dunder Methods and Encapsulation", next="CS1 Unit 8: Algorithms and Complexity",
@@ -54,7 +54,7 @@ V = {
    tags="intro to computer science, cs1, python classes, object oriented programming, oop, inheritance, polymorphism, encapsulation, dunder methods, learn python",
    tagsh="#python #computerscience #oop"),
  "cs1_u6": dict(
-   title="Intro to Computer Science (College CS1) Unit 6: Testing, Debugging, Exceptions, Assertions & Files in Python",
+   title="Testing, Debugging, Exceptions, Assertions & Files in Python | College CS1 Unit 6",
    intro="Unit 5 of a first college course in computer science, in Python. It covers black box and glass box testing, unit and regression tests, debugging strategies (reading tracebacks, print debugging, bisection), exceptions with try/except/else/finally and raise, assertions and defensive programming, and reading and writing files. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="Intro College CS (CS1)", unit=5, part="Unit 6: Testing, Debugging and Exceptions · Complete",
    prev="CS1 Unit 5: Recursion in Python, Base Cases, Memoization & Recursion vs Loops", next="CS1 Unit 7 Part 1: Classes, Methods, Dunder Methods and Encapsulation",
@@ -63,7 +63,7 @@ V = {
    tags="intro to computer science, cs1, testing, debugging, python exceptions, try except, assert, file io, defensive programming, learn python",
    tagsh="#python #computerscience #debugging"),
  "cs1_u5": dict(
-   title="Intro to Computer Science (College CS1) Unit 5: Recursion in Python, Base Cases, Memoization & Recursion vs Loops",
+   title="Recursion in Python, Base Cases, Memoization & Recursion vs Loops | College CS1 Unit 5",
    intro="Unit 5 of a first college course in computer science, in Python. It covers thinking recursively, base and recursive cases, tracing the call stack, recursion on lists and strings (sum, palindromes, flattening nested lists), memoization with Fibonacci, and when to choose recursion or a loop. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="Intro College CS (CS1)", unit=4, part="Unit 5: Recursion · Complete",
    prev="CS1 Unit 4 Part 2: Dictionaries, Sets and Choosing a Structure", next="CS1 Unit 6: Testing, Debugging and Exceptions",
@@ -72,7 +72,7 @@ V = {
    tags="intro to computer science, cs1, recursion, python recursion, base case, memoization, fibonacci, call stack, recursion vs iteration, learn python",
    tagsh="#python #computerscience #recursion"),
  "cs1_u4_part1": dict(
-   title="Intro to Computer Science (College CS1) Unit 4 Part 1: Python Tuples, Lists & Mutation, Aliasing & Cloning, List Comprehensions",
+   title="Python Tuples, Lists & Mutation, Aliasing & Cloning, List Comprehensions | College CS1 Unit 4 Part 1",
    intro="Unit 4, part 1 of 2, of a first college course in computer science, in Python. It covers tuples and unpacking, lists and mutation (append, pop, sort vs sorted), aliasing and cloning, and list comprehensions. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem.",
    course="Intro College CS (CS1)", unit=3, part="Unit 4: Data Structures in Python · Part 1 of 2",
    prev="CS1 Unit 3: Functions, Scope, Call Stack, Docstrings, lambda, map & filter", next="CS1 Unit 4 Part 2: Dictionaries, Sets and Choosing a Structure",
@@ -81,7 +81,7 @@ V = {
    tags="intro to computer science, cs1, python lists, tuples, dictionaries, sets, aliasing, list comprehension, data structures, learn python",
    tagsh="#python #computerscience #cs1"),
  "cs1_u4_part2": dict(
-   title="Intro to Computer Science (College CS1) Unit 4 Part 2: Python Dictionaries, Sets & Choosing the Right Data Structure",
+   title="Python Dictionaries, Sets & Choosing the Right Data Structure | College CS1 Unit 4 Part 2",
    intro="Unit 4, part 2 of 2, of a first college course in computer science, in Python. It covers dictionaries (lookup, items, counting with get), sets and their operations, and how to choose between a list, tuple, dictionary and set. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem.",
    course="Intro College CS (CS1)", unit=3, part="Unit 4: Data Structures in Python · Part 2 of 2",
    prev="CS1 Unit 4 Part 1: Tuples, Lists, Aliasing and Comprehensions", next="CS1 Unit 5: Recursion",
@@ -90,7 +90,7 @@ V = {
    tags="intro to computer science, cs1, python lists, tuples, dictionaries, sets, aliasing, list comprehension, data structures, learn python",
    tagsh="#python #computerscience #cs1"),
  "cs1_u3": dict(
-   title="Intro to Computer Science (College CS1) Unit 3: Functions, Scope, Call Stack, Docstrings, lambda, map & filter",
+   title="Functions, Scope, Call Stack, Docstrings, lambda, map & filter | College CS1 Unit 3",
    intro="Unit 3 of a first college course in computer science, in Python. It covers decomposition and abstraction, defining and calling functions with scope and the call stack, specifications and docstrings, functions as objects and lambda, modules and imports, and the higher-order functions map and filter. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem.",
    course="Intro College CS (CS1)", unit=2, part="Unit 3: Functions and Abstraction · Complete",
    prev="CS1 Unit 2: Branching, Loops, Invariants, Approximation & Bisection Search", next="CS1 Unit 4 Part 1: Tuples, Lists, Aliasing and Comprehensions",
@@ -99,7 +99,7 @@ V = {
    tags="intro to computer science, cs1, python functions, scope, call stack, docstring, lambda, map, filter, higher order functions, learn python",
    tagsh="#python #computerscience #cs1"),
  "cs1_u2": dict(
-   title="Intro to Computer Science (College CS1) Unit 2: Branching, Loops, Invariants, Approximation & Bisection Search",
+   title="Branching, Loops, Invariants, Approximation & Bisection Search | College CS1 Unit 2",
    intro="Unit 2 of a first college course in computer science, in Python. It covers branching with if, elif and else, while loops and loop invariants, for loops with range and the accumulate, count and search patterns, guess-and-check and approximation with epsilon, and bisection search for square roots. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem.",
    course="Intro College CS (CS1)", unit=1, part="Unit 2: Control Flow · Complete",
    prev="CS1 Unit 1: Computation, Python Types, Variables, Strings & I/O", next="CS1 Unit 3: Functions and Abstraction",
@@ -108,7 +108,7 @@ V = {
    tags="intro to computer science, cs1, python loops, while loop, for loop, loop invariant, bisection search, approximation, learn python",
    tagsh="#python #computerscience #cs1"),
  "cs1_u1": dict(
-   title="Intro to Computer Science (College CS1) Unit 1: Computation, Python Types, Variables, Strings & I/O",
+   title="Computation, Python Types, Variables, Strings & I/O | College CS1 Unit 1",
    intro="Unit 1 of a first college course in computer science, taught in Python. It covers what computation is (declarative vs imperative knowledge, algorithms, a square-root recipe), expressions and types in the Python interpreter, variables and program state, strings with indexing, slicing and methods, and input, output and f-string formatting. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem.",
    course="Intro College CS (CS1)", unit=0, part="Unit 1: Computation and Python · Complete",
    prev="AP CSA Exam Prep: All 4 FRQ Types + Multiple Choice", next="CS1 Unit 2: Control Flow",
@@ -126,7 +126,7 @@ V = {
    tags="AP CSA, ap computer science a exam, ap csa frq, free response, class design, arraylist frq, 2d array frq, ap csa multiple choice, ap csa review, java",
    tagsh="#APCSA #java #apexam"),
  "apcsa_u4_part3": dict(
-   title="Java Searching, Sorting & Recursion: Binary Search, Selection, Insertion, Merge Sort | AP CSA Unit 4 (4.13–4.17)",
+   title="Java Searching, Sorting & Recursion: Binary Search to Merge Sort | AP CSA Unit 4 (4.13–4.17)",
    intro="AP CSA Unit 4, Data Collections, part 3 (Topics 4.13 to 4.17). It covers 2D array algorithms, linear and binary search, selection sort and insertion sort, recursion with base cases and tracing, and recursive binary search and merge sort. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem.",
    course="AP Computer Science A", unit=3, part="Unit 4: Data Collections · Part 3 of 3",
    prev="Java ArrayList & 2D Arrays (Unit 4, Part 2)", next="AP CSA Exam Prep: FRQs and Multiple Choice",
@@ -153,7 +153,7 @@ V = {
    tags="AP CSA, java arrays, array traversal, enhanced for loop, array algorithms, scanner file, data sets, java tutorial",
    tagsh="#APCSA #java #computerscience"),
  "apcsa_u3_part1": dict(
-   title="Writing Java Classes: Design, Instance Variables, Constructors & Methods | AP CSA Unit 3 Part 1 (3.1–3.5)",
+   title="Writing Java Classes: Design, Instance Variables, Constructors & Methods | AP CSA Unit 3 (3.1–3.5)",
    intro="AP CSA Unit 3, Class Creation, part 1 of 2 (Topics 3.1 to 3.5). Learn abstraction and program design, the impact of program design, the anatomy of a class with private instance variables, constructors and overloading, and writing accessor and mutator methods and toString. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Each part ends with a practice problem.",
    course="AP Computer Science A", unit=2, part="Unit 3: Class Creation · Part 1 of 2",
    prev="Java Loops: while, for, String Algorithms & Nested Loops (Unit 2, Part 2)", next="AP CSA Unit 3, Part 2: References, static, Scope & this",
@@ -180,7 +180,7 @@ V = {
    tags="ap computer science principles, ap csp, ap csp exam, create performance task, create task, written response, personalized project reference, ap csp multiple choice, ap csp review, ap exam prep",
    tagsh="#apcsp #computerscience #apexam"),
  "apcsp_bi5": dict(
-   title="AP CSP Big Idea 5: Impact of Computing (Digital Divide, Bias, Crowdsourcing, Copyright, Safe Computing)",
+   title="AP CSP Big Idea 5: Impact of Computing (Digital Divide, Bias, Crowdsourcing, Copyright, Safety)",
    intro="AP CSP Big Idea 5, Impact of Computing, complete in one video. It covers beneficial and harmful effects of computing innovations, the digital divide, computing bias, crowdsourcing and citizen science, legal and ethical concerns (intellectual property, copyright, Creative Commons, open source), and safe computing (PII, authentication, encryption, malware and phishing). Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="AP Computer Science Principles", unit=4, part="Big Idea 5: Impact of Computing · Complete",
    prev="AP CSP Big Idea 4: The Internet, TCP/IP, Fault Tolerance, Parallel & Distributed Computing", next="AP CSP Exam Prep: Create Task and Multiple Choice",
@@ -198,7 +198,7 @@ V = {
    tags="ap computer science principles, ap csp, big idea 4, internet, tcp ip, packets, routing, fault tolerance, redundancy, parallel computing, speedup, distributed computing, ap csp review",
    tagsh="#apcsp #computerscience #apexam"),
  "apcsp_bi3_part4": dict(
-   title="AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations & Algorithmic Efficiency | AP Computer Science Principles",
+   title="AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations & Algorithmic Efficiency",
    intro="AP CSP Big Idea 3, Algorithms and Programming, part 4 of 5, in AP exam pseudocode. This video covers libraries and APIs, random values with RANDOM(a, b), simulations, and algorithmic efficiency (reasonable vs unreasonable time). Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="AP Computer Science Principles", unit=2, part="Big Idea 3: Algorithms and Programming · Part 4 of 5",
    prev="AP CSP Big Idea 3 Part 3: FOR EACH, Binary Search and Procedures", next="AP CSP Big Idea 3 Part 5: Heuristics, Undecidable Problems and the Reference Sheet",
@@ -207,7 +207,7 @@ V = {
    tags="ap computer science principles, ap csp, big idea 3, api, libraries, random, simulation, algorithmic efficiency, reasonable time, ap pseudocode, ap csp review",
    tagsh="#apcsp #computerscience #apexam"),
  "apcsp_bi3_part5": dict(
-   title="AP CSP Big Idea 3 Part 5: Heuristics, Undecidable Problems & the AP Reference Sheet | AP Computer Science Principles",
+   title="AP CSP Big Idea 3 Part 5: Heuristics, Undecidable Problems & the AP Reference Sheet",
    intro="AP CSP Big Idea 3, Algorithms and Programming, part 5 of 5. This video covers heuristics and when an approximate answer is good enough, undecidable problems and the halting problem, and a tour of the AP exam reference sheet. Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="AP Computer Science Principles", unit=2, part="Big Idea 3: Algorithms and Programming · Part 5 of 5",
    prev="AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations and Efficiency", next="AP CSP Big Idea 4: Computer Systems and Networks",
@@ -225,7 +225,7 @@ V = {
    tags="ap computer science principles, ap csp, big idea 3, ap pseudocode, for each, linear search, binary search, procedures, parameters, procedural abstraction, ap csp review",
    tagsh="#apcsp #computerscience #apexam"),
  "apcsp_bi3_part2": dict(
-   title="AP CSP Big Idea 3 Part 2: Conditionals, Nested IF, REPEAT Loops & List Operations | AP Computer Science Principles",
+   title="AP CSP Big Idea 3 Part 2: Conditionals, Nested IF, REPEAT Loops & List Operations",
    intro="AP CSP Big Idea 3, Algorithms and Programming, part 2 of 5, in AP exam pseudocode. This video covers IF and ELSE, nested conditionals and equivalent code, iteration with REPEAT n TIMES and REPEAT UNTIL, developing algorithms like finding the maximum, and the list operations APPEND, INSERT, REMOVE and LENGTH. Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="AP Computer Science Principles", unit=2, part="Big Idea 3: Algorithms and Programming · Part 2 of 5",
    prev="AP CSP Big Idea 3 Part 1: Variables, Lists, MOD, Strings and Booleans", next="AP CSP Big Idea 3 Part 3: Traversals, Binary Search and Procedures",
@@ -234,7 +234,7 @@ V = {
    tags="ap computer science principles, ap csp, big idea 3, ap pseudocode, conditionals, nested conditionals, repeat until, iteration, list operations, ap csp review",
    tagsh="#apcsp #computerscience #apexam"),
  "apcsp_bi3_part1": dict(
-   title="AP CSP Big Idea 3 Part 1: Variables, Lists, MOD, Strings & Boolean Expressions | AP Computer Science Principles",
+   title="AP CSP Big Idea 3 Part 1: Variables, Lists, MOD, Strings & Boolean Expressions",
    intro="AP CSP Big Idea 3, Algorithms and Programming, part 1 of 5, in AP exam pseudocode. This video covers variables and the assignment arrow (and the swap trap), lists with indexes that start at 1, math expressions and MOD, strings with concatenation and substrings, and Boolean expressions with NOT, AND and OR. Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="AP Computer Science Principles", unit=2, part="Big Idea 3: Algorithms and Programming · Part 1 of 5",
    prev="AP CSP Big Idea 2: Data", next="AP CSP Big Idea 3 Part 2: Conditionals, Iteration and List Operations",
@@ -252,7 +252,7 @@ V = {
    tags="ap computer science principles, ap csp, big idea 2, data, binary, overflow error, lossless compression, lossy compression, metadata, ap csp review",
    tagsh="#apcsp #computerscience #apexam"),
  "apcsp_bi1": dict(
-   title="AP CSP Big Idea 1: Creative Development (Collaboration, Program Design, Errors) | AP Computer Science Principles",
+   title="AP CSP Big Idea 1: Creative Development (Collaboration, Program Design, Errors)",
    intro="Start AP Computer Science Principles with Big Idea 1, Creative Development. This video covers collaboration and pair programming, program function and purpose (inputs, outputs, events), the iterative and incremental development process, and the four kinds of errors (syntax, logic, run time, overflow) with testing and debugging. Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="AP Computer Science Principles", unit=0, part="Big Idea 1: Creative Development (complete)",
    prev="Intro to Computer Science, Unit 6: Security and Society", next="AP CSP Big Idea 2: Data",
@@ -261,7 +261,7 @@ V = {
    tags="ap computer science principles, ap csp, big idea 1, creative development, collaboration, pair programming, program design, syntax error, logic error, ap csp review",
    tagsh="#apcsp #computerscience #apexam"),
  "introcs_u6_security": dict(
-   title="Cybersecurity Basics: Passwords, Encryption, Phishing, Malware, Privacy & AI Bias | Intro to CS Unit 6",
+   title="Cybersecurity Basics: Passwords, Encryption, Phishing, Malware & AI Bias | Intro to CS Unit 6",
    intro="How do you stay safe online, and how do computers affect society? This video covers all of Unit 6: passwords and two-factor authentication, the big idea of encryption (from the Caesar cipher to public keys and HTTPS), how to spot phishing and malware, and privacy, PII and bias in AI. Each section ends with a practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="Intro to Computer Science", unit=5, part="Unit 6: Security and Society (complete unit)",
    prev="How the Internet Works (Unit 5)", next="AP Computer Science Principles",
@@ -288,7 +288,7 @@ V = {
    tags="python for beginners, python if else, python while loop, python for loop, range, python functions, return, python lists, learn python, computer science",
    tagsh="#python #coding #computerscience"),
  "introcs_u4_part1": dict(
-   title="Python for Beginners: print, Variables, Math, Strings, Input & Booleans | Intro to CS Unit 4 (Part 1)",
+   title="Python for Beginners: print, Variables, Math, Strings, Input & Booleans | Intro to CS Unit 4 Part 1",
    intro="Write your first real programs in Python. This video covers Unit 4, lessons 1 to 6: print and comments, variables and assignment, numbers and arithmetic (including //, % and **), strings (joining, indexes, slices, methods), input from the user with int() and float(), and Booleans and comparisons with and, or and not. Each section ends with a practice problem. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once.",
    course="Intro to Computer Science", unit=3, part="Unit 4: Programming Basics in Python · Part 1 of 2",
    prev="Intro to Computer Science, Unit 3: Algorithms", next="Python Decisions, Loops, Functions & Lists (Unit 4, Part 2)",
@@ -306,7 +306,7 @@ V = {
    tags="algorithms, flowchart, pseudocode, linear search, binary search, selection sort, algorithm efficiency, computer science, AP CSP",
    tagsh="#computerscience #algorithms #APCSP"),
  "apcsa_u2_part2": dict(
-   title="Java Loops with Worked Examples: while, for, String Algorithms & Nested Loops | AP CSA Unit 2 (2.7–2.12)",
+   title="Java Loops: while, for, String Algorithms & Nested Loops | AP CSA Unit 2 (2.7–2.12)",
    intro="AP CSA Topics 2.7 to 2.12, all about iteration: while loops, infinite loops and off-by-one errors, for loops and counting iterations, the standard algorithms (sum, average, count, min and max, digits, any and all), String algorithms (counting, reversing, finding substrings), nested loops, and informal run-time analysis. Extended edition: every topic is followed by a step-by-step worked example with a trace table (sum of digits, odd-number sums, smallest factor, counting a substring, nested-loop output, counting executions), plus AP-style practice problems. It ends with a complete Java program, NumberReport, that uses the whole unit, compiled and run on screen.\n\nFull program (NumberReport.java): https://github.com/sigmapubs/SchoolCompScience/blob/main/ap-csa/unit-2/part-2/NumberReport.java",
    course="AP Computer Science A", unit=1, part="Unit 2: Selection and Iteration · Part 2 of 2",
    prev="Java if Statements, Boolean Expressions & De Morgan's Laws (Unit 2, Part 1)", next="AP Computer Science A, Unit 3: Class Creation",

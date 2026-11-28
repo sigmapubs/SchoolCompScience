@@ -1,605 +1,1213 @@
 1
-00:00:00,000 --> 00:00:04,899
+00:00:00,000 --> 00:00:03,957
 Welcome to School Computer Science,
 Explained. This is Intro to Computer
 
 2
-00:00:04,899 --> 00:00:10,139
+00:00:03,957 --> 00:00:08,190
 Science, Unit 4, part two. Your programs
 will learn to make decisions, repeat
 
 3
-00:00:10,139 --> 00:00:13,269
+00:00:08,190 --> 00:00:12,422
 steps, use functions, and store data in
-lists.
+lists. After every lesson, we'll work
 
 4
-00:00:14,443 --> 00:00:20,139
+00:00:12,422 --> 00:00:16,764
+through a full example step by step, and
+we'll finish by putting the whole unit
+
+5
+00:00:16,764 --> 00:00:17,259
+together.
+
+6
+00:00:18,432 --> 00:00:23,680
 Programs make decisions all the time. In
 Python, decisions start with the word if.
 
-5
-00:00:20,589 --> 00:00:21,848
+7
+00:00:24,130 --> 00:00:25,346
 Let's see how they work.
 
-6
-00:00:22,998 --> 00:00:28,115
+8
+00:00:26,496 --> 00:00:31,155
 Here's an if statement. If temp is greater
 than thirty, colon. Then, indented
 
-7
-00:00:28,115 --> 00:00:29,910
+9
+00:00:31,155 --> 00:00:32,789
 underneath, print it's hot.
 
-8
-00:00:30,360 --> 00:00:35,568
+10
+00:00:33,239 --> 00:00:38,087
 If the condition is True, the indented
 lines run. If it's False, Python skips
 
-9
-00:00:35,568 --> 00:00:35,906
+11
+00:00:38,087 --> 00:00:38,402
 them.
 
-10
-00:00:37,056 --> 00:00:41,814
+12
+00:00:39,552 --> 00:00:43,947
 In Python, indentation matters. The
 indented lines belong to the if.
 
-11
-00:00:42,264 --> 00:00:47,234
+13
+00:00:44,397 --> 00:00:49,090
 Use four spaces. Forget to indent, and
 Python gives an indentation error.
 
-12
-00:00:48,384 --> 00:00:49,963
+14
+00:00:50,240 --> 00:00:51,669
 Add else for a second path.
 
-13
-00:00:50,413 --> 00:00:55,930
+15
+00:00:52,119 --> 00:00:57,214
 If temp is greater than thirty, print hot.
 Else, print not hot. Exactly one of the
 
-14
-00:00:55,930 --> 00:00:56,536
+16
+00:00:57,214 --> 00:00:57,773
 two runs.
 
-15
-00:00:57,686 --> 00:01:00,587
+17
+00:00:58,923 --> 00:01:01,589
 For more choices, use elif, short for else
 if.
 
-16
-00:01:01,037 --> 00:01:06,221
+18
+00:01:02,039 --> 00:01:06,903
 Python checks each condition from the top,
 and runs only the first one that's True.
 
-17
-00:01:06,671 --> 00:01:12,538
+19
+00:01:07,353 --> 00:01:12,708
 If score is at least ninety, grade A. elif
 at least eighty, grade B. else, grade C.
 
-18
-00:01:13,688 --> 00:01:15,970
+20
+00:01:13,858 --> 00:01:15,970
 Let's trace it with a score of eighty
 five.
 
-19
-00:01:16,420 --> 00:01:21,412
+21
+00:01:16,420 --> 00:01:21,220
 At least ninety? No. At least eighty? Yes,
 so the grade is B. The else is skipped.
 
-20
-00:01:22,562 --> 00:01:27,972
+22
+00:01:22,370 --> 00:01:27,409
 Your turn. x is seven. If x is greater
 than ten, print big. elif x is greater
 
-21
-00:01:27,972 --> 00:01:31,906
+23
+00:01:27,409 --> 00:01:31,074
 than five, print medium. else, print
 small. What prints?
 
-22
-00:01:32,356 --> 00:01:33,636
+24
+00:01:31,524 --> 00:01:32,719
 Pause the video now.
 
-23
-00:01:34,086 --> 00:01:39,057
+25
+00:01:33,169 --> 00:01:37,819
 Seven isn't greater than ten, but it is
 greater than five. So it prints medium.
 
-24
-00:01:39,507 --> 00:01:41,598
-Next, we'll repeat code with while loops.
+26
+00:01:38,269 --> 00:01:41,256
+Next, let's work through a full example,
+step by step.
 
-25
-00:01:42,747 --> 00:01:46,836
+27
+00:01:42,406 --> 00:01:46,267
+Let's write an if, elif, else chain with
+four paths, and test every one.
+
+28
+00:01:47,417 --> 00:01:52,681
+The problem: a theater charges by age.
+Under five is free. Under thirteen is
+
+29
+00:01:52,681 --> 00:01:58,084
+eight dollars. Sixty five and over is nine
+dollars. Everyone else pays twelve.
+
+30
+00:01:58,534 --> 00:02:01,905
+Find the price for ages three, ten,
+seventy and thirty.
+
+31
+00:02:03,055 --> 00:02:07,751
+Here's the code. Python checks each
+condition from the top, and runs only the
+
+32
+00:02:07,751 --> 00:02:08,665
+first True one.
+
+33
+00:02:09,115 --> 00:02:12,401
+Order matters: under five must come before
+under thirteen.
+
+34
+00:02:13,551 --> 00:02:16,324
+Age three: under five is True right away.
+Free.
+
+35
+00:02:16,774 --> 00:02:20,315
+Age ten: under five, no. Under thirteen,
+yes. Eight dollars.
+
+36
+00:02:20,765 --> 00:02:25,011
+Age seventy: no, no, then sixty five or
+more, yes. Nine dollars.
+
+37
+00:02:25,461 --> 00:02:29,471
+Age thirty: every condition is False, so
+else runs. Twelve dollars.
+
+38
+00:02:30,621 --> 00:02:32,733
+Each age gets exactly one price.
+
+39
+00:02:33,183 --> 00:02:37,834
+Common mistake: swapping the first two
+checks. If under thirteen came first, a
+
+40
+00:02:37,834 --> 00:02:40,159
+three year old would pay eight dollars.
+
+41
+00:02:41,309 --> 00:02:44,851
+Your turn. Using the same code, what does
+a thirteen year old pay?
+
+42
+00:02:45,301 --> 00:02:46,495
+Pause the video now.
+
+43
+00:02:46,945 --> 00:02:51,786
+Twelve dollars. Thirteen is not under
+thirteen, and not sixty five or more, so
+
+44
+00:02:51,786 --> 00:02:52,407
+else runs.
+
+45
+00:02:52,857 --> 00:02:53,923
+Next, while loops.
+
+46
+00:02:55,073 --> 00:02:58,846
 What if you want to print one to a
 hundred? You don't write a hundred print
 
-26
-00:01:46,836 --> 00:01:47,163
+47
+00:02:58,846 --> 00:02:59,148
 lines.
 
-27
-00:01:47,613 --> 00:01:48,573
+48
+00:02:59,598 --> 00:03:00,494
 You write a loop.
 
-28
-00:01:49,723 --> 00:01:54,480
+49
+00:03:01,644 --> 00:03:06,166
 A while loop repeats its indented block as
 long as its condition is True.
 
-29
-00:01:54,930 --> 00:01:59,999
+50
+00:03:06,616 --> 00:03:11,344
 Each time, Python checks the condition
 first. When it becomes False, the loop
 
-30
-00:01:59,999 --> 00:02:00,328
+51
+00:03:11,344 --> 00:03:11,651
 ends.
 
-31
-00:02:01,478 --> 00:02:07,238
+52
+00:03:12,801 --> 00:03:18,168
 Here's a countdown. n equals three. While
 n is greater than zero, print n, then n
 
-32
-00:02:07,238 --> 00:02:10,864
+53
+00:03:18,168 --> 00:03:21,548
 equals n minus one. After the loop, print
 lift off.
 
-33
-00:02:11,314 --> 00:02:13,469
+54
+00:03:21,998 --> 00:03:24,003
 It prints three, two, one, then lift off.
 
-34
-00:02:14,619 --> 00:02:19,820
+55
+00:03:25,153 --> 00:03:30,048
 Every while loop needs three things: a
 starting value, a condition, and a change
 
-35
-00:02:19,820 --> 00:02:21,510
+56
+00:03:30,048 --> 00:03:31,638
 that moves toward the end.
 
-36
-00:02:21,960 --> 00:02:27,160
+57
+00:03:32,088 --> 00:03:37,032
 Forget the change, and the condition stays
 True forever. That's an infinite loop.
 
-37
-00:02:27,160 --> 00:02:28,893
+58
+00:03:37,032 --> 00:03:38,680
 Press control C to stop it.
 
-38
-00:02:30,043 --> 00:02:33,627
+59
+00:03:39,830 --> 00:03:43,222
 While loops are great when you don't know
 how many times to repeat.
 
-39
-00:02:34,077 --> 00:02:38,706
+60
+00:03:43,672 --> 00:03:48,003
 For example, keep asking for a password
 until the user types the right one.
 
-40
-00:02:39,856 --> 00:02:43,142
+61
+00:03:49,153 --> 00:03:52,246
 Python also has break, which leaves a loop
 right away.
 
-41
-00:02:43,592 --> 00:02:47,389
+62
+00:03:52,696 --> 00:03:56,110
 It's handy, but a clear condition is
 usually easier to read.
 
-42
-00:02:48,539 --> 00:02:54,919
+63
+00:03:57,260 --> 00:04:03,198
 Your turn. total equals zero, i equals
 one. While i is at most four, total plus
 
-43
-00:02:54,919 --> 00:02:58,715
+64
+00:04:03,198 --> 00:04:06,732
 equals i, and i plus equals one. What is
 total?
 
-44
-00:02:59,165 --> 00:03:00,445
+65
+00:04:07,182 --> 00:04:08,376
 Pause the video now.
 
-45
-00:03:00,895 --> 00:03:04,351
+66
+00:04:08,826 --> 00:04:12,069
 One plus two plus three plus four. Total
 is ten.
 
-46
-00:03:04,801 --> 00:03:07,169
-Next, we'll count with for loops and
-range.
+67
+00:04:12,519 --> 00:04:15,506
+Next, let's work through a full example,
+step by step.
 
-47
-00:03:08,319 --> 00:03:11,839
+68
+00:04:16,656 --> 00:04:20,240
+Let's use a while loop when we don't know
+how many times to repeat.
+
+69
+00:04:21,390 --> 00:04:25,537
+The problem: you save fifteen dollars a
+week, and want at least one hundred
+
+70
+00:04:25,537 --> 00:04:26,809
+dollars for headphones.
+
+71
+00:04:27,259 --> 00:04:30,117
+How many weeks will it take, and how much
+will you have?
+
+72
+00:04:31,267 --> 00:04:33,678
+Start the balance and the week count at
+zero.
+
+73
+00:04:34,128 --> 00:04:38,075
+While the balance is below a hundred, add
+fifteen and count one more week.
+
+74
+00:04:38,525 --> 00:04:42,685
+The change, adding fifteen, moves us
+toward the end, so the loop stops.
+
+75
+00:04:43,835 --> 00:04:48,549
+Week one: fifteen. Week two: thirty. Then
+forty five, sixty, seventy five.
+
+76
+00:04:48,999 --> 00:04:53,266
+Week six: ninety. Ninety is still under a
+hundred, so the loop runs again.
+
+77
+00:04:53,716 --> 00:04:58,025
+Week seven: one hundred five. Now the
+condition is False, and the loop ends.
+
+78
+00:04:59,175 --> 00:05:02,503
+It takes seven weeks, and you'll have one
+hundred five dollars.
+
+79
+00:05:02,953 --> 00:05:07,634
+Common mistake: forgetting the balance
+line. Then balance stays zero, and the
+
+80
+00:05:07,634 --> 00:05:08,607
+loop never ends.
+
+81
+00:05:09,757 --> 00:05:11,378
+Your turn. What does this print?
+
+82
+00:05:11,828 --> 00:05:13,023
+Pause the video now.
+
+83
+00:05:13,473 --> 00:05:15,478
+Three. n goes ten, five, two, one.
+
+84
+00:05:15,928 --> 00:05:17,443
+Next, for loops and range.
+
+85
+00:05:18,593 --> 00:05:21,942
 When you know how many times to repeat, a
 for loop is simpler.
 
-48
-00:03:12,289 --> 00:03:15,126
+86
+00:05:22,392 --> 00:05:24,952
 It pairs perfectly with a function called
 range.
 
-49
-00:03:16,276 --> 00:03:18,858
+87
+00:05:26,102 --> 00:05:28,534
 for i in range of five, colon, print i.
 
-50
-00:03:19,308 --> 00:03:24,938
+88
+00:05:28,984 --> 00:05:34,243
 This prints zero, one, two, three, four.
 Five numbers, starting at zero, stopping
 
-51
-00:03:24,938 --> 00:03:25,772
+89
+00:05:34,243 --> 00:05:35,022
 before five.
 
-52
-00:03:26,922 --> 00:03:32,990
+90
+00:05:36,172 --> 00:05:41,798
 range can take a start and a stop. range
 of two comma six gives two, three, four,
 
-53
-00:03:32,990 --> 00:03:33,364
+91
+00:05:41,798 --> 00:05:42,145
 five.
 
-54
-00:03:33,814 --> 00:03:40,133
+92
+00:05:42,595 --> 00:05:48,461
 A third number is the step. range of zero
 comma ten comma two gives zero, two, four,
 
-55
-00:03:40,133 --> 00:03:40,961
+93
+00:05:48,461 --> 00:05:49,230
 six, eight.
 
-56
-00:03:42,111 --> 00:03:46,122
+94
+00:05:50,380 --> 00:05:54,177
 A for loop can also go through a string,
 one character at a time.
 
-57
-00:03:46,572 --> 00:03:50,305
+95
+00:05:54,627 --> 00:05:58,168
 for letter in cat, print letter. It prints
 c, then a, then t.
 
-58
-00:03:51,455 --> 00:03:53,546
+96
+00:05:59,318 --> 00:06:01,238
 A common pattern is adding things up.
 
-59
-00:03:53,996 --> 00:03:59,700
+97
+00:06:01,688 --> 00:06:07,074
 Start total at zero. For each number in
 range one to six, add it to total. At the
 
-60
-00:03:59,700 --> 00:04:01,249
+98
+00:06:07,074 --> 00:06:08,536
 end, total is fifteen.
 
-61
-00:04:02,399 --> 00:04:03,935
+99
+00:06:09,686 --> 00:06:11,158
 So which loop should you use?
 
-62
-00:04:04,385 --> 00:04:09,290
+100
+00:06:11,608 --> 00:06:16,175
 for, when you know the count or have a
 collection to go through. while, when you
 
-63
-00:04:09,290 --> 00:04:11,190
+101
+00:06:16,175 --> 00:06:17,944
 repeat until something happens.
 
-64
-00:04:12,340 --> 00:04:17,840
+102
+00:06:19,094 --> 00:06:24,219
 Your turn. What does this print? for i in
 range of one comma ten comma three, print
 
-65
-00:04:17,840 --> 00:04:17,972
+103
+00:06:24,219 --> 00:06:24,342
 i.
 
-66
-00:04:18,422 --> 00:04:19,702
+104
+00:06:24,792 --> 00:06:25,987
 Pause the video now.
 
-67
-00:04:20,152 --> 00:04:25,315
+105
+00:06:26,437 --> 00:06:31,344
 Start at one, step by three, stop before
 ten. It prints one, four, seven.
 
-68
-00:04:25,765 --> 00:04:27,792
-Next, we'll write our own functions.
+106
+00:06:31,794 --> 00:06:34,780
+Next, let's work through a full example,
+step by step.
 
-69
-00:04:28,942 --> 00:04:32,675
+107
+00:06:35,930 --> 00:06:40,239
+Let's use a for loop with range and an
+accumulator, and trace every pass.
+
+108
+00:06:41,389 --> 00:06:46,636
+The problem: add up the squares of one to
+five. That's one plus four plus nine plus
+
+109
+00:06:46,636 --> 00:06:48,216
+sixteen plus twenty five.
+
+110
+00:06:49,366 --> 00:06:54,890
+Start total at zero. range of one comma
+six gives one to five, because it stops
+
+111
+00:06:54,890 --> 00:06:55,659
+before six.
+
+112
+00:06:56,109 --> 00:06:58,456
+Each pass, add i times i to the total.
+
+113
+00:06:59,606 --> 00:07:03,638
+i is one: total becomes one. i is two:
+plus four, total five.
+
+114
+00:07:04,088 --> 00:07:08,269
+i is three: plus nine, fourteen. i is
+four: plus sixteen, thirty.
+
+115
+00:07:08,719 --> 00:07:13,754
+i is five: plus twenty five, fifty five.
+range is used up, so the loop ends.
+
+116
+00:07:14,904 --> 00:07:16,653
+The program prints fifty five.
+
+117
+00:07:17,103 --> 00:07:22,079
+Common mistake: range of one comma five.
+That stops before five, so you'd miss
+
+118
+00:07:22,079 --> 00:07:23,802
+twenty five and get thirty.
+
+119
+00:07:24,952 --> 00:07:29,133
+Your turn. What does list of range of
+three comma twelve comma three give?
+
+120
+00:07:29,583 --> 00:07:30,778
+Pause the video now.
+
+121
+00:07:31,228 --> 00:07:34,705
+Three, six, nine. Twelve is the stop, so
+it's not included.
+
+122
+00:07:35,155 --> 00:07:36,307
+Next, functions.
+
+123
+00:07:37,457 --> 00:07:40,934
 You've used functions like print and len.
 Now you'll make your own.
 
-70
-00:04:33,125 --> 00:04:37,221
+124
+00:07:41,384 --> 00:07:45,246
 A function is a named block of code you
 can run whenever you want.
 
-71
-00:04:38,371 --> 00:04:44,444
+125
+00:07:46,396 --> 00:07:51,945
 To define a function, write def, a name,
 parentheses, and a colon. Then indent the
 
-72
-00:04:44,444 --> 00:04:44,814
+126
+00:07:51,945 --> 00:07:52,284
 body.
 
-73
-00:04:45,264 --> 00:04:47,995
+127
+00:07:52,734 --> 00:07:55,294
 def greet, colon, print hello, print
 welcome.
 
-74
-00:04:49,145 --> 00:04:53,390
+128
+00:07:56,444 --> 00:08:00,390
 Defining a function doesn't run it. It
 just teaches Python the steps.
 
-75
-00:04:53,840 --> 00:04:56,997
+129
+00:08:00,840 --> 00:08:03,848
 To run it, call it by name with
 parentheses: greet.
 
-76
-00:04:58,147 --> 00:05:01,113
+130
+00:08:04,998 --> 00:08:07,772
 You can call a function as many times as
 you like.
 
-77
-00:05:01,563 --> 00:05:05,232
+131
+00:08:08,222 --> 00:08:11,571
 Call greet three times, and the two lines
 print three times.
 
-78
-00:05:06,382 --> 00:05:11,417
+132
+00:08:12,721 --> 00:08:17,350
 Functions keep code organized. Each one
 does one job, with a clear name.
 
-79
-00:05:11,867 --> 00:05:15,216
+133
+00:08:17,800 --> 00:08:20,830
 And if you need to fix something, you fix
 it in one place.
 
-80
-00:05:16,366 --> 00:05:21,614
+134
+00:08:21,980 --> 00:08:26,844
 Python reads a file from top to bottom, so
 define a function before you call it.
 
-81
-00:05:22,064 --> 00:05:24,517
+135
+00:08:27,294 --> 00:08:29,576
 Call it too early, and you'll get a name
 error.
 
-82
-00:05:25,667 --> 00:05:30,709
+136
+00:08:30,726 --> 00:08:35,471
 Your turn. def beep, colon, print beep.
 Then the program calls beep twice. How
 
-83
-00:05:30,709 --> 00:05:32,195
+137
+00:08:35,471 --> 00:08:36,870
 many lines are printed?
 
-84
-00:05:32,645 --> 00:05:33,925
+138
+00:08:37,320 --> 00:08:38,515
 Pause the video now.
 
-85
-00:05:34,375 --> 00:05:38,941
+139
+00:08:38,965 --> 00:08:43,168
 Two. The definition doesn't print
 anything, and each call prints one line.
 
-86
-00:05:39,391 --> 00:05:42,207
-Next, we'll send values in and get values
-back.
+140
+00:08:43,618 --> 00:08:46,604
+Next, let's work through a full example,
+step by step.
 
-87
-00:05:43,357 --> 00:05:47,453
+141
+00:08:47,755 --> 00:08:52,662
+Let's follow a program where one function
+calls another, and count the output lines.
+
+142
+00:08:53,812 --> 00:08:58,097
+The problem: print a birthday card with a
+line of dashes above and below the
+
+143
+00:08:58,097 --> 00:08:58,548
+message.
+
+144
+00:08:58,998 --> 00:09:02,560
+Use a function for the dashes, and a
+function for the whole card.
+
+145
+00:09:03,710 --> 00:09:09,001
+line prints ten dashes. card calls line,
+prints the message, and calls line again.
+
+146
+00:09:09,451 --> 00:09:13,789
+Defining them does nothing yet. The last
+line calls card, and that starts
+
+147
+00:09:13,789 --> 00:09:14,443
+everything.
+
+148
+00:09:15,593 --> 00:09:18,622
+Python reads both definitions, then
+reaches card.
+
+149
+00:09:19,072 --> 00:09:22,934
+card calls line: dashes. Back in card, it
+prints happy birthday.
+
+150
+00:09:23,384 --> 00:09:27,949
+card calls line again: dashes. card
+finishes, and so does the program.
+
+151
+00:09:29,099 --> 00:09:30,486
+The card is three lines.
+
+152
+00:09:30,936 --> 00:09:35,894
+If you want two cards, just call card
+twice. And if you want stars instead of
+
+153
+00:09:35,894 --> 00:09:38,018
+dashes, you change only one line.
+
+154
+00:09:39,168 --> 00:09:43,286
+Your turn. If the program ends with card,
+card, how many lines print?
+
+155
+00:09:43,736 --> 00:09:44,930
+Pause the video now.
+
+156
+00:09:45,380 --> 00:09:47,386
+Six. Each card prints three lines.
+
+157
+00:09:47,836 --> 00:09:49,500
+Next, parameters and return.
+
+158
+00:09:50,649 --> 00:09:54,446
 A function that does the same thing every
 time is a little limited.
 
-88
-00:05:47,903 --> 00:05:52,490
+159
+00:09:54,896 --> 00:09:59,248
 Parameters let you send values in, and
 return lets you get a value back.
 
-89
-00:05:53,640 --> 00:05:57,032
+160
+00:10:00,398 --> 00:10:03,620
 A parameter is a variable in the
 function's parentheses.
 
-90
-00:05:57,482 --> 00:06:03,627
+161
+00:10:04,070 --> 00:10:09,719
 def greet, name, colon, print hello plus
 name. Now greet of Sam prints hello Sam,
 
-91
-00:06:03,627 --> 00:06:06,207
+162
+00:10:09,719 --> 00:10:12,091
 and greet of Ana prints hello Ana.
 
-92
-00:06:06,657 --> 00:06:10,028
+163
+00:10:12,541 --> 00:10:15,720
 The value you pass in, like Sam, is called
 an argument.
 
-93
-00:06:11,178 --> 00:06:13,567
+164
+00:10:16,870 --> 00:10:19,110
 return sends a value back to the caller.
 
-94
-00:06:14,017 --> 00:06:21,033
+165
+00:10:19,560 --> 00:10:26,049
 def square, x, colon, return x times x.
 Then y equals square of four makes y equal
 
-95
-00:06:21,033 --> 00:06:21,974
+166
+00:10:26,049 --> 00:10:26,920
 to sixteen.
 
-96
-00:06:23,124 --> 00:06:28,308
+167
+00:10:28,070 --> 00:10:32,942
 Print and return are different. Print
 shows a value on the screen. Return hands
 
-97
-00:06:28,308 --> 00:06:30,932
+168
+00:10:32,942 --> 00:10:35,408
 a value back, so the program can use it.
 
-98
-00:06:31,382 --> 00:06:36,374
+169
+00:10:35,858 --> 00:10:40,488
 A function that prints but doesn't return
 gives back a special value called None.
 
-99
-00:06:37,524 --> 00:06:39,807
+170
+00:10:41,638 --> 00:10:43,792
 Functions can take several parameters.
 
-100
-00:06:40,257 --> 00:06:46,042
+171
+00:10:44,242 --> 00:10:49,618
 def area, width comma height, return width
 times height. area of three comma five is
 
-101
-00:06:46,042 --> 00:06:46,593
+172
+00:10:49,618 --> 00:10:50,130
 fifteen.
 
-102
-00:06:47,743 --> 00:06:50,751
+173
+00:10:51,280 --> 00:10:54,118
 When a function hits return, it stops
 right there.
 
-103
-00:06:51,201 --> 00:06:53,441
+174
+00:10:54,568 --> 00:10:56,658
 Any lines after the return don't run.
 
-104
-00:06:54,591 --> 00:06:59,775
+175
+00:10:57,808 --> 00:11:02,608
 Your turn. def double, n, return n times
 two. What is double of double of three?
 
-105
-00:07:00,225 --> 00:07:01,505
+176
+00:11:03,058 --> 00:11:04,253
 Pause the video now.
 
-106
-00:07:01,955 --> 00:07:05,816
+177
+00:11:04,703 --> 00:11:08,308
 The inside call gives six. The outside
 call gives twelve.
 
-107
-00:07:06,266 --> 00:07:08,656
-Next, we'll store many values in a list.
+178
+00:11:08,758 --> 00:11:11,745
+Next, let's work through a full example,
+step by step.
 
-108
-00:07:09,805 --> 00:07:14,876
+179
+00:11:12,895 --> 00:11:17,251
+Let's write a function that takes a
+parameter and returns an answer, then use
+
+180
+00:11:17,251 --> 00:11:17,930
+that answer.
+
+181
+00:11:19,080 --> 00:11:24,517
+The problem: write a function that turns
+Celsius into Fahrenheit. The formula is C
+
+182
+00:11:24,517 --> 00:11:27,037
+times nine over five, plus thirty two.
+
+183
+00:11:27,487 --> 00:11:29,684
+Then use it to decide if a day is hot.
+
+184
+00:11:30,834 --> 00:11:33,672
+c is the parameter. return sends the
+answer back.
+
+185
+00:11:34,122 --> 00:11:39,303
+f equals to f of twenty five stores the
+returned value. Then we can test it with
+
+186
+00:11:39,303 --> 00:11:39,498
+if.
+
+187
+00:11:40,648 --> 00:11:44,530
+Calling to f of zero: c is zero, the
+result is thirty two.
+
+188
+00:11:44,980 --> 00:11:49,119
+to f of twenty five: c is twenty five, the
+result is seventy seven.
+
+189
+00:11:49,569 --> 00:11:54,932
+to f of one hundred: two hundred twelve.
+And to f of thirty is eighty six, which is
+
+190
+00:11:54,932 --> 00:11:56,289
+over eighty: hot day.
+
+191
+00:11:57,439 --> 00:12:01,002
+The program prints seventy seven point
+zero, then hot day.
+
+192
+00:12:01,452 --> 00:12:05,639
+Common mistake: printing inside the
+function instead of returning. Then f
+
+193
+00:12:05,639 --> 00:12:08,278
+would be None, and the if couldn't compare
+it.
+
+194
+00:12:09,428 --> 00:12:13,780
+Your turn. What does this print? Work from
+the inside call to the outside one.
+
+195
+00:12:14,230 --> 00:12:15,425
+Pause the video now.
+
+196
+00:12:15,875 --> 00:12:19,182
+Twelve. double of three is six, and double
+of six is twelve.
+
+197
+00:12:19,632 --> 00:12:20,506
+Next, lists.
+
+198
+00:12:21,657 --> 00:12:26,499
 What if you need to store a whole class of
 test scores? One variable per score would
 
-109
-00:07:14,876 --> 00:07:15,480
+199
+00:12:26,499 --> 00:12:27,076
 be a mess.
 
-110
-00:07:15,930 --> 00:07:17,530
+200
+00:12:27,526 --> 00:12:28,934
 Python has lists for that.
 
-111
-00:07:18,680 --> 00:07:24,269
+201
+00:12:30,084 --> 00:12:35,289
 A list holds many values in order, inside
 square brackets, separated by commas.
 
-112
-00:07:24,719 --> 00:07:27,663
+202
+00:12:35,739 --> 00:12:38,427
 scores equals ninety, seventy five, eighty
 eight.
 
-113
-00:07:28,813 --> 00:07:33,933
+203
+00:12:39,577 --> 00:12:44,313
 Lists use indexes, just like strings. The
 first item is at index zero.
 
-114
-00:07:34,383 --> 00:07:40,630
+204
+00:12:44,763 --> 00:12:50,672
 scores, bracket zero, is ninety. Negative
 one gives the last item. len of scores is
 
-115
-00:07:40,630 --> 00:07:41,082
+205
+00:12:50,672 --> 00:12:51,099
 three.
 
-116
-00:07:42,232 --> 00:07:44,194
+206
+00:12:52,249 --> 00:12:54,084
 Unlike strings, lists can change.
 
-117
-00:07:44,644 --> 00:07:50,389
+207
+00:12:54,534 --> 00:12:59,913
 scores, bracket one, equals eighty
 replaces an item. append adds an item to
 
-118
-00:07:50,389 --> 00:07:52,687
+208
+00:12:59,913 --> 00:13:02,064
 the end. remove takes one out.
 
-119
-00:07:53,837 --> 00:07:56,376
+209
+00:13:03,214 --> 00:13:05,561
 A for loop goes through every item in a
 list.
 
-120
-00:07:56,826 --> 00:08:02,415
+210
+00:13:06,011 --> 00:13:11,238
 for s in scores, add s to total. Divide by
 len of scores, and you have the average.
 
-121
-00:08:03,565 --> 00:08:07,277
+211
+00:13:12,388 --> 00:13:15,801
 Lists can hold any type: numbers, strings,
 even other lists.
 
-122
-00:08:07,727 --> 00:08:10,756
+212
+00:13:16,251 --> 00:13:19,088
 They're one of the most useful tools in
 all of Python.
 
-123
-00:08:11,906 --> 00:08:17,446
+213
+00:13:20,238 --> 00:13:25,370
 Your turn. nums equals four, eight,
 fifteen. nums dot append sixteen. What is
 
-124
-00:08:17,446 --> 00:08:21,186
+214
+00:13:25,370 --> 00:13:28,836
 len of nums, and what is nums, bracket
 negative one?
 
-125
-00:08:21,636 --> 00:08:22,916
+215
+00:13:29,286 --> 00:13:30,480
 Pause the video now.
 
-126
-00:08:23,366 --> 00:08:28,209
+216
+00:13:30,930 --> 00:13:35,432
 The list now has four items, so len is
 four. The last item is sixteen.
 
-127
-00:08:28,659 --> 00:08:32,734
-That's the end of Unit four. Next, we'll
-learn how the internet works.
+217
+00:13:35,882 --> 00:13:38,868
+Next, let's work through a full example,
+step by step.
 
-128
-00:08:33,884 --> 00:08:38,560
-If this helped, subscribe to School
-Computer Science, Explained, so you don't
+218
+00:13:40,018 --> 00:13:44,537
+Let's loop through a list to find its
+biggest item, a pattern you'll use again
 
-129
-00:08:38,560 --> 00:08:39,836
-miss the next lesson.
+219
+00:13:44,537 --> 00:13:45,117
+and again.
 
-130
-00:08:40,286 --> 00:08:41,182
+220
+00:13:46,267 --> 00:13:51,515
+The problem: test scores are seventy two,
+ninety five, eighty eight and sixty one.
+
+221
+00:13:51,515 --> 00:13:53,883
+Find the top score without using max.
+
+222
+00:13:55,033 --> 00:13:58,190
+Start best at the first item. Then check
+every score.
+
+223
+00:13:58,640 --> 00:14:01,200
+If a score beats best, it becomes the new
+best.
+
+224
+00:14:02,350 --> 00:14:05,699
+best starts at seventy two. s is seventy
+two: not bigger.
+
+225
+00:14:06,149 --> 00:14:09,307
+s is ninety five: bigger, so best is
+ninety five.
+
+226
+00:14:09,757 --> 00:14:13,298
+s is eighty eight: not bigger. s is sixty
+one: not bigger.
+
+227
+00:14:14,448 --> 00:14:16,176
+The program prints ninety five.
+
+228
+00:14:16,626 --> 00:14:21,624
+Why start best at scores, bracket zero,
+and not at zero? If every score were
+
+229
+00:14:21,624 --> 00:14:23,794
+negative, zero would wrongly win.
+
+230
+00:14:24,944 --> 00:14:26,565
+Your turn. What does this print?
+
+231
+00:14:27,015 --> 00:14:28,210
+Pause the video now.
+
+232
+00:14:28,660 --> 00:14:31,519
+Four and sixteen. append adds sixteen to
+the end.
+
+233
+00:14:31,969 --> 00:14:33,953
+Next, let's put the whole unit together.
+
+234
+00:14:35,103 --> 00:14:39,199
+You've learned decisions, while loops, for
+loops, functions, return and lists.
+
+235
+00:14:39,649 --> 00:14:43,937
+Now let's build one complete Python
+program that uses every one of them.
+
+236
+00:14:45,087 --> 00:14:47,028
+Here's the plan: a class grade book.
+
+237
+00:14:47,478 --> 00:14:52,109
+It reads scores until the teacher types
+done, prints each student's letter grade,
+
+238
+00:14:52,109 --> 00:14:53,366
+and the class average.
+
+239
+00:14:54,516 --> 00:14:59,147
+Part one: a function called letter. It
+takes a score, checks the highest grade
+
+240
+00:14:59,147 --> 00:15:00,810
+first, and returns a letter.
+
+241
+00:15:01,260 --> 00:15:03,478
+Each return ends the function right away.
+
+242
+00:15:04,628 --> 00:15:09,006
+Part two: average takes a list. It adds
+every item with a for loop, the
+
+243
+00:15:09,006 --> 00:15:10,239
+accumulator pattern.
+
+244
+00:15:10,689 --> 00:15:13,334
+Then it returns the total divided by the
+length.
+
+245
+00:15:14,484 --> 00:15:17,535
+Part three: start with an empty list. Ask
+for a score.
+
+246
+00:15:17,985 --> 00:15:22,694
+While the entry isn't done, convert it to
+an int, append it, and ask again. We don't
+
+247
+00:15:22,694 --> 00:15:26,113
+know how many students there are, so while
+is the right loop.
+
+248
+00:15:27,263 --> 00:15:31,885
+Part four: loop over the indexes with
+range of len. Print the student number,
+
+249
+00:15:31,885 --> 00:15:33,386
+the score and its letter.
+
+250
+00:15:33,836 --> 00:15:36,822
+Then call average, and reuse letter for
+the class grade.
+
+251
+00:15:37,972 --> 00:15:42,512
+Let's run it. The teacher types ninety
+two, seventy eight, eighty five, sixty
+
+252
+00:15:42,512 --> 00:15:43,455
+four, then done.
+
+253
+00:15:43,905 --> 00:15:48,470
+Each student gets a letter, and the class
+average is seventy nine point eight, a C.
+
+254
+00:15:49,620 --> 00:15:54,312
+Your turn. The teacher types one hundred,
+eighty, then done. What are the last two
+
+255
+00:15:54,312 --> 00:15:54,655
+lines?
+
+256
+00:15:55,105 --> 00:15:56,300
+Pause the video now.
+
+257
+00:15:56,750 --> 00:16:00,910
+Student two, eighty, B. Then class average
+ninety point zero, A.
+
+258
+00:16:01,360 --> 00:16:05,413
+That's the end of Unit 4. Next, Unit 5:
+how the Internet works.
+
+259
+00:16:06,563 --> 00:16:10,992
+If this helped, subscribe to School STEM,
+Explained, so you don't miss the next
+
+260
+00:16:10,992 --> 00:16:11,384
+lesson.
+
+261
+00:16:11,834 --> 00:16:12,666
 See you there.
 

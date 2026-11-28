@@ -1,4 +1,4 @@
-AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations & Algorithmic Efficiency | AP Computer Science Principles
+AP CSP Big Idea 3 Part 4: APIs, RANDOM, Simulations & Algorithmic Efficiency
 
 AP CSP Big Idea 3, Algorithms and Programming, part 4 of 5, in AP exam pseudocode. This video covers libraries and APIs, random values with RANDOM(a, b), simulations, and algorithmic efficiency (reasonable vs unreasonable time). Each section ends with an AP-style practice question. Every lesson is followed by a step-by-step worked example, and the unit ends with a 'putting it together' example that uses everything at once. Big Idea 3 is the largest part of the AP exam, so it's split into 5 videos.
 
