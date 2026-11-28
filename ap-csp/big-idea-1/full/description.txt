@@ -7,27 +7,50 @@ Previous: Intro to Computer Science, Unit 6: Security and Society
 Next: AP CSP Big Idea 2: Data
 
 0:00 Introduction
-0:14 Collaboration
-0:25 Why teams build better programs
-0:36 Pair programming
-0:47 Feedback from users
-0:58 Tools for teamwork
-1:12 On the AP exam
+0:18 Collaboration
+0:28 Why teams build better programs
+0:39 Pair programming
+0:49 Feedback from users
+1:00 Tools for teamwork
+1:13 On the AP exam
 1:25 Your turn
-1:42 Program function and purpose
-2:03 Function: inputs and outputs
-2:26 Kinds of output
-2:39 Code segments
-2:53 Your turn
-3:10 Program design and development
-3:31 Investigate and requirements
-3:44 Design and decomposition
-3:59 Incremental development
-4:21 Your turn
-4:41 Identifying and correcting errors
-5:00 Logic errors
-5:25 Testing and debugging
-5:42 Expected vs actual
+1:42 Worked example: a pair programming session
+1:59 The work
+2:13 Step by step
+2:34 Result and tips
+2:46 Your turn
+3:03 Program function and purpose
+3:23 Function: inputs and outputs
+3:45 Kinds of output
+3:57 Code segments
+4:10 Your turn
+4:26 Worked example: describing a real program
+4:44 The work
+5:09 Result and tips
+5:21 Your turn
+5:36 Program design and development
+5:56 Investigate and requirements
+6:08 Design and decomposition
+6:21 Incremental development
+6:42 Your turn
+7:02 Worked example: one feature, start to finish
+7:19 The work
+7:43 Result and tips
+7:54 Your turn
+8:06 Identifying and correcting errors
+8:24 Logic errors
+8:48 Testing and debugging
+9:04 Expected vs actual
+9:36 Worked example: naming the error type
+9:51 The work
+10:02 Step by step
+10:25 Result and tips
+10:50 Putting Big Idea 1 together: a complete program
+11:04 The plan
+11:15 Purpose and helpers
+11:33 Input and output
+11:44 Run it
+11:57 Your turn
 
 AP Computer Science Principles, the complete course (6 units, full syllabus):
 ▶ Big Idea 1: Creative Development  (you are here)

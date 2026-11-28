@@ -1,452 +1,923 @@
 1
-00:00:00,000 --> 00:00:05,494
+00:00:00,000 --> 00:00:04,311
 Welcome to School Computer Science,
 Explained. This is AP Computer Science
 
 2
-00:00:05,494 --> 00:00:10,914
+00:00:04,311 --> 00:00:08,563
 Principles, Big Idea 1: Creative
 Development. Let's see how real programs
 
 3
-00:00:10,914 --> 00:00:13,141
-get planned, built, and fixed.
+00:00:08,563 --> 00:00:13,457
+get planned, built, and fixed. After every
+lesson, we'll work through a full example
 
 4
-00:00:14,315 --> 00:00:18,411
+00:00:13,457 --> 00:00:17,301
+step by step, and we'll finish by putting
+the whole unit together.
+
+5
+00:00:18,475 --> 00:00:22,379
 Almost every app you use was built by a
 team, not one person.
 
-5
-00:00:18,861 --> 00:00:24,066
+6
+00:00:22,829 --> 00:00:27,672
 In AP Computer Science Principles,
 collaboration is the first big idea.
 
-6
-00:00:25,216 --> 00:00:29,483
+7
+00:00:28,822 --> 00:00:32,704
 Teams build better programs because people
 bring different perspectives.
 
-7
-00:00:29,933 --> 00:00:34,577
+8
+00:00:33,154 --> 00:00:37,480
 Someone who thinks differently from you
 will spot problems, and ideas, that you
 
-8
-00:00:34,577 --> 00:00:35,224
+9
+00:00:37,480 --> 00:00:38,082
 would miss.
 
-9
-00:00:36,374 --> 00:00:39,446
+10
+00:00:39,232 --> 00:00:42,155
 One common way to work together is pair
 programming.
 
-10
-00:00:39,896 --> 00:00:45,062
+11
+00:00:42,605 --> 00:00:47,405
 The driver types the code. The navigator
 reviews each line and thinks ahead. Then
 
-11
-00:00:45,062 --> 00:00:46,210
+12
+00:00:47,405 --> 00:00:48,472
 they switch roles.
 
-12
-00:00:47,360 --> 00:00:51,030
+13
+00:00:49,622 --> 00:00:53,163
 Good collaboration also means getting
 feedback from users.
 
-13
-00:00:51,480 --> 00:00:56,702
+14
+00:00:53,613 --> 00:00:58,558
 Interviews, surveys and testing with real
 people show what the program actually
 
-14
-00:00:56,702 --> 00:00:57,496
+15
+00:00:58,558 --> 00:00:59,309
 needs to do.
 
-15
-00:00:58,646 --> 00:01:03,762
+16
+00:01:00,459 --> 00:01:05,336
 Teams use tools to share work: shared
 documents, version control that tracks
 
-16
-00:01:03,762 --> 00:01:06,859
+17
+00:01:05,336 --> 00:01:08,288
 every change, and online tools to
 communicate.
 
-17
-00:01:07,309 --> 00:01:11,704
+18
+00:01:08,738 --> 00:01:12,792
 Clear communication and respectful
 disagreement are part of the job.
 
-18
-00:01:12,854 --> 00:01:16,800
+19
+00:01:13,942 --> 00:01:17,611
 On the AP exam, you might be asked why a
 diverse team helps.
 
-19
-00:01:17,250 --> 00:01:22,105
+20
+00:01:18,061 --> 00:01:22,626
 The answer: different backgrounds and
 perspectives help a team find errors and
 
-20
-00:01:22,105 --> 00:01:24,034
+21
+00:01:22,626 --> 00:01:24,440
 design for more kinds of users.
 
-21
-00:01:25,184 --> 00:01:28,726
+22
+00:01:25,590 --> 00:01:28,790
 Your turn. In pair programming, what does
 the navigator do?
 
-22
-00:01:29,176 --> 00:01:30,456
+23
+00:01:29,240 --> 00:01:30,434
 Pause the video now.
 
-23
-00:01:30,906 --> 00:01:35,775
+24
+00:01:30,884 --> 00:01:35,460
 The navigator reviews the code as it's
 typed, catches mistakes, and plans the
 
-24
-00:01:35,775 --> 00:01:37,988
+25
+00:01:35,460 --> 00:01:37,540
 next steps, while the driver types.
 
-25
-00:01:38,438 --> 00:01:41,340
-Next, we'll look at a program's function
-and purpose.
-
 26
-00:01:42,489 --> 00:01:44,750
-Every program is made for a reason.
+00:01:37,990 --> 00:01:40,977
+Next, let's work through a full example,
+step by step.
 
 27
-00:01:45,200 --> 00:01:49,826
+00:01:42,127 --> 00:01:47,075
+Let's follow a real pair programming
+session, and see how collaboration catches
+
+28
+00:01:47,075 --> 00:01:48,015
+problems early.
+
+29
+00:01:49,165 --> 00:01:53,631
+The problem: Maya and Leo are building a
+quiz app together. Maya drives, Leo
+
+30
+00:01:53,631 --> 00:01:58,391
+navigates. Over twenty minutes, what does
+each of them do, and what does teamwork
+
+31
+00:01:58,391 --> 00:01:58,744
+catch?
+
+32
+00:01:59,894 --> 00:02:04,890
+The driver types the code. The navigator
+reads every line, thinks ahead, and asks
+
+33
+00:02:04,890 --> 00:02:07,296
+questions. They switch roles regularly.
+
+34
+00:02:07,746 --> 00:02:12,397
+They also ask other people for feedback,
+like classmates who might use the app.
+
+35
+00:02:13,547 --> 00:02:19,129
+Minute four: Leo notices the score starts
+at one, not zero. Fixed before it ever
+
+36
+00:02:19,129 --> 00:02:19,478
+runs.
+
+37
+00:02:19,928 --> 00:02:24,690
+Minute twelve: now Leo drives. Maya
+suggests showing the right answer after a
+
+38
+00:02:24,690 --> 00:02:25,432
+wrong guess.
+
+39
+00:02:25,882 --> 00:02:30,823
+Testing: a classmate who is color blind
+can't tell the red and green feedback
+
+40
+00:02:30,823 --> 00:02:33,775
+apart. They add words: correct, and try
+again.
+
+41
+00:02:34,925 --> 00:02:38,338
+Three improvements, and none of them came
+from the person typing.
+
+42
+00:02:38,788 --> 00:02:43,843
+Different perspectives catch different
+problems. That's why the AP exam counts
+
+43
+00:02:43,843 --> 00:02:45,658
+collaboration as a big idea.
+
+44
+00:02:46,808 --> 00:02:51,455
+Your turn. Name one benefit of asking
+users from different backgrounds to test
+
+45
+00:02:51,455 --> 00:02:51,992
+your app.
+
+46
+00:02:52,442 --> 00:02:53,636
+Pause the video now.
+
+47
+00:02:54,086 --> 00:02:58,614
+They find problems you wouldn't, like
+accessibility or language issues, so the
+
+48
+00:02:58,614 --> 00:03:00,124
+app works for more people.
+
+49
+00:03:00,574 --> 00:03:02,472
+Next, program function and purpose.
+
+50
+00:03:03,622 --> 00:03:05,713
+Every program is made for a reason.
+
+51
+00:03:06,163 --> 00:03:10,400
 Before you write code, you should be able
 to say what the program is for, and what
 
-28
-00:01:49,826 --> 00:01:50,278
+52
+00:03:10,400 --> 00:03:10,813
 it does.
 
-29
-00:01:51,428 --> 00:01:56,548
+53
+00:03:11,963 --> 00:03:16,726
 A program's purpose is the problem it
 solves, or the creative thing it lets
 
-30
-00:01:56,548 --> 00:01:57,230
+54
+00:03:16,726 --> 00:03:17,361
 people do.
 
-31
-00:01:57,680 --> 00:02:01,926
+55
+00:03:17,811 --> 00:03:21,864
 A step counter's purpose is to help people
 track how active they are.
 
-32
-00:02:03,076 --> 00:02:06,318
+56
+00:03:23,014 --> 00:03:26,001
 A program's function is how it behaves
 when it runs.
 
-33
-00:02:06,768 --> 00:02:10,907
+57
+00:03:26,451 --> 00:03:30,312
 It's described by its inputs, what it does
 with them, and its outputs.
 
-34
-00:02:12,057 --> 00:02:18,082
+58
+00:03:31,462 --> 00:03:37,034
 Inputs can come from the user, like a tap,
 a click, or typed text. They can also come
 
-35
-00:02:18,082 --> 00:02:20,846
+59
+00:03:37,034 --> 00:03:39,590
 from sensors, files, or other programs.
 
-36
-00:02:21,296 --> 00:02:25,819
+60
+00:03:40,040 --> 00:03:44,264
 Programs that react to events, like a
 button click, are called event driven.
 
-37
-00:02:26,969 --> 00:02:32,625
+61
+00:03:45,414 --> 00:03:50,684
 Outputs are what the program produces:
 text on the screen, a sound, an image, a
 
-38
-00:02:32,625 --> 00:02:35,417
+62
+00:03:50,684 --> 00:03:53,286
 vibration, or data sent somewhere else.
 
-39
-00:02:35,867 --> 00:02:38,427
+63
+00:03:53,736 --> 00:03:56,125
 A program can have many inputs and
 outputs.
 
-40
-00:02:39,577 --> 00:02:44,929
+64
+00:03:57,275 --> 00:04:02,300
 A code segment is a smaller part of a
 program. You can describe what one segment
 
-41
-00:02:44,929 --> 00:02:47,940
+65
+00:04:02,300 --> 00:04:05,126
 does, even without knowing the whole
 program.
 
-42
-00:02:48,390 --> 00:02:52,464
+66
+00:04:05,576 --> 00:04:09,309
 On the exam, you'll often explain what a
 short code segment does.
 
-43
-00:02:53,614 --> 00:02:57,774
+67
+00:04:10,459 --> 00:04:14,321
 Your turn. In a step counter app, name one
 input and one output.
 
-44
-00:02:58,224 --> 00:02:59,504
+68
+00:04:14,771 --> 00:04:15,965
 Pause the video now.
 
-45
-00:02:59,954 --> 00:03:05,536
+69
+00:04:16,415 --> 00:04:21,545
 Input: the motion sensor, which detects
 steps. Output: the step count shown on the
 
-46
-00:03:05,536 --> 00:03:06,013
+70
+00:04:21,545 --> 00:04:21,983
 screen.
 
-47
-00:03:06,463 --> 00:03:09,706
-Next, we'll see how programs are designed
-and developed.
+71
+00:04:22,433 --> 00:04:25,420
+Next, let's work through a full example,
+step by step.
 
-48
-00:03:10,856 --> 00:03:13,053
+72
+00:04:26,570 --> 00:04:32,128
+Let's describe a real program the way the
+AP exam wants: its purpose, its inputs,
+
+73
+00:04:32,128 --> 00:04:33,226
+and its outputs.
+
+74
+00:04:34,376 --> 00:04:38,944
+The problem: describe a reading log app.
+Students type how many minutes they read
+
+75
+00:04:38,944 --> 00:04:43,400
+each day, and the app shows their total
+and whether they met their weekly goal.
+
+76
+00:04:44,550 --> 00:04:47,985
+Purpose is why the program exists: the
+problem it solves.
+
+77
+00:04:48,435 --> 00:04:51,805
+Function is what it does: inputs,
+processing, and outputs.
+
+78
+00:04:52,955 --> 00:04:57,414
+Try a week where the student types thirty,
+forty five, twenty and fifty five.
+
+79
+00:04:57,864 --> 00:05:02,797
+The program adds them: one hundred fifty.
+That reaches the goal of one hundred
+
+80
+00:05:02,797 --> 00:05:03,176
+fifty.
+
+81
+00:05:03,626 --> 00:05:08,511
+Output: total one hundred fifty, average
+thirty seven point five, and Goal met.
+
+82
+00:05:09,661 --> 00:05:12,413
+A clear description separates the why from
+the what.
+
+83
+00:05:12,863 --> 00:05:17,592
+On the Create task you'll describe your
+own program's purpose and function, so
+
+84
+00:05:17,592 --> 00:05:20,138
+practice saying both in one sentence each.
+
+85
+00:05:21,288 --> 00:05:26,573
+Your turn. A weather app shows tomorrow's
+forecast for your location. Name its input
+
+86
+00:05:26,573 --> 00:05:27,517
+and its output.
+
+87
+00:05:27,967 --> 00:05:29,162
+Pause the video now.
+
+88
+00:05:29,612 --> 00:05:32,705
+Input: your location. Output: tomorrow's
+forecast.
+
+89
+00:05:33,155 --> 00:05:35,203
+Next, program design and development.
+
+90
+00:05:36,353 --> 00:05:38,337
 Good programs aren't written all at once.
 
-49
-00:03:13,503 --> 00:03:17,109
+91
+00:05:38,787 --> 00:05:42,158
 They're designed, built, tested, and
 improved, over and over.
 
-50
-00:03:18,259 --> 00:03:23,093
+92
+00:05:43,308 --> 00:05:47,743
 A development process has steps.
 Investigate the problem. Design a
 
-51
-00:03:23,093 --> 00:03:27,048
+93
+00:05:47,743 --> 00:05:51,372
 solution. Build it. Test it. Then reflect
 and improve.
 
-52
-00:03:27,498 --> 00:03:30,826
+94
+00:05:51,822 --> 00:05:54,936
 This cycle repeats, so it's called an
 iterative process.
 
-53
-00:03:31,976 --> 00:03:37,233
+95
+00:05:56,086 --> 00:06:00,956
 In the investigate step, you find out what
 users need, and write down the program's
 
-54
-00:03:37,233 --> 00:03:38,056
+96
+00:06:00,956 --> 00:06:01,718
 requirements.
 
-55
-00:03:38,506 --> 00:03:43,345
+97
+00:06:02,168 --> 00:06:06,695
 Requirements describe what the program
 must do, and any limits it must work
 
-56
-00:03:43,345 --> 00:03:43,797
+98
+00:06:06,695 --> 00:06:07,118
 within.
 
-57
-00:03:44,947 --> 00:03:49,792
+99
+00:06:08,268 --> 00:06:12,749
 In the design step, you plan before you
 code: sketches of the screens, a
 
-58
-00:03:49,792 --> 00:03:51,475
+100
+00:06:12,749 --> 00:06:14,305
 flowchart, or pseudocode.
 
-59
-00:03:51,925 --> 00:03:57,363
+101
+00:06:14,755 --> 00:06:19,721
 Big problems are split into smaller parts
 that are easier to solve. That's called
 
-60
-00:03:57,363 --> 00:03:58,303
+102
+00:06:19,721 --> 00:06:20,579
 decomposition.
 
-61
-00:03:59,453 --> 00:04:03,784
+103
+00:06:21,729 --> 00:06:25,782
 Then you build and test in small pieces,
 an incremental process.
 
-62
-00:04:04,234 --> 00:04:07,519
+104
+00:06:26,232 --> 00:06:29,262
 Get one part working, test it, then add
 the next part.
 
-63
-00:04:08,669 --> 00:04:13,785
+105
+00:06:30,412 --> 00:06:35,219
 Programmers also document their work with
 comments, and give credit when they use
 
-64
-00:04:13,785 --> 00:04:15,048
+106
+00:06:35,219 --> 00:06:36,406
 someone else's code.
 
-65
-00:04:15,498 --> 00:04:20,486
+107
+00:06:36,856 --> 00:06:41,404
 Comments explain what the code does and
 why, for other people and your future
 
-66
-00:04:20,486 --> 00:04:20,810
+108
+00:06:41,404 --> 00:06:41,699
 self.
 
-67
-00:04:21,960 --> 00:04:26,554
+109
+00:06:42,849 --> 00:06:47,216
 Your turn. You build a game by first
 getting the player to move, testing it,
 
-68
-00:04:26,554 --> 00:04:31,027
+110
+00:06:47,216 --> 00:06:51,468
 then adding enemies, then adding scores.
 What kind of development is that?
 
-69
-00:04:31,477 --> 00:04:32,757
+111
+00:06:51,918 --> 00:06:53,112
 Pause the video now.
 
-70
-00:04:33,207 --> 00:04:37,751
+112
+00:06:53,562 --> 00:06:57,872
 Incremental development: building and
 testing one small piece at a time.
 
-71
-00:04:38,201 --> 00:04:40,718
-Next, we'll learn how to find and fix
-errors.
+113
+00:06:58,322 --> 00:07:01,308
+Next, let's work through a full example,
+step by step.
 
-72
-00:04:41,868 --> 00:04:46,369
+114
+00:07:02,459 --> 00:07:07,498
+Let's take one feature through the whole
+development cycle: investigate, design,
+
+115
+00:07:07,498 --> 00:07:09,072
+build, test, and improve.
+
+116
+00:07:10,222 --> 00:07:14,649
+The problem: students want the reading log
+to tell them how many minutes they still
+
+117
+00:07:14,649 --> 00:07:15,876
+need to reach the goal.
+
+118
+00:07:16,326 --> 00:07:18,118
+Take this feature through every step.
+
+119
+00:07:19,268 --> 00:07:21,465
+Each step produces something you can
+check.
+
+120
+00:07:21,915 --> 00:07:26,416
+The cycle repeats: testing often sends you
+back to design, and that is normal.
+
+121
+00:07:27,566 --> 00:07:30,148
+Test one hundred: short by fifty. Correct.
+
+122
+00:07:30,598 --> 00:07:35,291
+Test one fifty: it says short by zero.
+That's wrong. It should say goal met.
+
+123
+00:07:35,741 --> 00:07:40,621
+The design used greater than instead of
+greater than or equal. Change it, test
+
+124
+00:07:40,621 --> 00:07:42,248
+again, and all three pass.
+
+125
+00:07:43,398 --> 00:07:47,067
+One test found a bug, the design was
+fixed, and the feature shipped.
+
+126
+00:07:47,517 --> 00:07:52,518
+That's an iterative process: you go around
+the cycle again whenever testing finds a
+
+127
+00:07:52,518 --> 00:07:52,000
+problem.
+
+128
+00:07:54,150 --> 00:07:57,883
+Your turn. Which step comes right after
+testing finds a problem?
+
+129
+00:07:58,333 --> 00:07:59,528
+Pause the video now.
+
+130
+00:07:59,978 --> 00:08:03,156
+Go back and improve the design or code,
+then test again.
+
+131
+00:08:03,606 --> 00:08:05,804
+Next, identifying and correcting errors.
+
+132
+00:08:06,953 --> 00:08:11,156
 Every programmer makes mistakes. Good
 programmers know how to find them.
 
-73
-00:04:46,819 --> 00:04:50,062
+133
+00:08:11,606 --> 00:08:14,699
 There are four kinds of errors to know for
 the AP exam.
 
-74
-00:04:51,212 --> 00:04:55,905
+134
+00:08:15,849 --> 00:08:20,222
 A syntax error breaks the rules of the
 language, like a missing parenthesis.
 
-75
-00:04:56,355 --> 00:04:59,001
+135
+00:08:20,672 --> 00:08:23,168
 The program won't run at all until it's
 fixed.
 
-76
-00:05:00,151 --> 00:05:04,247
+136
+00:08:24,318 --> 00:08:28,222
 A logic error means the program runs, but
 gives the wrong result.
 
-77
-00:05:04,697 --> 00:05:08,814
+137
+00:08:28,672 --> 00:08:32,619
 For example, an average that adds the
 numbers but forgets to divide.
 
-78
-00:05:09,964 --> 00:05:15,910
+138
+00:08:33,769 --> 00:08:39,255
 A run time error happens while the program
 is running, like dividing by zero, or
 
-79
-00:05:15,910 --> 00:05:19,329
+139
+00:08:39,255 --> 00:08:42,409
 asking for item ten of a list with five
 items.
 
-80
-00:05:19,779 --> 00:05:24,622
+140
+00:08:42,859 --> 00:08:47,382
 An overflow error happens when a number is
 too big for the space it's stored in.
 
-81
-00:05:25,772 --> 00:05:31,379
+141
+00:08:48,532 --> 00:08:53,766
 To find errors, test with many inputs,
 including edge cases like zero, negative
 
-82
-00:05:31,379 --> 00:05:33,153
+142
+00:08:53,766 --> 00:08:55,422
 numbers, and empty lists.
 
-83
-00:05:33,603 --> 00:05:38,463
+143
+00:08:55,872 --> 00:09:00,493
 Trace the code by hand, or add print
 statements to see what's happening.
 
-84
-00:05:38,463 --> 00:05:41,838
+144
+00:09:00,493 --> 00:09:03,702
 Debuggers can also pause the program step
 by step.
 
-85
-00:05:42,988 --> 00:05:46,529
+145
+00:09:04,852 --> 00:09:08,201
 For each test, know the expected output
 before you run it.
 
-86
-00:05:46,979 --> 00:05:50,051
+146
+00:09:08,651 --> 00:09:11,403
 If the actual output is different, you've
 found a bug.
 
-87
-00:05:51,201 --> 00:05:56,630
+147
+00:09:12,553 --> 00:09:17,656
 Your turn. A program to find the largest
 number starts with max equals zero. It
 
-88
-00:05:56,630 --> 00:06:02,264
+148
+00:09:17,656 --> 00:09:22,952
 works for five, nine, two, but gives zero
 for negative three, negative seven. What
 
-89
-00:06:02,264 --> 00:06:03,639
+149
+00:09:22,952 --> 00:09:24,244
 kind of error is it?
 
-90
-00:06:04,089 --> 00:06:05,369
+150
+00:09:24,694 --> 00:09:25,888
 Pause the video now.
 
-91
-00:06:05,819 --> 00:06:11,097
+151
+00:09:26,338 --> 00:09:31,295
 A logic error. The program runs, but max
 should start at the first item in the
 
-92
-00:06:11,097 --> 00:06:12,112
+152
+00:09:31,295 --> 00:09:32,248
 list, not zero.
 
-93
-00:06:12,562 --> 00:06:16,594
-That's the end of Big Idea one. Next, Big
-Idea two: data.
+153
+00:09:32,698 --> 00:09:35,684
+Next, let's work through a full example,
+step by step.
 
-94
-00:06:17,744 --> 00:06:22,421
-If this helped, subscribe to School
-Computer Science, Explained, so you don't
+154
+00:09:36,835 --> 00:09:41,571
+Let's look at four buggy versions of the
+same program, and name each kind of error.
 
-95
-00:06:22,421 --> 00:06:23,696
-miss the next lesson.
+155
+00:09:42,721 --> 00:09:48,141
+The problem: each version of the reading
+log has one bug. Is it a syntax, logic,
 
-96
-00:06:24,146 --> 00:06:25,042
+156
+00:09:48,141 --> 00:09:50,038
+run time, or overflow error?
+
+157
+00:09:51,188 --> 00:09:56,876
+Syntax: the program won't run. Logic: it
+runs, but the answer is wrong. Run time:
+
+158
+00:09:56,876 --> 00:10:01,791
+it crashes while running. Overflow: a
+number is too big for its space.
+
+159
+00:10:02,941 --> 00:10:07,604
+Version A: a missing quote breaks the
+language rules. It won't run at all.
+
+160
+00:10:07,604 --> 00:10:08,424
+Syntax error.
+
+161
+00:10:08,874 --> 00:10:13,268
+Version B: it runs, but the average is
+just the total. Logic error.
+
+162
+00:10:13,718 --> 00:10:18,156
+Version C: dividing by zero crashes while
+running. Run time error.
+
+163
+00:10:18,606 --> 00:10:23,719
+Version D: four bits only hold up to
+fifteen. One hundred fifty doesn't fit.
+
+164
+00:10:23,719 --> 00:10:24,728
+Overflow error.
+
+165
+00:10:25,878 --> 00:10:26,881
+One of each type.
+
+166
+00:10:27,331 --> 00:10:32,468
+To find logic errors, use test cases with
+known answers, print statements, and hand
+
+167
+00:10:32,468 --> 00:10:32,963
+tracing.
+
+168
+00:10:34,113 --> 00:10:39,017
+Your turn. A program is supposed to find
+the largest number, but it always returns
+
+169
+00:10:39,017 --> 00:10:41,409
+the first one. What kind of error is it?
+
+170
+00:10:41,859 --> 00:10:43,054
+Pause the video now.
+
+171
+00:10:43,504 --> 00:10:46,426
+A logic error. It runs, but the result is
+wrong.
+
+172
+00:10:46,876 --> 00:10:48,924
+Next, let's put Big Idea one together.
+
+173
+00:10:50,074 --> 00:10:54,426
+You've learned collaboration, program
+purpose and function, the development
+
+174
+00:10:54,426 --> 00:10:55,877
+process, and error types.
+
+175
+00:10:56,327 --> 00:11:01,145
+Now let's look at the finished reading
+log, a complete program that really runs,
+
+176
+00:11:01,145 --> 00:11:03,132
+and see where each idea shows up.
+
+177
+00:11:04,282 --> 00:11:09,388
+Here's the plan. The program is written in
+Python, but every idea matches AP
+
+178
+00:11:09,388 --> 00:11:10,127
+pseudocode.
+
+179
+00:11:10,577 --> 00:11:14,460
+The comments record what testing found,
+just like a real team would.
+
+180
+00:11:15,610 --> 00:11:19,194
+Part one: the comments state the purpose,
+inputs and outputs.
+
+181
+00:11:19,644 --> 00:11:25,151
+Two procedures. average guards against
+dividing by zero, a run time error found
+
+182
+00:11:25,151 --> 00:11:30,589
+in testing. goal message uses greater than
+or equal, fixing the logic error at
+
+183
+00:11:30,589 --> 00:11:32,401
+exactly one hundred fifty.
+
+184
+00:11:33,551 --> 00:11:37,754
+Part two: a list collects the minutes
+until the user enters a blank line.
+
+185
+00:11:38,204 --> 00:11:42,904
+Then the program outputs the total, the
+average and the goal message, using the
+
+186
+00:11:42,904 --> 00:11:43,559
+procedures.
+
+187
+00:11:44,709 --> 00:11:48,869
+Let's run it with the test week: thirty,
+forty five, twenty, fifty five.
+
+188
+00:11:49,319 --> 00:11:54,054
+One hundred fifty minutes, an average of
+thirty seven point five, and the goal is
+
+189
+00:11:54,054 --> 00:11:56,743
+met, right on the boundary that testing
+fixed.
+
+190
+00:11:57,893 --> 00:12:02,359
+Your turn. The user presses enter right
+away, with no days. What are the last
+
+191
+00:12:02,359 --> 00:12:03,055
+three lines?
+
+192
+00:12:03,505 --> 00:12:04,700
+Pause the video now.
+
+193
+00:12:05,150 --> 00:12:09,975
+Total zero, average zero thanks to the
+guard, and short by one hundred fifty
+
+194
+00:12:09,975 --> 00:12:10,483
+minutes.
+
+195
+00:12:10,933 --> 00:12:14,069
+That's Big Idea one. Next, Big Idea two:
+data.
+
+196
+00:12:15,219 --> 00:12:19,648
+If this helped, subscribe to School STEM,
+Explained, so you don't miss the next
+
+197
+00:12:19,648 --> 00:12:20,041
+lesson.
+
+198
+00:12:20,491 --> 00:12:21,323
 See you there.
 
