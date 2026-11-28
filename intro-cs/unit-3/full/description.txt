@@ -7,36 +7,72 @@ Previous: Intro to Computer Science, Unit 2: Data and Binary
 Next: Intro to Computer Science, Unit 4: Programming Basics in Python
 
 0:00 Introduction
-0:13 What is an algorithm?
-0:32 Steps must be clear
-0:45 Sequence, selection, repetition
-0:59 Crossing the street
-1:14 Many algorithms, one problem
+0:18 What is an algorithm?
+0:35 Steps must be clear
+0:48 Sequence, selection, repetition
+1:01 Crossing the street
+1:15 Many algorithms, one problem
 1:26 Your turn
-1:44 Flowcharts and pseudocode
-2:06 A score-check flowchart
-2:26 Pseudocode
-2:38 Pseudocode example
-2:50 Your turn
-3:03 Linear search
-3:23 Finding 12
-3:41 Best and worst case
-3:54 Works on any list
-4:16 Binary search
-4:39 Finding 37
-4:59 Halving: 20 checks for a million
-5:13 Linear vs binary
-5:31 Your turn
-5:50 Selection sort
-6:13 First swap
-6:36 How much work?
-6:51 Simple but slow
-7:02 Your turn
-7:20 Comparing algorithms
-7:30 Counting steps, not seconds
-7:56 A million items
-8:10 Hard problems and heuristics
-8:28 Three questions to ask
+1:41 Worked example: an algorithm for making change
+1:56 The work
+2:10 Step by step
+2:26 Result and tips
+2:39 Your turn
+2:53 Flowcharts and pseudocode
+3:14 A score-check flowchart
+3:33 Pseudocode
+3:44 Pseudocode example
+3:56 Your turn
+4:07 Worked example: pseudocode for a grade
+4:24 The work
+4:38 Step by step
+4:50 Result and tips
+5:07 Your turn
+5:19 Linear search
+5:37 Finding 12
+5:55 Best and worst case
+6:07 Works on any list
+6:27 Worked example: searching a contact list
+6:44 The work
+7:05 Result and tips
+7:16 Your turn
+7:27 Binary search
+7:49 Finding 37
+8:07 Halving: 20 checks for a million
+8:21 Linear vs binary
+8:37 Your turn
+8:56 Worked example: guessing a number
+9:14 The work
+9:27 Step by step
+9:40 Result and tips
+9:54 Your turn
+10:12 Selection sort
+10:33 First swap
+10:56 How much work?
+11:10 Simple but slow
+11:20 Your turn
+11:36 Worked example: selection sort, every pass
+11:52 The work
+12:03 Step by step
+12:23 Result and tips
+12:39 Your turn
+12:54 Comparing algorithms
+13:14 How step counts grow
+13:28 A million items
+13:41 Hard problems and heuristics
+13:58 Three questions to ask
+14:24 Worked example: choosing an algorithm
+14:40 The work
+14:54 Step by step
+15:12 Result and tips
+15:24 Your turn
+15:38 Putting Unit 3 together: a library lookup
+15:57 The problem
+16:08 Linear search
+16:18 Selection sort
+16:31 Binary search
+16:41 Compare
+16:53 Your turn
 
 Intro to Computer Science, the complete course (6 units, full syllabus):
 • Unit 1: What Is a Computer?

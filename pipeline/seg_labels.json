@@ -3390,5 +3390,203 @@
 "3 · write the report",
 "Run it",
 "Your turn"
+],
+"cs1_u7_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u7_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u7_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u7_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u7a_cap": [
+"",
+"The plan",
+"1 · __init__ and __str__",
+"2 · arithmetic",
+"3 · comparing, and using it",
+"Run it",
+"Your turn"
+],
+"cs1_u7_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u7_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u7_l07b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u7b_cap": [
+"",
+"The plan",
+"1 · the base class",
+"2 · two subclasses",
+"3 · the bank",
+"Run it",
+"Your turn"
+],
+"cs1_u8_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u8_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u8_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u8_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u8a_cap": [
+"",
+"The plan",
+"1 · linear search",
+"2 · binary search",
+"3 · the race",
+"Run it",
+"Your turn"
+],
+"cs1_u8_l05b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u8_l06b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u8_l07b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u8_l08b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u8b_cap": [
+"",
+"The plan",
+"1 · merge sort, biggest first",
+"2 · queue, hash table, stack",
+"3 · undo, then rank",
+"Run it",
+"Your turn"
+],
+"cs1_u9_l01b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u9_l02b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u9_l03b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u9_l04b": [
+"",
+"The problem",
+"The work",
+"Step by step",
+"Result and tips",
+"Your turn"
+],
+"cs1_u9_cap": [
+"",
+"The plan",
+"1 · the graph",
+"2 · shortest path with BFS",
+"3 · a BST of places",
+"4 · the main program",
+"Run it",
+"Your turn"
 ]
 }

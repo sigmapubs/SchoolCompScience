@@ -6,7 +6,14 @@ def part(d):
     if d.startswith("intro:"):
         k = d[6:]; return dict(video=f"{I}/{k}/intro.mp4", srt=f"{I}/{k}/captions.srt", timings=f"{I}/{k}/timings.json", extra=0.0, name="Introduction", intro=True)
     return dict(video=f"{V}/{d}/video.mp4", srt=f"{V}/{d}/captions.srt", timings=f"/tmp/audio_{d}/timings.json", extra=0.0, name=None)
-NAMES = {
+NAMES = {"cs1_u9_l01b": "Worked example: walking and changing a linked list", "cs1_u9_l02b": "Worked example: building and searching a BST", "cs1_u9_l03b": "Worked example: tracing breadth-first search", "cs1_u9_l04b": "Worked example: choosing the right data structure", "cs1_u9_cap": "Putting Unit 9 together: a campus map", 
+ "cs1_u8_l05b": "Worked example: tracing insertion sort", "cs1_u8_l06b": "Worked example: tracing merge sort on eight numbers", "cs1_u8_l07b": "Worked example: a tiny hash table by hand", "cs1_u8_l08b": "Worked example: checking brackets with a stack", "cs1_u8b_cap": "Putting Part 2 together: a help desk", 
+ "cs1_u8_l01b": "Worked example: counting the steps in a duplicate check", "cs1_u8_l02b": "Worked example: finding the Big-O of a function", "cs1_u8_l03b": "Worked example: five classes at n = 1,000", "cs1_u8_l04b": "Worked example: tracing binary search", "cs1_u8a_cap": "Putting Part 1 together: a search race", 
+ "cs1_u7_l05b": "Worked example: a Square that inherits from Rect", "cs1_u7_l06b": "Worked example: one payroll loop, three kinds of employee", "cs1_u7_l07b": "Worked example: designing a course sign-up", "cs1_u7b_cap": "Putting Part 2 together: a small bank", 
+ "cs1_u7_l01b": "Worked example: two objects, three names", "cs1_u7_l02b": "Worked example: a Rectangle class", "cs1_u7_l03b": "Worked example: a Time class that prints, adds and sorts", "cs1_u7_l04b": "Worked example: an account that protects its balance", "cs1_u7a_cap": "Putting Part 1 together: a Fraction class", 
+ 
+ 
+ 
  "cs1_u6_l01b": "Worked example: tests that catch a leap year bug", "cs1_u6_l02b": "Worked example: finding a bug with print", "cs1_u6_l03b": "Worked example: a division that never crashes", "cs1_u6_l04b": "Worked example: failing fast with assert", "cs1_u6_l05b": "Worked example: write, append, read back", "cs1_u6_cap": "Putting Unit 6 together: a grade report that never crashes", 
  "cs1_u5_l01b": "Worked example: sum to n, the recursive way", "cs1_u5_l02b": "Worked example: counting digits recursively", "cs1_u5_l03b": "Worked example: flattening a nested list", "cs1_u5_l04b": "Worked example: counting calls with and without a memo", "cs1_u5_l05b": "Worked example: reversing a string both ways", "cs1_u5_cap": "Putting Unit 5 together: a folder explorer", 
  "cs1_u4_l05b": "Worked example: counting words with a dictionary", "cs1_u4_l06b": "Worked example: comparing two clubs with sets", "cs1_u4_l07b": "Worked example: choosing structures for a library app", "cs1_u4b_cap": "Putting Part 2 together: word statistics", 
@@ -124,11 +131,11 @@ def build(slug, parts):
     json.dump({"chapters": ch, "chapters_full": chf, "duration": t0}, open(f"{OUT}/{slug}/build.json", "w"), indent=1)
     print(slug, round(t0/60, 1), "min\n" + ch)
 GROUPS = {
- "cs1_u9": ["cs1_u9_l01", "cs1_u9_l02", "cs1_u9_l03", "cs1_u9_l04"],
- "cs1_u8_part1": ["cs1_u8_l01", "cs1_u8_l02", "cs1_u8_l03", "cs1_u8_l04"],
- "cs1_u8_part2": ["cs1_u8_l05", "cs1_u8_l06", "cs1_u8_l07", "cs1_u8_l08"],
- "cs1_u7_part1": ["cs1_u7_l01", "cs1_u7_l02", "cs1_u7_l03", "cs1_u7_l04"],
- "cs1_u7_part2": ["cs1_u7_l05", "cs1_u7_l06", "cs1_u7_l07"],
+ "cs1_u9": ["cs1_u9_l01", "cs1_u9_l01b", "cs1_u9_l02", "cs1_u9_l02b", "cs1_u9_l03", "cs1_u9_l03b", "cs1_u9_l04", "cs1_u9_l04b", "cs1_u9_cap"],
+ "cs1_u8_part1": ["cs1_u8_l01", "cs1_u8_l01b", "cs1_u8_l02", "cs1_u8_l02b", "cs1_u8_l03", "cs1_u8_l03b", "cs1_u8_l04", "cs1_u8_l04b", "cs1_u8a_cap"],
+ "cs1_u8_part2": ["cs1_u8_l05", "cs1_u8_l05b", "cs1_u8_l06", "cs1_u8_l06b", "cs1_u8_l07", "cs1_u8_l07b", "cs1_u8_l08", "cs1_u8_l08b", "cs1_u8b_cap"],
+ "cs1_u7_part1": ["cs1_u7_l01", "cs1_u7_l01b", "cs1_u7_l02", "cs1_u7_l02b", "cs1_u7_l03", "cs1_u7_l03b", "cs1_u7_l04", "cs1_u7_l04b", "cs1_u7a_cap"],
+ "cs1_u7_part2": ["cs1_u7_l05", "cs1_u7_l05b", "cs1_u7_l06", "cs1_u7_l06b", "cs1_u7_l07", "cs1_u7_l07b", "cs1_u7b_cap"],
  "cs1_u6": ["cs1_u6_l01", "cs1_u6_l01b", "cs1_u6_l02", "cs1_u6_l02b", "cs1_u6_l03", "cs1_u6_l03b", "cs1_u6_l04", "cs1_u6_l04b", "cs1_u6_l05", "cs1_u6_l05b", "cs1_u6_cap"],
  "cs1_u5": ["cs1_u5_l01", "cs1_u5_l01b", "cs1_u5_l02", "cs1_u5_l02b", "cs1_u5_l03", "cs1_u5_l03b", "cs1_u5_l04", "cs1_u5_l04b", "cs1_u5_l05", "cs1_u5_l05b", "cs1_u5_cap"],
  "cs1_u4_part1": ["cs1_u4_l01", "cs1_u4_l01b", "cs1_u4_l02", "cs1_u4_l02b", "cs1_u4_l03", "cs1_u4_l03b", "cs1_u4_l04", "cs1_u4_l04b", "cs1_u4a_cap"],
