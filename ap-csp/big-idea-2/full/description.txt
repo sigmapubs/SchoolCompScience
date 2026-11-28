@@ -7,36 +7,61 @@ Previous: AP CSP Big Idea 1: Creative Development
 Next: AP CSP Big Idea 3: Algorithms and Programming
 
 0:00 Introduction
-0:14 Binary numbers, bits and overflow
-0:25 Bits, bytes and place values
-0:36 Binary to decimal
-0:47 n bits make 2^n patterns
-0:59 Overflow errors
-1:13 Roundoff errors
-1:31 Your turn
-1:46 Lossless vs lossy compression
-1:58 Lossless and run length encoding
-2:11 When to use lossless
-2:21 Lossy compression
-2:32 Photos, music and video
-2:44 Choosing on the AP exam
-2:56 Your turn
-3:11 Extracting information from data
-3:22 From data to patterns
-3:33 Correlation is not causation
-3:50 Processing big data
-4:02 Bias in data
-4:15 Questions to ask
-4:45 Using programs with data
-5:10 Filtering
-5:33 Charts
-5:46 Tools
-6:13 Metadata
-6:34 Organizing and searching
-6:46 Changing metadata
-6:57 Privacy and location
-7:09 On the AP exam
-7:19 Your turn
+0:18 Binary numbers, bits and overflow
+0:29 Bits, bytes and place values
+0:39 Binary to decimal
+1:00 Overflow errors
+1:14 Roundoff errors
+1:30 Your turn
+1:45 Worked example: binary and overflow in 8 bits
+2:00 The work
+2:14 Step by step
+2:42 Result and tips
+2:57 Your turn
+3:12 Lossless vs lossy compression
+3:23 Lossless and run length encoding
+3:35 When to use lossless
+3:56 Photos, music and video
+4:07 Choosing on the AP exam
+4:19 Your turn
+4:33 Worked example: run-length encoding by hand
+4:50 The work
+5:23 Result and tips
+5:36 Your turn
+5:53 Extracting information from data
+6:14 Correlation is not causation
+6:30 Processing big data
+6:41 Bias in data
+6:54 Questions to ask
+7:21 Worked example: finding a pattern in data
+7:38 The work
+8:11 Result and tips
+8:21 Your turn
+8:38 Using programs with data
+9:01 Filtering
+9:23 Charts
+9:36 Tools
+10:03 Worked example: cleaning messy data
+10:20 The work
+10:31 Step by step
+10:49 Result and tips
+11:02 Your turn
+11:15 Metadata
+11:34 Organizing and searching
+11:46 Changing metadata
+11:57 Privacy and location
+12:08 On the AP exam
+12:41 Worked example: a photo's hidden metadata
+12:56 The work
+13:22 Result and tips
+13:35 Your turn
+13:49 Putting Big Idea 2 together: a complete program
+14:02 The plan
+14:13 Data and metadata
+14:26 Clean and count
+14:41 Report and filter
+14:51 Run it
+15:03 Your turn
 
 AP Computer Science Principles, the complete course (6 units, full syllabus):
 • Big Idea 1: Creative Development
