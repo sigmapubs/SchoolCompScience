@@ -1,471 +1,963 @@
 1
-00:00:00,000 --> 00:00:05,086
+00:00:00,000 --> 00:00:04,111
 Welcome to School Computer Science,
 Explained. This is Intro to Computer
 
 2
-00:00:05,086 --> 00:00:10,667
+00:00:04,111 --> 00:00:08,622
 Science, Unit 6: Security and Society.
 Let's learn how to stay safe online, and
 
 3
-00:00:10,667 --> 00:00:12,928
-how computing affects all of us.
+00:00:08,622 --> 00:00:13,076
+how computing affects all of us. After
+every lesson, we'll work through a full
 
 4
-00:00:14,101 --> 00:00:19,285
+00:00:13,076 --> 00:00:17,301
+example step by step, and we'll finish by
+putting the whole unit together.
+
+5
+00:00:18,475 --> 00:00:23,275
 Every time you log in, a computer has to
 answer one question: are you really you?
 
-5
-00:00:19,735 --> 00:00:21,378
+6
+00:00:23,725 --> 00:00:25,218
 That's called authentication.
 
-6
-00:00:22,528 --> 00:00:27,444
+7
+00:00:26,368 --> 00:00:30,908
 There are three kinds of proof. Something
 you know, like a password. Something you
 
-7
-00:00:27,444 --> 00:00:32,000
+8
+00:00:30,908 --> 00:00:35,115
 have, like your phone. And something you
 are, like your fingerprint or face.
 
-8
-00:00:33,150 --> 00:00:37,992
+9
+00:00:36,265 --> 00:00:40,788
 Attackers guess passwords with programs
 that try millions of guesses a second.
 
-9
-00:00:38,442 --> 00:00:43,429
+10
+00:00:41,238 --> 00:00:45,991
 A short password with only lowercase
 letters can be cracked in seconds. Each
 
-10
-00:00:43,429 --> 00:00:47,104
+11
+00:00:45,991 --> 00:00:49,494
 extra character multiplies the number of
 guesses needed.
 
-11
-00:00:48,254 --> 00:00:53,762
+12
+00:00:50,644 --> 00:00:55,846
 So make passwords long. A passphrase of
 four random words is long, and easy to
 
-12
-00:00:53,762 --> 00:00:54,398
+13
+00:00:55,846 --> 00:00:56,446
 remember.
 
-13
-00:00:54,848 --> 00:01:00,257
+14
+00:00:56,896 --> 00:01:01,843
 And never reuse a password. If one site
 leaks it, attackers will try it everywhere
 
-14
-00:01:00,257 --> 00:01:00,586
+15
+00:01:01,843 --> 00:01:02,144
 else.
 
-15
-00:01:01,736 --> 00:01:06,803
+16
+00:01:03,294 --> 00:01:08,084
 Two-factor authentication adds a second
 kind of proof, usually a code on your
 
-16
-00:01:06,803 --> 00:01:07,198
+17
+00:01:08,084 --> 00:01:08,457
 phone.
 
-17
-00:01:07,648 --> 00:01:12,106
+18
+00:01:08,907 --> 00:01:13,110
 Even if someone steals your password, they
 still can't get in without your phone.
 
-18
-00:01:13,256 --> 00:01:18,126
+19
+00:01:14,260 --> 00:01:18,856
 Good websites never store your actual
 password. They store a hash, a scrambled
 
-19
-00:01:18,126 --> 00:01:20,872
+20
+00:01:18,856 --> 00:01:21,449
 fingerprint of it that can't be turned
 back.
 
-20
-00:01:21,322 --> 00:01:26,627
+21
+00:01:21,899 --> 00:01:26,902
 A password manager can create and remember
 a strong, different password for every
 
-21
-00:01:26,627 --> 00:01:26,954
+22
+00:01:26,902 --> 00:01:27,211
 site.
 
-22
-00:01:28,104 --> 00:01:33,480
+23
+00:01:28,361 --> 00:01:33,289
 Your turn. Which is stronger: P at sign ss
 one, or purple tiger river lamp?
 
-23
-00:01:33,930 --> 00:01:35,210
+24
+00:01:33,739 --> 00:01:34,934
 Pause the video now.
 
-24
-00:01:35,660 --> 00:01:40,745
+25
+00:01:35,384 --> 00:01:40,051
 purple tiger river lamp. It's much longer,
 so there are far more possibilities to
 
-25
-00:01:40,745 --> 00:01:41,122
+26
+00:01:40,051 --> 00:01:40,397
 guess.
 
-26
-00:01:41,572 --> 00:01:44,452
-Next, we'll learn the big idea behind
-encryption.
-
 27
-00:01:45,602 --> 00:01:50,409
+00:01:40,847 --> 00:01:43,834
+Next, let's work through a full example,
+step by step.
+
+28
+00:01:44,983 --> 00:01:48,823
+Let's do the math an attacker does, and
+see why length beats everything.
+
+29
+00:01:49,973 --> 00:01:54,154
+The problem: an attacker's program tries
+ten billion guesses per second.
+
+30
+00:01:54,604 --> 00:01:58,871
+How long does it take to try every
+possible password, for four different
+
+31
+00:01:58,871 --> 00:01:59,938
+kinds of password?
+
+32
+00:02:01,088 --> 00:02:05,420
+Count the possible passwords: the number
+of characters to choose from, raised to
+
+33
+00:02:05,420 --> 00:02:06,016
+the length.
+
+34
+00:02:06,466 --> 00:02:11,728
+Lowercase has twenty six choices. Mixed,
+with upper, lower and digits, has sixty
+
+35
+00:02:11,728 --> 00:02:11,991
+two.
+
+36
+00:02:12,441 --> 00:02:15,065
+Then divide by ten billion guesses per
+second.
+
+37
+00:02:16,215 --> 00:02:21,229
+Eight lowercase letters: about two hundred
+billion options. Cracked in about twenty
+
+38
+00:02:21,229 --> 00:02:21,954
+one seconds.
+
+39
+00:02:22,404 --> 00:02:24,644
+Eight mixed characters: about six hours.
+
+40
+00:02:25,094 --> 00:02:27,824
+Twelve mixed characters: about ten
+thousand years.
+
+41
+00:02:28,274 --> 00:02:33,253
+Sixteen lowercase letters: about one
+hundred forty thousand years. Longer beats
+
+42
+00:02:33,253 --> 00:02:33,757
+fancier.
+
+43
+00:02:34,907 --> 00:02:40,480
+Each extra character multiplies the work.
+A long passphrase is both strong and easy
+
+44
+00:02:40,480 --> 00:02:41,286
+to remember.
+
+45
+00:02:41,736 --> 00:02:47,146
+But no password is safe if it's reused and
+leaked. Use a different one for each site,
+
+46
+00:02:47,146 --> 00:02:49,565
+and turn on two factor authentication.
+
+47
+00:02:50,715 --> 00:02:55,824
+Your turn. A four digit PIN has ten
+choices per digit. How many PINs are
+
+48
+00:02:55,824 --> 00:03:00,294
+possible, and how long would ten billion
+guesses a second take?
+
+49
+00:03:00,744 --> 00:03:01,938
+Pause the video now.
+
+50
+00:03:02,388 --> 00:03:07,279
+Ten thousand PINs. That's less than a
+millionth of a second. That's why phones
+
+51
+00:03:07,279 --> 00:03:09,599
+lock you out after a few wrong tries.
+
+52
+00:03:10,049 --> 00:03:11,137
+Next, encryption.
+
+53
+00:03:12,287 --> 00:03:16,679
 When you send a message across the
 internet, it passes through many computers
 
-28
-00:01:50,409 --> 00:01:51,533
+54
+00:03:16,679 --> 00:03:17,706
 you don't control.
 
-29
-00:01:51,983 --> 00:01:54,372
+55
+00:03:18,156 --> 00:03:20,374
 Encryption keeps it secret along the way.
 
-30
-00:01:55,522 --> 00:02:00,749
+56
+00:03:21,524 --> 00:03:26,410
 Encryption turns readable plaintext into
 scrambled ciphertext, using a key.
 
-31
-00:02:01,199 --> 00:02:05,316
+57
+00:03:26,860 --> 00:03:30,700
 Only someone with the right key can
 decrypt it back into plaintext.
 
-32
-00:02:06,466 --> 00:02:11,556
+58
+00:03:31,850 --> 00:03:36,587
 One of the oldest examples is the Caesar
 cipher. Shift every letter by a fixed
 
-33
-00:02:11,556 --> 00:02:12,013
+59
+00:03:36,587 --> 00:03:37,012
 number.
 
-34
-00:02:12,463 --> 00:02:18,799
+60
+00:03:37,462 --> 00:03:43,286
 With a shift of three, A becomes D, B
 becomes E, and CAT becomes F D W.
 
-35
-00:02:19,949 --> 00:02:25,429
+61
+00:03:44,436 --> 00:03:49,588
 The Caesar cipher is easy to break. There
 are only twenty five possible shifts, so a
 
-36
-00:02:25,429 --> 00:02:27,778
+62
+00:03:49,588 --> 00:03:51,796
 computer can try them all instantly.
 
-37
-00:02:28,228 --> 00:02:33,560
+63
+00:03:52,246 --> 00:03:57,216
 Modern encryption uses keys so large that
 trying every one would take longer than
 
-38
-00:02:33,560 --> 00:02:35,140
+64
+00:03:57,216 --> 00:03:58,689
 the age of the universe.
 
-39
-00:02:36,290 --> 00:02:41,392
+65
+00:03:59,839 --> 00:04:04,655
 In symmetric encryption, the same key
 locks and unlocks. It's fast, but both
 
-40
-00:02:41,392 --> 00:02:43,138
+66
+00:04:04,655 --> 00:04:06,303
 people need the key first.
 
-41
-00:02:43,588 --> 00:02:49,253
+67
+00:04:06,753 --> 00:04:12,061
 In public key encryption, each person has
 two keys: a public key anyone can use to
 
-42
-00:02:49,253 --> 00:02:53,743
+68
+00:04:12,061 --> 00:04:16,268
 lock a message, and a private key only
 they can use to unlock it.
 
-43
-00:02:54,893 --> 00:03:01,299
+69
+00:04:17,418 --> 00:04:23,405
 Public key encryption is what makes HTTPS
 work. Your browser and the server use it
 
-44
-00:03:01,299 --> 00:03:05,986
+70
+00:04:23,405 --> 00:04:27,786
 to agree on a secret key, safely, even
 over an open network.
 
-45
-00:03:07,136 --> 00:03:11,296
+71
+00:04:28,936 --> 00:04:32,840
 Your turn. Decrypt this Caesar cipher with
 a shift of three: K L.
 
-46
-00:03:11,746 --> 00:03:13,026
+72
+00:04:33,290 --> 00:04:34,484
 Pause the video now.
 
-47
-00:03:13,476 --> 00:03:19,129
+73
+00:04:34,934 --> 00:04:40,268
 Shift each letter back by three. K becomes
 H, and L becomes I. It says HI.
 
-48
-00:03:19,579 --> 00:03:22,353
-Next, we'll learn how to spot phishing and
-malware.
+74
+00:04:40,718 --> 00:04:43,704
+Next, let's work through a full example,
+step by step.
 
-49
-00:03:23,503 --> 00:03:27,300
+75
+00:04:44,855 --> 00:04:49,553
+Let's encrypt and decrypt a word with a
+Caesar cipher, including letters that wrap
+
+76
+00:04:49,553 --> 00:04:49,954
+around.
+
+77
+00:04:51,104 --> 00:04:56,800
+The problem: encrypt the word PIZZA with a
+shift of three. Then decrypt K H O O R.
+
+78
+00:04:57,950 --> 00:05:01,598
+To encrypt, move each letter three places
+forward in the alphabet.
+
+79
+00:05:02,048 --> 00:05:07,466
+After Z, wrap around to A. So X becomes A,
+Y becomes B, and Z becomes C.
+
+80
+00:05:07,916 --> 00:05:09,730
+To decrypt, move three places back.
+
+81
+00:05:10,880 --> 00:05:12,821
+P moves to S. I moves to L.
+
+82
+00:05:13,271 --> 00:05:18,391
+Z wraps around: Z, A, B, C. So both Zs
+become C. A moves to D.
+
+83
+00:05:18,841 --> 00:05:25,028
+PIZZA becomes S L C C D. Decrypting K H O
+O R, three back each, gives HELLO.
+
+84
+00:05:26,178 --> 00:05:31,490
+PIZZA encrypts to S L C C D, and K H O O R
+decrypts to HELLO.
+
+85
+00:05:31,940 --> 00:05:37,217
+The weakness: there are only twenty five
+possible shifts. A computer tries them all
+
+86
+00:05:37,217 --> 00:05:41,732
+instantly. Modern keys have more options
+than there are atoms on Earth.
+
+87
+00:05:42,882 --> 00:05:45,826
+Your turn. Decrypt M B Q, with a shift of
+one.
+
+88
+00:05:46,276 --> 00:05:47,470
+Pause the video now.
+
+89
+00:05:47,920 --> 00:05:51,056
+Move each letter back one: L A P. The word
+is LAP.
+
+90
+00:05:51,506 --> 00:05:53,426
+Next, threats like phishing and malware.
+
+91
+00:05:54,576 --> 00:05:58,117
 Most attacks don't break encryption. They
 trick people instead.
 
-50
-00:03:27,750 --> 00:03:29,265
+92
+00:05:58,567 --> 00:05:59,954
 Let's learn how to spot them.
 
-51
-00:03:30,415 --> 00:03:35,526
+93
+00:06:01,104 --> 00:06:05,803
 Phishing is a fake message that pretends
 to come from someone you trust, like your
 
-52
-00:03:35,526 --> 00:03:36,772
+94
+00:06:05,803 --> 00:06:06,949
 bank or your school.
 
-53
-00:03:37,222 --> 00:03:41,745
+95
+00:06:07,399 --> 00:06:11,645
 It tries to get you to click a link, or
 type your password into a fake page.
 
-54
-00:03:42,895 --> 00:03:48,036
+96
+00:06:12,795 --> 00:06:17,507
 Look for warning signs. A sender address
 that's slightly wrong. Urgent pressure,
 
-55
-00:03:48,036 --> 00:03:53,114
+97
+00:06:17,507 --> 00:06:22,160
 like your account will be closed today.
 And links that go somewhere unexpected.
 
-56
-00:03:53,564 --> 00:03:57,361
+98
+00:06:22,610 --> 00:06:26,023
 Before you click, hover over a link to see
 where it really goes.
 
-57
-00:03:58,511 --> 00:04:00,751
+99
+00:06:27,173 --> 00:06:29,264
 Malware is software made to cause harm.
 
-58
-00:04:01,201 --> 00:04:06,670
+100
+00:06:29,714 --> 00:06:34,693
 A virus attaches to other files.
 Ransomware locks your files and demands
 
-59
-00:04:06,670 --> 00:04:10,012
+101
+00:06:34,693 --> 00:06:37,735
 money. Spyware secretly watches what you
 do.
 
-60
-00:04:11,162 --> 00:04:16,529
+102
+00:06:38,885 --> 00:06:43,855
 Malware usually gets in through downloads,
 attachments, or old software with known
 
-61
-00:04:16,529 --> 00:04:16,922
+103
+00:06:43,855 --> 00:06:44,219
 holes.
 
-62
-00:04:17,372 --> 00:04:22,513
+104
+00:06:44,669 --> 00:06:49,447
 So only download from trusted sources, and
 keep your system and apps updated.
 
-63
-00:04:23,663 --> 00:04:28,510
+105
+00:06:50,597 --> 00:06:55,148
 Protect yourself with a few habits:
 updates on, strong unique passwords,
 
-64
-00:04:28,510 --> 00:04:32,751
+106
+00:06:55,148 --> 00:06:59,131
 two-factor authentication, and backups of
 your important files.
 
-65
-00:04:33,201 --> 00:04:37,958
+107
+00:06:59,581 --> 00:07:04,018
 If a message feels off, contact the
 company directly, not through the message.
 
-66
-00:04:39,108 --> 00:04:44,545
+108
+00:07:05,168 --> 00:07:10,289
 Your turn. An email says: your account
 will be deleted in one hour, click here to
 
-67
-00:04:44,545 --> 00:04:50,116
+109
+00:07:10,289 --> 00:07:15,536
 log in. The link goes to secure dash login
 dot example dot net. What should you do?
 
-68
-00:04:50,566 --> 00:04:51,846
+110
+00:07:15,986 --> 00:07:17,181
 Pause the video now.
 
-69
-00:04:52,296 --> 00:04:57,224
+111
+00:07:17,631 --> 00:07:22,178
 Don't click it. The urgency and the
 strange link are signs of phishing. Go to
 
-70
-00:04:57,224 --> 00:04:59,208
+112
+00:07:22,178 --> 00:07:24,009
 the real site yourself instead.
 
-71
-00:04:59,658 --> 00:05:02,453
-Next, we'll look at privacy, AI and bias.
+113
+00:07:24,459 --> 00:07:27,446
+Next, let's work through a full example,
+step by step.
 
-72
-00:05:03,603 --> 00:05:09,307
+114
+00:07:28,596 --> 00:07:32,905
+Let's inspect a suspicious email, clue by
+clue, and decide what to do.
+
+115
+00:07:34,055 --> 00:07:37,469
+The problem: you get this email. Is it
+real, or phishing?
+
+116
+00:07:37,919 --> 00:07:43,448
+From: support at schoo1 portal dot com.
+Subject: Your account closes today! Click
+
+117
+00:07:43,448 --> 00:07:45,428
+here to verify your password.
+
+118
+00:07:46,578 --> 00:07:50,333
+Check four things: the sender, the
+pressure, the link, and what it asks for.
+
+119
+00:07:50,783 --> 00:07:54,175
+If even one of them looks wrong, stop, and
+don't click anything.
+
+120
+00:07:55,325 --> 00:07:59,826
+The sender: school is spelled with the
+number one instead of an L. Red flag.
+
+121
+00:08:00,276 --> 00:08:02,452
+The pressure: closes today. Red flag.
+
+122
+00:08:02,902 --> 00:08:07,318
+The link: hovering shows a strange web
+address, not your school's. Red flag.
+
+123
+00:08:07,768 --> 00:08:12,717
+The request: your password. Real schools
+never ask for it by email. Red flag.
+
+124
+00:08:13,867 --> 00:08:18,284
+Four red flags. It's phishing. Don't
+click, don't reply. Report it, and delete
+
+125
+00:08:18,284 --> 00:08:18,454
+it.
+
+126
+00:08:18,904 --> 00:08:23,288
+If you're unsure, go to the real site
+yourself by typing its address, never
+
+127
+00:08:23,288 --> 00:08:24,749
+through the email's link.
+
+128
+00:08:25,899 --> 00:08:30,894
+Your turn. A text says you won a free
+phone, and asks you to pay two dollars for
+
+129
+00:08:30,894 --> 00:08:32,705
+shipping. Name two red flags.
+
+130
+00:08:33,155 --> 00:08:34,349
+Pause the video now.
+
+131
+00:08:34,799 --> 00:08:38,895
+It's too good to be true, and it asks for
+payment details. It's a scam.
+
+132
+00:08:39,345 --> 00:08:41,308
+Next, privacy, AI and ethics.
+
+133
+00:08:42,458 --> 00:08:47,828
 Computers can do amazing things. But they
 also raise big questions about fairness
 
-73
-00:05:09,307 --> 00:05:10,152
+134
+00:08:47,828 --> 00:08:48,623
 and privacy.
 
-74
-00:05:10,602 --> 00:05:11,904
+135
+00:08:49,073 --> 00:08:50,225
 Let's look at a few.
 
-75
-00:05:13,054 --> 00:05:18,224
+136
+00:08:51,375 --> 00:08:56,236
 Apps and websites collect data about you:
 what you click, where you go, who you talk
 
-76
-00:05:18,224 --> 00:05:18,408
+137
+00:08:56,236 --> 00:08:56,410
 to.
 
-77
-00:05:18,858 --> 00:05:23,232
+138
+00:08:56,860 --> 00:09:00,999
 Even small pieces, put together, can
 reveal a lot about a person.
 
-78
-00:05:24,382 --> 00:05:30,456
+139
+00:09:02,149 --> 00:09:07,818
 Personally identifiable information, or
 PII, is data that can identify you, like
 
-79
-00:05:30,456 --> 00:05:33,342
+140
+00:09:07,818 --> 00:09:10,511
 your name, address, birthday, or face.
 
-80
-00:05:33,792 --> 00:05:38,627
+141
+00:09:10,961 --> 00:09:15,431
 Share as little of it as you can, and
 check the privacy settings of the apps you
 
-81
-00:05:38,627 --> 00:05:38,869
+142
+00:09:15,431 --> 00:09:15,655
 use.
 
-82
-00:05:40,019 --> 00:05:45,395
+143
+00:09:16,805 --> 00:09:21,605
 Many A I systems learn from examples
 instead of following rules a person wrote.
 
-83
-00:05:45,845 --> 00:05:51,215
+144
+00:09:22,055 --> 00:09:27,045
 A spam filter, for example, studies
 thousands of emails labeled spam or not
 
-84
-00:05:51,215 --> 00:05:53,077
+145
+00:09:27,045 --> 00:09:28,775
 spam, and learns patterns.
 
-85
-00:05:54,227 --> 00:05:58,494
+146
+00:09:29,925 --> 00:09:33,978
 That's powerful, but it means the A I
 learns whatever is in its data.
 
-86
-00:05:58,944 --> 00:06:04,400
+147
+00:09:34,428 --> 00:09:39,447
 If the training data is unfair or
 incomplete, the A I can be unfair too.
 
-87
-00:06:04,400 --> 00:06:10,387
+148
+00:09:39,447 --> 00:09:44,954
 This is called bias. A face recognition
 system trained mostly on some faces may
 
-88
-00:06:10,387 --> 00:06:11,978
+149
+00:09:44,954 --> 00:09:46,417
 work worse on others.
 
-89
-00:06:13,128 --> 00:06:18,678
+150
+00:09:47,567 --> 00:09:52,700
 People who build these systems can reduce
 bias by using diverse data, testing on
 
-90
-00:06:18,678 --> 00:06:22,771
+151
+00:09:52,700 --> 00:09:56,485
 many groups, and letting humans review
 important decisions.
 
-91
-00:06:23,221 --> 00:06:27,210
+152
+00:09:56,935 --> 00:10:00,625
 As a computer scientist, you get to help
 make technology fair.
 
-92
-00:06:28,360 --> 00:06:33,402
+153
+00:10:01,775 --> 00:10:06,517
 Your turn. An A I that screens job
 applications was trained only on past
 
-93
-00:06:33,402 --> 00:06:38,024
+154
+00:10:06,517 --> 00:10:10,863
 hires, who were mostly from one group.
 What problem might it have?
 
-94
-00:06:38,474 --> 00:06:39,754
+155
+00:10:11,313 --> 00:10:12,508
 Pause the video now.
 
-95
-00:06:40,204 --> 00:06:45,258
+156
+00:10:12,958 --> 00:10:17,699
 Bias. It may learn to favor people like
 the past hires, and unfairly reject
 
-96
-00:06:45,258 --> 00:06:45,730
+157
+00:10:17,699 --> 00:10:18,142
 others.
 
-97
-00:06:46,180 --> 00:06:51,714
+158
+00:10:18,592 --> 00:10:21,579
+Next, let's work through a full example,
+step by step.
+
+159
+00:10:22,729 --> 00:10:26,932
+Let's sort real pieces of information, and
+decide what's safe to post.
+
+160
+00:10:28,082 --> 00:10:33,186
+The problem: you're making a public gaming
+profile. For each item, is it PII, and
+
+161
+00:10:33,186 --> 00:10:34,951
+should it go on the profile?
+
+162
+00:10:35,401 --> 00:10:39,445
+Your favorite game, your full name, your
+school's name, your birthday, and a
+
+163
+00:10:39,445 --> 00:10:39,924
+nickname.
+
+164
+00:10:41,074 --> 00:10:45,362
+Ask one question: could this help a
+stranger find or identify me?
+
+165
+00:10:45,812 --> 00:10:51,036
+Also remember that small pieces add up. A
+school plus a birthday narrows things a
+
+166
+00:10:51,036 --> 00:10:51,294
+lot.
+
+167
+00:10:52,444 --> 00:10:54,834
+Favorite game: not PII. Fine to share.
+
+168
+00:10:55,284 --> 00:10:57,950
+Full name: PII. Keep it off a public
+profile.
+
+169
+00:10:58,400 --> 00:11:01,771
+School: it reveals where you are every
+day. Keep it private.
+
+170
+00:11:02,221 --> 00:11:07,611
+Birthday: PII, and often used in security
+questions. Keep it private. A made up
+
+171
+00:11:07,611 --> 00:11:08,770
+nickname is fine.
+
+172
+00:11:09,920 --> 00:11:13,867
+The safe profile shows only your nickname
+and your favorite game.
+
+173
+00:11:14,317 --> 00:11:19,637
+Tip: check the app's privacy settings too.
+Set your profile to friends only, and turn
+
+174
+00:11:19,637 --> 00:11:20,952
+off location sharing.
+
+175
+00:11:22,102 --> 00:11:26,722
+Your turn. Is a photo of you in front of
+your house, with the house number showing,
+
+176
+00:11:26,722 --> 00:11:27,947
+safe to post publicly?
+
+177
+00:11:28,397 --> 00:11:29,592
+Pause the video now.
+
+178
+00:11:30,042 --> 00:11:34,122
+No. Your face and your house number
+together show who you are and where you
+
+179
+00:11:34,122 --> 00:11:34,394
+live.
+
+180
+00:11:34,844 --> 00:11:36,828
+Next, let's put the whole unit together.
+
+181
+00:11:37,977 --> 00:11:42,116
+You've learned about passwords,
+encryption, phishing, malware and privacy.
+
+182
+00:11:42,566 --> 00:11:46,982
+Now let's set up one new account from
+start to finish, using all of them.
+
+183
+00:11:48,132 --> 00:11:50,542
+Here's the plan. You're joining a new
+homework app.
+
+184
+00:11:50,992 --> 00:11:53,403
+We'll make sure the account is safe at
+every step.
+
+185
+00:11:54,553 --> 00:12:00,209
+Step one: type the address yourself. Check
+for https, so your data is encrypted on
+
+186
+00:12:00,209 --> 00:12:00,761
+the way.
+
+187
+00:12:01,211 --> 00:12:04,987
+And check the spelling. A fake site might
+use a one instead of an L.
+
+188
+00:12:06,137 --> 00:12:09,892
+Step two: the password. Maya twenty eleven
+is short and guessable.
+
+189
+00:12:10,342 --> 00:12:15,429
+Four random words is long, so it takes
+ages to crack, and it's easy to remember.
+
+190
+00:12:15,429 --> 00:12:16,955
+And it's used only here.
+
+191
+00:12:18,105 --> 00:12:20,793
+Step three: turn on two factor
+authentication.
+
+192
+00:12:21,243 --> 00:12:25,744
+Now a stolen password isn't enough. An
+attacker would also need your phone.
+
+193
+00:12:26,894 --> 00:12:31,972
+Step four: a week later, an email asks you
+to verify your password within an hour.
+
+194
+00:12:32,422 --> 00:12:37,369
+Wrong sender, urgency, and a password
+request: three red flags. Report it and
+
+195
+00:12:37,369 --> 00:12:38,011
+delete it.
+
+196
+00:12:39,161 --> 00:12:44,263
+Step five: privacy. Use a nickname, turn
+off location sharing, and limit who can
+
+197
+00:12:44,263 --> 00:12:45,348
+see your profile.
+
+198
+00:12:45,798 --> 00:12:47,867
+Your account is now safe at every step.
+
+199
+00:12:49,017 --> 00:12:53,538
+Your turn. Your password leaks in a data
+breach, but two factor is on. Can an
+
+200
+00:12:53,538 --> 00:12:55,652
+attacker log in? What should you do?
+
+201
+00:12:56,102 --> 00:12:57,296
+Pause the video now.
+
+202
+00:12:57,746 --> 00:13:01,949
+Not without your phone's code. But change
+the password right away anyway.
+
+203
+00:13:02,399 --> 00:13:07,549
 That's the end of Intro to Computer
-Science. Next, take on AP Computer Science
+Science. Well done! Next, try AP Computer
 
-98
-00:06:51,714 --> 00:06:52,494
-Principles.
+204
+00:13:07,549 --> 00:13:08,820
+Science Principles.
 
-99
-00:06:53,644 --> 00:06:58,321
-If this helped, subscribe to School
-Computer Science, Explained, so you don't
+205
+00:13:09,970 --> 00:13:14,399
+If this helped, subscribe to School STEM,
+Explained, so you don't miss the next
 
-100
-00:06:58,321 --> 00:06:59,596
-miss the next lesson.
+206
+00:13:14,399 --> 00:13:14,792
+lesson.
 
-101
-00:07:00,046 --> 00:07:00,942
+207
+00:13:15,242 --> 00:13:16,074
 See you there.
 
